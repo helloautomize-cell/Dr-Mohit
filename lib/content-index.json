@@ -109,6 +109,11 @@
    "key": "global.a.plan-your-visit",
    "tag": "a",
    "en": "Plan your visit"
+  },
+  {
+   "key": "global.span.nabh-entry-level-certified",
+   "tag": "span",
+   "en": "NABH Entry Level Certified"
   }
  ],
  "home": [
@@ -3574,9 +3579,19 @@
    "en": "Call"
   },
   {
-   "key": "contact.span.alternate-number",
+   "key": "contact.span.opd",
    "tag": "span",
-   "en": "Alternate number"
+   "en": "OPD"
+  },
+  {
+   "key": "contact.span.call-1",
+   "tag": "span",
+   "en": "Call"
+  },
+  {
+   "key": "contact.span.opd-alternate",
+   "tag": "span",
+   "en": "OPD (alternate)"
   },
   {
    "key": "contact.span.call-1",

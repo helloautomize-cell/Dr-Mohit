@@ -10,6 +10,7 @@ export const SITE = {
   phoneMainHref: 'tel:+919878752241',
   phoneEye: '+91 99886 32241',
   phoneEyeHref: 'tel:+919988632241',
+  // Both extra numbers are OPD lines (confirmed with hospital).
   phoneAlt1: '+91 99887 52241',
   phoneAlt1Href: 'tel:+919988752241',
   phoneAlt2: '+91 84271 22241',
@@ -33,8 +34,8 @@ export const SITE = {
   serviceTowns: ['Bathinda', 'Mansa', 'Muktsar', 'Faridkot', 'Barnala', 'Rampura Phul'],
   mapsUrl:
     'https://maps.google.com/?q=Gupta+Hospital+Power+House+Road+Bathinda+Punjab+151001',
-  // Google Business Profile listing — [CONFIRM: GBP URL] (gbp-url confirm).
-  googleBusiness: '[CONFIRM]',
+  // Google Business Profile listing (confirmed; feeds schema sameAs).
+  googleBusiness: 'https://maps.app.goo.gl/soMPeQvZgJAGNquK7',
   emergencyLine: 'Medical emergency? Call 108 or 112',
 } as const;
 
@@ -44,12 +45,7 @@ export const SITE_INDEXABLE = false;
 // Every unresolved confirmation from facts-and-compliance. Anything rendered
 // from this list must show a [CONFIRM] chip and must be resolved before launch.
 export const TODO_CONFIRM = [
-  'Purpose of phone numbers +91 99887 52241 and +91 84271 22241',
   'Dr. Parul Gupta degree list (MBBS, MS unconfirmed)',
   'Dr. Amit Gupta MD Psychiatry credential',
-  'NABH accreditation status (badge must not display until confirmed)',
-
   'Dr. Mohit Gupta experience phrasing (year count vs "over a decade")',
-  'Ortho Robotic Centre banner usage',
-  'Google Business Profile listing URL',
 ] as const;

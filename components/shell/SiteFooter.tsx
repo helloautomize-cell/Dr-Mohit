@@ -4,6 +4,7 @@
 // icons, obfuscated email, Get directions, Legal column (7 pages), "Cookie
 // settings" link, © line with education disclaimer.
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import type { Locale } from '@/i18n/routing';
 import { SITE } from '@/lib/site-config';
@@ -87,6 +88,16 @@ export default function SiteFooter() {
         </div>
         <div className="legal">
           <span>© 2026 Gupta Hospital, Bathinda · <CookieSettings /></span>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+            <Image
+              src="/images/brand/nabh-badge.png"
+              alt=""
+              width={225}
+              height={160}
+              style={{ height: 30, width: 'auto', display: 'block' }}
+            />
+            {copy('global', 'NABH Entry Level Certified', l)}
+          </span>
           <span>{copy('global', 'General information only', l)}</span>
         </div>
       </div>

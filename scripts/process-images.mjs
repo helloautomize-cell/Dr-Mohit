@@ -94,14 +94,11 @@ const favSrc = join(SRC, 'brand', 'favicon-source-72.png');
 if (existsSync(favSrc)) copyFileSync(favSrc, 'app/icon.png');
 const nabh = join(SRC, 'brand', 'nabh-badge-CONFIRM-BEFORE-USE.png');
 if (existsSync(nabh)) {
+  // NABH Entry Level certification confirmed — badge shows in the site footer.
   await processPng(nabh, join(OUT, 'brand', 'nabh-badge.png'), { maxW: 400 });
-  todo.push('- `nabh-badge.png` — NABH badge exists in the kit but **do not display until accreditation status is confirmed** (see facts-and-compliance).');
 }
-const orb = join(SRC, 'brand', 'ortho-robotic-centre-banner.jpg');
-if (existsSync(orb)) {
-  await processOne(orb, join(OUT, 'brand', 'ortho-robotic-centre-banner.jpg'), { maxW: 1600 });
-  todo.push('- `ortho-robotic-centre-banner.jpg` — sub-brand banner; usage unconfirmed, keep out of pages until confirmed.');
-}
+// Ortho Robotic Centre sub-brand: decided not to use it — the banner is not
+// processed or displayed anywhere.
 
 // ---------- photos ----------
 for (const f of list(join(SRC, 'photos'))) {
@@ -330,6 +327,35 @@ const A = {
     en: 'Dr. Mohit Gupta and a physiotherapist walk with a patient after knee replacement',
     pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਗੋਡਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਮਰੀਜ਼ ਨਾਲ ਤੁਰਦੇ ਹਨ',
   },
+  // Ortho sub-page photos (KH/FR/SP/BP batch — keep code filenames)
+  'KH-1': {
+    en: 'Dr. Mohit Gupta explains a knee model to an older couple',
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਬਜ਼ੁਰਗ ਜੋੜੇ ਨੂੰ ਗੋਡੇ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ',
+  },
+  'FR-1': {
+    en: "Dr. Mohit Gupta checks a young man's forearm cast",
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਦੀ ਬਾਂਹ ਦਾ ਪਲਸਤਰ ਜਾਂਚਦੇ ਹੋਏ',
+  },
+  'FR-2': {
+    en: 'Dr. Mohit Gupta explains a hip fracture X-ray to a mother and son',
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਮਾਂ ਅਤੇ ਪੁੱਤਰ ਨੂੰ ਚੂਲੇ ਦੇ ਫ੍ਰੈਕਚਰ ਦਾ ਐਕਸ-ਰੇ ਸਮਝਾਉਂਦੇ ਹੋਏ',
+  },
+  'SP-1': {
+    en: 'Dr. Mohit Gupta tests the knee of a young athlete',
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਖਿਡਾਰੀ ਦੇ ਗੋਡੇ ਦੀ ਜਾਂਚ ਕਰਦੇ ਹੋਏ',
+  },
+  'SP-2': {
+    en: 'Knee arthroscopy in the operation theatre, with the camera view on a monitor',
+    pa: 'ਅਪਰੇਸ਼ਨ ਥੀਏਟਰ ਵਿੱਚ ਗੋਡੇ ਦੀ ਆਰਥਰੋਸਕੋਪੀ, ਮਾਨੀਟਰ ਤੇ ਕੈਮਰੇ ਦਾ ਦ੍ਰਿਸ਼',
+  },
+  'BP-1': {
+    en: 'Dr. Mohit Gupta explains a spine model to a man with back pain',
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਕਮਰ ਦਰਦ ਵਾਲੇ ਆਦਮੀ ਨੂੰ ਰੀੜ੍ਹ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ',
+  },
+  'BP-2': {
+    en: 'A physiotherapist guides a woman through a core exercise',
+    pa: 'ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਇੱਕ ਔਰਤ ਨੂੰ ਕੋਰ ਕਸਰਤ ਕਰਵਾਉਂਦੇ ਹੋਏ',
+  },
   'robotic-hero-mohit-velys': {
     en: 'Dr. Mohit Gupta beside the VELYS robotic knee system in the operation theatre',
     pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਆਪਰੇਸ਼ਨ ਥਿਏਟਰ ਵਿੱਚ VELYS ਰੋਬੋਟਿਕ ਗੋਡਾ ਪ੍ਰਣਾਲੀ ਨਾਲ',
@@ -378,6 +404,10 @@ for (const f of list(join(OUT, 'photos'))) {
   else if (A[base]) altText[`photos/${stem}`] = A[base];
 }
 altText['brand/logo'] = { en: 'Gupta Hospital Bathinda', pa: 'ਗੁਪਤਾ ਹਸਪਤਾਲ ਬਠਿੰਡਾ' };
+altText['brand/nabh-badge'] = {
+  en: 'NABH Entry Level Certified badge',
+  pa: 'NABH ਐਂਟਰੀ ਲੈਵਲ ਸਰਟੀਫਾਈਡ ਬੈਜ',
+};
 
 writeFileSync(join(OUT, 'alt-text.json'), JSON.stringify(altText, null, 2));
 

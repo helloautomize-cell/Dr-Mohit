@@ -11,6 +11,14 @@
     "en": "ATTUNE knee implant system components",
     "pa": "ATTUNE ਗੋਡਾ ਇੰਪਲਾਂਟ ਪ੍ਰਣਾਲੀ ਦੇ ਹਿੱਸੇ"
   },
+  "photos/BP-1": {
+    "en": "Dr. Mohit Gupta explains a spine model to a man with back pain",
+    "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਕਮਰ ਦਰਦ ਵਾਲੇ ਆਦਮੀ ਨੂੰ ਰੀੜ੍ਹ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ"
+  },
+  "photos/BP-2": {
+    "en": "A physiotherapist guides a woman through a core exercise",
+    "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਇੱਕ ਔਰਤ ਨੂੰ ਕੋਰ ਕਸਰਤ ਕਰਵਾਉਂਦੇ ਹੋਏ"
+  },
   "photos/building-front": {
     "en": "Gupta Hospital building on Power House Road, Bathinda",
     "pa": "ਪਾਵਰ ਹਾਊਸ ਰੋਡ, ਬਠਿੰਡਾ ਤੇ ਗੁਪਤਾ ਹਸਪਤਾਲ ਦੀ ਇਮਾਰਤ"
@@ -187,6 +195,14 @@
     "en": "An artificial eye lens held on a gloved fingertip",
     "pa": "ਦਸਤਾਨੇ ਦੀ ਉੰਗਲੀ ਤੇ ਰੱਖਿਆ ਨਕਲੀ ਅੱਖ ਦਾ ਲੈਂਜ਼"
   },
+  "photos/FR-1": {
+    "en": "Dr. Mohit Gupta checks a young man's forearm cast",
+    "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਦੀ ਬਾਂਹ ਦਾ ਪਲਸਤਰ ਜਾਂਚਦੇ ਹੋਏ"
+  },
+  "photos/FR-2": {
+    "en": "Dr. Mohit Gupta explains a hip fracture X-ray to a mother and son",
+    "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਮਾਂ ਅਤੇ ਪੁੱਤਰ ਨੂੰ ਚੂਲੇ ਦੇ ਫ੍ਰੈਕਚਰ ਦਾ ਐਕਸ-ਰੇ ਸਮਝਾਉਂਦੇ ਹੋਏ"
+  },
   "photos/home-doctors-banner-trio": {
     "en": "Dr. Mohit Gupta, Dr. Parul Gupta and Dr. Amit Gupta together at Gupta Hospital",
     "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ ਤੇ ਡਾ. ਅਮਿਤ ਗੁਪਤਾ ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਇਕੱਠੇ"
@@ -194,6 +210,10 @@
   "photos/home-hero-mohit": {
     "en": "Dr. Mohit Gupta, joint replacement surgeon at Gupta Hospital",
     "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ"
+  },
+  "photos/KH-1": {
+    "en": "Dr. Mohit Gupta explains a knee model to an older couple",
+    "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਬਜ਼ੁਰਗ ਜੋੜੇ ਨੂੰ ਗੋਡੇ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ"
   },
   "photos/mind-deaddiction-walk": {
     "en": "Dr. Amit Gupta walks with a patient in the hospital grounds",
@@ -251,6 +271,14 @@
     "en": "Dr. Mohit Gupta points at the knee surgical plan on the VELYS screen",
     "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ VELYS ਸਕਰੀਨ ਤੇ ਗੋਡੇ ਦੀ ਸਰਜਰੀ ਯੋਜਨਾ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦੇ ਹਨ"
   },
+  "photos/SP-1": {
+    "en": "Dr. Mohit Gupta tests the knee of a young athlete",
+    "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਖਿਡਾਰੀ ਦੇ ਗੋਡੇ ਦੀ ਜਾਂਚ ਕਰਦੇ ਹੋਏ"
+  },
+  "photos/SP-2": {
+    "en": "Knee arthroscopy in the operation theatre, with the camera view on a monitor",
+    "pa": "ਅਪਰੇਸ਼ਨ ਥੀਏਟਰ ਵਿੱਚ ਗੋਡੇ ਦੀ ਆਰਥਰੋਸਕੋਪੀ, ਮਾਨੀਟਰ ਤੇ ਕੈਮਰੇ ਦਾ ਦ੍ਰਿਸ਼"
+  },
   "photos/velys-surgery-theatre": {
     "en": "VELYS robotic-assisted knee replacement in the operation theatre",
     "pa": "ਆਪਰੇਸ਼ਨ ਥਿਏਟਰ ਵਿੱਚ VELYS ਰੋਬੋਟਿਕ ਗੋਡਾ ਬਦਲੀ"
@@ -258,5 +286,9 @@
   "brand/logo": {
     "en": "Gupta Hospital Bathinda",
     "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ ਬਠਿੰਡਾ"
+  },
+  "brand/nabh-badge": {
+    "en": "NABH Entry Level Certified badge",
+    "pa": "NABH ਐਂਟਰੀ ਲੈਵਲ ਸਰਟੀਫਾਈਡ ਬੈਜ"
   }
 }

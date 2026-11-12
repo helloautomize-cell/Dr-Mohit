@@ -111,39 +111,31 @@ export const SLOTS: Record<string, Slot> = {
     ratio: '16/9',
     focal: '50% 50%',
   },
-  // v14 ortho sub-pages: hero slots stay placeholders until the photos arrive.
-  // Alt copy lives in ortho-subpages.en-pa.json (the aimg aria-labels).
+  // v14 ortho sub-pages. Heroes stay in the 4/4.4 frame; the landscape photos
+  // are framed by focal object-position so the doctor's face stays in frame.
   'ortho.kh.hero': {
-    alt: {
-      en: 'Dr. Mohit Gupta explains a knee and hip model to an older couple',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਬਜ਼ੁਰਗ ਜੋੜੇ ਨੂੰ ਗੋਡੇ ਅਤੇ ਚੂਲੇ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/KH-1.jpg',
+    alt: alt('photos/KH-1'),
     ratio: '4/4.4',
-    note: 'KH-1',
+    focal: '62% 35%',
   },
   'ortho.fr.hero': {
-    alt: {
-      en: 'Dr. Mohit Gupta checks a forearm cast on a young man',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਦੀ ਬਾਂਹ ਦਾ ਪਲਸਤਰ ਜਾਂਚਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/FR-1.jpg',
+    alt: alt('photos/FR-1'),
     ratio: '4/4.4',
-    note: 'FR-1',
+    focal: '62% 40%',
   },
   'ortho.sp.hero': {
-    alt: {
-      en: 'Dr. Mohit Gupta tests the knee stability of a young athlete',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਖਿਡਾਰੀ ਦੇ ਗੋਡੇ ਦੀ ਮਜ਼ਬੂਤੀ ਜਾਂਚਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/SP-1.jpg',
+    alt: alt('photos/SP-1'),
     ratio: '4/4.4',
-    note: 'SP-1',
+    focal: '60% 35%',
   },
   'ortho.bp.hero': {
-    alt: {
-      en: 'Dr. Mohit Gupta explains a spine model to a man with back pain',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਕਮਰ ਦਰਦ ਵਾਲੇ ਆਦਮੀ ਨੂੰ ਰੀੜ੍ਹ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/BP-1.jpg',
+    alt: alt('photos/BP-1'),
     ratio: '4/4.4',
-    note: 'BP-1',
+    focal: '55% 40%',
   },
   // "Getting home ready" on knee-and-hip uses the spare recovery photo
   // (resources/images/new/ortho-recovery-walk-SPARE.jpg — now in use).
@@ -158,28 +150,22 @@ export const SLOTS: Record<string, Slot> = {
     focal: '50% 45%',
   },
   'ortho.fr.xray': {
-    alt: {
-      en: 'Dr. Mohit Gupta reviews a fracture X-ray with plates on screen',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਸਕਰੀਨ ਤੇ ਪਲੇਟਾਂ ਵਾਲਾ ਫ੍ਰੈਕਚਰ ਐਕਸ-ਰੇ ਦੇਖਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/FR-2.jpg',
+    alt: alt('photos/FR-2'),
     ratio: '4/3',
-    note: 'FR-2',
+    focal: '55% 45%',
   },
   'ortho.sp.scope': {
-    alt: {
-      en: 'Dr. Mohit Gupta performs knee arthroscopy, watching the camera view on a monitor',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਮਾਨੀਟਰ ਤੇ ਕੈਮਰਾ ਦੇਖਦੇ ਹੋਏ ਗੋਡੇ ਦੀ ਆਰਥਰੋਸਕੋਪੀ ਕਰਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/SP-2.jpg',
+    alt: alt('photos/SP-2'),
     ratio: '4/3',
-    note: 'SP-2',
+    focal: '55% 45%',
   },
   'ortho.bp.physio': {
-    alt: {
-      en: 'A physiotherapist guides a woman through a core exercise for back pain',
-      pa: 'ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਕਮਰ ਦਰਦ ਲਈ ਇੱਕ ਔਰਤ ਨੂੰ ਕੋਰ ਕਸਰਤ ਕਰਵਾਉਂਦੇ ਹੋਏ',
-    },
+    src: '/images/photos/BP-2.jpg',
+    alt: alt('photos/BP-2'),
     ratio: '4/3',
-    note: 'BP-2',
+    focal: '50% 50%',
   },
 
   'robotic.hero': {

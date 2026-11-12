@@ -491,7 +491,7 @@ export function MobileBar({ locale }: { locale: L }) {
 export function ContactRow({ locale }: { locale: L }) {
   const items: { icon: LineIconName; b: string; s: string; go: string; href: string }[] = [
     { icon: 'phone', b: SITE.phoneMain, s: c('contact', 'Hospital number', locale), go: c('contact', 'Call', locale), href: SITE.phoneMainHref },
-    { icon: 'phone', b: SITE.phoneAlt1, s: c('contact', 'Alternate number', locale), go: c('contact', 'Call', locale), href: SITE.phoneAlt1Href },
+    { icon: 'phone', b: SITE.phoneAlt1, s: c('contact', 'OPD', locale), go: c('contact', 'Call', locale), href: SITE.phoneAlt1Href },
     { icon: 'mail', b: SITE.email, s: c('contact', 'Write', locale), go: 'Email ↗', href: `mailto:${SITE.email}` },
     { icon: 'wa', b: SITE.phoneMain, s: c('contact', 'Send reports before your visit', locale), go: c('contact', 'Open', locale), href: SITE.whatsapp },
   ];

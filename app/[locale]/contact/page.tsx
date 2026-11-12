@@ -14,7 +14,6 @@ import { Accordion } from '@/components/sections/bands';
 import { Swipe } from '@/components/Swipe';
 import { BookingForm } from '@/components/booking/AppointmentForm';
 import { MapFacade } from '@/components/MapFacade';
-import { ConfirmChip } from '@/components/Confirm';
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -52,9 +51,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const t = await getTranslations({ locale: l, namespace: 'shell' });
   const c = (en: string) => copy('contact', en, l);
 
-  const reach: { icon: LineIconName; b: string; s: string; go: string; href: string; ext?: boolean; confirm?: boolean }[] = [
-    { icon: 'phone', b: SITE.phoneAlt1, s: c('Hospital number'), go: c('Call'), href: SITE.phoneAlt1Href, confirm: true },
-    { icon: 'phone', b: SITE.phoneAlt2, s: c('Alternate number'), go: c('Call'), href: SITE.phoneAlt2Href, confirm: true },
+  const reach: { icon: LineIconName; b: string; s: string; go: string; href: string; ext?: boolean }[] = [
+    { icon: 'phone', b: SITE.phoneAlt1, s: c('OPD'), go: c('Call'), href: SITE.phoneAlt1Href },
+    { icon: 'phone', b: SITE.phoneAlt2, s: c('OPD (alternate)'), go: c('Call'), href: SITE.phoneAlt2Href },
     { icon: 'mail', b: c('Write'), s: SITE.email, go: 'Email', href: `mailto:${SITE.email}`, ext: true },
     { icon: 'wa', b: 'WhatsApp', s: c('Send reports before your visit'), go: c('Open'), href: SITE.whatsapp, ext: true },
   ];
@@ -130,9 +129,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <span>{c('Open in Google Maps')}</span>
                 <span className="ar">↗</span>
               </a>
-              <span className="muted" style={{ fontSize: '.92rem' }}>
-                {t('gbp')} <ConfirmChip id="gbp-url" />
-              </span>
+              <a className="lnk" href={SITE.googleBusiness} target="_blank" rel="noopener">
+                <span>{t('gbp')}</span>
+                <span className="ar">↗</span>
+              </a>
             </div>
             <div style={{ marginTop: 20 }}>
               <MapFacade showLabel={c('Show map')} title={c('Map of the area around Gupta Hospital')} />
@@ -168,10 +168,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                   <LIcon name={r.icon} />
                 </span>
                 <b>{r.b}</b>
-                <span>
-                  {r.s}
-                  {r.confirm ? <ConfirmChip id="extra-phones" /> : null}
-                </span>
+                <span>{r.s}</span>
                 <span className="go">{r.go} ↗</span>
               </a>
             ))}

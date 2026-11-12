@@ -105,7 +105,7 @@ export function hospitalLd() {
       '@type': 'City',
       name: t,
     })),
-    sameAs: [SITE.social.youtube, SITE.social.instagram, SITE.social.facebook],
+    sameAs: [SITE.social.youtube, SITE.social.instagram, SITE.social.facebook, SITE.googleBusiness],
     contactPoint: [
       {
         '@type': 'ContactPoint',

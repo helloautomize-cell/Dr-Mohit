@@ -13,9 +13,6 @@ export const CONFIRMS: ConfirmItem[] = [
 
   { id: 'parul-degrees', note: 'Dr. Parul Gupta degree list (MBBS, MS unconfirmed)' },
   { id: 'amit-md', note: 'Dr. Amit Gupta MD Psychiatry credential' },
-  { id: 'extra-phones', note: 'Purpose of +91 99887 52241 and +91 84271 22241' },
-  { id: 'nabh', note: 'NABH accreditation status' },
-  { id: 'orc-name', note: 'Ortho Robotic Centre banner/name usage' },
   { id: 'domain', note: 'Final domain name' },
 
   { id: 'mohit-years', note: 'Dr. Mohit Gupta experience phrasing (year count vs over a decade)' },
@@ -24,10 +21,8 @@ export const CONFIRMS: ConfirmItem[] = [
   { id: 'pa-legal-translation', note: 'Punjabi legal text pending translation review' },
   { id: 'privacy-contact', note: 'Privacy contact / grievance officer name and email (DPDP Rules 2025)' },
   { id: 'refund-terms', note: 'Whether any advance payment is taken and its refund terms' },
-  { id: 'gbp-url', note: 'Google Business Profile listing URL' },
 
   // Orthopaedics sub-pages (v14 kit).
-  { id: 'ortho-review-date', note: 'Last-reviewed date on the four orthopaedics sub-pages' },
   { id: 'spine-procedures', note: 'Which spine procedures are offered at the hospital (back pain clinic)' },
 
 ];

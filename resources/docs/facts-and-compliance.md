@@ -54,10 +54,10 @@
 
 1. Dr. Parul's and Dr. Amit's degrees.
 2. ~~Digital X-ray, laboratory, pharmacy and private rooms~~ **Resolved** — all facilities shown in the band confirmed on site.
-3. What the two extra phone numbers are for.
+3. ~~What the two extra phone numbers are for~~ **Resolved** — both are OPD lines; labelled "OPD" / "OPD (alternate)".
 4. ~~OPD timings, and whether Sunday OPD is closed~~ **Resolved** — GBP lists "Open 24 hours" all days. A reception photo shows a "Sunday OPD service will be closed" notice; the site shows GBP's 24/7 hours, and the booking form confirms Sunday slots by phone rather than asserting either state.
-5. NABH status. The old site shows an "Entry level certified" badge, so confirm it is current before showing it.
-6. Whether the "Dr. Mohit Gupta's Ortho Robotic Centre" sub-brand should appear.
+5. ~~NABH status~~ **Resolved** — Entry Level certified; the badge now shows in the site footer.
+6. ~~Whether the "Dr. Mohit Gupta's Ortho Robotic Centre" sub-brand should appear~~ **Resolved** — no; banner not used or processed.
 7. The final domain, and access to the current WordPress site (for redirects).
 
 ## Old site URLs (for 301 redirects)

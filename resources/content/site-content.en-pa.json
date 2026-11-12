@@ -109,6 +109,11 @@
       "tag": "a",
       "en": "Plan your visit",
       "pa": "ਆਪਣਾ ਦੌਰਾ ਸੋਝੋ"
+    },
+    {
+      "tag": "span",
+      "en": "NABH Entry Level Certified",
+      "pa": "NABH ਐਂਟਰੀ ਲੈਵਲ ਸਰਟੀਫਾਈਡ"
     }
   ],
   "home": {
@@ -3601,8 +3606,18 @@
       },
       {
         "tag": "span",
-        "en": "Alternate number",
-        "pa": "ਦੂਜਾ ਨੰਬਰ"
+        "en": "OPD",
+        "pa": "ਓਪੀਡੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Call",
+        "pa": "ਕਾਲ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "OPD (alternate)",
+        "pa": "ਓਪੀਡੀ (ਦੂਜਾ ਨੰਬਰ)"
       },
       {
         "tag": "span",

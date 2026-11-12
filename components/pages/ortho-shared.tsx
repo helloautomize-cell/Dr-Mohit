@@ -10,7 +10,7 @@ import { RichText } from '../RichText';
 import { Icon, type IconName } from '../icons';
 import { Accordion } from '../sections/bands';
 import { Swipe } from '../Swipe';
-import { ConfirmChip, ConfirmNote, SHOW_CONFIRM } from '../Confirm';
+import { ConfirmChip } from '../Confirm';
 import { faqLd } from '@/lib/seo';
 import { SITE } from '@/lib/site-config';
 
@@ -70,25 +70,12 @@ export function ExploreLinks({ locale }: { locale: L }) {
 
 /* ------------------------------- Page tail -------------------------------- */
 
-// .rev reviewer + disclaimer block — the v14 pattern. The "[CONFIRM: date]"
-// marker in the copy becomes a dev-only chip; production drops the whole
-// "Last reviewed …" clause because the date itself is unconfirmed (the
-// clause cut works across languages via the sentence delimiter).
+// .rev reviewer + disclaimer block — the v14 pattern. The reviewer line comes
+// from the page copy; the last-reviewed date is confirmed (November 2026).
 export function RevBlock({ page, locale }: { page: string; locale: L }) {
-  const line = c(page, 'Medically reviewed by Dr. Mohit Gupta', locale);
-  const i = line.search(CONFIRM_MARK);
-  const shown = SHOW_CONFIRM ? (
-    <>
-      {line.slice(0, i)}
-      <ConfirmNote id="ortho-review-date" />
-      {line.slice(i + (line.match(CONFIRM_MARK)?.[0].length ?? 0))}
-    </>
-  ) : (
-    line.replace(/[^.।]*\[CONFIRM[^\]]*\][.।]?/, '')
-  );
   return (
     <div className="rev rv">
-      <span>{shown}</span>
+      <span>{c(page, 'Medically reviewed by Dr. Mohit Gupta', locale)}</span>
       <small>{c(page, 'This page explains common treatments.', locale)}</small>
     </div>
   );
