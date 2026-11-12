@@ -1,0 +1,3824 @@
+{
+  "global": [
+    {
+      "tag": "a",
+      "en": "Orthopaedics",
+      "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+    },
+    {
+      "tag": "a",
+      "en": "Robotic knee",
+      "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+    },
+    {
+      "tag": "a",
+      "en": "Eye care",
+      "pa": "ਅੱਖਾਂ"
+    },
+    {
+      "tag": "a",
+      "en": "Mental health",
+      "pa": "ਮਾਨਸਿਕ ਸਿਹਤ"
+    },
+    {
+      "tag": "a",
+      "en": "Doctors",
+      "pa": "ਡਾਕਟਰ"
+    },
+    {
+      "tag": "a",
+      "en": "About",
+      "pa": "ਸਾਡੇ ਬਾਰੇ"
+    },
+    {
+      "tag": "a",
+      "en": "Media",
+      "pa": "ਖ਼ਬਰਾਂ"
+    },
+    {
+      "tag": "span",
+      "en": "Book appointment",
+      "pa": "ਅਪੌਇੰਟਮੈਂਟ"
+    },
+    {
+      "tag": "p",
+      "en": "Power House Road, Bathinda, Punjab 151001",
+      "pa": "ਪਾਵਰ ਹਾਊਸ ਰੋਡ, ਬਠਿੰਡਾ, ਪੰਜਾਬ 151001"
+    },
+    {
+      "tag": "h4",
+      "en": "Departments",
+      "pa": "ਵਿਭਾਗ"
+    },
+    {
+      "tag": "a",
+      "en": "Orthopaedics",
+      "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+    },
+    {
+      "tag": "a",
+      "en": "Robotic knee",
+      "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+    },
+    {
+      "tag": "a",
+      "en": "Eye care",
+      "pa": "ਅੱਖਾਂ"
+    },
+    {
+      "tag": "a",
+      "en": "Mental health",
+      "pa": "ਮਾਨਸਿਕ ਸਿਹਤ"
+    },
+    {
+      "tag": "h4",
+      "en": "Hospital",
+      "pa": "ਹਸਪਤਾਲ"
+    },
+    {
+      "tag": "a",
+      "en": "Doctors",
+      "pa": "ਡਾਕਟਰ"
+    },
+    {
+      "tag": "a",
+      "en": "About",
+      "pa": "ਸਾਡੇ ਬਾਰੇ"
+    },
+    {
+      "tag": "a",
+      "en": "Media",
+      "pa": "ਖ਼ਬਰਾਂ"
+    },
+    {
+      "tag": "h4",
+      "en": "Contact",
+      "pa": "ਸੰਪਰਕ"
+    },
+    {
+      "tag": "a",
+      "en": "Book appointment",
+      "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+    },
+    {
+      "tag": "span",
+      "en": "General information only. It does not replace a consultation.",
+      "pa": "ਸਿਰਫ਼ ਆਮ ਜਾਣਕਾਰੀ ਲਈ। ਡਾਕਟਰੀ ਸਲਾਹ ਦਾ ਬਦਲ ਨਹੀਂ।"
+    },
+    {
+      "tag": "a",
+      "en": "Plan your visit",
+      "pa": "ਆਪਣਾ ਦੌਰਾ ਸੋਝੋ"
+    }
+  ],
+  "home": {
+    "title": "Gupta Hospital Bathinda",
+    "strings": [
+      {
+        "tag": "span",
+        "en": "Gupta Hospital · Bathinda · Since 1980",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ · ਬਠਿੰਡਾ · 1980 ਤੋਂ"
+      },
+      {
+        "tag": "h1",
+        "en": "Bone, eye and mental health care for <span class=\"em\">Bathinda.</span>",
+        "pa": "<span class=\"em\">ਬਠਿੰਡਾ</span> ਲਈ ਹੱਡੀਆਂ, ਅੱਖਾਂ ਅਤੇ ਮਾਨਸਿਕ ਸਿਹਤ ਦਾ ਇਲਾਜ।"
+      },
+      {
+        "tag": "p",
+        "en": "One family of doctors on Power House Road for over four decades, now with robotic-assisted knee replacement.",
+        "pa": "ਇੱਕ ਪਰਿਵਾਰ ਦੇ ਡਾਕਟਰ, ਪਾਵਰ ਹਾਊਸ ਰੋਡ ਤੇ ਚਾਰ ਦਹਾਕਿਆਂ ਤੋਂ। ਹੁਣ ਮਾਲਵਾ ਵਿੱਚ ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡਾ ਬਦਲਣ ਦੀ ਸਹੂਲਤ ਨਾਲ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "VELYS™ robotic-assisted knee system",
+        "pa": "VELYS™ ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡਾ ਸਿਸਟਮ"
+      },
+      {
+        "tag": "span",
+        "en": "Founded by Dr. Amrit Gupta",
+        "pa": "ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਵੱਲੋਂ ਸਥਾਪਿਤ"
+      },
+      {
+        "tag": "span",
+        "en": "Departments under one roof",
+        "pa": "ਵਿਭਾਗ, ਇੱਕੋ ਛੱਤ ਹੇਠ"
+      },
+      {
+        "tag": "span",
+        "en": "Ayushman Bharat empanelled since 2019",
+        "pa": "2019 ਤੋਂ ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਅਧੀਨ ਸੂਚੀਬੱਧ"
+      },
+      {
+        "tag": "span",
+        "en": "Tribune Health Care Award, joint replacement",
+        "pa": "ਟ੍ਰਿਬਿਊਨ ਹੈਲਥ ਕੇਅਰ ਐਵਾਰਡ, ਜੋੜ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Your first visit",
+        "pa": "ਤੁਹਾਡੀ ਪਹਿਲੀ ਮੁਲਾਕਾਤ"
+      },
+      {
+        "tag": "h2",
+        "en": "Every treatment starts with <span class=\"em\">listening.</span>",
+        "pa": "ਹਰ ਇਲਾਜ <span class=\"em\">ਸੁਣਨ</span> ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "Scroll to see how a first consultation unfolds. The example is a knee visit with Dr. Mohit.",
+        "pa": "ਸਕ੍ਰੋਲ ਕਰਕੇ ਦੇਖੋ ਕਿ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਕਿਵੇਂ ਹੁੰਦੀ ਹੈ। ਉਦਾਹਰਣ: ਡਾ. ਮੋਹਿਤ ਨਾਲ ਗੋਡੇ ਦੀ ਜਾਂਚ।"
+      },
+      {
+        "tag": "span",
+        "en": "Listen",
+        "pa": "ਸੁਣਨਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "The doctor listens first.",
+        "pa": "ਡਾਕਟਰ ਪਹਿਲਾਂ ਤੁਹਾਡੀ ਗੱਲ ਸੁਣਦੇ ਹਨ।"
+      },
+      {
+        "tag": "p",
+        "en": "How long it has hurt, what makes it worse, and what you have already tried. Talk in Punjabi, Hindi or English.",
+        "pa": "ਦਰਦ ਕਦੋਂ ਤੋਂ ਹੈ, ਕਿਸ ਨਾਲ ਵਧਦਾ ਹੈ, ਹੁਣ ਤੱਕ ਕੀ ਅਜ਼ਮਾਇਆ। ਤੁਸੀਂ ਪੰਜਾਬੀ, ਹਿੰਦੀ ਜਾਂ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਗੱਲ ਕਰ ਸਕਦੇ ਹੋ।"
+      },
+      {
+        "tag": "p",
+        "en": "How long has the knee been troubling you?",
+        "pa": "ਗੋਡਾ ਕਦੋਂ ਤੋਂ ਤੰਗ ਕਰ ਰਿਹਾ ਹੈ?"
+      },
+      {
+        "tag": "p",
+        "en": "About two years. Stairs are the hardest.",
+        "pa": "ਲਗਭਗ ਦੋ ਸਾਲ ਤੋਂ। ਪੌੜੀਆਂ ਚੜ੍ਹਨਾ ਸਭ ਤੋਂ ਔਖਾ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "And what have you tried so far?",
+        "pa": "ਹੁਣ ਤੱਕ ਕੀ-ਕੀ ਅਜ਼ਮਾਇਆ ਹੈ?"
+      },
+      {
+        "tag": "span",
+        "en": "Examine",
+        "pa": "ਜਾਂਚ"
+      },
+      {
+        "tag": "h3",
+        "en": "Then a careful examination.",
+        "pa": "ਫਿਰ ਧਿਆਨ ਨਾਲ ਜਾਂਚ।"
+      },
+      {
+        "tag": "p",
+        "en": "The doctor checks how the joint moves, reads your X-ray and shows you what each part means.",
+        "pa": "ਡਾਕਟਰ ਜੋੜ ਦੀ ਹਰਕਤ ਦੇਖਦੇ ਹਨ ਅਤੇ ਐਕਸ-ਰੇ ਪੜ੍ਹ ਕੇ ਸਮਝਾਉਂਦੇ ਹਨ ਕਿ ਹਰ ਹਿੱਸਾ ਕੀ ਦਿਖਾਉਂਦਾ ਹੈ।"
+      },
+      {
+        "tag": "text",
+        "en": "Thigh bone",
+        "pa": "ਪੱਟ ਦੀ ਹੱਡੀ"
+      },
+      {
+        "tag": "text",
+        "en": "Cartilage",
+        "pa": "ਕਾਰਟੀਲੇਜ"
+      },
+      {
+        "tag": "text",
+        "en": "Ligament",
+        "pa": "ਲਿਗਾਮੈਂਟ"
+      },
+      {
+        "tag": "text",
+        "en": "Shin bone",
+        "pa": "ਪਿੰਨੀ ਦੀ ਹੱਡੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Plan",
+        "pa": "ਯੋਜਨਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "You plan together.",
+        "pa": "ਤੁਸੀਂ ਮਿਲ ਕੇ ਯੋਜਨਾ ਬਣਾਉਂਦੇ ਹੋ।"
+      },
+      {
+        "tag": "p",
+        "en": "The likely cause, your options from exercise to surgery, and a timeline that fits your life.",
+        "pa": "ਤਕਲੀਫ਼ ਦਾ ਕਾਰਨ, ਕਸਰਤ ਤੋਂ ਸਰਜਰੀ ਤੱਕ ਤੁਹਾਡੇ ਵਿਕਲਪ, ਅਤੇ ਤੁਹਾਡੀ ਜ਼ਿੰਦਗੀ ਮੁਤਾਬਕ ਸਮਾਂ।"
+      },
+      {
+        "tag": "b",
+        "en": "Your plan",
+        "pa": "ਤੁਹਾਡੀ ਯੋਜਨਾ"
+      },
+      {
+        "tag": "b",
+        "en": "The cause",
+        "pa": "ਕਾਰਨ"
+      },
+      {
+        "tag": "small",
+        "en": "Explained on your X-ray",
+        "pa": "ਐਕਸ-ਰੇ ਤੇ ਸਮਝਾਇਆ ਗਿਆ"
+      },
+      {
+        "tag": "b",
+        "en": "Your options",
+        "pa": "ਤੁਹਾਡੇ ਵਿਕਲਪ"
+      },
+      {
+        "tag": "small",
+        "en": "Exercise, medicines, injections or surgery",
+        "pa": "ਕਸਰਤ, ਦਵਾਈ, ਟੀਕਾ ਜਾਂ ਸਰਜਰੀ"
+      },
+      {
+        "tag": "b",
+        "en": "The timeline",
+        "pa": "ਸਮਾਂ-ਸੀਮਾ"
+      },
+      {
+        "tag": "small",
+        "en": "At a pace you agree to",
+        "pa": "ਤੁਹਾਡੀ ਮਰਜ਼ੀ ਦੀ ਰਫ਼ਤਾਰ ਨਾਲ"
+      },
+      {
+        "tag": "div",
+        "en": "Questions? WhatsApp +91 98787 52241",
+        "pa": "ਸਵਾਲ? ਵਟਸਐਪ +91 98787 52241"
+      },
+      {
+        "tag": "span",
+        "en": "Listen",
+        "pa": "ਸੁਣਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Examine",
+        "pa": "ਜਾਂਚ"
+      },
+      {
+        "tag": "span",
+        "en": "Plan",
+        "pa": "ਯੋਜਨਾ"
+      },
+      {
+        "tag": "p",
+        "en": "How long has the knee been troubling you?",
+        "pa": "ਗੋਡਾ ਕਦੋਂ ਤੋਂ ਤੰਗ ਕਰ ਰਿਹਾ ਹੈ?"
+      },
+      {
+        "tag": "p",
+        "en": "About two years. Stairs are the hardest.",
+        "pa": "ਲਗਭਗ ਦੋ ਸਾਲ ਤੋਂ। ਪੌੜੀਆਂ ਚੜ੍ਹਨਾ ਸਭ ਤੋਂ ਔਖਾ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "And what have you tried so far?",
+        "pa": "ਹੁਣ ਤੱਕ ਕੀ-ਕੀ ਅਜ਼ਮਾਇਆ ਹੈ?"
+      },
+      {
+        "tag": "text",
+        "en": "Thigh bone",
+        "pa": "ਪੱਟ ਦੀ ਹੱਡੀ"
+      },
+      {
+        "tag": "text",
+        "en": "Cartilage",
+        "pa": "ਕਾਰਟੀਲੇਜ"
+      },
+      {
+        "tag": "text",
+        "en": "Ligament",
+        "pa": "ਲਿਗਾਮੈਂਟ"
+      },
+      {
+        "tag": "text",
+        "en": "Shin bone",
+        "pa": "ਪਿੰਨੀ ਦੀ ਹੱਡੀ"
+      },
+      {
+        "tag": "b",
+        "en": "Your plan",
+        "pa": "ਤੁਹਾਡੀ ਯੋਜਨਾ"
+      },
+      {
+        "tag": "b",
+        "en": "The cause",
+        "pa": "ਕਾਰਨ"
+      },
+      {
+        "tag": "small",
+        "en": "Explained on your X-ray",
+        "pa": "ਐਕਸ-ਰੇ ਤੇ ਸਮਝਾਇਆ ਗਿਆ"
+      },
+      {
+        "tag": "b",
+        "en": "Your options",
+        "pa": "ਤੁਹਾਡੇ ਵਿਕਲਪ"
+      },
+      {
+        "tag": "small",
+        "en": "Exercise, medicines, injections or surgery",
+        "pa": "ਕਸਰਤ, ਦਵਾਈ, ਟੀਕਾ ਜਾਂ ਸਰਜਰੀ"
+      },
+      {
+        "tag": "b",
+        "en": "The timeline",
+        "pa": "ਸਮਾਂ-ਸੀਮਾ"
+      },
+      {
+        "tag": "small",
+        "en": "At a pace you agree to",
+        "pa": "ਤੁਹਾਡੀ ਮਰਜ਼ੀ ਦੀ ਰਫ਼ਤਾਰ ਨਾਲ"
+      },
+      {
+        "tag": "div",
+        "en": "Questions? WhatsApp +91 98787 52241",
+        "pa": "ਸਵਾਲ? ਵਟਸਐਪ +91 98787 52241"
+      },
+      {
+        "tag": "span",
+        "en": "Treatments",
+        "pa": "ਇਲਾਜ"
+      },
+      {
+        "tag": "h2",
+        "en": "Care for bones, eyes <span class=\"em-g\">and the mind.</span>",
+        "pa": "ਹੱਡੀਆਂ, ਅੱਖਾਂ <span class=\"em-g\">ਅਤੇ ਮਨ</span> ਦੀ ਦੇਖਭਾਲ।"
+      },
+      {
+        "tag": "p",
+        "en": "Three departments, each led by a specialist from the Gupta family.",
+        "pa": "ਤਿੰਨ ਵਿਭਾਗ, ਹਰੇਕ ਦੀ ਅਗਵਾਈ ਗੁਪਤਾ ਪਰਿਵਾਰ ਦਾ ਇੱਕ ਮਾਹਰ ਡਾਕਟਰ ਕਰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Robotic knee replacement",
+        "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Planned around your own knee with the J&amp;J VELYS™ system.",
+        "pa": "J&J VELYS™ ਸਿਸਟਮ ਨਾਲ ਤੁਹਾਡੇ ਗੋਡੇ ਮੁਤਾਬਕ ਯੋਜਨਾ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Knee &amp; hip replacement",
+        "pa": "ਗੋਡਾ ਅਤੇ ਕੁੱਲ੍ਹਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Total and partial knee replacement, and hip replacement.",
+        "pa": "ਪੂਰਾ ਜਾਂ ਅੰਸ਼ਕ ਗੋਡਾ ਬਦਲਣਾ, ਅਤੇ ਕੁੱਲ੍ਹਾ ਬਦਲਣਾ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Fractures &amp; trauma",
+        "pa": "ਹੱਡੀ ਟੁੱਟਣਾ ਅਤੇ ਸੱਟਾਂ"
+      },
+      {
+        "tag": "p",
+        "en": "Accident injuries, hip fractures in older people, and sports injuries.",
+        "pa": "ਹਾਦਸਿਆਂ ਦੀਆਂ ਸੱਟਾਂ, ਬਜ਼ੁਰਗਾਂ ਵਿੱਚ ਕੁੱਲ੍ਹੇ ਦੀ ਹੱਡੀ ਟੁੱਟਣਾ, ਖੇਡ ਸੱਟਾਂ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Back pain clinic",
+        "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+      },
+      {
+        "tag": "p",
+        "en": "Slip disc, sciatica and neck pain, with non-surgical care first.",
+        "pa": "ਸਲਿੱਪ ਡਿਸਕ, ਸਾਇਟਿਕਾ ਅਤੇ ਗਰਦਨ ਦਰਦ, ਪਹਿਲਾਂ ਬਿਨਾਂ ਸਰਜਰੀ ਇਲਾਜ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Eye care",
+        "pa": "ਅੱਖਾਂ"
+      },
+      {
+        "tag": "h3",
+        "en": "Cataract &amp; eye care",
+        "pa": "ਮੋਤੀਆ ਅਤੇ ਅੱਖਾਂ ਦਾ ਇਲਾਜ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Parul Gupta: phaco cataract surgery, glaucoma, retina and children's eyes.",
+        "pa": "ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ: ਫੇਕੋ ਮੋਤੀਆ ਸਰਜਰੀ, ਗਲੂਕੋਮਾ, ਰੈਟੀਨਾ, ਬੱਚਿਆਂ ਦੀਆਂ ਅੱਖਾਂ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Mental health",
+        "pa": "ਮਾਨਸਿਕ ਸਿਹਤ"
+      },
+      {
+        "tag": "h3",
+        "en": "Mind &amp; de-addiction",
+        "pa": "ਮਾਨਸਿਕ ਸਿਹਤ ਅਤੇ ਨਸ਼ਾ ਛੁਡਾਊ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Amit Gupta: stress, low mood, anxiety and a licensed de-addiction centre.",
+        "pa": "ਡਾ. ਅਮਿਤ ਗੁਪਤਾ: ਤਣਾਅ, ਉਦਾਸੀ, ਘਬਰਾਹਟ ਅਤੇ ਲਾਇਸੰਸਸ਼ੁਦਾ ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Our story",
+        "pa": "ਸਾਡੀ ਕਹਾਣੀ"
+      },
+      {
+        "tag": "h2",
+        "en": "Four decades on <span class=\"em\">Power House Road.</span>",
+        "pa": "ਪਾਵਰ ਹਾਊਸ ਰੋਡ ਤੇ <span class=\"em\">ਚਾਰ ਦਹਾਕੇ।</span>"
+      },
+      {
+        "tag": "span",
+        "en": "years of care in Bathinda",
+        "pa": "ਸਾਲਾਂ ਤੋਂ ਬਠਿੰਡਾ ਵਿੱਚ ਇਲਾਜ"
+      },
+      {
+        "tag": "p",
+        "en": "What began as a small orthopaedic clinic in 1980 is now a hospital with three departments, run by the second generation of the same family. Many patients today are the children and grandchildren of Dr. Amrit Gupta’s first patients.",
+        "pa": "1980 ਵਿੱਚ ਇੱਕ ਛੋਟੇ ਹੱਡੀਆਂ ਦੇ ਕਲੀਨਿਕ ਤੋਂ ਸ਼ੁਰੂ ਹੋ ਕੇ ਅੱਜ ਇਹ ਤਿੰਨ ਵਿਭਾਗਾਂ ਵਾਲਾ ਹਸਪਤਾਲ ਹੈ, ਜਿਸ ਨੂੰ ਉਸੇ ਪਰਿਵਾਰ ਦੀ ਦੂਜੀ ਪੀੜ੍ਹੀ ਚਲਾਉਂਦੀ ਹੈ। ਅੱਜ ਦੇ ਕਈ ਮਰੀਜ਼ ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਦੇ ਪਹਿਲੇ ਮਰੀਜ਼ਾਂ ਦੇ ਬੱਚੇ ਅਤੇ ਪੋਤੇ-ਪੋਤੀਆਂ ਹਨ।"
+      },
+      {
+        "tag": "figcaption",
+        "en": "Power House Road, Bathinda",
+        "pa": "ਪਾਵਰ ਹਾਊਸ ਰੋਡ, ਬਠਿੰਡਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "A clinic opens",
+        "pa": "ਕਲੀਨਿਕ ਖੁੱਲ੍ਹਦਾ ਹੈ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Amrit Gupta starts an orthopaedic practice on Power House Road, bringing bone and joint surgery closer to families in Malwa.",
+        "pa": "ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਪਾਵਰ ਹਾਊਸ ਰੋਡ ਤੇ ਹੱਡੀਆਂ ਦਾ ਕਲੀਨਿਕ ਸ਼ੁਰੂ ਕਰਦੇ ਹਨ, ਤਾਂ ਜੋ ਮਾਲਵੇ ਦੇ ਪਰਿਵਾਰਾਂ ਨੂੰ ਹੱਡੀਆਂ ਅਤੇ ਜੋੜਾਂ ਦੀ ਸਰਜਰੀ ਨੇੜੇ ਮਿਲੇ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Care for the mind",
+        "pa": "ਮਨ ਦੀ ਦੇਖਭਾਲ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Amit Gupta joins as psychiatrist when addiction was hurting many homes in the region, and the de-addiction centre begins.",
+        "pa": "ਜਦੋਂ ਨਸ਼ਾ ਇਲਾਕੇ ਦੇ ਕਈ ਘਰਾਂ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾ ਰਿਹਾ ਸੀ, ਡਾ. ਅਮਿਤ ਗੁਪਤਾ ਮਨੋਰੋਗ ਮਾਹਰ ਵਜੋਂ ਜੁੜਦੇ ਹਨ ਅਤੇ ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Ayushman Bharat",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ"
+      },
+      {
+        "tag": "p",
+        "en": "The hospital is empanelled under PM-JAY, so eligible card holders can be treated here.",
+        "pa": "ਹਸਪਤਾਲ PM-JAY ਅਧੀਨ ਸੂਚੀਬੱਧ ਹੁੰਦਾ ਹੈ, ਤਾਂ ਜੋ ਯੋਗ ਕਾਰਡ ਧਾਰਕਾਂ ਦਾ ਇਲਾਜ ਇੱਥੇ ਹੋ ਸਕੇ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Robotic-assisted knees",
+        "pa": "ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡੇ"
+      },
+      {
+        "tag": "p",
+        "en": "The J&amp;J VELYS™ robotic-assisted knee system is launched at the hospital’s Ortho Robotic Centre.",
+        "pa": "ਹਸਪਤਾਲ ਦੇ ਆਰਥੋ ਰੋਬੋਟਿਕ ਸੈਂਟਰ ਵਿੱਚ J&amp;J VELYS™ ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡਾ ਸਿਸਟਮ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Recognised by The Tribune",
+        "pa": "ਦ ਟ੍ਰਿਬਿਊਨ ਵੱਲੋਂ ਸਨਮਾਨ"
+      },
+      {
+        "tag": "p",
+        "en": "Tribune Health Care Award for excellence in joint replacement and ortho robotic surgery.",
+        "pa": "ਜੋੜ ਬਦਲਣ ਅਤੇ ਆਰਥੋ ਰੋਬੋਟਿਕ ਸਰਜਰੀ ਲਈ ਟ੍ਰਿਬਿਊਨ ਹੈਲਥ ਕੇਅਰ ਐਵਾਰਡ।"
+      },
+      {
+        "tag": "span",
+        "en": "Today",
+        "pa": "ਅੱਜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Three departments, one family",
+        "pa": "ਤਿੰਨ ਵਿਭਾਗ, ਇੱਕ ਪਰਿਵਾਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Mohit Gupta leads orthopaedics after fellowships in Germany and Switzerland, Dr. Parul Gupta runs the eye department with its own operation theatre, and Dr. Amit Gupta heads mental health.",
+        "pa": "ਜਰਮਨੀ ਅਤੇ ਸਵਿਟਜ਼ਰਲੈਂਡ ਵਿੱਚ ਫੈਲੋਸ਼ਿਪ ਤੋਂ ਬਾਅਦ ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਹੱਡੀਆਂ ਦਾ ਵਿਭਾਗ, ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ ਆਪਣੇ ਓਪਰੇਸ਼ਨ ਥੀਏਟਰ ਨਾਲ ਅੱਖਾਂ ਦਾ ਵਿਭਾਗ, ਅਤੇ ਡਾ. ਅਮਿਤ ਗੁਪਤਾ ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਭਾਗ ਚਲਾਉਂਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "The full story",
+        "pa": "ਪੂਰੀ ਕਹਾਣੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Find the right doctor",
+        "pa": "ਸਹੀ ਡਾਕਟਰ ਲੱਭੋ"
+      },
+      {
+        "tag": "h2",
+        "en": "Where is the <span class=\"em\">trouble?</span>",
+        "pa": "ਤਕਲੀਫ਼ <span class=\"em\">ਕਿੱਥੇ</span> ਹੈ?"
+      },
+      {
+        "tag": "p",
+        "en": "Tap a part of the body. We will show you which Gupta Hospital doctor you would see.",
+        "pa": "ਸਰੀਰ ਦੇ ਹਿੱਸੇ ਤੇ ਟੈਪ ਕਰੋ। ਅਸੀਂ ਦੱਸਾਂਗੇ ਕਿ ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਤੁਸੀਂ ਕਿਸ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋਗੇ।"
+      },
+      {
+        "tag": "span",
+        "en": "Your journey",
+        "pa": "ਤੁਹਾਡਾ ਸਫ਼ਰ"
+      },
+      {
+        "tag": "h2",
+        "en": "From first call to <span class=\"em\">feeling better.</span>",
+        "pa": "ਪਹਿਲੀ ਕਾਲ ਤੋਂ <span class=\"em\">ਠੀਕ ਹੋਣ</span> ਤੱਕ।"
+      },
+      {
+        "tag": "p",
+        "en": "The same doctor stays with you at every step.",
+        "pa": "ਹਰ ਕਦਮ ਤੇ ਇੱਕੋ ਡਾਕਟਰ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "You reach out",
+        "pa": "ਤੁਸੀਂ ਸੰਪਰਕ ਕਰਦੇ ਹੋ"
+      },
+      {
+        "tag": "p",
+        "en": "Call, WhatsApp or walk in. Our team tells you which doctor to see.",
+        "pa": "ਕਾਲ ਕਰੋ, ਵਟਸਐਪ ਕਰੋ ਜਾਂ ਸਿੱਧਾ ਆਓ। ਟੀਮ ਦੱਸੇਗੀ ਕਿ ਕਿਸ ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "You meet your specialist",
+        "pa": "ਮਾਹਰ ਨਾਲ ਮੁਲਾਕਾਤ"
+      },
+      {
+        "tag": "p",
+        "en": "A doctor from the Gupta family listens and examines you.",
+        "pa": "ਗੁਪਤਾ ਪਰਿਵਾਰ ਦਾ ਡਾਕਟਰ ਤੁਹਾਡੀ ਗੱਲ ਸੁਣਦਾ ਅਤੇ ਜਾਂਚ ਕਰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Tests and a clear plan",
+        "pa": "ਜਾਂਚ ਅਤੇ ਯੋਜਨਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Tests if needed, then your options in plain words.",
+        "pa": "ਲੋੜ ਹੋਵੇ ਤਾਂ ਟੈਸਟ, ਫਿਰ ਸਾਦੇ ਸ਼ਬਦਾਂ ਵਿੱਚ ਵਿਕਲਪ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Treatment and follow-up",
+        "pa": "ਇਲਾਜ ਅਤੇ ਫਾਲੋ-ਅੱਪ"
+      },
+      {
+        "tag": "p",
+        "en": "Surgery, medicines or therapy, then follow-up with the same doctor.",
+        "pa": "ਸਰਜਰੀ, ਦਵਾਈ ਜਾਂ ਥੈਰੇਪੀ, ਫਿਰ ਉਸੇ ਡਾਕਟਰ ਨਾਲ ਫਾਲੋ-ਅੱਪ।"
+      },
+      {
+        "tag": "span",
+        "en": "Modular operation theatre, Gupta Hospital",
+        "pa": "ਮਾਡਿਊਲਰ ਓਪਰੇਸ਼ਨ ਥੀਏਟਰ, ਗੁਪਤਾ ਹਸਪਤਾਲ"
+      },
+      {
+        "tag": "span",
+        "en": "Robotic knee replacement",
+        "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "h2",
+        "en": "A plan built around <span class=\"em\">your own knee.</span>",
+        "pa": "ਤੁਹਾਡੇ ਆਪਣੇ ਗੋਡੇ ਲਈ ਬਣੀ ਯੋਜਨਾ।"
+      },
+      {
+        "tag": "p",
+        "en": "During surgery the VELYS system records the shape of your knee and how its ligaments move, so the new joint is placed to plan. Dr. Mohit Gupta is in control at every step.",
+        "pa": "VELYS ਸਿਸਟਮ ਸਰਜਰੀ ਦੌਰਾਨ ਤੁਹਾਡੇ ਗੋਡੇ ਦੀ ਸ਼ਕਲ ਅਤੇ ਲਿਗਾਮੈਂਟਾਂ ਨੂੰ ਦਰਜ ਕਰਦਾ ਹੈ ਤਾਂ ਜੋ ਨਵਾਂ ਜੋੜ ਯੋਜਨਾ ਮੁਤਾਬਕ ਲੱਗੇ। ਸਰਜਨ ਹਰ ਪਲ ਕੰਟਰੋਲ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "How it works",
+        "pa": "ਇਹ ਕਿਵੇਂ ਹੁੰਦਾ ਹੈ"
+      },
+      {
+        "tag": "span",
+        "en": "Under one roof",
+        "pa": "ਇੱਕੋ ਛੱਤ ਹੇਠ"
+      },
+      {
+        "tag": "h2",
+        "en": "Everything your treatment needs, <span class=\"em\">in one building.</span>",
+        "pa": "ਤੁਹਾਡੇ ਇਲਾਜ ਲਈ ਸਭ ਕੁਝ, <span class=\"em\">ਇੱਕੋ ਇਮਾਰਤ ਵਿੱਚ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Tests, surgery, blood, medicines and rehab happen here. For families travelling from villages and other districts, that means fewer trips and less waiting.",
+        "pa": "ਜਾਂਚ, ਸਰਜਰੀ, ਖ਼ੂਨ, ਦਵਾਈਆਂ ਅਤੇ ਕਸਰਤ ਸਭ ਇੱਥੇ। ਪਿੰਡਾਂ ਅਤੇ ਦੂਜੇ ਜ਼ਿਲ੍ਹਿਆਂ ਤੋਂ ਆਉਣ ਵਾਲੇ ਪਰਿਵਾਰਾਂ ਲਈ ਘੱਟ ਚੱਕਰ ਅਤੇ ਘੱਟ ਉਡੀਕ।"
+      },
+      {
+        "tag": "figcaption",
+        "en": "Reception",
+        "pa": "ਰਿਸੈਪਸ਼ਨ"
+      },
+      {
+        "tag": "figcaption",
+        "en": "OPD corridor",
+        "pa": "ਓਪੀਡੀ ਗਲਿਆਰਾ"
+      },
+      {
+        "tag": "figcaption",
+        "en": "Day care",
+        "pa": "ਡੇ-ਕੇਅਰ"
+      },
+      {
+        "tag": "h3",
+        "en": "Modular operation theatres",
+        "pa": "ਮਾਡਿਊਲਰ ਓਪਰੇਸ਼ਨ ਥੀਏਟਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Separate theatres for bone and eye surgery, built for clean air and infection control.",
+        "pa": "ਹੱਡੀਆਂ ਅਤੇ ਅੱਖਾਂ ਦੀ ਸਰਜਰੀ ਲਈ ਵੱਖਰੇ ਥੀਏਟਰ, ਸਾਫ਼ ਹਵਾ ਅਤੇ ਲਾਗ ਤੋਂ ਬਚਾਅ ਲਈ ਬਣੇ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Critical care",
+        "pa": "ਕ੍ਰਿਟੀਕਲ ਕੇਅਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Close monitoring after major surgery and in emergencies.",
+        "pa": "ਵੱਡੀ ਸਰਜਰੀ ਤੋਂ ਬਾਅਦ ਅਤੇ ਐਮਰਜੈਂਸੀ ਵਿੱਚ ਨੇੜਿਓਂ ਨਿਗਰਾਨੀ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Blood bank",
+        "pa": "ਬਲੱਡ ਬੈਂਕ"
+      },
+      {
+        "tag": "p",
+        "en": "Blood is arranged on site, so families do not have to run to another city during surgery.",
+        "pa": "ਖ਼ੂਨ ਦਾ ਪ੍ਰਬੰਧ ਇੱਥੇ ਹੀ, ਤਾਂ ਜੋ ਸਰਜਰੀ ਸਮੇਂ ਪਰਿਵਾਰ ਨੂੰ ਦੂਜੇ ਸ਼ਹਿਰ ਨਾ ਭੱਜਣਾ ਪਵੇ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Digital X-ray",
+        "pa": "ਡਿਜੀਟਲ ਐਕਸ-ਰੇ"
+      },
+      {
+        "tag": "p",
+        "en": "Images are taken and read during the same visit.",
+        "pa": "ਐਕਸ-ਰੇ ਉਸੇ ਮੁਲਾਕਾਤ ਵਿੱਚ ਲਿਆ ਅਤੇ ਪੜ੍ਹਿਆ ਜਾਂਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Laboratory",
+        "pa": "ਲੈਬਾਰਟਰੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Routine blood tests before surgery and during treatment.",
+        "pa": "ਸਰਜਰੀ ਤੋਂ ਪਹਿਲਾਂ ਅਤੇ ਇਲਾਜ ਦੌਰਾਨ ਆਮ ਖ਼ੂਨ ਦੀਆਂ ਜਾਂਚਾਂ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Pharmacy",
+        "pa": "ਦਵਾਈਆਂ ਦੀ ਦੁਕਾਨ"
+      },
+      {
+        "tag": "p",
+        "en": "Prescribed medicines are available inside the hospital.",
+        "pa": "ਲਿਖੀਆਂ ਦਵਾਈਆਂ ਹਸਪਤਾਲ ਦੇ ਅੰਦਰ ਹੀ ਮਿਲਦੀਆਂ ਹਨ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Physiotherapy",
+        "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Rehab starts in hospital and continues on follow-up visits.",
+        "pa": "ਕਸਰਤ ਹਸਪਤਾਲ ਵਿੱਚ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ ਅਤੇ ਫਾਲੋ-ਅੱਪ ਤੇ ਜਾਰੀ ਰਹਿੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Private rooms",
+        "pa": "ਪ੍ਰਾਈਵੇਟ ਕਮਰੇ"
+      },
+      {
+        "tag": "p",
+        "en": "Quiet rooms to recover in after surgery.",
+        "pa": "ਸਰਜਰੀ ਤੋਂ ਬਾਅਦ ਆਰਾਮ ਲਈ ਸ਼ਾਂਤ ਕਮਰੇ।"
+      },
+      {
+        "tag": "span",
+        "en": "Doctors",
+        "pa": "ਡਾਕਟਰ"
+      },
+      {
+        "tag": "h2",
+        "en": "The doctors you will see.",
+        "pa": "ਉਹ ਡਾਕਟਰ ਜੋ ਤੁਹਾਨੂੰ ਮਿਲਣਗੇ।"
+      },
+      {
+        "tag": "span",
+        "en": "All profiles",
+        "pa": "ਸਾਰੇ ਡਾਕਟਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedic &amp; joint replacement surgeon",
+        "pa": "ਆਰਥੋਪੈਡਿਕ ਅਤੇ ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Eye surgeon",
+        "pa": "ਅੱਖਾਂ ਦੇ ਸਰਜਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Psychiatrist &amp; de-addiction specialist",
+        "pa": "ਮਨੋਰੋਗ ਅਤੇ ਨਸ਼ਾ ਛੁਡਾਊ ਮਾਹਰ"
+      },
+      {
+        "tag": "span",
+        "en": "In the news",
+        "pa": "ਖ਼ਬਰਾਂ ਵਿੱਚ"
+      },
+      {
+        "tag": "h2",
+        "en": "Out in the community.",
+        "pa": "ਹਸਪਤਾਲ ਤੋਂ ਬਾਹਰ, ਲੋਕਾਂ ਵਿੱਚ।"
+      },
+      {
+        "tag": "p",
+        "en": "Free camps, health talks and new services, as reported by local papers. Drag the clippings, click one to read it.",
+        "pa": "ਮੁਫ਼ਤ ਕੈਂਪ, ਸਿਹਤ ਭਾਸ਼ਣ ਅਤੇ ਨਵੀਆਂ ਸਹੂਲਤਾਂ। ਕਤਰਨਾਂ ਨੂੰ ਖਿੱਚੋ, ਪੜ੍ਹਨ ਲਈ ਕਲਿੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "All press coverage",
+        "pa": "ਸਾਰੀਆਂ ਖ਼ਬਰਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Coming from out of town",
+        "pa": "ਬਾਹਰੋਂ ਆ ਰਹੇ ਹੋ"
+      },
+      {
+        "tag": "h2",
+        "en": "Families travel from <span class=\"em\">three states.</span>",
+        "pa": "ਪਰਿਵਾਰ <span class=\"em\">ਤਿੰਨ ਰਾਜਾਂ</span> ਤੋਂ ਆਉਂਦੇ ਹਨ।"
+      },
+      {
+        "tag": "p",
+        "en": "Patients come from across Punjab and neighbouring Haryana and Rajasthan. A little planning makes a long trip worth it.",
+        "pa": "ਮਰੀਜ਼ ਪੂਰੇ ਪੰਜਾਬ ਅਤੇ ਨੇੜਲੇ ਹਰਿਆਣਾ ਤੇ ਰਾਜਸਥਾਨ ਤੋਂ ਆਉਂਦੇ ਹਨ। ਥੋੜ੍ਹੀ ਤਿਆਰੀ ਨਾਲ ਲੰਬਾ ਸਫ਼ਰ ਸਫਲ ਹੁੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "text",
+        "en": "PUNJAB",
+        "pa": "ਪੰਜਾਬ"
+      },
+      {
+        "tag": "text",
+        "en": "HARYANA",
+        "pa": "ਹਰਿਆਣਾ"
+      },
+      {
+        "tag": "text",
+        "en": "RAJASTHAN",
+        "pa": "ਰਾਜਸਥਾਨ"
+      },
+      {
+        "tag": "text",
+        "en": "Mansa",
+        "pa": "ਮਾਨਸਾ"
+      },
+      {
+        "tag": "text",
+        "en": "Barnala",
+        "pa": "ਬਰਨਾਲਾ"
+      },
+      {
+        "tag": "text",
+        "en": "Moga",
+        "pa": "ਮੋਗਾ"
+      },
+      {
+        "tag": "text",
+        "en": "Faridkot",
+        "pa": "ਫ਼ਰੀਦਕੋਟ"
+      },
+      {
+        "tag": "text",
+        "en": "Sri Muktsar Sahib",
+        "pa": "ਸ੍ਰੀ ਮੁਕਤਸਰ ਸਾਹਿਬ"
+      },
+      {
+        "tag": "text",
+        "en": "Fazilka",
+        "pa": "ਫ਼ਾਜ਼ਿਲਕਾ"
+      },
+      {
+        "tag": "text",
+        "en": "Sangrur",
+        "pa": "ਸੰਗਰੂਰ"
+      },
+      {
+        "tag": "text",
+        "en": "Sirsa",
+        "pa": "ਸਿਰਸਾ"
+      },
+      {
+        "tag": "text",
+        "en": "Hanumangarh",
+        "pa": "ਹਨੂੰਮਾਨਗੜ੍ਹ"
+      },
+      {
+        "tag": "text",
+        "en": "Sri Ganganagar",
+        "pa": "ਸ੍ਰੀ ਗੰਗਾਨਗਰ"
+      },
+      {
+        "tag": "text",
+        "en": "Bathinda",
+        "pa": "ਬਠਿੰਡਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Punjab",
+        "pa": "ਪੰਜਾਬ"
+      },
+      {
+        "tag": "span",
+        "en": "Haryana",
+        "pa": "ਹਰਿਆਣਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Rajasthan",
+        "pa": "ਰਾਜਸਥਾਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Example towns, not to scale.",
+        "pa": "ਉਦਾਹਰਣ ਵਜੋਂ ਸ਼ਹਿਰ, ਪੈਮਾਨੇ ਮੁਤਾਬਕ ਨਹੀਂ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Before a long trip",
+        "pa": "ਲੰਬੇ ਸਫ਼ਰ ਤੋਂ ਪਹਿਲਾਂ"
+      },
+      {
+        "tag": "b",
+        "en": "Send reports on WhatsApp first",
+        "pa": "ਪਹਿਲਾਂ ਰਿਪੋਰਟਾਂ ਵਟਸਐਪ ਤੇ ਭੇਜੋ"
+      },
+      {
+        "tag": "span",
+        "en": "The team can tell you which doctor to see and whether to bring anything else.",
+        "pa": "ਟੀਮ ਦੱਸ ਸਕਦੀ ਹੈ ਕਿ ਕਿਸ ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਹੈ ਅਤੇ ਹੋਰ ਕੀ ਲਿਆਉਣਾ ਹੈ।"
+      },
+      {
+        "tag": "b",
+        "en": "Bring every old report",
+        "pa": "ਸਾਰੀਆਂ ਪੁਰਾਣੀਆਂ ਰਿਪੋਰਟਾਂ ਲਿਆਓ"
+      },
+      {
+        "tag": "span",
+        "en": "X-rays, scans, prescriptions and the medicines you take now, even if they seem unrelated.",
+        "pa": "ਐਕਸ-ਰੇ, ਸਕੈਨ, ਪਰਚੀਆਂ ਅਤੇ ਹੁਣ ਚੱਲ ਰਹੀਆਂ ਦਵਾਈਆਂ, ਭਾਵੇਂ ਉਹ ਸੰਬੰਧਿਤ ਨਾ ਲੱਗਣ।"
+      },
+      {
+        "tag": "b",
+        "en": "Carry your Ayushman card",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਕਾਰਡ ਨਾਲ ਲਿਆਓ"
+      },
+      {
+        "tag": "span",
+        "en": "If you have one, along with Aadhaar, so eligibility can be checked on the day.",
+        "pa": "ਜੇ ਹੈ ਤਾਂ ਆਧਾਰ ਨਾਲ, ਤਾਂ ਜੋ ਉਸੇ ਦਿਨ ਯੋਗਤਾ ਦੇਖੀ ਜਾ ਸਕੇ।"
+      },
+      {
+        "tag": "b",
+        "en": "Ask for an early slot",
+        "pa": "ਸਵੇਰ ਦਾ ਸਮਾਂ ਮੰਗੋ"
+      },
+      {
+        "tag": "span",
+        "en": "If you are travelling far, book ahead so tests can be done the same day.",
+        "pa": "ਜੇ ਦੂਰੋਂ ਆ ਰਹੇ ਹੋ ਤਾਂ ਪਹਿਲਾਂ ਬੁੱਕ ਕਰੋ, ਤਾਂ ਜੋ ਜਾਂਚ ਉਸੇ ਦਿਨ ਹੋ ਸਕੇ।"
+      },
+      {
+        "tag": "span",
+        "en": "Send reports on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਰਿਪੋਰਟਾਂ ਭੇਜੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Questions",
+        "pa": "ਸਵਾਲ"
+      },
+      {
+        "tag": "h2",
+        "en": "Questions families <span class=\"em\">often ask.</span>",
+        "pa": "ਪਰਿਵਾਰ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+      },
+      {
+        "tag": "span",
+        "en": "Ask us something else",
+        "pa": "ਕੁਝ ਹੋਰ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Do I need an appointment?",
+        "pa": "ਕੀ ਅਪੌਇੰਟਮੈਂਟ ਜ਼ਰੂਰੀ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Booking ahead by phone or WhatsApp on +91 98787 52241 helps the team plan your visit and keeps your wait short.",
+        "pa": "+91 98787 52241 ਤੇ ਫ਼ੋਨ ਜਾਂ ਵਟਸਐਪ ਰਾਹੀਂ ਪਹਿਲਾਂ ਬੁੱਕ ਕਰਨ ਨਾਲ ਟੀਮ ਤੁਹਾਡੀ ਮੁਲਾਕਾਤ ਦੀ ਤਿਆਰੀ ਕਰ ਸਕਦੀ ਹੈ ਅਤੇ ਉਡੀਕ ਘੱਟ ਹੁੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Which doctor should I see?",
+        "pa": "ਮੈਨੂੰ ਕਿਸ ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੀਦਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Bones, joints, back and injuries: Dr. Mohit Gupta. Eyes: Dr. Parul Gupta. Mood, sleep, stress and addiction: Dr. Amit Gupta. If you are unsure, tell the team your problem and they will guide you.",
+        "pa": "ਹੱਡੀਆਂ, ਜੋੜ, ਕਮਰ ਅਤੇ ਸੱਟਾਂ: ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ। ਅੱਖਾਂ: ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ। ਮਨ, ਨੀਂਦ, ਤਣਾਅ ਅਤੇ ਨਸ਼ਾ: ਡਾ. ਅਮਿਤ ਗੁਪਤਾ। ਪੱਕਾ ਨਾ ਹੋਵੇ ਤਾਂ ਟੀਮ ਨੂੰ ਤਕਲੀਫ਼ ਦੱਸੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Is treatment covered under Ayushman Bharat?",
+        "pa": "ਕੀ ਇਲਾਜ ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਅਧੀਨ ਆਉਂਦਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Gupta Hospital is empanelled under PM-JAY (HFR ID IN0310002794). Whether your procedure is covered depends on the scheme’s rules, so bring your card and the team will check.",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ PM-JAY ਅਧੀਨ ਸੂਚੀਬੱਧ ਹੈ (HFR ID IN0310002794)। ਤੁਹਾਡਾ ਇਲਾਜ ਸ਼ਾਮਲ ਹੈ ਜਾਂ ਨਹੀਂ, ਇਹ ਯੋਜਨਾ ਦੇ ਨਿਯਮਾਂ ਤੇ ਨਿਰਭਰ ਹੈ। ਕਾਰਡ ਲਿਆਓ, ਟੀਮ ਜਾਂਚ ਕਰੇਗੀ।"
+      },
+      {
+        "tag": "span",
+        "en": "Can I talk to the doctor in Punjabi?",
+        "pa": "ਕੀ ਮੈਂ ਡਾਕਟਰ ਨਾਲ ਪੰਜਾਬੀ ਵਿੱਚ ਗੱਲ ਕਰ ਸਕਦਾ ਹਾਂ?"
+      },
+      {
+        "tag": "div",
+        "en": "Yes. All three doctors speak Punjabi, Hindi and English, and will explain your reports in the language you are comfortable with.",
+        "pa": "ਹਾਂ। ਤਿੰਨੇ ਡਾਕਟਰ ਪੰਜਾਬੀ, ਹਿੰਦੀ ਅਤੇ ਅੰਗਰੇਜ਼ੀ ਬੋਲਦੇ ਹਨ, ਅਤੇ ਰਿਪੋਰਟਾਂ ਤੁਹਾਡੀ ਪਸੰਦ ਦੀ ਭਾਸ਼ਾ ਵਿੱਚ ਸਮਝਾਉਂਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "What should I bring to my first visit?",
+        "pa": "ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਤੇ ਕੀ ਲਿਆਉਣਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "All old reports, X-rays and scans, the medicines you take now, Aadhaar, and your Ayushman or insurance card if you have one.",
+        "pa": "ਸਾਰੀਆਂ ਪੁਰਾਣੀਆਂ ਰਿਪੋਰਟਾਂ, ਐਕਸ-ਰੇ ਅਤੇ ਸਕੈਨ, ਹੁਣ ਚੱਲ ਰਹੀਆਂ ਦਵਾਈਆਂ, ਆਧਾਰ, ਅਤੇ ਜੇ ਹੈ ਤਾਂ ਆਯੁਸ਼ਮਾਨ ਜਾਂ ਬੀਮਾ ਕਾਰਡ।"
+      },
+      {
+        "tag": "span",
+        "en": "Does the hospital hold free camps?",
+        "pa": "ਕੀ ਹਸਪਤਾਲ ਮੁਫ਼ਤ ਕੈਂਪ ਲਗਾਉਂਦਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Yes. The hospital regularly holds free bone and eye screening camps in Bathinda and nearby villages. Dates are shared on the hospital’s social media and in local papers.",
+        "pa": "ਹਾਂ। ਹਸਪਤਾਲ ਬਠਿੰਡਾ ਅਤੇ ਨੇੜਲੇ ਪਿੰਡਾਂ ਵਿੱਚ ਨਿਯਮਿਤ ਤੌਰ ਤੇ ਮੁਫ਼ਤ ਹੱਡੀਆਂ ਅਤੇ ਅੱਖਾਂ ਦੇ ਜਾਂਚ ਕੈਂਪ ਲਗਾਉਂਦਾ ਹੈ। ਤਾਰੀਖ਼ਾਂ ਸੋਸ਼ਲ ਮੀਡੀਆ ਅਤੇ ਅਖ਼ਬਾਰਾਂ ਵਿੱਚ ਦੱਸੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "Visit",
+        "pa": "ਮਿਲਣ ਆਓ"
+      },
+      {
+        "tag": "h2",
+        "en": "Power House Road, Bathinda.",
+        "pa": "ਪਾਵਰ ਹਾਊਸ ਰੋਡ, ਬਠਿੰਡਾ।"
+      },
+      {
+        "tag": "p",
+        "en": "Call or WhatsApp to book. In an emergency, come straight to the hospital.",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਲਈ ਕਾਲ ਜਾਂ ਵਟਸਐਪ ਕਰੋ। ਐਮਰਜੈਂਸੀ ਵਿੱਚ ਸਿੱਧਾ ਹਸਪਤਾਲ ਆਓ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Directions",
+        "pa": "ਨਕਸ਼ਾ"
+      },
+      {
+        "tag": "dt",
+        "en": "Address",
+        "pa": "ਪਤਾ"
+      },
+      {
+        "tag": "dt",
+        "en": "Appointments",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ"
+      },
+      {
+        "tag": "dt",
+        "en": "Eye department",
+        "pa": "ਅੱਖਾਂ ਦਾ ਵਿਭਾਗ"
+      }
+    ]
+  },
+  "orthopaedics": {
+    "title": "Orthopaedics · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h1",
+        "en": "Bones, joints <span class=\"em\">and injuries.</span>",
+        "pa": "ਹੱਡੀਆਂ, ਜੋੜ <span class=\"em\">ਅਤੇ ਸੱਟਾਂ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "The department that began as an orthopaedic clinic in 1980 is now led by Dr. Mohit Gupta, fellowship-trained in joint replacement in Germany and Switzerland.",
+        "pa": "1980 ਵਿੱਚ ਹੱਡੀਆਂ ਦੇ ਕਲੀਨਿਕ ਵਜੋਂ ਸ਼ੁਰੂ ਹੋਇਆ ਇਹ ਵਿਭਾਗ ਅੱਜ ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਦੀ ਅਗਵਾਈ ਵਿੱਚ ਜੋੜ ਬਦਲਣ, ਸੱਟਾਂ, ਖੇਡ ਸੱਟਾਂ ਅਤੇ ਕਮਰ ਦਰਦ ਦਾ ਇਲਾਜ ਕਰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book with Dr. Mohit",
+        "pa": "ਡਾ. ਮੋਹਿਤ ਨਾਲ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Bone and joint care in Bathinda since",
+        "pa": "ਤੋਂ ਬਠਿੰਡਾ ਵਿੱਚ ਹੱਡੀਆਂ ਦਾ ਇਲਾਜ"
+      },
+      {
+        "tag": "span",
+        "en": "Robotic-assisted knee replacement",
+        "pa": "ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "b",
+        "en": "2 countries",
+        "pa": "2 ਦੇਸ਼"
+      },
+      {
+        "tag": "span",
+        "en": "Fellowship training, Germany and Switzerland",
+        "pa": "ਜਰਮਨੀ ਅਤੇ ਸਵਿਟਜ਼ਰਲੈਂਡ ਵਿੱਚ ਸਿਖਲਾਈ"
+      },
+      {
+        "tag": "span",
+        "en": "Ayushman Bharat empanelled",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਅਧੀਨ ਸੂਚੀਬੱਧ"
+      },
+      {
+        "tag": "span",
+        "en": "Services",
+        "pa": "ਸੇਵਾਵਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "From knee to spine, <span class=\"em\">under one roof.</span>",
+        "pa": "ਗੋਡੇ ਤੋਂ ਰੀੜ੍ਹ ਤੱਕ, <span class=\"em\">ਇੱਕੋ ਥਾਂ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Tap a card to ask about that treatment on WhatsApp.",
+        "pa": "ਕਿਸੇ ਕਾਰਡ ਤੇ ਟੈਪ ਕਰਕੇ ਉਸ ਇਲਾਜ ਲਈ ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Robotic knee replacement",
+        "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Planned around your own knee with the J&amp;J VELYS™ system.",
+        "pa": "J&J VELYS™ ਸਿਸਟਮ ਨਾਲ ਤੁਹਾਡੇ ਗੋਡੇ ਮੁਤਾਬਕ ਯੋਜਨਾ।"
+      },
+      {
+        "tag": "span",
+        "en": "Learn more",
+        "pa": "ਹੋਰ ਜਾਣੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Total knee replacement",
+        "pa": "ਪੂਰਾ ਗੋਡਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "p",
+        "en": "The whole worn joint surface is replaced when arthritis affects the entire knee.",
+        "pa": "ਜਦੋਂ ਗਠੀਆ ਪੂਰੇ ਗੋਡੇ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰੇ ਤਾਂ ਪੂਰੀ ਸਤ੍ਹਾ ਬਦਲੀ ਜਾਂਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Partial knee replacement",
+        "pa": "ਅੰਸ਼ਕ ਗੋਡਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Only the damaged part is replaced when the rest of the knee is healthy.",
+        "pa": "ਜਦੋਂ ਬਾਕੀ ਗੋਡਾ ਠੀਕ ਹੋਵੇ ਤਾਂ ਸਿਰਫ਼ ਖ਼ਰਾਬ ਹਿੱਸਾ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Hip replacement",
+        "pa": "ਕੁੱਲ੍ਹਾ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "p",
+        "en": "For hip arthritis and some hip fractures, to ease pain and help you walk.",
+        "pa": "ਕੁੱਲ੍ਹੇ ਦੇ ਗਠੀਏ ਅਤੇ ਕੁਝ ਹੱਡੀ ਟੁੱਟਣ ਦੇ ਮਾਮਲਿਆਂ ਵਿੱਚ, ਦਰਦ ਘਟਾਉਣ ਅਤੇ ਤੁਰਨ ਲਈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Fractures &amp; trauma",
+        "pa": "ਹੱਡੀ ਟੁੱਟਣਾ ਅਤੇ ਸੱਟਾਂ"
+      },
+      {
+        "tag": "p",
+        "en": "Accident injuries, with special care for hip fractures in older people.",
+        "pa": "ਹਾਦਸਿਆਂ ਦੀਆਂ ਸੱਟਾਂ, ਬਜ਼ੁਰਗਾਂ ਦੇ ਕੁੱਲ੍ਹੇ ਦੀ ਹੱਡੀ ਟੁੱਟਣ ਤੇ ਖ਼ਾਸ ਧਿਆਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Arthroscopy &amp; sports injuries",
+        "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+      },
+      {
+        "tag": "p",
+        "en": "Keyhole surgery for ligament and meniscus tears, with rehab after.",
+        "pa": "ਲਿਗਾਮੈਂਟ ਅਤੇ ਮੇਨਿਸਕਸ ਲਈ ਛੋਟੇ ਚੀਰੇ ਵਾਲੀ ਸਰਜਰੀ, ਫਿਰ ਰੀਹੈਬ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Back pain clinic",
+        "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+      },
+      {
+        "tag": "p",
+        "en": "Slip disc, sciatica and neck pain, with non-surgical care first.",
+        "pa": "ਸਲਿੱਪ ਡਿਸਕ, ਸਾਇਟਿਕਾ ਅਤੇ ਗਰਦਨ ਦਰਦ, ਪਹਿਲਾਂ ਬਿਨਾਂ ਸਰਜਰੀ ਇਲਾਜ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "h3",
+        "en": "Physiotherapy &amp; rehab",
+        "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਅਤੇ ਰੀਹੈਬ"
+      },
+      {
+        "tag": "p",
+        "en": "Recovery after joint replacement, fractures and sports injuries.",
+        "pa": "ਜੋੜ ਬਦਲਣ, ਹੱਡੀ ਟੁੱਟਣ ਅਤੇ ਖੇਡ ਸੱਟਾਂ ਤੋਂ ਬਾਅਦ ਸਿਹਤਯਾਬੀ।"
+      },
+      {
+        "tag": "span",
+        "en": "Ask on WhatsApp",
+        "pa": "ਵਟਸਐਪ ਤੇ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Inside the knee",
+        "pa": "ਗੋਡੇ ਦੇ ਅੰਦਰ"
+      },
+      {
+        "tag": "h2",
+        "en": "Every part of the knee, and <span class=\"em-g\">what can go wrong.</span>",
+        "pa": "ਗੋਡੇ ਦਾ ਹਰ ਹਿੱਸਾ, ਅਤੇ <span class=\"em-g\">ਕੀ ਖ਼ਰਾਬ ਹੋ ਸਕਦਾ ਹੈ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Tap a part of the knee to see what it does and which problem affects it.",
+        "pa": "ਗੋਡੇ ਦੇ ਕਿਸੇ ਹਿੱਸੇ ਤੇ ਟੈਪ ਕਰੋ।"
+      },
+      {
+        "tag": "text",
+        "en": "Thigh bone",
+        "pa": "ਪੱਟ ਦੀ ਹੱਡੀ"
+      },
+      {
+        "tag": "text",
+        "en": "Shin bone",
+        "pa": "ਪਿੰਨੀ ਦੀ ਹੱਡੀ"
+      },
+      {
+        "tag": "text",
+        "en": "Cartilage",
+        "pa": "ਕਾਰਟੀਲੇਜ"
+      },
+      {
+        "tag": "text",
+        "en": "Meniscus",
+        "pa": "ਮੇਨਿਸਕਸ"
+      },
+      {
+        "tag": "text",
+        "en": "ACL",
+        "pa": "ACL ਲਿਗਾਮੈਂਟ"
+      },
+      {
+        "tag": "text",
+        "en": "Side ligaments",
+        "pa": "ਪਾਸੇ ਦੇ ਲਿਗਾਮੈਂਟ"
+      },
+      {
+        "tag": "span",
+        "en": "Arthritis",
+        "pa": "ਗਠੀਆ"
+      },
+      {
+        "tag": "h2",
+        "en": "A healthy knee next to a worn one.",
+        "pa": "ਸਿਹਤਮੰਦ ਗੋਡਾ ਬਨਾਮ ਘਸਿਆ ਗੋਡਾ।"
+      },
+      {
+        "tag": "p",
+        "en": "Drag the slider. In a worn knee the cartilage thins and the gap between the bones narrows. Illustration only.",
+        "pa": "ਸਲਾਈਡਰ ਖਿੱਚੋ। ਘਸੇ ਗੋਡੇ ਵਿੱਚ ਕਾਰਟੀਲੇਜ ਪਤਲਾ ਹੋ ਜਾਂਦਾ ਹੈ ਅਤੇ ਹੱਡੀਆਂ ਵਿਚਲੀ ਥਾਂ ਘਟ ਜਾਂਦੀ ਹੈ। ਸਿਰਫ਼ ਉਦਾਹਰਣ।"
+      },
+      {
+        "tag": "text",
+        "en": "Thin, worn cartilage",
+        "pa": "ਪਤਲਾ, ਘਸਿਆ ਕਾਰਟੀਲੇਜ"
+      },
+      {
+        "tag": "text",
+        "en": "Bone spurs",
+        "pa": "ਹੱਡੀ ਦੇ ਉਭਾਰ"
+      },
+      {
+        "tag": "text",
+        "en": "Thick, smooth cartilage",
+        "pa": "ਮੋਟਾ, ਚਿਕਨਾ ਕਾਰਟੀਲੇਜ"
+      },
+      {
+        "tag": "text",
+        "en": "A healthy gap",
+        "pa": "ਪੂਰੀ ਥਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Worn knee",
+        "pa": "ਘਸਿਆ ਗੋਡਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Healthy knee",
+        "pa": "ਸਿਹਤਮੰਦ ਗੋਡਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Check yourself",
+        "pa": "ਆਪਣੇ ਆਪ ਨੂੰ ਪੁੱਛੋ"
+      },
+      {
+        "tag": "h2",
+        "en": "What do you <span class=\"em\">feel?</span>",
+        "pa": "ਤੁਸੀਂ ਕੀ <span class=\"em\">ਮਹਿਸੂਸ</span> ਕਰਦੇ ਹੋ?"
+      },
+      {
+        "tag": "p",
+        "en": "Tap the ones that sound like you. This is not a diagnosis, just a place to start.",
+        "pa": "ਜੋ ਲੱਛਣ ਤੁਹਾਡੇ ਨਾਲ ਮਿਲਦੇ ਹਨ ਉਨ੍ਹਾਂ ਤੇ ਟੈਪ ਕਰੋ। ਇਹ ਜਾਂਚ ਨਹੀਂ ਹੈ, ਸਿਰਫ਼ ਇੱਕ ਸ਼ੁਰੂਆਤ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Pain on the stairs",
+        "pa": "ਪੌੜੀਆਂ ਚੜ੍ਹਨ ਸਮੇਂ ਦਰਦ"
+      },
+      {
+        "tag": "span",
+        "en": "Stiff in the morning",
+        "pa": "ਸਵੇਰੇ ਜਕੜਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Swelling",
+        "pa": "ਸੋਜ"
+      },
+      {
+        "tag": "span",
+        "en": "The knee gives way",
+        "pa": "ਗੋਡਾ ਜਵਾਬ ਦੇ ਜਾਂਦਾ ਹੈ"
+      },
+      {
+        "tag": "span",
+        "en": "Pain at night",
+        "pa": "ਰਾਤ ਨੂੰ ਦਰਦ"
+      },
+      {
+        "tag": "span",
+        "en": "Pain after a fall or injury",
+        "pa": "ਡਿੱਗਣ ਜਾਂ ਸੱਟ ਤੋਂ ਬਾਅਦ ਦਰਦ"
+      },
+      {
+        "tag": "span",
+        "en": "Book a check-up",
+        "pa": "ਜਾਂਚ ਲਈ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "After joint replacement",
+        "pa": "ਜੋੜ ਬਦਲਣ ਤੋਂ ਬਾਅਦ"
+      },
+      {
+        "tag": "h2",
+        "en": "The road back to <span class=\"em\">walking.</span>",
+        "pa": "ਮੁੜ <span class=\"em\">ਤੁਰਨ</span> ਦਾ ਰਾਹ।"
+      },
+      {
+        "tag": "p",
+        "en": "Every recovery is different. Dr. Mohit will guide you at each step.",
+        "pa": "ਹਰ ਮਰੀਜ਼ ਦੀ ਸਿਹਤਯਾਬੀ ਵੱਖਰੀ ਹੁੰਦੀ ਹੈ। ਡਾ. ਮੋਹਿਤ ਤੁਹਾਨੂੰ ਹਰ ਕਦਮ ਤੇ ਦੱਸਣਗੇ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Getting ready",
+        "pa": "ਤਿਆਰੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Strengthening exercises before surgery, where suitable.",
+        "pa": "ਜਿੱਥੇ ਢੁਕਵਾਂ ਹੋਵੇ, ਸਰਜਰੀ ਤੋਂ ਪਹਿਲਾਂ ਮਾਸਪੇਸ਼ੀਆਂ ਮਜ਼ਬੂਤ ਕਰਨ ਦੀ ਕਸਰਤ।"
+      },
+      {
+        "tag": "h3",
+        "en": "In hospital",
+        "pa": "ਹਸਪਤਾਲ ਵਿੱਚ"
+      },
+      {
+        "tag": "p",
+        "en": "Physiotherapy begins in hospital after the operation.",
+        "pa": "ਸਰਜਰੀ ਤੋਂ ਬਾਅਦ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਹਸਪਤਾਲ ਵਿੱਚ ਹੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "At home",
+        "pa": "ਘਰ ਵਿੱਚ"
+      },
+      {
+        "tag": "p",
+        "en": "Exercises at home and regular follow-up visits.",
+        "pa": "ਘਰ ਵਿੱਚ ਕਸਰਤ ਅਤੇ ਨਿਯਮਤ ਫਾਲੋ-ਅੱਪ ਮੁਲਾਕਾਤਾਂ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Back to routine",
+        "pa": "ਆਮ ਜ਼ਿੰਦਗੀ ਵੱਲ"
+      },
+      {
+        "tag": "p",
+        "en": "A return to daily activities, guided by Dr. Mohit.",
+        "pa": "ਡਾ. ਮੋਹਿਤ ਦੀ ਸਲਾਹ ਨਾਲ ਰੋਜ਼ਾਨਾ ਕੰਮਾਂ ਵੱਲ ਵਾਪਸੀ।"
+      },
+      {
+        "tag": "span",
+        "en": "By body area",
+        "pa": "ਸਰੀਰ ਦੇ ਹਿੱਸੇ ਮੁਤਾਬਕ"
+      },
+      {
+        "tag": "h2",
+        "en": "What we treat",
+        "pa": "ਅਸੀਂ ਕੀ ਇਲਾਜ ਕਰਦੇ ਹਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Knee",
+        "pa": "ਗੋਡਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Hip",
+        "pa": "ਕੁੱਲ੍ਹਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Back &amp; spine",
+        "pa": "ਕਮਰ ਅਤੇ ਰੀੜ੍ਹ"
+      },
+      {
+        "tag": "span",
+        "en": "Shoulder",
+        "pa": "ਮੋਢਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Elbow, wrist &amp; hand",
+        "pa": "ਕੂਹਣੀ, ਗੁੱਟ ਅਤੇ ਹੱਥ"
+      },
+      {
+        "tag": "span",
+        "en": "Ankle &amp; foot",
+        "pa": "ਗਿੱਟਾ ਅਤੇ ਪੈਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Arthroscopy &amp; sports injuries",
+        "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "Keyhole surgery, <span class=\"em\">when it is needed.</span>",
+        "pa": "ਕੀ-ਹੋਲ ਸਰਜਰੀ, <span class=\"em\">ਜਦੋਂ ਲੋੜ ਹੋਵੇ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Many injuries heal with rest and physiotherapy. When they do not, arthroscopy repairs the joint through a few small cuts. Pick a joint to see what is treated.",
+        "pa": "ਕਈ ਸੱਟਾਂ ਆਰਾਮ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਾਲ ਠੀਕ ਹੋ ਜਾਂਦੀਆਂ ਹਨ। ਜਦੋਂ ਨਹੀਂ ਹੁੰਦੀਆਂ, ਤਾਂ ਆਰਥਰੋਸਕੋਪੀ ਕੁਝ ਛੋਟੇ ਚੀਰਿਆਂ ਰਾਹੀਂ ਜੋੜ ਠੀਕ ਕਰਦੀ ਹੈ। ਜੋੜ ਚੁਣੋ।"
+      },
+      {
+        "tag": "button",
+        "en": "Shoulder",
+        "pa": "ਮੋਢਾ"
+      },
+      {
+        "tag": "button",
+        "en": "Knee",
+        "pa": "ਗੋਡਾ"
+      },
+      {
+        "tag": "button",
+        "en": "Elbow",
+        "pa": "ਕੂਹਣੀ"
+      },
+      {
+        "tag": "button",
+        "en": "Back &amp; neck",
+        "pa": "ਕਮਰ ਅਤੇ ਗਰਦਨ"
+      },
+      {
+        "tag": "h3",
+        "en": "What we see",
+        "pa": "ਅਸੀਂ ਕੀ ਦੇਖਦੇ ਹਾਂ"
+      },
+      {
+        "tag": "h3",
+        "en": "How it can be treated",
+        "pa": "ਇਲਾਜ ਕਿਵੇਂ ਹੋ ਸਕਦਾ ਹੈ"
+      },
+      {
+        "tag": "small",
+        "en": "Back to the game: sports rehab session",
+        "pa": "ਖੇਡ ਵੱਲ ਵਾਪਸੀ: ਸੱਟ ਤੋਂ ਬਾਅਦ ਕਸਰਤ"
+      },
+      {
+        "tag": "h3",
+        "en": "What we see",
+        "pa": "ਅਸੀਂ ਕੀ ਦੇਖਦੇ ਹਾਂ"
+      },
+      {
+        "tag": "h3",
+        "en": "How it can be treated",
+        "pa": "ਇਲਾਜ ਕਿਵੇਂ ਹੋ ਸਕਦਾ ਹੈ"
+      },
+      {
+        "tag": "small",
+        "en": "Back to the game: sports rehab session",
+        "pa": "ਖੇਡ ਵੱਲ ਵਾਪਸੀ: ਸੱਟ ਤੋਂ ਬਾਅਦ ਕਸਰਤ"
+      },
+      {
+        "tag": "h3",
+        "en": "What we see",
+        "pa": "ਅਸੀਂ ਕੀ ਦੇਖਦੇ ਹਾਂ"
+      },
+      {
+        "tag": "h3",
+        "en": "How it can be treated",
+        "pa": "ਇਲਾਜ ਕਿਵੇਂ ਹੋ ਸਕਦਾ ਹੈ"
+      },
+      {
+        "tag": "small",
+        "en": "Back to the game: sports rehab session",
+        "pa": "ਖੇਡ ਵੱਲ ਵਾਪਸੀ: ਸੱਟ ਤੋਂ ਬਾਅਦ ਕਸਰਤ"
+      },
+      {
+        "tag": "h3",
+        "en": "What we see",
+        "pa": "ਅਸੀਂ ਕੀ ਦੇਖਦੇ ਹਾਂ"
+      },
+      {
+        "tag": "h3",
+        "en": "How it can be treated",
+        "pa": "ਇਲਾਜ ਕਿਵੇਂ ਹੋ ਸਕਦਾ ਹੈ"
+      },
+      {
+        "tag": "small",
+        "en": "Back to the game: sports rehab session",
+        "pa": "ਖੇਡ ਵੱਲ ਵਾਪਸੀ: ਸੱਟ ਤੋਂ ਬਾਅਦ ਕਸਰਤ"
+      },
+      {
+        "tag": "h3",
+        "en": "Physiotherapy methods used",
+        "pa": "ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਵਿਧੀਆਂ"
+      },
+      {
+        "tag": "p",
+        "en": "Rehab is planned for each person, with the aim of getting you back to the highest level you can reach.",
+        "pa": "ਹਰ ਵਿਅਕਤੀ ਲਈ ਵੱਖਰੀ ਯੋਜਨਾ, ਤਾਂ ਜੋ ਤੁਸੀਂ ਆਪਣੀ ਪੂਰੀ ਸਮਰੱਥਾ ਤੱਕ ਵਾਪਸ ਆ ਸਕੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Myths &amp; facts",
+        "pa": "ਭਰਮ ਅਤੇ ਤੱਥ"
+      },
+      {
+        "tag": "h2",
+        "en": "What people <span class=\"em\">often believe.</span>",
+        "pa": "ਲੋਕ <span class=\"em\">ਅਕਸਰ ਕੀ ਮੰਨਦੇ ਹਨ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "These come up often in Dr. Mohit’s clinic. Ask him about any others.",
+        "pa": "ਇਹ ਗੱਲਾਂ ਡਾ. ਮੋਹਿਤ ਦੇ ਕਲੀਨਿਕ ਵਿੱਚ ਅਕਸਰ ਆਉਂਦੀਆਂ ਹਨ। ਹੋਰ ਕੋਈ ਸਵਾਲ ਉਨ੍ਹਾਂ ਨੂੰ ਪੁੱਛੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "“X-rays alone decide if I need surgery.”",
+        "pa": "“ਸਿਰਫ਼ ਐਕਸ-ਰੇ ਤੋਂ ਪਤਾ ਲੱਗਦਾ ਹੈ ਕਿ ਸਰਜਰੀ ਚਾਹੀਦੀ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> The decision depends on your pain, how much it limits daily life, and how you respond to other treatment, not just on the X-ray.",
+        "pa": "<b>ਤੱਥ:</b> ਫ਼ੈਸਲਾ ਤੁਹਾਡੇ ਦਰਦ, ਰੋਜ਼ਾਨਾ ਜ਼ਿੰਦਗੀ ਤੇ ਅਸਰ ਅਤੇ ਹੋਰ ਇਲਾਜ ਦੇ ਨਤੀਜੇ ਤੇ ਨਿਰਭਰ ਹੈ, ਸਿਰਫ਼ ਐਕਸ-ਰੇ ਤੇ ਨਹੀਂ।"
+      },
+      {
+        "tag": "span",
+        "en": "“Joint replacement is only for very old people.”",
+        "pa": "“ਜੋੜ ਬਦਲਣਾ ਸਿਰਫ਼ ਬਹੁਤ ਬਜ਼ੁਰਗਾਂ ਲਈ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> Age matters less than the damage to the joint and your overall health. Some younger people with severe arthritis also benefit.",
+        "pa": "<b>ਤੱਥ:</b> ਉਮਰ ਨਾਲੋਂ ਜੋੜ ਦਾ ਨੁਕਸਾਨ ਅਤੇ ਤੁਹਾਡੀ ਸਿਹਤ ਜ਼ਿਆਦਾ ਮਾਇਨੇ ਰੱਖਦੇ ਹਨ। ਗੰਭੀਰ ਗਠੀਏ ਵਾਲੇ ਕੁਝ ਨੌਜਵਾਨਾਂ ਨੂੰ ਵੀ ਫ਼ਾਇਦਾ ਹੁੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "“After a fracture, rest is all you need.”",
+        "pa": "“ਹੱਡੀ ਟੁੱਟਣ ਤੋਂ ਬਾਅਦ ਸਿਰਫ਼ ਆਰਾਮ ਕਾਫ਼ੀ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> Some fractures need to be set or fixed to heal straight. Long bed rest in older people can also cause stiffness and other problems, so get it checked early.",
+        "pa": "<b>ਤੱਥ:</b> ਕੁਝ ਹੱਡੀਆਂ ਨੂੰ ਸਿੱਧਾ ਜੁੜਨ ਲਈ ਬਿਠਾਉਣਾ ਜਾਂ ਜੋੜਨਾ ਪੈਂਦਾ ਹੈ। ਬਜ਼ੁਰਗਾਂ ਵਿੱਚ ਲੰਬਾ ਆਰਾਮ ਜਕੜਨ ਅਤੇ ਹੋਰ ਤਕਲੀਫ਼ਾਂ ਵੀ ਕਰ ਸਕਦਾ ਹੈ, ਇਸ ਲਈ ਜਲਦੀ ਜਾਂਚ ਕਰਵਾਓ।"
+      },
+      {
+        "tag": "span",
+        "en": "“Back pain always means a slip disc.”",
+        "pa": "“ਕਮਰ ਦਰਦ ਦਾ ਮਤਲਬ ਹਮੇਸ਼ਾ ਸਲਿੱਪ ਡਿਸਕ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> Most back pain comes from muscles, joints or posture and improves with exercise and time. A doctor can tell when a scan is actually needed.",
+        "pa": "<b>ਤੱਥ:</b> ਜ਼ਿਆਦਾਤਰ ਕਮਰ ਦਰਦ ਮਾਸਪੇਸ਼ੀਆਂ, ਜੋੜਾਂ ਜਾਂ ਬੈਠਣ ਦੇ ਢੰਗ ਕਾਰਨ ਹੁੰਦਾ ਹੈ ਅਤੇ ਕਸਰਤ ਨਾਲ ਠੀਕ ਹੁੰਦਾ ਹੈ। ਡਾਕਟਰ ਦੱਸ ਸਕਦੇ ਹਨ ਕਿ ਸਕੈਨ ਕਦੋਂ ਚਾਹੀਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "“Oil massage will fix a torn ligament.”",
+        "pa": "“ਤੇਲ ਦੀ ਮਾਲਿਸ਼ ਨਾਲ ਫਟਿਆ ਲਿਗਾਮੈਂਟ ਠੀਕ ਹੋ ਜਾਵੇਗਾ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> Massage can ease sore muscles but cannot join a torn ligament. A knee that keeps giving way should be examined.",
+        "pa": "<b>ਤੱਥ:</b> ਮਾਲਿਸ਼ ਨਾਲ ਮਾਸਪੇਸ਼ੀਆਂ ਨੂੰ ਆਰਾਮ ਮਿਲ ਸਕਦਾ ਹੈ ਪਰ ਫਟਿਆ ਲਿਗਾਮੈਂਟ ਨਹੀਂ ਜੁੜਦਾ। ਜੇ ਗੋਡਾ ਵਾਰ-ਵਾਰ ਨਿਕਲਦਾ ਹੈ ਤਾਂ ਜਾਂਚ ਕਰਵਾਓ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      }
+    ]
+  },
+  "robotic-knee": {
+    "title": "Robotic knee replacement · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "a",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "span",
+        "en": "Robotic knee",
+        "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+      },
+      {
+        "tag": "h1",
+        "en": "Robotic-assisted knee replacement.",
+        "pa": "ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡਾ ਬਦਲਣਾ।"
+      },
+      {
+        "tag": "p",
+        "en": "Gupta Hospital uses the Johnson &amp; Johnson VELYS™ robotic-assisted solution. It helps the surgeon plan the operation around your own knee and carry out that plan accurately.",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਜੌਨਸਨ ਐਂਡ ਜੌਨਸਨ ਦਾ VELYS™ ਸਿਸਟਮ ਹੈ। ਇਹ ਸਰਜਨ ਨੂੰ ਤੁਹਾਡੇ ਗੋਡੇ ਮੁਤਾਬਕ ਯੋਜਨਾ ਬਣਾਉਣ ਅਤੇ ਉਸ ਨੂੰ ਸਹੀ ਢੰਗ ਨਾਲ ਲਾਗੂ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "The process",
+        "pa": "ਪ੍ਰਕਿਰਿਆ"
+      },
+      {
+        "tag": "h2",
+        "en": "Five steps, start to finish",
+        "pa": "ਪੰਜ ਕਦਮ"
+      },
+      {
+        "tag": "h3",
+        "en": "Assessment",
+        "pa": "ਜਾਂਚ ਅਤੇ ਗੱਲਬਾਤ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Mohit examines your knee, reads your X-rays and tells you plainly whether you need surgery, or whether medicines and physiotherapy should come first.",
+        "pa": "ਡਾ. ਮੋਹਿਤ ਗੋਡੇ ਦੀ ਜਾਂਚ ਕਰਦੇ ਹਨ, ਐਕਸ-ਰੇ ਦੇਖਦੇ ਹਨ ਅਤੇ ਦੱਸਦੇ ਹਨ ਕਿ ਸਰਜਰੀ ਦੀ ਲੋੜ ਹੈ ਜਾਂ ਨਹੀਂ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Mapping your knee",
+        "pa": "ਗੋਡੇ ਦਾ ਨਕਸ਼ਾ"
+      },
+      {
+        "tag": "p",
+        "en": "During surgery the system records the shape and alignment of your bones, without a separate CT scan beforehand.",
+        "pa": "ਸਰਜਰੀ ਦੌਰਾਨ ਸਿਸਟਮ ਤੁਹਾਡੀਆਂ ਹੱਡੀਆਂ ਦੀ ਸ਼ਕਲ ਦਰਜ ਕਰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Balancing the ligaments",
+        "pa": "ਲਿਗਾਮੈਂਟਾਂ ਦਾ ਸੰਤੁਲਨ"
+      },
+      {
+        "tag": "p",
+        "en": "A camera tracks the knee as it bends and straightens, so the soft tissues can be balanced before any bone is cut.",
+        "pa": "ਕੈਮਰਾ ਗੋਡੇ ਨੂੰ ਮੋੜਨ ਅਤੇ ਸਿੱਧਾ ਕਰਨ ਸਮੇਂ ਟਰੈਕ ਕਰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Preparing to plan",
+        "pa": "ਯੋਜਨਾ ਮੁਤਾਬਕ ਤਿਆਰੀ"
+      },
+      {
+        "tag": "p",
+        "en": "A robotic handpiece holds the saw to the planned angle while the surgeon guides it. Only the worn surface is removed.",
+        "pa": "ਰੋਬੋਟਿਕ ਹੈਂਡਪੀਸ ਆਰੀ ਨੂੰ ਯੋਜਨਾ ਵਾਲੇ ਕੋਣ ਤੇ ਰੱਖਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Recovery",
+        "pa": "ਸਿਹਤਯਾਬੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Physiotherapy starts in hospital and continues at home, with follow-up visits at the clinic.",
+        "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਹਸਪਤਾਲ ਵਿੱਚ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਫਿਰ ਘਰ ਵਿੱਚ ਕਸਰਤ ਅਤੇ ਫਾਲੋ-ਅੱਪ।"
+      },
+      {
+        "tag": "span",
+        "en": "Balancing the knee",
+        "pa": "ਗੋਡੇ ਦਾ ਸੰਤੁਲਨ"
+      },
+      {
+        "tag": "h2",
+        "en": "Bend the knee and watch the <span class=\"em\">balance.</span>",
+        "pa": "ਗੋਡੇ ਨੂੰ ਮੋੜੋ ਅਤੇ <span class=\"em\">ਸੰਤੁਲਨ</span> ਦੇਖੋ।"
+      },
+      {
+        "tag": "p",
+        "en": "A camera follows markers on the bones and measures the space on each side of the knee as it bends. Illustration only.",
+        "pa": "ਕੈਮਰਾ ਹੱਡੀਆਂ ਤੇ ਲੱਗੇ ਨਿਸ਼ਾਨਾਂ ਨੂੰ ਦੇਖਦਾ ਹੈ ਅਤੇ ਹਰ ਕੋਣ ਤੇ ਦੋਹਾਂ ਪਾਸਿਆਂ ਦੀ ਥਾਂ ਮਾਪਦਾ ਹੈ। ਸਿਰਫ਼ ਉਦਾਹਰਣ।"
+      },
+      {
+        "tag": "text",
+        "en": "Camera",
+        "pa": "ਕੈਮਰਾ"
+      },
+      {
+        "tag": "button",
+        "en": "Before balancing",
+        "pa": "ਸੰਤੁਲਨ ਤੋਂ ਪਹਿਲਾਂ"
+      },
+      {
+        "tag": "button",
+        "en": "After balancing",
+        "pa": "ਸੰਤੁਲਨ ਤੋਂ ਬਾਅਦ"
+      },
+      {
+        "tag": "b",
+        "en": "Inner side",
+        "pa": "ਅੰਦਰਲਾ ਪਾਸਾ"
+      },
+      {
+        "tag": "b",
+        "en": "Outer side",
+        "pa": "ਬਾਹਰਲਾ ਪਾਸਾ"
+      },
+      {
+        "tag": "label",
+        "en": "Bend the knee",
+        "pa": "ਗੋਡਾ ਮੋੜੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Myths &amp; facts",
+        "pa": "ਭਰਮ ਅਤੇ ਤੱਥ"
+      },
+      {
+        "tag": "h2",
+        "en": "Common worries, answered",
+        "pa": "ਆਮ ਗਲਤਫ਼ਹਿਮੀਆਂ"
+      },
+      {
+        "tag": "span",
+        "en": "“Do I need a CT scan before robotic surgery?”",
+        "pa": "“ਕੀ ਰੋਬੋਟਿਕ ਸਰਜਰੀ ਤੋਂ ਪਹਿਲਾਂ CT ਸਕੈਨ ਚਾਹੀਦਾ ਹੈ?”"
+      },
+      {
+        "tag": "div",
+        "en": "No separate CT scan is needed for the VELYS™ system. Your knee is mapped during the operation. You will still need the usual X-rays and blood tests.",
+        "pa": "VELYS™ ਸਿਸਟਮ ਲਈ ਵੱਖਰਾ CT ਸਕੈਨ ਨਹੀਂ ਚਾਹੀਦਾ। ਗੋਡੇ ਦਾ ਨਕਸ਼ਾ ਓਪਰੇਸ਼ਨ ਦੌਰਾਨ ਬਣਦਾ ਹੈ। ਆਮ ਐਕਸ-ਰੇ ਅਤੇ ਖ਼ੂਨ ਦੀਆਂ ਜਾਂਚਾਂ ਫਿਰ ਵੀ ਹੋਣਗੀਆਂ।"
+      },
+      {
+        "tag": "span",
+        "en": "“Is robotic surgery right for everyone?”",
+        "pa": "“ਕੀ ਰੋਬੋਟਿਕ ਸਰਜਰੀ ਹਰ ਕਿਸੇ ਲਈ ਠੀਕ ਹੈ?”"
+      },
+      {
+        "tag": "div",
+        "en": "Not always. Dr. Mohit will look at your knee, your X-rays and your general health, and tell you whether robotic-assisted, conventional or partial replacement suits you best.",
+        "pa": "ਹਮੇਸ਼ਾ ਨਹੀਂ। ਡਾ. ਮੋਹਿਤ ਤੁਹਾਡਾ ਗੋਡਾ, ਐਕਸ-ਰੇ ਅਤੇ ਸਿਹਤ ਦੇਖ ਕੇ ਦੱਸਣਗੇ ਕਿ ਰੋਬੋਟ-ਸਹਾਇਤਾ, ਆਮ ਜਾਂ ਅੰਸ਼ਕ ਬਦਲਾਅ ਵਿੱਚੋਂ ਕੀ ਠੀਕ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "“Will I have less pain afterwards?”",
+        "pa": "“ਕੀ ਬਾਅਦ ਵਿੱਚ ਦਰਦ ਘੱਟ ਹੋਵੇਗਾ?”"
+      },
+      {
+        "tag": "div",
+        "en": "Any knee replacement involves some pain while you heal, which is managed with medicines and physiotherapy. Careful soft-tissue handling may help early movement, but recovery differs from person to person.",
+        "pa": "ਕਿਸੇ ਵੀ ਗੋਡਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਠੀਕ ਹੋਣ ਦੌਰਾਨ ਕੁਝ ਦਰਦ ਹੁੰਦਾ ਹੈ, ਜਿਸ ਨੂੰ ਦਵਾਈਆਂ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਾਲ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ। ਹਰ ਵਿਅਕਤੀ ਦੀ ਰਿਕਵਰੀ ਵੱਖਰੀ ਹੁੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "What is used",
+        "pa": "ਕੀ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ"
+      },
+      {
+        "tag": "h2",
+        "en": "Two parts: <span class=\"em\">the system and the implant.</span>",
+        "pa": "ਦੋ ਹਿੱਸੇ: <span class=\"em\">ਸਿਸਟਮ ਅਤੇ ਇੰਪਲਾਂਟ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "The robotic system helps place the implant. The implant is the new joint surface that stays in your knee.",
+        "pa": "ਰੋਬੋਟਿਕ ਸਿਸਟਮ ਇੰਪਲਾਂਟ ਨੂੰ ਸਹੀ ਥਾਂ ਲਗਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। ਇੰਪਲਾਂਟ ਨਵੀਂ ਜੋੜ ਸਤ੍ਹਾ ਹੈ ਜੋ ਤੁਹਾਡੇ ਗੋਡੇ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "A camera and a small robotic handpiece that work with the surgeon during the operation.",
+        "pa": "ਇੱਕ ਕੈਮਰਾ ਅਤੇ ਛੋਟਾ ਰੋਬੋਟਿਕ ਹੈਂਡਪੀਸ ਜੋ ਓਪਰੇਸ਼ਨ ਦੌਰਾਨ ਸਰਜਨ ਨਾਲ ਕੰਮ ਕਰਦੇ ਹਨ।"
+      },
+      {
+        "tag": "li",
+        "en": "Maps your knee during surgery, without a separate CT scan",
+        "pa": "ਸਰਜਰੀ ਦੌਰਾਨ ਗੋਡੇ ਦਾ ਨਕਸ਼ਾ, ਵੱਖਰੇ CT ਸਕੈਨ ਤੋਂ ਬਿਨਾਂ"
+      },
+      {
+        "tag": "li",
+        "en": "Shows ligament balance as the knee bends",
+        "pa": "ਗੋਡਾ ਮੁੜਨ ਤੇ ਲਿਗਾਮੈਂਟਾਂ ਦਾ ਸੰਤੁਲਨ ਦਿਖਾਉਂਦਾ ਹੈ"
+      },
+      {
+        "tag": "li",
+        "en": "Holds the saw to the planned angle; the surgeon stays in control",
+        "pa": "ਆਰੀ ਨੂੰ ਯੋਜਨਾ ਮੁਤਾਬਕ ਕੋਣ ਤੇ ਰੱਖਦਾ ਹੈ; ਕੰਟਰੋਲ ਸਰਜਨ ਕੋਲ"
+      },
+      {
+        "tag": "p",
+        "en": "The implant used with the robotic system at Gupta Hospital. It replaces the worn surfaces of the thigh bone and shin bone.",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਰੋਬੋਟਿਕ ਸਿਸਟਮ ਨਾਲ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਇੰਪਲਾਂਟ। ਇਹ ਪੱਟ ਅਤੇ ਪਿੰਨੀ ਦੀ ਹੱਡੀ ਦੀਆਂ ਘਸੀਆਂ ਸਤ੍ਹਾਵਾਂ ਦੀ ਥਾਂ ਲੈਂਦਾ ਹੈ।"
+      },
+      {
+        "tag": "li",
+        "en": "Metal parts cover the ends of the bones",
+        "pa": "ਧਾਤ ਦੇ ਹਿੱਸੇ ਹੱਡੀਆਂ ਦੇ ਸਿਰੇ ਢੱਕਦੇ ਹਨ"
+      },
+      {
+        "tag": "li",
+        "en": "A smooth plastic insert sits between them",
+        "pa": "ਵਿਚਕਾਰ ਇੱਕ ਮੁਲਾਇਮ ਪਲਾਸਟਿਕ ਪਰਤ"
+      },
+      {
+        "tag": "li",
+        "en": "Sizes are chosen to fit your knee",
+        "pa": "ਆਕਾਰ ਤੁਹਾਡੇ ਗੋਡੇ ਮੁਤਾਬਕ ਚੁਣੇ ਜਾਂਦੇ ਹਨ"
+      },
+      {
+        "tag": "h3",
+        "en": "<i>✓</i>It may suit you if",
+        "pa": "<i>✓</i>ਇਹ ਤੁਹਾਡੇ ਲਈ ਹੋ ਸਕਦਾ ਹੈ ਜੇ"
+      },
+      {
+        "tag": "li",
+        "en": "Knee arthritis limits walking, stairs or sleep",
+        "pa": "ਗੋਡੇ ਦਾ ਗਠੀਆ ਤੁਰਨ, ਪੌੜੀਆਂ ਜਾਂ ਨੀਂਦ ਵਿੱਚ ਰੁਕਾਵਟ ਹੈ"
+      },
+      {
+        "tag": "li",
+        "en": "Medicines, exercise and injections no longer help",
+        "pa": "ਦਵਾਈਆਂ, ਕਸਰਤ ਅਤੇ ਟੀਕੇ ਹੁਣ ਮਦਦ ਨਹੀਂ ਕਰਦੇ"
+      },
+      {
+        "tag": "li",
+        "en": "Your X-ray shows advanced joint damage",
+        "pa": "ਐਕਸ-ਰੇ ਵਿੱਚ ਜੋੜ ਦਾ ਵੱਧ ਨੁਕਸਾਨ ਦਿਸਦਾ ਹੈ"
+      },
+      {
+        "tag": "h3",
+        "en": "<i>!</i>It may not suit you if",
+        "pa": "<i>!</i>ਇਹ ਤੁਹਾਡੇ ਲਈ ਨਹੀਂ ਹੋ ਸਕਦਾ ਜੇ"
+      },
+      {
+        "tag": "li",
+        "en": "There is an active infection in the body",
+        "pa": "ਸਰੀਰ ਵਿੱਚ ਕੋਈ ਲਾਗ ਚੱਲ ਰਹੀ ਹੈ"
+      },
+      {
+        "tag": "li",
+        "en": "Other health problems make surgery unsafe for now",
+        "pa": "ਹੋਰ ਸਿਹਤ ਸਮੱਸਿਆਵਾਂ ਕਾਰਨ ਹੁਣ ਸਰਜਰੀ ਸੁਰੱਖਿਅਤ ਨਹੀਂ"
+      },
+      {
+        "tag": "li",
+        "en": "The pain comes from the hip or back, not the knee",
+        "pa": "ਦਰਦ ਗੋਡੇ ਦੀ ਥਾਂ ਕੁੱਲ੍ਹੇ ਜਾਂ ਕਮਰ ਤੋਂ ਹੈ"
+      },
+      {
+        "tag": "p",
+        "en": "Only an examination by the surgeon can decide. This list is a guide, not a diagnosis.",
+        "pa": "ਫ਼ੈਸਲਾ ਸਿਰਫ਼ ਸਰਜਨ ਦੀ ਜਾਂਚ ਤੋਂ ਹੋ ਸਕਦਾ ਹੈ। ਇਹ ਸੂਚੀ ਸਿਰਫ਼ ਮਾਰਗਦਰਸ਼ਨ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      }
+    ]
+  },
+  "eye-care": {
+    "title": "Eye care · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Eye care",
+        "pa": "ਅੱਖਾਂ"
+      },
+      {
+        "tag": "h1",
+        "en": "Complete eye care.",
+        "pa": "ਅੱਖਾਂ ਦਾ ਪੂਰਾ ਇਲਾਜ।"
+      },
+      {
+        "tag": "p",
+        "en": "Led by Dr. Parul Gupta, who is specially trained in phacoemulsification cataract surgery. The department handles cataract screening, refraction, glaucoma, children's eye problems, cornea and retina, with its own modular operation theatre.",
+        "pa": "ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ ਫੇਕੋਇਮਲਸੀਫਿਕੇਸ਼ਨ ਮੋਤੀਆ ਸਰਜਰੀ ਵਿੱਚ ਵਿਸ਼ੇਸ਼ ਸਿਖਲਾਈ ਪ੍ਰਾਪਤ ਹਨ। ਵਿਭਾਗ ਮੋਤੀਏ ਦੀ ਜਾਂਚ ਤੋਂ ਲੈ ਕੇ ਗਲੂਕੋਮਾ, ਬੱਚਿਆਂ ਦੀਆਂ ਅੱਖਾਂ, ਕੋਰਨੀਆ ਅਤੇ ਰੈਟੀਨਾ ਤੱਕ ਸਭ ਕੁਝ ਦੇਖਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Eye department:",
+        "pa": "ਅੱਖਾਂ ਦੇ ਵਿਭਾਗ ਲਈ ਫ਼ੋਨ:"
+      },
+      {
+        "tag": "span",
+        "en": "Services",
+        "pa": "ਸੇਵਾਵਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "How the eye works",
+        "pa": "ਅੱਖ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ"
+      },
+      {
+        "tag": "h2",
+        "en": "Follow the <span class=\"em-g\">light</span>, and see where things go wrong.",
+        "pa": "ਰੋਸ਼ਨੀ ਦਾ <span class=\"em-g\">ਸਫ਼ਰ</span>, ਅਤੇ ਕਿੱਥੇ ਗੜਬੜ ਹੋ ਸਕਦੀ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "Tap a part of the eye to see what it does and which condition affects it.",
+        "pa": "ਅੱਖ ਦੇ ਕਿਸੇ ਹਿੱਸੇ ਤੇ ਟੈਪ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Vision",
+        "pa": "ਨਜ਼ਰ"
+      },
+      {
+        "tag": "h2",
+        "en": "How cataract can change what you see.",
+        "pa": "ਮੋਤੀਏ ਨਾਲ ਦੁਨੀਆ ਕਿਵੇਂ ਦਿਸਦੀ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "Drag the slider. This is an illustration only; everyone's vision changes differently.",
+        "pa": "ਸਲਾਈਡਰ ਨੂੰ ਖਿੱਚੋ। ਸਿਰਫ਼ ਉਦਾਹਰਣ ਲਈ, ਹਰ ਕਿਸੇ ਦਾ ਅਨੁਭਵ ਵੱਖਰਾ ਹੁੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "With cataract",
+        "pa": "ਮੋਤੀਏ ਨਾਲ"
+      },
+      {
+        "tag": "span",
+        "en": "Clear lens",
+        "pa": "ਸਾਫ਼ ਨਜ਼ਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Cataract",
+        "pa": "ਮੋਤੀਆ"
+      },
+      {
+        "tag": "h2",
+        "en": "Signs it may be cataract",
+        "pa": "ਮੋਤੀਏ ਦੇ ਲੱਛਣ"
+      },
+      {
+        "tag": "p",
+        "en": "Cataract develops slowly. If you notice any of these, book an eye check-up.",
+        "pa": "ਮੋਤੀਆ ਹੌਲੀ-ਹੌਲੀ ਵਧਦਾ ਹੈ। ਜੇ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੋਈ ਲੱਛਣ ਹੈ ਤਾਂ ਜਾਂਚ ਕਰਵਾਓ।"
+      },
+      {
+        "tag": "li",
+        "en": "Cloudy, dim or yellowed vision",
+        "pa": "ਧੁੰਦਲੀ ਜਾਂ ਪੀਲੀ ਨਜ਼ਰ"
+      },
+      {
+        "tag": "li",
+        "en": "Glare from headlights or lamps at night",
+        "pa": "ਰਾਤ ਨੂੰ ਗੱਡੀਆਂ ਦੀਆਂ ਲਾਈਟਾਂ ਚੁਭਣਾ"
+      },
+      {
+        "tag": "li",
+        "en": "Glasses that need changing often",
+        "pa": "ਐਨਕਾਂ ਦਾ ਨੰਬਰ ਵਾਰ-ਵਾਰ ਬਦਲਣਾ"
+      },
+      {
+        "tag": "li",
+        "en": "Colours that look faded",
+        "pa": "ਰੰਗ ਫਿੱਕੇ ਲੱਗਣਾ"
+      },
+      {
+        "tag": "li",
+        "en": "Needing more light to read",
+        "pa": "ਪੜ੍ਹਨ ਲਈ ਵੱਧ ਰੋਸ਼ਨੀ ਦੀ ਲੋੜ"
+      },
+      {
+        "tag": "span",
+        "en": "Cataract surgery day",
+        "pa": "ਮੋਤੀਆ ਸਰਜਰੀ ਦਾ ਦਿਨ"
+      },
+      {
+        "tag": "h2",
+        "en": "In by morning, <span class=\"em\">home the same day.</span>",
+        "pa": "ਸਵੇਰੇ ਆਓ, <span class=\"em\">ਉਸੇ ਦਿਨ ਘਰ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Cataract surgery is done as day care. Here is roughly how the day goes; your own timings may differ.",
+        "pa": "ਮੋਤੀਆ ਸਰਜਰੀ ਡੇ-ਕੇਅਰ ਵਜੋਂ ਹੁੰਦੀ ਹੈ। ਦਿਨ ਲਗਭਗ ਇਸ ਤਰ੍ਹਾਂ ਲੰਘਦਾ ਹੈ; ਤੁਹਾਡਾ ਸਮਾਂ ਵੱਖਰਾ ਹੋ ਸਕਦਾ ਹੈ।"
+      },
+      {
+        "tag": "small",
+        "en": "Arrive",
+        "pa": "ਪਹੁੰਚੋ"
+      },
+      {
+        "tag": "h3",
+        "en": "Check-in and drops",
+        "pa": "ਦਾਖ਼ਲਾ ਅਤੇ ਤੁਪਕੇ"
+      },
+      {
+        "tag": "p",
+        "en": "Your eye is checked again and drops widen the pupil. Eat a light meal before you come unless told otherwise.",
+        "pa": "ਅੱਖ ਦੁਬਾਰਾ ਦੇਖੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਤੁਪਕੇ ਪੁਤਲੀ ਨੂੰ ਖੋਲ੍ਹਦੇ ਹਨ। ਜਦੋਂ ਤੱਕ ਮਨ੍ਹਾ ਨਾ ਕੀਤਾ ਜਾਵੇ, ਹਲਕਾ ਖਾਣਾ ਖਾ ਕੇ ਆਓ।"
+      },
+      {
+        "tag": "small",
+        "en": "Numbing",
+        "pa": "ਸੁੰਨ ਕਰਨਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "The eye is numbed",
+        "pa": "ਅੱਖ ਸੁੰਨ ਕੀਤੀ ਜਾਂਦੀ ਹੈ"
+      },
+      {
+        "tag": "p",
+        "en": "Usually with drops. You stay awake and can talk to the surgeon.",
+        "pa": "ਆਮ ਤੌਰ ਤੇ ਤੁਪਕਿਆਂ ਨਾਲ। ਤੁਸੀਂ ਜਾਗਦੇ ਰਹਿੰਦੇ ਹੋ ਅਤੇ ਸਰਜਨ ਨਾਲ ਗੱਲ ਕਰ ਸਕਦੇ ਹੋ।"
+      },
+      {
+        "tag": "small",
+        "en": "Surgery",
+        "pa": "ਸਰਜਰੀ"
+      },
+      {
+        "tag": "h3",
+        "en": "Phaco surgery",
+        "pa": "ਫੇਕੋ ਸਰਜਰੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Through a tiny opening, the cloudy lens is removed and a clear lens put in. It often takes under 30 minutes.",
+        "pa": "ਇੱਕ ਛੋਟੇ ਰਾਹ ਰਾਹੀਂ ਧੁੰਦਲਾ ਲੈਂਜ਼ ਕੱਢ ਕੇ ਸਾਫ਼ ਲੈਂਜ਼ ਪਾਇਆ ਜਾਂਦਾ ਹੈ। ਅਕਸਰ 30 ਮਿੰਟ ਤੋਂ ਘੱਟ ਲੱਗਦੇ ਹਨ।"
+      },
+      {
+        "tag": "small",
+        "en": "Rest",
+        "pa": "ਆਰਾਮ"
+      },
+      {
+        "tag": "h3",
+        "en": "A short rest",
+        "pa": "ਥੋੜ੍ਹਾ ਆਰਾਮ"
+      },
+      {
+        "tag": "p",
+        "en": "You rest with an eye shield while the team checks the eye and explains your drops.",
+        "pa": "ਤੁਸੀਂ ਅੱਖ ਤੇ ਢਾਲ ਲਗਾ ਕੇ ਆਰਾਮ ਕਰਦੇ ਹੋ, ਟੀਮ ਅੱਖ ਦੇਖਦੀ ਹੈ ਅਤੇ ਤੁਪਕਿਆਂ ਬਾਰੇ ਸਮਝਾਉਂਦੀ ਹੈ।"
+      },
+      {
+        "tag": "small",
+        "en": "Home",
+        "pa": "ਘਰ"
+      },
+      {
+        "tag": "h3",
+        "en": "Home the same day",
+        "pa": "ਉਸੇ ਦਿਨ ਘਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Most people go home in about two hours, with a family member. A check-up is fixed for the next day.",
+        "pa": "ਜ਼ਿਆਦਾਤਰ ਲੋਕ ਲਗਭਗ ਦੋ ਘੰਟਿਆਂ ਵਿੱਚ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰ ਨਾਲ ਘਰ ਜਾਂਦੇ ਹਨ। ਅਗਲੇ ਦਿਨ ਜਾਂਚ ਹੁੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "figcaption",
+        "en": "Eye examination",
+        "pa": "ਅੱਖਾਂ ਦੀ ਜਾਂਚ"
+      },
+      {
+        "tag": "span",
+        "en": "Choosing your lens",
+        "pa": "ਆਪਣਾ ਲੈਂਜ਼ ਚੁਣਨਾ"
+      },
+      {
+        "tag": "h2",
+        "en": "The new lens <span class=\"em\">stays for life.</span>",
+        "pa": "ਨਵਾਂ ਲੈਂਜ਼ <span class=\"em\">ਸਾਰੀ ਉਮਰ ਰਹਿੰਦਾ ਹੈ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Before surgery Dr. Parul measures your eye and talks you through the lens options, your daily needs and the cost of each.",
+        "pa": "ਸਰਜਰੀ ਤੋਂ ਪਹਿਲਾਂ ਡਾ. ਪਾਰੁਲ ਤੁਹਾਡੀ ਅੱਖ ਮਾਪਦੇ ਹਨ ਅਤੇ ਲੈਂਜ਼ ਦੇ ਵਿਕਲਪ, ਤੁਹਾਡੀਆਂ ਰੋਜ਼ਾਨਾ ਲੋੜਾਂ ਅਤੇ ਹਰੇਕ ਦਾ ਖ਼ਰਚਾ ਸਮਝਾਉਂਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "Monofocal",
+        "pa": "ਮੋਨੋਫੋਕਲ"
+      },
+      {
+        "tag": "h3",
+        "en": "Clear at one distance",
+        "pa": "ਇੱਕ ਦੂਰੀ ਤੇ ਸਾਫ਼"
+      },
+      {
+        "tag": "p",
+        "en": "Usually set for distance. Most people still use reading glasses.",
+        "pa": "ਆਮ ਤੌਰ ਤੇ ਦੂਰ ਲਈ। ਜ਼ਿਆਦਾਤਰ ਲੋਕਾਂ ਨੂੰ ਪੜ੍ਹਨ ਲਈ ਐਨਕ ਲੱਗਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Toric",
+        "pa": "ਟੋਰਿਕ"
+      },
+      {
+        "tag": "h3",
+        "en": "Corrects astigmatism",
+        "pa": "ਸਿਲੰਡਰ ਨੰਬਰ ਠੀਕ ਕਰਦਾ ਹੈ"
+      },
+      {
+        "tag": "p",
+        "en": "For people with a cylindrical number, so distance vision is sharper.",
+        "pa": "ਸਿਲੰਡਰ ਨੰਬਰ ਵਾਲਿਆਂ ਲਈ, ਤਾਂ ਜੋ ਦੂਰ ਦੀ ਨਜ਼ਰ ਸਾਫ਼ ਹੋਵੇ।"
+      },
+      {
+        "tag": "span",
+        "en": "Multifocal",
+        "pa": "ਮਲਟੀਫੋਕਲ"
+      },
+      {
+        "tag": "h3",
+        "en": "Near and far",
+        "pa": "ਨੇੜੇ ਅਤੇ ਦੂਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Can reduce the need for glasses. Some people notice halos around lights at night.",
+        "pa": "ਐਨਕ ਦੀ ਲੋੜ ਘਟਾ ਸਕਦਾ ਹੈ। ਕੁਝ ਲੋਕਾਂ ਨੂੰ ਰਾਤ ਨੂੰ ਰੌਸ਼ਨੀਆਂ ਦੁਆਲੇ ਘੇਰੇ ਦਿਸਦੇ ਹਨ।"
+      },
+      {
+        "tag": "small",
+        "en": "A folded artificial lens, close up",
+        "pa": "ਮੋੜਿਆ ਹੋਇਆ ਨਕਲੀ ਲੈਂਜ਼, ਨੇੜਿਓਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Myths &amp; facts",
+        "pa": "ਭਰਮ ਅਤੇ ਤੱਥ"
+      },
+      {
+        "tag": "h2",
+        "en": "What people <span class=\"em\">often believe.</span>",
+        "pa": "ਲੋਕ <span class=\"em\">ਅਕਸਰ ਕੀ ਮੰਨਦੇ ਹਨ।</span>"
+      },
+      {
+        "tag": "span",
+        "en": "Eye department +91 99886 32241",
+        "pa": "ਅੱਖਾਂ ਦਾ ਵਿਭਾਗ +91 99886 32241"
+      },
+      {
+        "tag": "span",
+        "en": "“Eye drops can dissolve a cataract.”",
+        "pa": "“ਤੁਪਕਿਆਂ ਨਾਲ ਮੋਤੀਆ ਘੁਲ ਜਾਂਦਾ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> No drop or medicine can clear a cataract. Surgery is the only treatment that removes it.",
+        "pa": "<b>ਤੱਥ:</b> ਕੋਈ ਤੁਪਕਾ ਜਾਂ ਦਵਾਈ ਮੋਤੀਆ ਸਾਫ਼ ਨਹੀਂ ਕਰ ਸਕਦੀ। ਸਿਰਫ਼ ਸਰਜਰੀ ਨਾਲ ਹੀ ਇਹ ਹਟਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "“A cataract must be ripe before surgery.”",
+        "pa": "“ਸਰਜਰੀ ਤੋਂ ਪਹਿਲਾਂ ਮੋਤੀਆ ਪੱਕਣਾ ਚਾਹੀਦਾ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> With modern phaco surgery there is no need to wait. Very hard, old cataracts can actually make surgery more difficult.",
+        "pa": "<b>ਤੱਥ:</b> ਆਧੁਨਿਕ ਫੇਕੋ ਸਰਜਰੀ ਵਿੱਚ ਉਡੀਕ ਦੀ ਲੋੜ ਨਹੀਂ। ਬਹੁਤ ਸਖ਼ਤ, ਪੁਰਾਣਾ ਮੋਤੀਆ ਸਰਜਰੀ ਨੂੰ ਔਖਾ ਕਰ ਸਕਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "“My reading got better without glasses, so my eyes are healing.”",
+        "pa": "“ਬਿਨਾਂ ਐਨਕ ਪੜ੍ਹਨਾ ਸੌਖਾ ਹੋ ਗਿਆ, ਅੱਖਾਂ ਠੀਕ ਹੋ ਰਹੀਆਂ ਹਨ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> This “second sight” can be an early sign of cataract changing the lens. It is a reason to get an eye check.",
+        "pa": "<b>ਤੱਥ:</b> ਇਹ “ਦੂਜੀ ਨਜ਼ਰ” ਮੋਤੀਏ ਦੀ ਸ਼ੁਰੂਆਤੀ ਨਿਸ਼ਾਨੀ ਹੋ ਸਕਦੀ ਹੈ। ਅੱਖਾਂ ਦੀ ਜਾਂਚ ਕਰਵਾਓ।"
+      },
+      {
+        "tag": "span",
+        "en": "“People with diabetes only need eye checks when vision drops.”",
+        "pa": "“ਸ਼ੂਗਰ ਵਾਲਿਆਂ ਨੂੰ ਨਜ਼ਰ ਘਟਣ ਤੇ ਹੀ ਜਾਂਚ ਚਾਹੀਦੀ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> Retina damage from diabetes can start with no symptoms. A yearly retina check is advised.",
+        "pa": "<b>ਤੱਥ:</b> ਸ਼ੂਗਰ ਨਾਲ ਰੈਟੀਨਾ ਦਾ ਨੁਕਸਾਨ ਬਿਨਾਂ ਲੱਛਣਾਂ ਦੇ ਸ਼ੁਰੂ ਹੋ ਸਕਦਾ ਹੈ। ਹਰ ਸਾਲ ਰੈਟੀਨਾ ਜਾਂਚ ਦੀ ਸਲਾਹ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      }
+    ]
+  },
+  "mental-health": {
+    "title": "Mental health · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Mental health",
+        "pa": "ਮਾਨਸਿਕ ਸਿਹਤ"
+      },
+      {
+        "tag": "h1",
+        "en": "Mental health and de-addiction.",
+        "pa": "ਮਾਨਸਿਕ ਸਿਹਤ ਅਤੇ ਨਸ਼ਾ ਛੁਡਾਊ।"
+      },
+      {
+        "tag": "p",
+        "en": "Since 2000, Dr. Amit Gupta has worked with families across Malwa facing addiction, depression and anxiety. The hospital runs a licensed de-addiction centre that is clean, quiet and focused on full rehabilitation, with patient confidentiality protected.",
+        "pa": "ਸਾਲ 2000 ਤੋਂ ਡਾ. ਅਮਿਤ ਗੁਪਤਾ ਮਾਲਵਾ ਵਿੱਚ ਨਸ਼ੇ ਦੀ ਸਮੱਸਿਆ ਨਾਲ ਲੜ ਰਹੇ ਪਰਿਵਾਰਾਂ ਨਾਲ ਕੰਮ ਕਰ ਰਹੇ ਹਨ। ਹਸਪਤਾਲ ਵਿੱਚ ਇੱਕ ਲਾਇਸੰਸਸ਼ੁਦਾ ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Services",
+        "pa": "ਸੇਵਾਵਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Your first visit",
+        "pa": "ਪਹਿਲੀ ਮੁਲਾਕਾਤ"
+      },
+      {
+        "tag": "h2",
+        "en": "What to expect",
+        "pa": "ਕੀ ਉਮੀਦ ਕਰੀਏ"
+      },
+      {
+        "tag": "p",
+        "en": "You talk, without being rushed. A family member can come with you if you wish.",
+        "pa": "ਤੁਸੀਂ ਆਪਣੀ ਗੱਲ ਦੱਸਦੇ ਹੋ, ਬਿਨਾਂ ਕਿਸੇ ਜਲਦੀ ਦੇ। ਚਾਹੋ ਤਾਂ ਪਰਿਵਾਰ ਦਾ ਕੋਈ ਮੈਂਬਰ ਨਾਲ ਆ ਸਕਦਾ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "The doctor explains what may be happening and the treatment options, in plain words.",
+        "pa": "ਡਾਕਟਰ ਸਮਝਾਉਂਦੇ ਹਨ ਕਿ ਕੀ ਹੋ ਰਿਹਾ ਹੈ ਅਤੇ ਇਲਾਜ ਦੇ ਵਿਕਲਪ ਕੀ ਹਨ।"
+      },
+      {
+        "tag": "p",
+        "en": "You agree a plan together. Everything you share stays confidential.",
+        "pa": "ਤੁਸੀਂ ਮਿਲ ਕੇ ਯੋਜਨਾ ਬਣਾਉਂਦੇ ਹੋ। ਸਭ ਕੁਝ ਗੁਪਤ ਰਹਿੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "What we help with",
+        "pa": "ਅਸੀਂ ਕਿਸ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "More than <span class=\"em\">depression and addiction.</span>",
+        "pa": "ਸਿਰਫ਼ ਉਦਾਸੀ ਅਤੇ ਨਸ਼ੇ ਤੋਂ <span class=\"em\">ਵੱਧ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Many people do not know that sleep problems, headaches or memory changes can be treated by a psychiatrist. If something here sounds familiar, it is worth a conversation.",
+        "pa": "ਬਹੁਤ ਲੋਕ ਨਹੀਂ ਜਾਣਦੇ ਕਿ ਨੀਂਦ, ਸਿਰਦਰਦ ਜਾਂ ਯਾਦਦਾਸ਼ਤ ਦੀ ਸਮੱਸਿਆ ਦਾ ਇਲਾਜ ਮਨੋਰੋਗ ਮਾਹਰ ਕਰ ਸਕਦਾ ਹੈ। ਜੇ ਕੁਝ ਜਾਣਿਆ-ਪਛਾਣਿਆ ਲੱਗੇ, ਤਾਂ ਗੱਲ ਕਰੋ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Worry &amp; fear",
+        "pa": "ਚਿੰਤਾ ਅਤੇ ਡਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Generalised anxiety",
+        "pa": "ਆਮ ਚਿੰਤਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Panic attacks",
+        "pa": "ਘਬਰਾਹਟ ਦੇ ਦੌਰੇ"
+      },
+      {
+        "tag": "span",
+        "en": "Social anxiety",
+        "pa": "ਸਮਾਜਿਕ ਡਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Phobias",
+        "pa": "ਫੋਬੀਆ"
+      },
+      {
+        "tag": "span",
+        "en": "OCD",
+        "pa": "OCD"
+      },
+      {
+        "tag": "span",
+        "en": "PTSD",
+        "pa": "PTSD"
+      },
+      {
+        "tag": "h3",
+        "en": "Mood",
+        "pa": "ਮੂਡ"
+      },
+      {
+        "tag": "span",
+        "en": "Depression",
+        "pa": "ਉਦਾਸੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Bipolar disorder",
+        "pa": "ਬਾਈਪੋਲਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Cyclothymia",
+        "pa": "ਸਾਈਕਲੋਥਾਈਮੀਆ"
+      },
+      {
+        "tag": "span",
+        "en": "Stress after life events",
+        "pa": "ਜ਼ਿੰਦਗੀ ਦੀਆਂ ਘਟਨਾਵਾਂ ਤੋਂ ਬਾਅਦ ਤਣਾਅ"
+      },
+      {
+        "tag": "h3",
+        "en": "Addiction &amp; habits",
+        "pa": "ਨਸ਼ਾ ਅਤੇ ਆਦਤਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Alcohol",
+        "pa": "ਸ਼ਰਾਬ"
+      },
+      {
+        "tag": "span",
+        "en": "Opioids and chitta",
+        "pa": "ਅਫੀਮ ਅਤੇ ਚਿੱਟਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Other drugs",
+        "pa": "ਹੋਰ ਨਸ਼ੇ"
+      },
+      {
+        "tag": "span",
+        "en": "Gambling",
+        "pa": "ਜੂਆ"
+      },
+      {
+        "tag": "span",
+        "en": "Impulse control",
+        "pa": "ਆਪਣੇ ਤੇ ਕਾਬੂ ਦੀ ਸਮੱਸਿਆ"
+      },
+      {
+        "tag": "h3",
+        "en": "Thinking &amp; reality",
+        "pa": "ਸੋਚ ਅਤੇ ਹਕੀਕਤ"
+      },
+      {
+        "tag": "span",
+        "en": "Schizophrenia",
+        "pa": "ਸਕਿਜ਼ੋਫ੍ਰੀਨੀਆ"
+      },
+      {
+        "tag": "span",
+        "en": "Hallucinations",
+        "pa": "ਆਵਾਜ਼ਾਂ ਜਾਂ ਚੀਜ਼ਾਂ ਦਿਸਣੀਆਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Delusions",
+        "pa": "ਵਹਿਮ"
+      },
+      {
+        "tag": "span",
+        "en": "Dissociative disorders",
+        "pa": "ਡਿਸੋਸੀਏਟਿਵ ਵਿਕਾਰ"
+      },
+      {
+        "tag": "h3",
+        "en": "Sleep",
+        "pa": "ਨੀਂਦ"
+      },
+      {
+        "tag": "span",
+        "en": "Insomnia",
+        "pa": "ਨੀਂਦ ਨਾ ਆਉਣਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Nightmares and night terrors",
+        "pa": "ਡਰਾਉਣੇ ਸੁਪਨੇ"
+      },
+      {
+        "tag": "span",
+        "en": "Sleepwalking",
+        "pa": "ਨੀਂਦ ਵਿੱਚ ਤੁਰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Restless legs",
+        "pa": "ਬੇਚੈਨ ਲੱਤਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Teeth grinding",
+        "pa": "ਦੰਦ ਪੀਸਣਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "Memory, headache &amp; body",
+        "pa": "ਯਾਦਦਾਸ਼ਤ, ਸਿਰਦਰਦ ਅਤੇ ਸਰੀਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Memory loss and dementia",
+        "pa": "ਯਾਦਦਾਸ਼ਤ ਘਟਣਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Migraine",
+        "pa": "ਮਾਈਗ੍ਰੇਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Tension headache",
+        "pa": "ਤਣਾਅ ਵਾਲਾ ਸਿਰਦਰਦ"
+      },
+      {
+        "tag": "span",
+        "en": "Epilepsy",
+        "pa": "ਮਿਰਗੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Eating disorders",
+        "pa": "ਖਾਣ ਦੇ ਵਿਕਾਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Sexual health concerns",
+        "pa": "ਜਿਨਸੀ ਸਿਹਤ"
+      },
+      {
+        "tag": "span",
+        "en": "Understanding stress",
+        "pa": "ਤਣਾਅ ਨੂੰ ਸਮਝਣਾ"
+      },
+      {
+        "tag": "h2",
+        "en": "Stress shows up in <span class=\"em\">four places.</span>",
+        "pa": "ਤਣਾਅ <span class=\"em\">ਚਾਰ ਥਾਵਾਂ</span> ਤੇ ਦਿਸਦਾ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "Some stress is a normal part of life. When these signs last for weeks, or get in the way of work, family or sleep, talking to a doctor can help.",
+        "pa": "ਕੁਝ ਤਣਾਅ ਜ਼ਿੰਦਗੀ ਦਾ ਆਮ ਹਿੱਸਾ ਹੈ। ਜਦੋਂ ਇਹ ਨਿਸ਼ਾਨੀਆਂ ਹਫ਼ਤਿਆਂ ਤੱਕ ਰਹਿਣ, ਜਾਂ ਕੰਮ, ਪਰਿਵਾਰ ਜਾਂ ਨੀਂਦ ਵਿੱਚ ਰੁਕਾਵਟ ਬਣਨ, ਤਾਂ ਡਾਕਟਰ ਨਾਲ ਗੱਲ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "In the body",
+        "pa": "ਸਰੀਰ ਵਿੱਚ"
+      },
+      {
+        "tag": "li",
+        "en": "Headaches, tight shoulders",
+        "pa": "ਸਿਰਦਰਦ, ਮੋਢਿਆਂ ਵਿੱਚ ਜਕੜਨ"
+      },
+      {
+        "tag": "li",
+        "en": "Poor sleep or tiredness",
+        "pa": "ਨੀਂਦ ਨਾ ਆਉਣਾ ਜਾਂ ਥਕਾਵਟ"
+      },
+      {
+        "tag": "li",
+        "en": "Stomach upsets",
+        "pa": "ਪੇਟ ਖ਼ਰਾਬ"
+      },
+      {
+        "tag": "h3",
+        "en": "In your thoughts",
+        "pa": "ਸੋਚ ਵਿੱਚ"
+      },
+      {
+        "tag": "li",
+        "en": "Constant worrying",
+        "pa": "ਲਗਾਤਾਰ ਚਿੰਤਾ"
+      },
+      {
+        "tag": "li",
+        "en": "Trouble concentrating",
+        "pa": "ਧਿਆਨ ਨਾ ਲੱਗਣਾ"
+      },
+      {
+        "tag": "li",
+        "en": "Forgetting things",
+        "pa": "ਗੱਲਾਂ ਭੁੱਲਣਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "In your feelings",
+        "pa": "ਭਾਵਨਾਵਾਂ ਵਿੱਚ"
+      },
+      {
+        "tag": "li",
+        "en": "Irritable or short-tempered",
+        "pa": "ਚਿੜਚਿੜਾਪਨ, ਜਲਦੀ ਗੁੱਸਾ"
+      },
+      {
+        "tag": "li",
+        "en": "Feeling low or numb",
+        "pa": "ਮਨ ਉਦਾਸ ਜਾਂ ਸੁੰਨ"
+      },
+      {
+        "tag": "li",
+        "en": "Feeling overwhelmed",
+        "pa": "ਸਭ ਕੁਝ ਭਾਰੀ ਲੱਗਣਾ"
+      },
+      {
+        "tag": "h3",
+        "en": "In what you do",
+        "pa": "ਵਿਹਾਰ ਵਿੱਚ"
+      },
+      {
+        "tag": "li",
+        "en": "Eating more or less",
+        "pa": "ਵੱਧ ਜਾਂ ਘੱਟ ਖਾਣਾ"
+      },
+      {
+        "tag": "li",
+        "en": "More alcohol or smoking",
+        "pa": "ਵੱਧ ਸ਼ਰਾਬ ਜਾਂ ਸਿਗਰਟ"
+      },
+      {
+        "tag": "li",
+        "en": "Pulling away from people",
+        "pa": "ਲੋਕਾਂ ਤੋਂ ਦੂਰ ਹੋਣਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Questions",
+        "pa": "ਸਵਾਲ"
+      },
+      {
+        "tag": "h2",
+        "en": "Questions families <span class=\"em\">often ask.</span>",
+        "pa": "ਪਰਿਵਾਰ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+      },
+      {
+        "tag": "figcaption",
+        "en": "Psychiatry clinic",
+        "pa": "ਮਨੋਰੋਗ ਕਲੀਨਿਕ"
+      },
+      {
+        "tag": "span",
+        "en": "Will anyone know I came to see a psychiatrist?",
+        "pa": "ਕੀ ਕਿਸੇ ਨੂੰ ਪਤਾ ਲੱਗੇਗਾ ਕਿ ਮੈਂ ਮਨੋਰੋਗ ਮਾਹਰ ਕੋਲ ਆਇਆ?"
+      },
+      {
+        "tag": "div",
+        "en": "No. What you share and your records are kept confidential. Nothing is shared with your employer or relatives without your consent, except where the law requires it.",
+        "pa": "ਨਹੀਂ। ਤੁਹਾਡੀਆਂ ਗੱਲਾਂ ਅਤੇ ਰਿਕਾਰਡ ਗੁਪਤ ਰੱਖੇ ਜਾਂਦੇ ਹਨ। ਕਾਨੂੰਨੀ ਲੋੜ ਤੋਂ ਇਲਾਵਾ ਤੁਹਾਡੀ ਮਰਜ਼ੀ ਬਿਨਾਂ ਕੁਝ ਵੀ ਕਿਸੇ ਨਾਲ ਸਾਂਝਾ ਨਹੀਂ ਹੁੰਦਾ।"
+      },
+      {
+        "tag": "span",
+        "en": "Will I have to take medicines for life?",
+        "pa": "ਕੀ ਸਾਰੀ ਉਮਰ ਦਵਾਈ ਖਾਣੀ ਪਵੇਗੀ?"
+      },
+      {
+        "tag": "div",
+        "en": "Most people do not. Some conditions need only counselling, others need medicines for a set period. Dr. Amit will explain how long and why, and medicines are reduced slowly when it is safe.",
+        "pa": "ਜ਼ਿਆਦਾਤਰ ਲੋਕਾਂ ਨੂੰ ਨਹੀਂ। ਕੁਝ ਹਾਲਤਾਂ ਵਿੱਚ ਸਿਰਫ਼ ਕਾਊਂਸਲਿੰਗ, ਕੁਝ ਵਿੱਚ ਕੁਝ ਸਮੇਂ ਲਈ ਦਵਾਈ। ਡਾ. ਅਮਿਤ ਦੱਸਣਗੇ ਕਿ ਕਿੰਨਾ ਸਮਾਂ ਅਤੇ ਕਿਉਂ, ਅਤੇ ਸੁਰੱਖਿਅਤ ਹੋਣ ਤੇ ਦਵਾਈ ਹੌਲੀ-ਹੌਲੀ ਘਟਾਈ ਜਾਂਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Are psychiatric medicines addictive?",
+        "pa": "ਕੀ ਮਨੋਰੋਗ ਦੀਆਂ ਦਵਾਈਆਂ ਦੀ ਆਦਤ ਪੈ ਜਾਂਦੀ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Most commonly used medicines, such as antidepressants, are not habit-forming. A few sleep and anxiety medicines can be, so they are used carefully and for short periods.",
+        "pa": "ਜ਼ਿਆਦਾਤਰ ਆਮ ਦਵਾਈਆਂ, ਜਿਵੇਂ ਉਦਾਸੀ ਦੀਆਂ ਦਵਾਈਆਂ, ਆਦਤ ਨਹੀਂ ਪਾਉਂਦੀਆਂ। ਨੀਂਦ ਅਤੇ ਘਬਰਾਹਟ ਦੀਆਂ ਕੁਝ ਦਵਾਈਆਂ ਪਾ ਸਕਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਉਹ ਧਿਆਨ ਨਾਲ ਥੋੜ੍ਹੇ ਸਮੇਂ ਲਈ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "My family member refuses help. What can I do?",
+        "pa": "ਪਰਿਵਾਰ ਦਾ ਮੈਂਬਰ ਮਦਦ ਤੋਂ ਇਨਕਾਰ ਕਰਦਾ ਹੈ। ਮੈਂ ਕੀ ਕਰਾਂ?"
+      },
+      {
+        "tag": "div",
+        "en": "You can come alone first and talk to the doctor about what you are seeing at home. Family sessions can help you find the right way to bring the person in.",
+        "pa": "ਤੁਸੀਂ ਪਹਿਲਾਂ ਇਕੱਲੇ ਆ ਕੇ ਡਾਕਟਰ ਨੂੰ ਦੱਸ ਸਕਦੇ ਹੋ ਕਿ ਘਰ ਵਿੱਚ ਕੀ ਹੋ ਰਿਹਾ ਹੈ। ਪਰਿਵਾਰਕ ਸੈਸ਼ਨ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਲਿਆਉਣ ਦਾ ਸਹੀ ਤਰੀਕਾ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "Does de-addiction mean being admitted?",
+        "pa": "ਕੀ ਨਸ਼ਾ ਛੁਡਾਉਣ ਲਈ ਦਾਖ਼ਲ ਹੋਣਾ ਪੈਂਦਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Not always. Some people are treated as outpatients. Others need a short stay in the licensed centre while withdrawal is managed safely. The doctor will advise after an assessment.",
+        "pa": "ਹਮੇਸ਼ਾ ਨਹੀਂ। ਕੁਝ ਲੋਕਾਂ ਦਾ ਇਲਾਜ ਓਪੀਡੀ ਵਿੱਚ ਹੁੰਦਾ ਹੈ। ਕੁਝ ਨੂੰ ਲਾਇਸੰਸਸ਼ੁਦਾ ਕੇਂਦਰ ਵਿੱਚ ਥੋੜ੍ਹਾ ਸਮਾਂ ਰਹਿਣਾ ਪੈਂਦਾ ਹੈ ਤਾਂ ਜੋ ਨਸ਼ਾ ਛੱਡਣ ਦੇ ਅਸਰ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਸੰਭਾਲੇ ਜਾਣ।"
+      },
+      {
+        "tag": "span",
+        "en": "“Only weak people need mental health care.”",
+        "pa": "“ਸਿਰਫ਼ ਕਮਜ਼ੋਰ ਲੋਕਾਂ ਨੂੰ ਮਾਨਸਿਕ ਇਲਾਜ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।”"
+      },
+      {
+        "tag": "div",
+        "en": "<b>Fact:</b> Mental illness is a health condition, like diabetes or blood pressure. It can affect anyone, and it responds to treatment.",
+        "pa": "<b>ਤੱਥ:</b> ਮਾਨਸਿਕ ਬਿਮਾਰੀ ਸ਼ੂਗਰ ਜਾਂ ਬੀਪੀ ਵਾਂਗ ਇੱਕ ਸਿਹਤ ਸਮੱਸਿਆ ਹੈ। ਇਹ ਕਿਸੇ ਨੂੰ ਵੀ ਹੋ ਸਕਦੀ ਹੈ, ਅਤੇ ਇਲਾਜ ਨਾਲ ਠੀਕ ਹੁੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "A moment for you",
+        "pa": "ਇੱਕ ਪਲ ਆਪਣੇ ਲਈ"
+      },
+      {
+        "tag": "h2",
+        "en": "Breathe slowly with the <span class=\"em\">circle.</span>",
+        "pa": "ਗੋਲੇ ਨਾਲ ਹੌਲੀ-ਹੌਲੀ <span class=\"em\">ਸਾਹ ਲਓ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Asking for help is not weakness. What you share with Dr. Amit stays private.",
+        "pa": "ਮਦਦ ਮੰਗਣਾ ਕਮਜ਼ੋਰੀ ਨਹੀਂ ਹੈ। ਜੋ ਵੀ ਤੁਸੀਂ ਡਾ. ਅਮਿਤ ਨੂੰ ਦੱਸਦੇ ਹੋ, ਉਹ ਗੁਪਤ ਰਹਿੰਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book a private visit",
+        "pa": "ਗੁਪਤ ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "p",
+        "en": "If you need urgent help, call 112 for emergencies or the national Tele-MANAS helpline on 14416, any time.",
+        "pa": "ਜੇ ਤੁਹਾਨੂੰ ਤੁਰੰਤ ਮਦਦ ਦੀ ਲੋੜ ਹੈ ਤਾਂ ਐਮਰਜੈਂਸੀ ਲਈ 112 ਜਾਂ ਟੈਲੀ-ਮਾਨਸ ਹੈਲਪਲਾਈਨ 14416 ਤੇ ਕਾਲ ਕਰੋ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      }
+    ]
+  },
+  "doctors": {
+    "title": "Doctors · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Doctors",
+        "pa": "ਡਾਕਟਰ"
+      },
+      {
+        "tag": "h1",
+        "en": "Our doctors.",
+        "pa": "ਸਾਡੇ ਡਾਕਟਰ।"
+      },
+      {
+        "tag": "p",
+        "en": "The clinic Dr. Amrit Gupta opened in 1980 is now led by the next generation of the family.",
+        "pa": "1980 ਵਿੱਚ ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਵੱਲੋਂ ਸ਼ੁਰੂ ਕੀਤਾ ਕਲੀਨਿਕ ਅੱਜ ਪਰਿਵਾਰ ਦੀ ਅਗਲੀ ਪੀੜ੍ਹੀ ਚਲਾ ਰਹੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics &amp; joint replacement",
+        "pa": "ਆਰਥੋਪੈਡਿਕਸ"
+      },
+      {
+        "tag": "p",
+        "en": "Fellowships in orthopaedics and joint replacement at Asklepios Klinik Lindenlohe, Germany, and the cantonal hospital in Fribourg, Switzerland. He leads robotic knee, hip, trauma and sports injury care at Gupta Hospital.",
+        "pa": "ਜਰਮਨੀ (ਐਸਕਲੇਪੀਓਸ ਲਿੰਡਨਲੋਹੇ) ਅਤੇ ਸਵਿਟਜ਼ਰਲੈਂਡ (ਫ੍ਰਿਬੂਰ) ਵਿੱਚ ਜੋੜ ਬਦਲਣ ਦੀ ਫੈਲੋਸ਼ਿਪ। ਰੋਬੋਟਿਕ ਗੋਡਾ, ਕੁੱਲ੍ਹਾ, ਸਦਮਾ ਅਤੇ ਖੇਡ ਸੱਟਾਂ ਦੀ ਅਗਵਾਈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Orthopaedics department",
+        "pa": "ਹੱਡੀਆਂ ਦਾ ਵਿਭਾਗ"
+      },
+      {
+        "tag": "span",
+        "en": "Ophthalmology",
+        "pa": "ਅੱਖਾਂ"
+      },
+      {
+        "tag": "p",
+        "en": "Specialised training in cataract surgery using phacoemulsification, with several years of experience. She leads the eye department's cataract, glaucoma, children's eye, cornea and retina services.",
+        "pa": "ਫੇਕੋ ਮੋਤੀਆ ਸਰਜਰੀ ਵਿੱਚ ਵਿਸ਼ੇਸ਼ ਸਿਖਲਾਈ ਅਤੇ ਕਈ ਸਾਲਾਂ ਦਾ ਤਜਰਬਾ।"
+      },
+      {
+        "tag": "span",
+        "en": "Phaco cataract surgery",
+        "pa": "ਫੇਕੋ ਮੋਤੀਆ ਸਰਜਰੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Eye care department",
+        "pa": "ਅੱਖਾਂ ਦਾ ਵਿਭਾਗ"
+      },
+      {
+        "tag": "span",
+        "en": "Psychiatry &amp; de-addiction",
+        "pa": "ਮਨੋਰੋਗ"
+      },
+      {
+        "tag": "p",
+        "en": "Psychiatry consultant and de-addiction specialist at Gupta Hospital since 2000. He runs the licensed de-addiction centre and treats depression, anxiety, OCD, schizophrenia, epilepsy and headaches.",
+        "pa": "2000 ਤੋਂ ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਮਨੋਰੋਗ ਸਲਾਹਕਾਰ ਅਤੇ ਨਸ਼ਾ ਛੁਡਾਊ ਮਾਹਰ।"
+      },
+      {
+        "tag": "span",
+        "en": "Since 2000",
+        "pa": "2000 ਤੋਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Licensed de-addiction centre",
+        "pa": "ਲਾਇਸੰਸਸ਼ੁਦਾ ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Mental health department",
+        "pa": "ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਭਾਗ"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "D.Ortho",
+        "pa": "D.Ortho"
+      },
+      {
+        "tag": "span",
+        "en": "MS Ortho",
+        "pa": "MS Ortho"
+      },
+      {
+        "tag": "span",
+        "en": "MCh Ortho",
+        "pa": "MCh Ortho"
+      },
+      {
+        "tag": "span",
+        "en": "Reg. no. 43354",
+        "pa": "Reg. no. 43354"
+      },
+      {
+        "tag": "span",
+        "en": "Tribune Health Care Award 2025",
+        "pa": "ਟ੍ਰਿਬਿਊਨ ਹੈਲਥ ਕੇਅਰ ਐਵਾਰਡ 2025"
+      },
+      {
+        "tag": "span",
+        "en": "MBBS",
+        "pa": "MBBS"
+      },
+      {
+        "tag": "span",
+        "en": "MS",
+        "pa": "MS"
+      },
+      {
+        "tag": "span",
+        "en": "MD Psychiatry",
+        "pa": "MD Psychiatry"
+      },
+      {
+        "tag": "span",
+        "en": "Full profile",
+        "pa": "ਪੂਰਾ ਪਰੋਫ਼ਾਈਲ"
+      }
+    ]
+  },
+  "about": {
+    "title": "About · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "About",
+        "pa": "ਸਾਡੇ ਬਾਰੇ"
+      },
+      {
+        "tag": "h1",
+        "en": "On Power House Road since 1980.",
+        "pa": "1980 ਤੋਂ ਪਾਵਰ ਹਾਊਸ ਰੋਡ ਤੇ।"
+      },
+      {
+        "tag": "span",
+        "en": "Founded by Dr. Amrit Gupta",
+        "pa": "ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਵੱਲੋਂ ਸਥਾਪਿਤ"
+      },
+      {
+        "tag": "span",
+        "en": "Departments under one roof",
+        "pa": "ਵਿਭਾਗ, ਇੱਕੋ ਛੱਤ ਹੇਠ"
+      },
+      {
+        "tag": "span",
+        "en": "De-addiction centre begins",
+        "pa": "ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ ਸ਼ੁਰੂ"
+      },
+      {
+        "tag": "span",
+        "en": "Ayushman Bharat empanelled since 2019",
+        "pa": "2019 ਤੋਂ ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਅਧੀਨ ਸੂਚੀਬੱਧ"
+      },
+      {
+        "tag": "span",
+        "en": "Where it began",
+        "pa": "ਸ਼ੁਰੂਆਤ ਕਿੱਥੋਂ ਹੋਈ"
+      },
+      {
+        "tag": "h2",
+        "en": "Dr. Amrit Gupta, <span class=\"em\">founder.</span>",
+        "pa": "ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ, <span class=\"em\">ਸੰਸਥਾਪਕ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "In 1980 Dr. Amrit Gupta opened a small orthopaedic clinic on Power House Road so that people in and around Bathinda would not have to travel to big cities for bone and joint surgery. The hospital still works by that idea: specialist care, close to home, at a fair cost.",
+        "pa": "1980 ਵਿੱਚ ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਨੇ ਪਾਵਰ ਹਾਊਸ ਰੋਡ ਤੇ ਹੱਡੀਆਂ ਦਾ ਛੋਟਾ ਕਲੀਨਿਕ ਖੋਲ੍ਹਿਆ, ਤਾਂ ਜੋ ਬਠਿੰਡਾ ਅਤੇ ਆਸ-ਪਾਸ ਦੇ ਲੋਕਾਂ ਨੂੰ ਹੱਡੀਆਂ ਦੀ ਸਰਜਰੀ ਲਈ ਵੱਡੇ ਸ਼ਹਿਰ ਨਾ ਜਾਣਾ ਪਵੇ। ਹਸਪਤਾਲ ਅੱਜ ਵੀ ਇਸੇ ਸੋਚ ਤੇ ਚੱਲਦਾ ਹੈ: ਮਾਹਰ ਇਲਾਜ, ਘਰ ਦੇ ਨੇੜੇ, ਵਾਜਬ ਖ਼ਰਚੇ ਤੇ।"
+      },
+      {
+        "tag": "p",
+        "en": "Today his children lead the three departments, and each of them still sees patients personally.",
+        "pa": "ਅੱਜ ਉਨ੍ਹਾਂ ਦੇ ਬੱਚੇ ਤਿੰਨੇ ਵਿਭਾਗ ਚਲਾਉਂਦੇ ਹਨ, ਅਤੇ ਹਰੇਕ ਆਪ ਮਰੀਜ਼ਾਂ ਨੂੰ ਦੇਖਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Meet the doctors today",
+        "pa": "ਅੱਜ ਦੇ ਡਾਕਟਰਾਂ ਨੂੰ ਮਿਲੋ"
+      },
+      {
+        "tag": "p",
+        "en": "Specialist care for the people of this region, close to home and at a fair cost.",
+        "pa": "ਇਲਾਕੇ ਦੇ ਲੋਕਾਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਦਰਵਾਜ਼ੇ ਤੇ, ਵਾਜਬ ਕੀਮਤ ਤੇ ਵਿਸ਼ੇਸ਼ ਇਲਾਜ।"
+      },
+      {
+        "tag": "span",
+        "en": "Timeline",
+        "pa": "ਸਮਾਂ-ਰੇਖਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Amrit Gupta opens an orthopaedic clinic.",
+        "pa": "ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਨੇ ਹੱਡੀਆਂ ਦਾ ਕਲੀਨਿਕ ਖੋਲ੍ਹਿਆ।"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Amit Gupta joins; psychiatry and de-addiction begin.",
+        "pa": "ਡਾ. ਅਮਿਤ ਗੁਪਤਾ ਸ਼ਾਮਲ ਹੋਏ, ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ ਸ਼ੁਰੂ।"
+      },
+      {
+        "tag": "p",
+        "en": "Empanelled under Ayushman Bharat PM-JAY.",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ PM-JAY ਅਧੀਨ ਸੂਚੀਬੱਧ।"
+      },
+      {
+        "tag": "p",
+        "en": "VELYS robotic knee system publicly launched.<small>Dainik Bhaskar, 12 March 2024</small>",
+        "pa": "VELYS ਰੋਬੋਟਿਕ ਗੋਡਾ ਸਿਸਟਮ ਦੀ ਜਨਤਕ ਸ਼ੁਰੂਆਤ।<small>ਦੈਨਿਕ ਭਾਸਕਰ, 12 ਮਾਰਚ 2024</small>"
+      },
+      {
+        "tag": "p",
+        "en": "Tribune Health Care Award for excellence in joint replacement and ortho robotic surgery.<small>24 August 2025</small>",
+        "pa": "ਜੋੜ ਬਦਲਣ ਅਤੇ ਰੋਬੋਟਿਕ ਸਰਜਰੀ ਲਈ ਟ੍ਰਿਬਿਊਨ ਹੈਲਥ ਕੇਅਰ ਐਵਾਰਡ।<small>24 ਅਗਸਤ 2025</small>"
+      },
+      {
+        "tag": "span",
+        "en": "Facilities",
+        "pa": "ਸਹੂਲਤਾਂ"
+      },
+      {
+        "tag": "span",
+        "en": "What we stand for",
+        "pa": "ਸਾਡੀ ਸੋਚ"
+      },
+      {
+        "tag": "h2",
+        "en": "Three ideas we have <span class=\"em\">kept since 1980.</span>",
+        "pa": "ਤਿੰਨ ਗੱਲਾਂ ਜੋ <span class=\"em\">1980 ਤੋਂ ਨਹੀਂ ਬਦਲੀਆਂ।</span>"
+      },
+      {
+        "tag": "h3",
+        "en": "Care close to home",
+        "pa": "ਘਰ ਦੇ ਨੇੜੇ ਇਲਾਜ"
+      },
+      {
+        "tag": "p",
+        "en": "Specialist treatment in Bathinda, so families do not have to leave the region for it.",
+        "pa": "ਬਠਿੰਡਾ ਵਿੱਚ ਹੀ ਮਾਹਰ ਇਲਾਜ, ਤਾਂ ਜੋ ਪਰਿਵਾਰਾਂ ਨੂੰ ਇਲਾਕਾ ਨਾ ਛੱਡਣਾ ਪਵੇ।"
+      },
+      {
+        "tag": "h3",
+        "en": "A fair cost",
+        "pa": "ਵਾਜਬ ਖ਼ਰਚਾ"
+      },
+      {
+        "tag": "p",
+        "en": "Clear estimates before treatment, and PM-JAY for eligible card holders.",
+        "pa": "ਇਲਾਜ ਤੋਂ ਪਹਿਲਾਂ ਸਾਫ਼ ਅੰਦਾਜ਼ਾ, ਅਤੇ ਯੋਗ ਕਾਰਡ ਧਾਰਕਾਂ ਲਈ PM-JAY।"
+      },
+      {
+        "tag": "h3",
+        "en": "Plain explanations",
+        "pa": "ਸਾਦੇ ਸ਼ਬਦਾਂ ਵਿੱਚ"
+      },
+      {
+        "tag": "p",
+        "en": "Your doctor explains reports and options in Punjabi, Hindi or English, and answers your questions.",
+        "pa": "ਡਾਕਟਰ ਰਿਪੋਰਟਾਂ ਅਤੇ ਵਿਕਲਪ ਪੰਜਾਬੀ, ਹਿੰਦੀ ਜਾਂ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਸਮਝਾਉਂਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "In the community",
+        "pa": "ਭਾਈਚਾਰੇ ਵਿੱਚ"
+      },
+      {
+        "tag": "h2",
+        "en": "Free camps in <span class=\"em\">villages and colleges.</span>",
+        "pa": "ਪਿੰਡਾਂ ਅਤੇ ਕਾਲਜਾਂ ਵਿੱਚ <span class=\"em\">ਮੁਫ਼ਤ ਕੈਂਪ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "The hospital regularly holds free bone and eye screening camps, often with local societies and colleges. Hundreds of people are checked at a single camp, and those who need treatment are guided on what to do next.",
+        "pa": "ਹਸਪਤਾਲ ਅਕਸਰ ਸਥਾਨਕ ਸੰਸਥਾਵਾਂ ਅਤੇ ਕਾਲਜਾਂ ਨਾਲ ਮਿਲ ਕੇ ਮੁਫ਼ਤ ਹੱਡੀਆਂ ਅਤੇ ਅੱਖਾਂ ਦੇ ਜਾਂਚ ਕੈਂਪ ਲਗਾਉਂਦਾ ਹੈ। ਇੱਕ ਕੈਂਪ ਵਿੱਚ ਸੈਂਕੜੇ ਲੋਕਾਂ ਦੀ ਜਾਂਚ ਹੁੰਦੀ ਹੈ, ਅਤੇ ਜਿਨ੍ਹਾਂ ਨੂੰ ਇਲਾਜ ਦੀ ਲੋੜ ਹੋਵੇ ਉਨ੍ਹਾਂ ਨੂੰ ਅਗਲਾ ਕਦਮ ਦੱਸਿਆ ਜਾਂਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "See camp coverage",
+        "pa": "ਕੈਂਪਾਂ ਦੀਆਂ ਖ਼ਬਰਾਂ"
+      },
+      {
+        "tag": "small",
+        "en": "A free screening camp in a village",
+        "pa": "ਪਿੰਡ ਵਿੱਚ ਮੁਫ਼ਤ ਜਾਂਚ ਕੈਂਪ"
+      },
+      {
+        "tag": "small",
+        "en": "Representative image",
+        "pa": "ਪ੍ਰਤੀਨਿਧ ਤਸਵੀਰ"
+      },
+      {
+        "tag": "figcaption",
+        "en": "Three doctors, one family, since 1980",
+        "pa": "ਤਿੰਨ ਡਾਕਟਰ, ਇੱਕ ਪਰਿਵਾਰ, 1980 ਤੋਂ"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "p",
+        "en": "Gupta Hospital began in 1980 as a small orthopaedic clinic opened by Dr. Amrit Gupta. It has grown into a tertiary-care orthopaedic surgical centre, with departments for psychiatry and ophthalmology and services including gynaecology, a blood bank and critical care.",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ ਦੀ ਸ਼ੁਰੂਆਤ 1980 ਵਿੱਚ ਡਾ. ਅੰਮ੍ਰਿਤ ਗੁਪਤਾ ਵੱਲੋਂ ਖੋਲ੍ਹੇ ਗਏ ਹੱਡੀਆਂ ਦੇ ਛੋਟੇ ਕਲੀਨਿਕ ਨਾਲ ਹੋਈ। ਹੁਣ ਇਹ ਹੱਡੀਆਂ ਦੀ ਸਰਜਰੀ ਦਾ ਤੀਜੇ ਪੱਧਰ ਦਾ ਕੇਂਦਰ ਹੈ, ਜਿਸ ਨਾਲ ਮਨੋਰੋਗ ਤੇ ਅੱਖਾਂ ਦੇ ਵਿਭਾਗ ਅਤੇ ਗਾਇਨੀ, ਬਲੱਡ ਬੈਂਕ ਤੇ ਕਰਿਟੀਕਲ ਕੇਅਰ ਵਰਗੀਆਂ ਸੇਵਾਵਾਂ ਹਨ।"
+      },
+      {
+        "tag": "p",
+        "en": "Dr. Amit Gupta joined in 2000 as psychiatry consultant and de-addiction specialist, at a time when the Malwa region was badly affected by drug addiction. The licensed de-addiction centre he runs is part of the hospital today.",
+        "pa": "ਡਾ. ਅਮਿਤ ਗੁਪਤਾ 2000 ਵਿੱਚ ਮਨੋਰੋਗ ਸਲਾਹਕਾਰ ਅਤੇ ਨਸ਼ਾ-ਛੁਡਾਉ ਮਾਹਰ ਵਜੋਂ ਜੁੜੇ, ਉਸ ਸਮੇਂ ਜਦੋਂ ਮਾਲਵਾ ਖੇਤਰ ਨਸ਼ੇ ਦੀ ਲਪੇਟ ਵਿੱਚ ਸੀ। ਉਨ੍ਹਾਂ ਵੱਲੋਂ ਚਲਾਇਆ ਜਾਂਦਾ ਲਾਇਸੰਸਸ਼ੁਦਾ ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ ਅੱਜ ਹਸਪਤਾਲ ਦਾ ਹਿੱਸਾ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "Under Dr. Mohit Gupta, the orthopaedic department added arthroscopy and sports injury care, a back pain clinic, and robotic-assisted knee replacement. Dr. Parul Gupta leads the eye department, with its own modular operation theatre.",
+        "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਦੀ ਅਗਵਾਈ ਵਿੱਚ ਹੱਡੀਆਂ ਦੇ ਵਿਭਾਗ ਨੇ ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ ਦੀ ਦੇਖਭਾਲ, ਬੈਕ ਪੇਨ ਕਲੀਨਿਕ ਅਤੇ ਰੋਬੋਟਿਕ-ਅਸਿਸਟਿਡ ਗੋਡਾ ਬਦਲੀ ਸ਼ੁਰੂ ਕੀਤੀ। ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ ਅੱਖਾਂ ਦੇ ਵਿਭਾਗ ਦੀ ਅਗਵਾਈ ਕਰਦੇ ਹਨ, ਜਿਸ ਦਾ ਆਪਣਾ ਮਾਡਿਊਲਰ ਆਪਰੇਸ਼ਨ ਥੀਏਟਰ ਹੈ।"
+      },
+      {
+        "tag": "p",
+        "en": "Patients come from across Punjab and from neighbouring parts of Haryana and Rajasthan. The hospital also runs regular free orthopaedic and eye screening camps.",
+        "pa": "ਮਰੀਜ਼ ਪੰਜਾਬ ਭਰ ਤੋਂ ਅਤੇ ਹਰਿਆਣਾ ਤੇ ਰਾਜਸਥਾਨ ਦੇ ਨੇੜਲੇ ਹਿੱਸਿਆਂ ਤੋਂ ਆਉਂਦੇ ਹਨ। ਹਸਪਤਾਲ ਮੁਫ਼ਤ ਹੱਡੀਆਂ ਅਤੇ ਅੱਖਾਂ ਦੇ ਜਾਂਚ ਕੈਂਪ ਵੀ ਨਿਯਮਤ ਲਗਾਉਂਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Modular operation theatres",
+        "pa": "ਮਾਡਿਊਲਰ ਆਪਰੇਸ਼ਨ ਥੀਏਟਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Separate theatres for orthopaedic and eye surgery.",
+        "pa": "ਹੱਡੀਆਂ ਅਤੇ ਅੱਖਾਂ ਦੀ ਸਰਜਰੀ ਲਈ ਵੱਖਰੇ ਥੀਏਟਰ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Critical care",
+        "pa": "ਕਰਿਟੀਕਲ ਕੇਅਰ"
+      },
+      {
+        "tag": "p",
+        "en": "Close monitoring after surgery and in emergencies.",
+        "pa": "ਸਰਜਰੀ ਤੋਂ ਬਾਅਦ ਅਤੇ ਐਮਰਜੰਸੀ ਵਿੱਚ ਨੇੜਿਓਂ ਨਿਗਰਾਨੀ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Blood bank",
+        "pa": "ਬਲੱਡ ਬੈਂਕ"
+      },
+      {
+        "tag": "p",
+        "en": "On-site blood bank.",
+        "pa": "ਹਸਪਤਾਲ ਵਿੱਚ ਹੀ ਬਲੱਡ ਬੈਂਕ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Gynaecology",
+        "pa": "ਗਾਇਨੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Women's health services.",
+        "pa": "ਔਰਤਾਂ ਦੀ ਸਿਹਤ ਸੇਵਾਵਾਂ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Physiotherapy",
+        "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ"
+      },
+      {
+        "tag": "p",
+        "en": "Rehabilitation after surgery and injury.",
+        "pa": "ਸਰਜਰੀ ਅਤੇ ਸੱਟ ਤੋਂ ਬਾਅਦ ਰਿਹੈਬ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Ayushman Bharat PM-JAY",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ PM-JAY"
+      },
+      {
+        "tag": "p",
+        "en": "Treatment for eligible card holders. HFR ID IN0310002794.",
+        "pa": "ਯੋਗ ਕਾਰਡ ਧਾਰਕਾਂ ਲਈ ਇਲਾਜ। HFR ID IN0310002794।"
+      }
+    ]
+  },
+  "media": {
+    "title": "Media · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Media",
+        "pa": "ਖ਼ਬਰਾਂ"
+      },
+      {
+        "tag": "h1",
+        "en": "In the news.",
+        "pa": "ਖ਼ਬਰਾਂ ਵਿੱਚ।"
+      },
+      {
+        "tag": "p",
+        "en": "Coverage from local newspapers in Hindi, Punjabi and English. Drag the clippings around, click one to read it.",
+        "pa": "ਸਥਾਨਕ ਅਖ਼ਬਾਰਾਂ ਵਿੱਚ ਛਪੀਆਂ ਖ਼ਬਰਾਂ। ਕਤਰਨਾਂ ਨੂੰ ਖਿੱਚੋ, ਪੜ੍ਹਨ ਲਈ ਕਲਿੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Free camps",
+        "pa": "ਮੁਫ਼ਤ ਕੈਂਪ"
+      },
+      {
+        "tag": "h2",
+        "en": "Free screening camps",
+        "pa": "ਮੁਫ਼ਤ ਜਾਂਚ ਕੈਂਪ"
+      },
+      {
+        "tag": "p",
+        "en": "Numbers as reported in each newspaper.",
+        "pa": "ਗਿਣਤੀ ਅਖ਼ਬਾਰੀ ਰਿਪੋਰਟਾਂ ਮੁਤਾਬਕ।"
+      },
+      {
+        "tag": "span",
+        "en": "Follow along",
+        "pa": "ਸਾਡੇ ਨਾਲ ਜੁੜੋ"
+      },
+      {
+        "tag": "h2",
+        "en": "Camp dates and health talks, <span class=\"em\">as they happen.</span>",
+        "pa": "ਕੈਂਪਾਂ ਦੀਆਂ ਤਾਰੀਖ਼ਾਂ ਅਤੇ ਸਿਹਤ ਗੱਲਬਾਤ, <span class=\"em\">ਸਭ ਤੋਂ ਪਹਿਲਾਂ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Newspaper reports come after the event. The hospital’s own channels announce camps before they happen.",
+        "pa": "ਅਖ਼ਬਾਰਾਂ ਦੀਆਂ ਖ਼ਬਰਾਂ ਸਮਾਗਮ ਤੋਂ ਬਾਅਦ ਆਉਂਦੀਆਂ ਹਨ। ਹਸਪਤਾਲ ਦੇ ਆਪਣੇ ਚੈਨਲ ਕੈਂਪਾਂ ਦਾ ਐਲਾਨ ਪਹਿਲਾਂ ਕਰਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "Health talks and explainers from the doctors.",
+        "pa": "ਡਾਕਟਰਾਂ ਵੱਲੋਂ ਸਿਹਤ ਬਾਰੇ ਗੱਲਬਾਤ ਅਤੇ ਜਾਣਕਾਰੀ।"
+      },
+      {
+        "tag": "span",
+        "en": "Camp dates, hospital news and short tips.",
+        "pa": "ਕੈਂਪਾਂ ਦੀਆਂ ਤਾਰੀਖ਼ਾਂ, ਹਸਪਤਾਲ ਦੀਆਂ ਖ਼ਬਰਾਂ ਅਤੇ ਛੋਟੀਆਂ ਸਲਾਹਾਂ।"
+      },
+      {
+        "tag": "span",
+        "en": "Announcements and events in Bathinda.",
+        "pa": "ਬਠਿੰਡਾ ਵਿੱਚ ਐਲਾਨ ਅਤੇ ਸਮਾਗਮ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book a visit or send reports to the team.",
+        "pa": "ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ ਜਾਂ ਟੀਮ ਨੂੰ ਰਿਪੋਰਟਾਂ ਭੇਜੋ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Jhuneer eye &amp; bone camp",
+        "pa": "ਝੁਨੀਰ ਅੱਖਾਂ ਤੇ ਹੱਡੀਆਂ ਦਾ ਕੈਂਪ"
+      },
+      {
+        "tag": "span",
+        "en": "Camp, 3 December",
+        "pa": "ਕੈਂਪ, 3 ਦਸੰਬਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Goodwill Society bone camp",
+        "pa": "ਗੁੱਡਵਿਲ ਸੁਸਾਇਟੀ ਹੱਡੀਆਂ ਦਾ ਕੈਂਪ"
+      },
+      {
+        "tag": "span",
+        "en": "26th camp",
+        "pa": "26ਵਾਂ ਕੈਂਪ"
+      },
+      {
+        "tag": "span",
+        "en": "Rajindra College students",
+        "pa": "ਰਜਿੰਦਰਾ ਕਾਲਜ ਦੇ ਵਿਦਿਆਰਥੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Oriya Colony eye camp",
+        "pa": "ਓਰੀਆ ਕਾਲੋਨੀ ਅੱਖਾਂ ਦਾ ਕੈਂਪ"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Book an appointment · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Book &amp; contact",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ"
+      },
+      {
+        "tag": "h1",
+        "en": "Book an appointment.",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "p",
+        "en": "Fill in the form and send it on WhatsApp. Our team will call you back to confirm a time.",
+        "pa": "ਫ਼ਾਰਮ ਭਰੋ ਅਤੇ ਵਟਸਐਪ ਤੇ ਭੇਜੋ। ਸਾਡੀ ਟੀਮ ਸਮਾਂ ਪੱਕਾ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਫ਼ੋਨ ਕਰੇਗੀ।"
+      },
+      {
+        "tag": "span",
+        "en": "Department",
+        "pa": "ਵਿਭਾਗ"
+      },
+      {
+        "tag": "button",
+        "en": "Orthopaedics",
+        "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+      },
+      {
+        "tag": "button",
+        "en": "Robotic knee",
+        "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+      },
+      {
+        "tag": "button",
+        "en": "Eye care",
+        "pa": "ਅੱਖਾਂ"
+      },
+      {
+        "tag": "button",
+        "en": "Mental health",
+        "pa": "ਮਾਨਸਿਕ ਸਿਹਤ"
+      },
+      {
+        "tag": "button",
+        "en": "Not sure",
+        "pa": "ਪੱਕਾ ਨਹੀਂ"
+      },
+      {
+        "tag": "span",
+        "en": "Patient name",
+        "pa": "ਮਰੀਜ਼ ਦਾ ਨਾਮ"
+      },
+      {
+        "tag": "span",
+        "en": "Mobile number",
+        "pa": "ਮੋਬਾਈਲ ਨੰਬਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Preferred day",
+        "pa": "ਪਸੰਦੀਦਾ ਦਿਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Preferred language",
+        "pa": "ਗੱਲਬਾਤ ਦੀ ਭਾਸ਼ਾ"
+      },
+      {
+        "tag": "span",
+        "en": "What's the problem? (optional)",
+        "pa": "ਤਕਲੀਫ਼ ਬਾਰੇ ਥੋੜ੍ਹਾ ਦੱਸੋ (ਵਿਕਲਪਿਕ)"
+      },
+      {
+        "tag": "span",
+        "en": "Prepare WhatsApp message",
+        "pa": "ਵਟਸਐਪ ਤੇ ਭੇਜਣ ਲਈ ਤਿਆਰ ਕਰੋ"
+      },
+      {
+        "tag": "dt",
+        "en": "Address",
+        "pa": "ਪਤਾ"
+      },
+      {
+        "tag": "dt",
+        "en": "Appointments &amp; WhatsApp",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਅਤੇ ਵਟਸਐਪ"
+      },
+      {
+        "tag": "dt",
+        "en": "Eye department",
+        "pa": "ਅੱਖਾਂ ਦਾ ਵਿਭਾਗ"
+      },
+      {
+        "tag": "dt",
+        "en": "OPD timings",
+        "pa": "ਓਪੀਡੀ ਸਮਾਂ"
+      },
+      {
+        "tag": "dd",
+        "en": "Open 24 hours",
+        "pa": "24 ਘੰਟੇ ਖੁੱਲ੍ਹ"
+      },
+      {
+        "tag": "span",
+        "en": "Open in Google Maps",
+        "pa": "ਗੂਗਲ ਮੈਪਸ ਤੇ ਖੋਲ੍ਹੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Before you come",
+        "pa": "ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "What to <span class=\"em\">bring with you.</span>",
+        "pa": "ਨਾਲ <span class=\"em\">ਕੀ ਲਿਆਉਣਾ ਹੈ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "A complete history helps the doctor decide faster, and can save you a repeat test.",
+        "pa": "ਪੂਰਾ ਰਿਕਾਰਡ ਡਾਕਟਰ ਨੂੰ ਜਲਦੀ ਫ਼ੈਸਲਾ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ, ਅਤੇ ਦੁਬਾਰਾ ਜਾਂਚ ਤੋਂ ਬਚਾ ਸਕਦਾ ਹੈ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Old reports",
+        "pa": "ਪੁਰਾਣੀਆਂ ਰਿਪੋਰਟਾਂ"
+      },
+      {
+        "tag": "p",
+        "en": "X-rays, scans and discharge papers.",
+        "pa": "ਐਕਸ-ਰੇ, ਸਕੈਨ ਅਤੇ ਛੁੱਟੀ ਦੇ ਕਾਗਜ਼।"
+      },
+      {
+        "tag": "h3",
+        "en": "Your medicines",
+        "pa": "ਤੁਹਾਡੀਆਂ ਦਵਾਈਆਂ"
+      },
+      {
+        "tag": "p",
+        "en": "The strips or a list of what you take now.",
+        "pa": "ਹੁਣ ਚੱਲ ਰਹੀਆਂ ਦਵਾਈਆਂ ਦੇ ਪੱਤੇ ਜਾਂ ਸੂਚੀ।"
+      },
+      {
+        "tag": "h3",
+        "en": "ID and cards",
+        "pa": "ਪਛਾਣ ਅਤੇ ਕਾਰਡ"
+      },
+      {
+        "tag": "p",
+        "en": "Aadhaar, and your Ayushman or insurance card if you have one.",
+        "pa": "ਆਧਾਰ, ਅਤੇ ਜੇ ਹੈ ਤਾਂ ਆਯੁਸ਼ਮਾਨ ਜਾਂ ਬੀਮਾ ਕਾਰਡ।"
+      },
+      {
+        "tag": "h3",
+        "en": "Someone with you",
+        "pa": "ਨਾਲ ਕੋਈ"
+      },
+      {
+        "tag": "p",
+        "en": "Helpful for eye drops, surgery days and talking through options.",
+        "pa": "ਅੱਖਾਂ ਦੇ ਤੁਪਕਿਆਂ, ਸਰਜਰੀ ਦੇ ਦਿਨ ਅਤੇ ਫ਼ੈਸਲਿਆਂ ਲਈ ਮਦਦਗਾਰ।"
+      },
+      {
+        "tag": "span",
+        "en": "Hospital number",
+        "pa": "ਹਸਪਤਾਲ ਦਾ ਨੰਬਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Call",
+        "pa": "ਕਾਲ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Alternate number",
+        "pa": "ਦੂਜਾ ਨੰਬਰ"
+      },
+      {
+        "tag": "span",
+        "en": "Call",
+        "pa": "ਕਾਲ ਕਰੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Write",
+        "pa": "ਲਿਖੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Send reports before your visit",
+        "pa": "ਮੁਲਾਕਾਤ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟਾਂ ਭੇਜੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Open",
+        "pa": "ਖੋਲ੍ਹੋ"
+      },
+      {
+        "tag": "span",
+        "en": "Questions",
+        "pa": "ਸਵਾਲ"
+      },
+      {
+        "tag": "h2",
+        "en": "Questions families <span class=\"em\">often ask.</span>",
+        "pa": "ਪਰਿਵਾਰ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Still unsure? Call +91 98787 52241 and the team will help.",
+        "pa": "ਹਾਲੇ ਵੀ ਪੱਕਾ ਨਹੀਂ? +91 98787 52241 ਤੇ ਕਾਲ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Do I need an appointment?",
+        "pa": "ਕੀ ਅਪੌਇੰਟਮੈਂਟ ਜ਼ਰੂਰੀ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Booking ahead by phone or WhatsApp on +91 98787 52241 helps the team plan your visit and keeps your wait short.",
+        "pa": "+91 98787 52241 ਤੇ ਫ਼ੋਨ ਜਾਂ ਵਟਸਐਪ ਰਾਹੀਂ ਪਹਿਲਾਂ ਬੁੱਕ ਕਰਨ ਨਾਲ ਟੀਮ ਤੁਹਾਡੀ ਮੁਲਾਕਾਤ ਦੀ ਤਿਆਰੀ ਕਰ ਸਕਦੀ ਹੈ ਅਤੇ ਉਡੀਕ ਘੱਟ ਹੁੰਦੀ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Which doctor should I see?",
+        "pa": "ਮੈਨੂੰ ਕਿਸ ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੀਦਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Bones, joints, back and injuries: Dr. Mohit Gupta. Eyes: Dr. Parul Gupta. Mood, sleep, stress and addiction: Dr. Amit Gupta. If you are unsure, tell the team your problem and they will guide you.",
+        "pa": "ਹੱਡੀਆਂ, ਜੋੜ, ਕਮਰ ਅਤੇ ਸੱਟਾਂ: ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ। ਅੱਖਾਂ: ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ। ਮਨ, ਨੀਂਦ, ਤਣਾਅ ਅਤੇ ਨਸ਼ਾ: ਡਾ. ਅਮਿਤ ਗੁਪਤਾ। ਪੱਕਾ ਨਾ ਹੋਵੇ ਤਾਂ ਟੀਮ ਨੂੰ ਤਕਲੀਫ਼ ਦੱਸੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Is treatment covered under Ayushman Bharat?",
+        "pa": "ਕੀ ਇਲਾਜ ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਅਧੀਨ ਆਉਂਦਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "Gupta Hospital is empanelled under PM-JAY (HFR ID IN0310002794). Whether your procedure is covered depends on the scheme’s rules, so bring your card and the team will check.",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ PM-JAY ਅਧੀਨ ਸੂਚੀਬੱਧ ਹੈ (HFR ID IN0310002794)। ਤੁਹਾਡਾ ਇਲਾਜ ਸ਼ਾਮਲ ਹੈ ਜਾਂ ਨਹੀਂ, ਇਹ ਯੋਜਨਾ ਦੇ ਨਿਯਮਾਂ ਤੇ ਨਿਰਭਰ ਹੈ। ਕਾਰਡ ਲਿਆਓ, ਟੀਮ ਜਾਂਚ ਕਰੇਗੀ।"
+      },
+      {
+        "tag": "span",
+        "en": "Can I talk to the doctor in Punjabi?",
+        "pa": "ਕੀ ਮੈਂ ਡਾਕਟਰ ਨਾਲ ਪੰਜਾਬੀ ਵਿੱਚ ਗੱਲ ਕਰ ਸਕਦਾ ਹਾਂ?"
+      },
+      {
+        "tag": "div",
+        "en": "Yes. All three doctors speak Punjabi, Hindi and English, and will explain your reports in the language you are comfortable with.",
+        "pa": "ਹਾਂ। ਤਿੰਨੇ ਡਾਕਟਰ ਪੰਜਾਬੀ, ਹਿੰਦੀ ਅਤੇ ਅੰਗਰੇਜ਼ੀ ਬੋਲਦੇ ਹਨ, ਅਤੇ ਰਿਪੋਰਟਾਂ ਤੁਹਾਡੀ ਪਸੰਦ ਦੀ ਭਾਸ਼ਾ ਵਿੱਚ ਸਮਝਾਉਂਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "What should I bring to my first visit?",
+        "pa": "ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਤੇ ਕੀ ਲਿਆਉਣਾ ਹੈ?"
+      },
+      {
+        "tag": "div",
+        "en": "All old reports, X-rays and scans, the medicines you take now, Aadhaar, and your Ayushman or insurance card if you have one.",
+        "pa": "ਸਾਰੀਆਂ ਪੁਰਾਣੀਆਂ ਰਿਪੋਰਟਾਂ, ਐਕਸ-ਰੇ ਅਤੇ ਸਕੈਨ, ਹੁਣ ਚੱਲ ਰਹੀਆਂ ਦਵਾਈਆਂ, ਆਧਾਰ, ਅਤੇ ਜੇ ਹੈ ਤਾਂ ਆਯੁਸ਼ਮਾਨ ਜਾਂ ਬੀਮਾ ਕਾਰਡ।"
+      },
+      {
+        "tag": "span",
+        "en": "Show map",
+        "pa": "ਨਕਸ਼ਾ ਵਿਖਾਓ"
+      },
+      {
+        "tag": "span",
+        "en": "Map of the area around Gupta Hospital",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਦਾ ਨਕਸ਼ਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Punjabi",
+        "pa": "ਪੰਜਾਬੀ"
+      },
+      {
+        "tag": "span",
+        "en": "Hindi",
+        "pa": "ਹਿੰਦੀ"
+      },
+      {
+        "tag": "span",
+        "en": "English",
+        "pa": "ਅੰਗਰੇਜ਼ੀ"
+      }
+    ]
+  },
+  "plan-your-visit": {
+    "title": "Plan your visit · Gupta Hospital",
+    "strings": [
+      {
+        "tag": "a",
+        "en": "Home",
+        "pa": "ਮੁੱਖ ਪੰਨਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Plan your visit",
+        "pa": "ਆਪਣਾ ਦੌਰਾ"
+      },
+      {
+        "tag": "h1",
+        "en": "Plan your visit.",
+        "pa": "ਆਪਣਾ ਦੌਰਾ ਸੋਝੋ।"
+      },
+      {
+        "tag": "p",
+        "en": "A little planning makes the visit smoother, especially if you are travelling from another town.",
+        "pa": "ਥੋੜ੍ਹੀ ਤਿਆਰੀ ਨਾਲ ਮੁਲਾਕਾਤ ਸੌਖੀ ਹੋ ਜਾਂਦੀ ਹੈ, ਖ਼ਾਸ ਕਰ ਜੇ ਤੁਸੀਂ ਦੂਸਰੇ ਸ਼ਹਿਰ ਤੋਂ ਆ ਰਹੇ ਹੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Out of town",
+        "pa": "ਸ਼ਹਿਰ ਤੋਂ ਬਾਹਰ"
+      },
+      {
+        "tag": "h2",
+        "en": "Coming from <span class=\"em\">outside Bathinda?</span>",
+        "pa": "ਬਠਿੰਡਾ ਤੋਂ <span class=\"em\">ਬਾਹਰੋਂ ਆ ਰਹੇ ਹੋ?</span>"
+      },
+      {
+        "tag": "p",
+        "en": "Patients visit daily from Mansa, Barnala, Moga, Faridkot, Sri Muktsar Sahib, Fazilka and Sangrur in Punjab, Sirsa in Haryana, and Hanumangarh and Sri Ganganagar in Rajasthan. Tests, surgery and rehab all happen here, so fewer trips are needed.",
+        "pa": "ਮਰੀਜ਼ ਰੋਜ਼ਾਨਾ ਪੰਜਾਬ ਦੇ ਮਾਨਸਾ, ਬਰਨਾਲਾ, ਮੋਗਾ, ਫਰੀਦਕੋਟ, ਸ੍ਰੀ ਮੁਕਤਸਰ ਸਾਹਿਬ, ਫਾਜ਼ਿਲਕਾ ਤੇ ਸੰਗਰੂਰ, ਹਰਿਆਣਾ ਦੇ ਸਿਰਸਾ ਅਤੇ ਰਾਜਸਥਾਨ ਦੇ ਹਨੂਮਾਨਗੜ੍ਹ ਤੇ ਸ੍ਰੀ ਗੰਗਾਨਗਰ ਤੋਂ ਆਉਂਦੇ ਹਨ। ਟੈਸਟ, ਸਰਜਰੀ ਅਤੇ ਰਿਹੈਬ ਇੱਥੇ ਹੀ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਘੱਟੋ-ਘੱਟ ਫ਼ੇਰੇ ਲੱਗਦੇ ਹਨ।"
+      },
+      {
+        "tag": "span",
+        "en": "Punjab",
+        "pa": "ਪੰਜਾਬ"
+      },
+      {
+        "tag": "span",
+        "en": "Haryana",
+        "pa": "ਹਰਿਆਣਾ"
+      },
+      {
+        "tag": "span",
+        "en": "Rajasthan",
+        "pa": "ਰਾਜਸਥਾਨ"
+      },
+      {
+        "tag": "span",
+        "en": "Before you come",
+        "pa": "ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "What to <span class=\"em\">bring with you.</span>",
+        "pa": "ਨਾਲ <span class=\"em\">ਕੀ ਲਿਆਉਣਾ ਹੈ।</span>"
+      },
+      {
+        "tag": "p",
+        "en": "A complete history helps the doctor decide faster, and can save you a repeat test.",
+        "pa": "ਪੂਰਾ ਰਿਕਾਰਡ ਡਾਕਟਰ ਨੂੰ ਜਲਦੀ ਫ਼ੈਸਲਾ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ, ਅਤੇ ਦੁਬਾਰਾ ਜਾਂਚ ਤੋਂ ਬਚਾ ਸਕਦਾ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Travel tips",
+        "pa": "ਸਫ਼ਰ ਦੀਆਂ ਸਲਾਹਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "Before a <span class=\"em\">long trip.</span>",
+        "pa": "ਲੰਬੀ ਯਾਤਰਾ ਤੋਂ <span class=\"em\">ਪਹਿਲਾਂ।</span>"
+      },
+      {
+        "tag": "span",
+        "en": "Visit",
+        "pa": "ਪਤਾ ਤੇ ਸਮਾਂ"
+      },
+      {
+        "tag": "h2",
+        "en": "Address and <span class=\"em\">timings.</span>",
+        "pa": "ਪਤਾ ਤੇ <span class=\"em\">ਸਮਾਂ।</span>"
+      },
+      {
+        "tag": "dt",
+        "en": "Address",
+        "pa": "ਪਤਾ"
+      },
+      {
+        "tag": "dd",
+        "en": "Gupta Hospital, Power House Road, Bathinda, Punjab 151001",
+        "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ, ਪਾਵਰ ਹਾਊਸ ਰੋਡ, ਬਠਿੰਡਾ, ਪੰਜਾਬ 151001"
+      },
+      {
+        "tag": "dt",
+        "en": "Appointments",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ"
+      },
+      {
+        "tag": "dt",
+        "en": "Eye department",
+        "pa": "ਅੱਖਾਂ ਵਿਭਾਗ"
+      },
+      {
+        "tag": "dt",
+        "en": "OPD timings",
+        "pa": "ਓਪੀਡੀ ਸਮਾਂ"
+      },
+      {
+        "tag": "dd",
+        "en": "Open 24 hours",
+        "pa": "24 ਘੰਟੇ ਖੁੱਲ੍ਹ"
+      },
+      {
+        "tag": "span",
+        "en": "Get directions",
+        "pa": "ਰਾਹ ਪਾਓ"
+      },
+      {
+        "tag": "h3",
+        "en": "Want to see a doctor? Book a time on WhatsApp.",
+        "pa": "ਡਾਕਟਰ ਨੂੰ ਮਿਲਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਵਟਸਐਪ ਤੇ ਸਮਾਂ ਬੁੱਕ ਕਰੋ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book an appointment",
+        "pa": "ਅਪੌਇੰਟਮੈਂਟ ਬੁੱਕ ਕਰੋ"
+      }
+    ]
+  }
+}

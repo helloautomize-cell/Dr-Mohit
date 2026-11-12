@@ -1,0 +1,41 @@
+{
+  "name": "gupta-hospital-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "process-images": "node scripts/process-images.mjs",
+    "test:e2e": "playwright test",
+    "launch-check": "node scripts/launch-check.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.4.1",
+    "next": "^15.5.6",
+    "next-intl": "^4.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "resend": "6.37.0",
+    "zod": "^4.1.9"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "axe-core": "^4.14.0",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.5.6",
+    "lighthouse": "^12.8.2",
+    "playwright-core": "^1.65.0",
+    "prettier": "^3.6.2",
+    "sharp": "^0.34.4",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.29.3"
+}

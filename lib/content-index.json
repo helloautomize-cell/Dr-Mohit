@@ -1,0 +1,3467 @@
+{
+ "global": [
+  {
+   "key": "global.a.orthopaedics",
+   "tag": "a",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "global.a.robotic-knee",
+   "tag": "a",
+   "en": "Robotic knee"
+  },
+  {
+   "key": "global.a.eye-care",
+   "tag": "a",
+   "en": "Eye care"
+  },
+  {
+   "key": "global.a.mental-health",
+   "tag": "a",
+   "en": "Mental health"
+  },
+  {
+   "key": "global.a.doctors",
+   "tag": "a",
+   "en": "Doctors"
+  },
+  {
+   "key": "global.a.about",
+   "tag": "a",
+   "en": "About"
+  },
+  {
+   "key": "global.a.media",
+   "tag": "a",
+   "en": "Media"
+  },
+  {
+   "key": "global.span.book-appointment",
+   "tag": "span",
+   "en": "Book appointment"
+  },
+  {
+   "key": "global.p.power-house-road-bathinda-punjab-151001",
+   "tag": "p",
+   "en": "Power House Road, Bathinda, Punjab 151001"
+  },
+  {
+   "key": "global.h4.departments",
+   "tag": "h4",
+   "en": "Departments"
+  },
+  {
+   "key": "global.a.orthopaedics-1",
+   "tag": "a",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "global.a.robotic-knee-1",
+   "tag": "a",
+   "en": "Robotic knee"
+  },
+  {
+   "key": "global.a.eye-care-1",
+   "tag": "a",
+   "en": "Eye care"
+  },
+  {
+   "key": "global.a.mental-health-1",
+   "tag": "a",
+   "en": "Mental health"
+  },
+  {
+   "key": "global.h4.hospital",
+   "tag": "h4",
+   "en": "Hospital"
+  },
+  {
+   "key": "global.a.doctors-1",
+   "tag": "a",
+   "en": "Doctors"
+  },
+  {
+   "key": "global.a.about-1",
+   "tag": "a",
+   "en": "About"
+  },
+  {
+   "key": "global.a.media-1",
+   "tag": "a",
+   "en": "Media"
+  },
+  {
+   "key": "global.h4.contact",
+   "tag": "h4",
+   "en": "Contact"
+  },
+  {
+   "key": "global.a.book-appointment",
+   "tag": "a",
+   "en": "Book appointment"
+  },
+  {
+   "key": "global.span.general-information-only-it-does-not-repla",
+   "tag": "span",
+   "en": "General information only. It does not replace a consultation."
+  }
+ ],
+ "home": [
+  {
+   "key": "home.span.gupta-hospital-bathinda-since-1980",
+   "tag": "span",
+   "en": "Gupta Hospital · Bathinda · Since 1980"
+  },
+  {
+   "key": "home.h1.bone-eye-and-mental-health-care-for-bathin",
+   "tag": "h1",
+   "en": "Bone, eye and mental health care for <span class=\"em\">Bathinda.</span>"
+  },
+  {
+   "key": "home.p.one-family-of-doctors-on-power-house-road-",
+   "tag": "p",
+   "en": "One family of doctors on Power House Road for over four decades, now with robotic-assisted knee replacement."
+  },
+  {
+   "key": "home.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  },
+  {
+   "key": "home.span.velys-robotic-assisted-knee-system",
+   "tag": "span",
+   "en": "VELYS™ robotic-assisted knee system"
+  },
+  {
+   "key": "home.span.founded-by-dr-amrit-gupta",
+   "tag": "span",
+   "en": "Founded by Dr. Amrit Gupta"
+  },
+  {
+   "key": "home.span.departments-under-one-roof",
+   "tag": "span",
+   "en": "Departments under one roof"
+  },
+  {
+   "key": "home.span.ayushman-bharat-empanelled-since-2019",
+   "tag": "span",
+   "en": "Ayushman Bharat empanelled since 2019"
+  },
+  {
+   "key": "home.span.tribune-health-care-award-joint-replacemen",
+   "tag": "span",
+   "en": "Tribune Health Care Award, joint replacement"
+  },
+  {
+   "key": "home.span.your-first-visit",
+   "tag": "span",
+   "en": "Your first visit"
+  },
+  {
+   "key": "home.h2.every-treatment-starts-with-listening",
+   "tag": "h2",
+   "en": "Every treatment starts with <span class=\"em\">listening.</span>"
+  },
+  {
+   "key": "home.p.scroll-to-see-how-a-first-consultation-unf",
+   "tag": "p",
+   "en": "Scroll to see how a first consultation unfolds. The example is a knee visit with Dr. Mohit."
+  },
+  {
+   "key": "home.span.listen",
+   "tag": "span",
+   "en": "Listen"
+  },
+  {
+   "key": "home.h3.the-doctor-listens-first",
+   "tag": "h3",
+   "en": "The doctor listens first."
+  },
+  {
+   "key": "home.p.how-long-it-has-hurt-what-makes-it-worse-a",
+   "tag": "p",
+   "en": "How long it has hurt, what makes it worse, and what you have already tried. Talk in Punjabi, Hindi or English."
+  },
+  {
+   "key": "home.p.how-long-has-the-knee-been-troubling-you",
+   "tag": "p",
+   "en": "How long has the knee been troubling you?"
+  },
+  {
+   "key": "home.p.about-two-years-stairs-are-the-hardest",
+   "tag": "p",
+   "en": "About two years. Stairs are the hardest."
+  },
+  {
+   "key": "home.p.and-what-have-you-tried-so-far",
+   "tag": "p",
+   "en": "And what have you tried so far?"
+  },
+  {
+   "key": "home.span.examine",
+   "tag": "span",
+   "en": "Examine"
+  },
+  {
+   "key": "home.h3.then-a-careful-examination",
+   "tag": "h3",
+   "en": "Then a careful examination."
+  },
+  {
+   "key": "home.p.the-doctor-checks-how-the-joint-moves-read",
+   "tag": "p",
+   "en": "The doctor checks how the joint moves, reads your X-ray and shows you what each part means."
+  },
+  {
+   "key": "home.text.thigh-bone",
+   "tag": "text",
+   "en": "Thigh bone"
+  },
+  {
+   "key": "home.text.cartilage",
+   "tag": "text",
+   "en": "Cartilage"
+  },
+  {
+   "key": "home.text.ligament",
+   "tag": "text",
+   "en": "Ligament"
+  },
+  {
+   "key": "home.text.shin-bone",
+   "tag": "text",
+   "en": "Shin bone"
+  },
+  {
+   "key": "home.span.plan",
+   "tag": "span",
+   "en": "Plan"
+  },
+  {
+   "key": "home.h3.you-plan-together",
+   "tag": "h3",
+   "en": "You plan together."
+  },
+  {
+   "key": "home.p.the-likely-cause-your-options-from-exercis",
+   "tag": "p",
+   "en": "The likely cause, your options from exercise to surgery, and a timeline that fits your life."
+  },
+  {
+   "key": "home.b.your-plan",
+   "tag": "b",
+   "en": "Your plan"
+  },
+  {
+   "key": "home.b.the-cause",
+   "tag": "b",
+   "en": "The cause"
+  },
+  {
+   "key": "home.small.explained-on-your-x-ray",
+   "tag": "small",
+   "en": "Explained on your X-ray"
+  },
+  {
+   "key": "home.b.your-options",
+   "tag": "b",
+   "en": "Your options"
+  },
+  {
+   "key": "home.small.exercise-medicines-injections-or-surgery",
+   "tag": "small",
+   "en": "Exercise, medicines, injections or surgery"
+  },
+  {
+   "key": "home.b.the-timeline",
+   "tag": "b",
+   "en": "The timeline"
+  },
+  {
+   "key": "home.small.at-a-pace-you-agree-to",
+   "tag": "small",
+   "en": "At a pace you agree to"
+  },
+  {
+   "key": "home.div.questions-whatsapp-91-98787-52241",
+   "tag": "div",
+   "en": "Questions? WhatsApp +91 98787 52241"
+  },
+  {
+   "key": "home.span.listen-1",
+   "tag": "span",
+   "en": "Listen"
+  },
+  {
+   "key": "home.span.examine-1",
+   "tag": "span",
+   "en": "Examine"
+  },
+  {
+   "key": "home.span.plan-1",
+   "tag": "span",
+   "en": "Plan"
+  },
+  {
+   "key": "home.p.how-long-has-the-knee-been-troubling-you-1",
+   "tag": "p",
+   "en": "How long has the knee been troubling you?"
+  },
+  {
+   "key": "home.p.about-two-years-stairs-are-the-hardest-1",
+   "tag": "p",
+   "en": "About two years. Stairs are the hardest."
+  },
+  {
+   "key": "home.p.and-what-have-you-tried-so-far-1",
+   "tag": "p",
+   "en": "And what have you tried so far?"
+  },
+  {
+   "key": "home.text.thigh-bone-1",
+   "tag": "text",
+   "en": "Thigh bone"
+  },
+  {
+   "key": "home.text.cartilage-1",
+   "tag": "text",
+   "en": "Cartilage"
+  },
+  {
+   "key": "home.text.ligament-1",
+   "tag": "text",
+   "en": "Ligament"
+  },
+  {
+   "key": "home.text.shin-bone-1",
+   "tag": "text",
+   "en": "Shin bone"
+  },
+  {
+   "key": "home.b.your-plan-1",
+   "tag": "b",
+   "en": "Your plan"
+  },
+  {
+   "key": "home.b.the-cause-1",
+   "tag": "b",
+   "en": "The cause"
+  },
+  {
+   "key": "home.small.explained-on-your-x-ray-1",
+   "tag": "small",
+   "en": "Explained on your X-ray"
+  },
+  {
+   "key": "home.b.your-options-1",
+   "tag": "b",
+   "en": "Your options"
+  },
+  {
+   "key": "home.small.exercise-medicines-injections-or-surgery-1",
+   "tag": "small",
+   "en": "Exercise, medicines, injections or surgery"
+  },
+  {
+   "key": "home.b.the-timeline-1",
+   "tag": "b",
+   "en": "The timeline"
+  },
+  {
+   "key": "home.small.at-a-pace-you-agree-to-1",
+   "tag": "small",
+   "en": "At a pace you agree to"
+  },
+  {
+   "key": "home.div.questions-whatsapp-91-98787-52241-1",
+   "tag": "div",
+   "en": "Questions? WhatsApp +91 98787 52241"
+  },
+  {
+   "key": "home.span.treatments",
+   "tag": "span",
+   "en": "Treatments"
+  },
+  {
+   "key": "home.h2.care-for-bones-eyes-and-the-mind",
+   "tag": "h2",
+   "en": "Care for bones, eyes <span class=\"em-g\">and the mind.</span>"
+  },
+  {
+   "key": "home.p.three-departments-each-led-by-a-specialist",
+   "tag": "p",
+   "en": "Three departments, each led by a specialist from the Gupta family."
+  },
+  {
+   "key": "home.span.orthopaedics",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "home.h3.robotic-knee-replacement",
+   "tag": "h3",
+   "en": "Robotic knee replacement"
+  },
+  {
+   "key": "home.p.planned-around-your-own-knee-with-the-j-am",
+   "tag": "p",
+   "en": "Planned around your own knee with the J&amp;J VELYS™ system."
+  },
+  {
+   "key": "home.span.learn-more",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "home.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "home.h3.knee-amp-hip-replacement",
+   "tag": "h3",
+   "en": "Knee &amp; hip replacement"
+  },
+  {
+   "key": "home.p.total-and-partial-knee-replacement-and-hip",
+   "tag": "p",
+   "en": "Total and partial knee replacement, and hip replacement."
+  },
+  {
+   "key": "home.span.learn-more-1",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "home.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "home.h3.fractures-amp-trauma",
+   "tag": "h3",
+   "en": "Fractures &amp; trauma"
+  },
+  {
+   "key": "home.p.accident-injuries-hip-fractures-in-older-p",
+   "tag": "p",
+   "en": "Accident injuries, hip fractures in older people, and sports injuries."
+  },
+  {
+   "key": "home.span.learn-more-1",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "home.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "home.h3.back-pain-clinic",
+   "tag": "h3",
+   "en": "Back pain clinic"
+  },
+  {
+   "key": "home.p.slip-disc-sciatica-and-neck-pain-with-non-",
+   "tag": "p",
+   "en": "Slip disc, sciatica and neck pain, with non-surgical care first."
+  },
+  {
+   "key": "home.span.learn-more-1",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "home.span.eye-care",
+   "tag": "span",
+   "en": "Eye care"
+  },
+  {
+   "key": "home.h3.cataract-amp-eye-care",
+   "tag": "h3",
+   "en": "Cataract &amp; eye care"
+  },
+  {
+   "key": "home.p.dr-parul-gupta-phaco-cataract-surgery-glau",
+   "tag": "p",
+   "en": "Dr. Parul Gupta: phaco cataract surgery, glaucoma, retina and children's eyes."
+  },
+  {
+   "key": "home.span.learn-more-1",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "home.span.mental-health",
+   "tag": "span",
+   "en": "Mental health"
+  },
+  {
+   "key": "home.h3.mind-amp-de-addiction",
+   "tag": "h3",
+   "en": "Mind &amp; de-addiction"
+  },
+  {
+   "key": "home.p.dr-amit-gupta-stress-low-mood-anxiety-and-",
+   "tag": "p",
+   "en": "Dr. Amit Gupta: stress, low mood, anxiety and a licensed de-addiction centre."
+  },
+  {
+   "key": "home.span.learn-more-1",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "home.span.our-story",
+   "tag": "span",
+   "en": "Our story"
+  },
+  {
+   "key": "home.h2.four-decades-on-power-house-road",
+   "tag": "h2",
+   "en": "Four decades on <span class=\"em\">Power House Road.</span>"
+  },
+  {
+   "key": "home.span.years-of-care-in-bathinda",
+   "tag": "span",
+   "en": "years of care in Bathinda"
+  },
+  {
+   "key": "home.p.what-began-as-a-small-orthopaedic-clinic-i",
+   "tag": "p",
+   "en": "What began as a small orthopaedic clinic in 1980 is now a hospital with three departments, run by the second generation of the same family. Many patients today are the children and grandchildren of Dr. Amrit Gupta’s first patients."
+  },
+  {
+   "key": "home.figcaption.power-house-road-bathinda",
+   "tag": "figcaption",
+   "en": "Power House Road, Bathinda"
+  },
+  {
+   "key": "home.h3.a-clinic-opens",
+   "tag": "h3",
+   "en": "A clinic opens"
+  },
+  {
+   "key": "home.p.dr-amrit-gupta-starts-an-orthopaedic-pract",
+   "tag": "p",
+   "en": "Dr. Amrit Gupta starts an orthopaedic practice on Power House Road, bringing bone and joint surgery closer to families in Malwa."
+  },
+  {
+   "key": "home.h3.care-for-the-mind",
+   "tag": "h3",
+   "en": "Care for the mind"
+  },
+  {
+   "key": "home.p.dr-amit-gupta-joins-as-psychiatrist-when-a",
+   "tag": "p",
+   "en": "Dr. Amit Gupta joins as psychiatrist when addiction was hurting many homes in the region, and the de-addiction centre begins."
+  },
+  {
+   "key": "home.h3.ayushman-bharat",
+   "tag": "h3",
+   "en": "Ayushman Bharat"
+  },
+  {
+   "key": "home.p.the-hospital-is-empanelled-under-pm-jay-so",
+   "tag": "p",
+   "en": "The hospital is empanelled under PM-JAY, so eligible card holders can be treated here."
+  },
+  {
+   "key": "home.h3.robotic-assisted-knees",
+   "tag": "h3",
+   "en": "Robotic-assisted knees"
+  },
+  {
+   "key": "home.p.the-j-amp-j-velys-robotic-assisted-knee-sy",
+   "tag": "p",
+   "en": "The J&amp;J VELYS™ robotic-assisted knee system is launched at the hospital’s Ortho Robotic Centre."
+  },
+  {
+   "key": "home.h3.recognised-by-the-tribune",
+   "tag": "h3",
+   "en": "Recognised by The Tribune"
+  },
+  {
+   "key": "home.p.tribune-health-care-award-for-excellence-i",
+   "tag": "p",
+   "en": "Tribune Health Care Award for excellence in joint replacement and ortho robotic surgery."
+  },
+  {
+   "key": "home.span.today",
+   "tag": "span",
+   "en": "Today"
+  },
+  {
+   "key": "home.h3.three-departments-one-family",
+   "tag": "h3",
+   "en": "Three departments, one family"
+  },
+  {
+   "key": "home.p.dr-mohit-gupta-leads-orthopaedics-after-fe",
+   "tag": "p",
+   "en": "Dr. Mohit Gupta leads orthopaedics after fellowships in Germany and Switzerland, Dr. Parul Gupta runs the eye department with its own operation theatre, and Dr. Amit Gupta heads mental health."
+  },
+  {
+   "key": "home.span.the-full-story",
+   "tag": "span",
+   "en": "The full story"
+  },
+  {
+   "key": "home.span.find-the-right-doctor",
+   "tag": "span",
+   "en": "Find the right doctor"
+  },
+  {
+   "key": "home.h2.where-is-the-trouble",
+   "tag": "h2",
+   "en": "Where is the <span class=\"em\">trouble?</span>"
+  },
+  {
+   "key": "home.p.tap-a-part-of-the-body-we-will-show-you-wh",
+   "tag": "p",
+   "en": "Tap a part of the body. We will show you which Gupta Hospital doctor you would see."
+  },
+  {
+   "key": "home.span.your-journey",
+   "tag": "span",
+   "en": "Your journey"
+  },
+  {
+   "key": "home.h2.from-first-call-to-feeling-better",
+   "tag": "h2",
+   "en": "From first call to <span class=\"em\">feeling better.</span>"
+  },
+  {
+   "key": "home.p.the-same-doctor-stays-with-you-at-every-st",
+   "tag": "p",
+   "en": "The same doctor stays with you at every step."
+  },
+  {
+   "key": "home.h3.you-reach-out",
+   "tag": "h3",
+   "en": "You reach out"
+  },
+  {
+   "key": "home.p.call-whatsapp-or-walk-in-our-team-tells-yo",
+   "tag": "p",
+   "en": "Call, WhatsApp or walk in. Our team tells you which doctor to see."
+  },
+  {
+   "key": "home.h3.you-meet-your-specialist",
+   "tag": "h3",
+   "en": "You meet your specialist"
+  },
+  {
+   "key": "home.p.a-doctor-from-the-gupta-family-listens-and",
+   "tag": "p",
+   "en": "A doctor from the Gupta family listens and examines you."
+  },
+  {
+   "key": "home.h3.tests-and-a-clear-plan",
+   "tag": "h3",
+   "en": "Tests and a clear plan"
+  },
+  {
+   "key": "home.p.tests-if-needed-then-your-options-in-plain",
+   "tag": "p",
+   "en": "Tests if needed, then your options in plain words."
+  },
+  {
+   "key": "home.h3.treatment-and-follow-up",
+   "tag": "h3",
+   "en": "Treatment and follow-up"
+  },
+  {
+   "key": "home.p.surgery-medicines-or-therapy-then-follow-u",
+   "tag": "p",
+   "en": "Surgery, medicines or therapy, then follow-up with the same doctor."
+  },
+  {
+   "key": "home.span.modular-operation-theatre-gupta-hospital",
+   "tag": "span",
+   "en": "Modular operation theatre, Gupta Hospital"
+  },
+  {
+   "key": "home.span.robotic-knee-replacement",
+   "tag": "span",
+   "en": "Robotic knee replacement"
+  },
+  {
+   "key": "home.h2.a-plan-built-around-your-own-knee",
+   "tag": "h2",
+   "en": "A plan built around <span class=\"em\">your own knee.</span>"
+  },
+  {
+   "key": "home.p.during-surgery-the-velys-system-records-th",
+   "tag": "p",
+   "en": "During surgery the VELYS system records the shape of your knee and how its ligaments move, so the new joint is placed to plan. Dr. Mohit Gupta is in control at every step."
+  },
+  {
+   "key": "home.span.how-it-works",
+   "tag": "span",
+   "en": "How it works"
+  },
+  {
+   "key": "home.span.under-one-roof",
+   "tag": "span",
+   "en": "Under one roof"
+  },
+  {
+   "key": "home.h2.everything-your-treatment-needs-in-one-bui",
+   "tag": "h2",
+   "en": "Everything your treatment needs, <span class=\"em\">in one building.</span>"
+  },
+  {
+   "key": "home.p.tests-surgery-blood-medicines-and-rehab-ha",
+   "tag": "p",
+   "en": "Tests, surgery, blood, medicines and rehab happen here. For families travelling from villages and other districts, that means fewer trips and less waiting."
+  },
+  {
+   "key": "home.figcaption.reception",
+   "tag": "figcaption",
+   "en": "Reception"
+  },
+  {
+   "key": "home.figcaption.opd-corridor",
+   "tag": "figcaption",
+   "en": "OPD corridor"
+  },
+  {
+   "key": "home.figcaption.day-care",
+   "tag": "figcaption",
+   "en": "Day care"
+  },
+  {
+   "key": "home.h3.modular-operation-theatres",
+   "tag": "h3",
+   "en": "Modular operation theatres"
+  },
+  {
+   "key": "home.p.separate-theatres-for-bone-and-eye-surgery",
+   "tag": "p",
+   "en": "Separate theatres for bone and eye surgery, built for clean air and infection control."
+  },
+  {
+   "key": "home.h3.critical-care",
+   "tag": "h3",
+   "en": "Critical care"
+  },
+  {
+   "key": "home.p.close-monitoring-after-major-surgery-and-i",
+   "tag": "p",
+   "en": "Close monitoring after major surgery and in emergencies."
+  },
+  {
+   "key": "home.h3.blood-bank",
+   "tag": "h3",
+   "en": "Blood bank"
+  },
+  {
+   "key": "home.p.blood-is-arranged-on-site-so-families-do-n",
+   "tag": "p",
+   "en": "Blood is arranged on site, so families do not have to run to another city during surgery."
+  },
+  {
+   "key": "home.h3.digital-x-ray",
+   "tag": "h3",
+   "en": "Digital X-ray"
+  },
+  {
+   "key": "home.p.images-are-taken-and-read-during-the-same-",
+   "tag": "p",
+   "en": "Images are taken and read during the same visit."
+  },
+  {
+   "key": "home.h3.laboratory",
+   "tag": "h3",
+   "en": "Laboratory"
+  },
+  {
+   "key": "home.p.routine-blood-tests-before-surgery-and-dur",
+   "tag": "p",
+   "en": "Routine blood tests before surgery and during treatment."
+  },
+  {
+   "key": "home.h3.pharmacy",
+   "tag": "h3",
+   "en": "Pharmacy"
+  },
+  {
+   "key": "home.p.prescribed-medicines-are-available-inside-",
+   "tag": "p",
+   "en": "Prescribed medicines are available inside the hospital."
+  },
+  {
+   "key": "home.h3.physiotherapy",
+   "tag": "h3",
+   "en": "Physiotherapy"
+  },
+  {
+   "key": "home.p.rehab-starts-in-hospital-and-continues-on-",
+   "tag": "p",
+   "en": "Rehab starts in hospital and continues on follow-up visits."
+  },
+  {
+   "key": "home.h3.private-rooms",
+   "tag": "h3",
+   "en": "Private rooms"
+  },
+  {
+   "key": "home.p.quiet-rooms-to-recover-in-after-surgery",
+   "tag": "p",
+   "en": "Quiet rooms to recover in after surgery."
+  },
+  {
+   "key": "home.span.doctors",
+   "tag": "span",
+   "en": "Doctors"
+  },
+  {
+   "key": "home.h2.the-doctors-you-will-see",
+   "tag": "h2",
+   "en": "The doctors you will see."
+  },
+  {
+   "key": "home.span.all-profiles",
+   "tag": "span",
+   "en": "All profiles"
+  },
+  {
+   "key": "home.span.orthopaedic-amp-joint-replacement-surgeon",
+   "tag": "span",
+   "en": "Orthopaedic &amp; joint replacement surgeon"
+  },
+  {
+   "key": "home.span.eye-surgeon",
+   "tag": "span",
+   "en": "Eye surgeon"
+  },
+  {
+   "key": "home.span.psychiatrist-amp-de-addiction-specialist",
+   "tag": "span",
+   "en": "Psychiatrist &amp; de-addiction specialist"
+  },
+  {
+   "key": "home.span.in-the-news",
+   "tag": "span",
+   "en": "In the news"
+  },
+  {
+   "key": "home.h2.out-in-the-community",
+   "tag": "h2",
+   "en": "Out in the community."
+  },
+  {
+   "key": "home.p.free-camps-health-talks-and-new-services-a",
+   "tag": "p",
+   "en": "Free camps, health talks and new services, as reported by local papers. Drag the clippings, click one to read it."
+  },
+  {
+   "key": "home.span.all-press-coverage",
+   "tag": "span",
+   "en": "All press coverage"
+  },
+  {
+   "key": "home.span.coming-from-out-of-town",
+   "tag": "span",
+   "en": "Coming from out of town"
+  },
+  {
+   "key": "home.h2.families-travel-from-three-states",
+   "tag": "h2",
+   "en": "Families travel from <span class=\"em\">three states.</span>"
+  },
+  {
+   "key": "home.p.patients-come-from-across-punjab-and-neigh",
+   "tag": "p",
+   "en": "Patients come from across Punjab and neighbouring Haryana and Rajasthan. A little planning makes a long trip worth it."
+  },
+  {
+   "key": "home.text.punjab",
+   "tag": "text",
+   "en": "PUNJAB"
+  },
+  {
+   "key": "home.text.haryana",
+   "tag": "text",
+   "en": "HARYANA"
+  },
+  {
+   "key": "home.text.rajasthan",
+   "tag": "text",
+   "en": "RAJASTHAN"
+  },
+  {
+   "key": "home.text.mansa",
+   "tag": "text",
+   "en": "Mansa"
+  },
+  {
+   "key": "home.text.barnala",
+   "tag": "text",
+   "en": "Barnala"
+  },
+  {
+   "key": "home.text.moga",
+   "tag": "text",
+   "en": "Moga"
+  },
+  {
+   "key": "home.text.faridkot",
+   "tag": "text",
+   "en": "Faridkot"
+  },
+  {
+   "key": "home.text.sri-muktsar-sahib",
+   "tag": "text",
+   "en": "Sri Muktsar Sahib"
+  },
+  {
+   "key": "home.text.fazilka",
+   "tag": "text",
+   "en": "Fazilka"
+  },
+  {
+   "key": "home.text.sangrur",
+   "tag": "text",
+   "en": "Sangrur"
+  },
+  {
+   "key": "home.text.sirsa",
+   "tag": "text",
+   "en": "Sirsa"
+  },
+  {
+   "key": "home.text.hanumangarh",
+   "tag": "text",
+   "en": "Hanumangarh"
+  },
+  {
+   "key": "home.text.sri-ganganagar",
+   "tag": "text",
+   "en": "Sri Ganganagar"
+  },
+  {
+   "key": "home.text.bathinda",
+   "tag": "text",
+   "en": "Bathinda"
+  },
+  {
+   "key": "home.span.punjab",
+   "tag": "span",
+   "en": "Punjab"
+  },
+  {
+   "key": "home.span.haryana",
+   "tag": "span",
+   "en": "Haryana"
+  },
+  {
+   "key": "home.span.rajasthan",
+   "tag": "span",
+   "en": "Rajasthan"
+  },
+  {
+   "key": "home.span.example-towns-not-to-scale",
+   "tag": "span",
+   "en": "Example towns, not to scale."
+  },
+  {
+   "key": "home.h3.before-a-long-trip",
+   "tag": "h3",
+   "en": "Before a long trip"
+  },
+  {
+   "key": "home.b.send-reports-on-whatsapp-first",
+   "tag": "b",
+   "en": "Send reports on WhatsApp first"
+  },
+  {
+   "key": "home.span.the-team-can-tell-you-which-doctor-to-see-",
+   "tag": "span",
+   "en": "The team can tell you which doctor to see and whether to bring anything else."
+  },
+  {
+   "key": "home.b.bring-every-old-report",
+   "tag": "b",
+   "en": "Bring every old report"
+  },
+  {
+   "key": "home.span.x-rays-scans-prescriptions-and-the-medicin",
+   "tag": "span",
+   "en": "X-rays, scans, prescriptions and the medicines you take now, even if they seem unrelated."
+  },
+  {
+   "key": "home.b.carry-your-ayushman-card",
+   "tag": "b",
+   "en": "Carry your Ayushman card"
+  },
+  {
+   "key": "home.span.if-you-have-one-along-with-aadhaar-so-elig",
+   "tag": "span",
+   "en": "If you have one, along with Aadhaar, so eligibility can be checked on the day."
+  },
+  {
+   "key": "home.b.ask-for-an-early-slot",
+   "tag": "b",
+   "en": "Ask for an early slot"
+  },
+  {
+   "key": "home.span.if-you-are-travelling-far-book-ahead-so-te",
+   "tag": "span",
+   "en": "If you are travelling far, book ahead so tests can be done the same day."
+  },
+  {
+   "key": "home.span.send-reports-on-whatsapp",
+   "tag": "span",
+   "en": "Send reports on WhatsApp"
+  },
+  {
+   "key": "home.span.questions",
+   "tag": "span",
+   "en": "Questions"
+  },
+  {
+   "key": "home.h2.questions-families-often-ask",
+   "tag": "h2",
+   "en": "Questions families <span class=\"em\">often ask.</span>"
+  },
+  {
+   "key": "home.span.ask-us-something-else",
+   "tag": "span",
+   "en": "Ask us something else"
+  },
+  {
+   "key": "home.span.do-i-need-an-appointment",
+   "tag": "span",
+   "en": "Do I need an appointment?"
+  },
+  {
+   "key": "home.div.booking-ahead-by-phone-or-whatsapp-on-91-9",
+   "tag": "div",
+   "en": "Booking ahead by phone or WhatsApp on +91 98787 52241 helps the team plan your visit and keeps your wait short."
+  },
+  {
+   "key": "home.span.which-doctor-should-i-see",
+   "tag": "span",
+   "en": "Which doctor should I see?"
+  },
+  {
+   "key": "home.div.bones-joints-back-and-injuries-dr-mohit-gu",
+   "tag": "div",
+   "en": "Bones, joints, back and injuries: Dr. Mohit Gupta. Eyes: Dr. Parul Gupta. Mood, sleep, stress and addiction: Dr. Amit Gupta. If you are unsure, tell the team your problem and they will guide you."
+  },
+  {
+   "key": "home.span.is-treatment-covered-under-ayushman-bharat",
+   "tag": "span",
+   "en": "Is treatment covered under Ayushman Bharat?"
+  },
+  {
+   "key": "home.div.gupta-hospital-is-empanelled-under-pm-jay-",
+   "tag": "div",
+   "en": "Gupta Hospital is empanelled under PM-JAY (HFR ID IN0310002794). Whether your procedure is covered depends on the scheme’s rules, so bring your card and the team will check."
+  },
+  {
+   "key": "home.span.can-i-talk-to-the-doctor-in-punjabi",
+   "tag": "span",
+   "en": "Can I talk to the doctor in Punjabi?"
+  },
+  {
+   "key": "home.div.yes-all-three-doctors-speak-punjabi-hindi-",
+   "tag": "div",
+   "en": "Yes. All three doctors speak Punjabi, Hindi and English, and will explain your reports in the language you are comfortable with."
+  },
+  {
+   "key": "home.span.what-should-i-bring-to-my-first-visit",
+   "tag": "span",
+   "en": "What should I bring to my first visit?"
+  },
+  {
+   "key": "home.div.all-old-reports-x-rays-and-scans-the-medic",
+   "tag": "div",
+   "en": "All old reports, X-rays and scans, the medicines you take now, Aadhaar, and your Ayushman or insurance card if you have one."
+  },
+  {
+   "key": "home.span.does-the-hospital-hold-free-camps",
+   "tag": "span",
+   "en": "Does the hospital hold free camps?"
+  },
+  {
+   "key": "home.div.yes-the-hospital-regularly-holds-free-bone",
+   "tag": "div",
+   "en": "Yes. The hospital regularly holds free bone and eye screening camps in Bathinda and nearby villages. Dates are shared on the hospital’s social media and in local papers."
+  },
+  {
+   "key": "home.span.visit",
+   "tag": "span",
+   "en": "Visit"
+  },
+  {
+   "key": "home.h2.power-house-road-bathinda",
+   "tag": "h2",
+   "en": "Power House Road, Bathinda."
+  },
+  {
+   "key": "home.p.call-or-whatsapp-to-book-in-an-emergency-c",
+   "tag": "p",
+   "en": "Call or WhatsApp to book. In an emergency, come straight to the hospital."
+  },
+  {
+   "key": "home.span.book-an-appointment-1",
+   "tag": "span",
+   "en": "Book an appointment"
+  },
+  {
+   "key": "home.span.directions",
+   "tag": "span",
+   "en": "Directions"
+  },
+  {
+   "key": "home.dt.address",
+   "tag": "dt",
+   "en": "Address"
+  },
+  {
+   "key": "home.dt.appointments",
+   "tag": "dt",
+   "en": "Appointments"
+  },
+  {
+   "key": "home.dt.eye-department",
+   "tag": "dt",
+   "en": "Eye department"
+  }
+ ],
+ "orthopaedics": [
+  {
+   "key": "orthopaedics.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h1.bones-joints-and-injuries",
+   "tag": "h1",
+   "en": "Bones, joints <span class=\"em\">and injuries.</span>"
+  },
+  {
+   "key": "orthopaedics.p.the-department-that-began-as-an-orthopaedi",
+   "tag": "p",
+   "en": "The department that began as an orthopaedic clinic in 1980 is now led by Dr. Mohit Gupta, fellowship-trained in joint replacement in Germany and Switzerland."
+  },
+  {
+   "key": "orthopaedics.span.book-with-dr-mohit",
+   "tag": "span",
+   "en": "Book with Dr. Mohit"
+  },
+  {
+   "key": "orthopaedics.span.bone-and-joint-care-in-bathinda-since",
+   "tag": "span",
+   "en": "Bone and joint care in Bathinda since"
+  },
+  {
+   "key": "orthopaedics.span.robotic-assisted-knee-replacement",
+   "tag": "span",
+   "en": "Robotic-assisted knee replacement"
+  },
+  {
+   "key": "orthopaedics.b.2-countries",
+   "tag": "b",
+   "en": "2 countries"
+  },
+  {
+   "key": "orthopaedics.span.fellowship-training-germany-and-switzerlan",
+   "tag": "span",
+   "en": "Fellowship training, Germany and Switzerland"
+  },
+  {
+   "key": "orthopaedics.span.ayushman-bharat-empanelled",
+   "tag": "span",
+   "en": "Ayushman Bharat empanelled"
+  },
+  {
+   "key": "orthopaedics.span.services",
+   "tag": "span",
+   "en": "Services"
+  },
+  {
+   "key": "orthopaedics.h2.from-knee-to-spine-under-one-roof",
+   "tag": "h2",
+   "en": "From knee to spine, <span class=\"em\">under one roof.</span>"
+  },
+  {
+   "key": "orthopaedics.p.tap-a-card-to-ask-about-that-treatment-on-",
+   "tag": "p",
+   "en": "Tap a card to ask about that treatment on WhatsApp."
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.robotic-knee-replacement",
+   "tag": "h3",
+   "en": "Robotic knee replacement"
+  },
+  {
+   "key": "orthopaedics.p.planned-around-your-own-knee-with-the-j-am",
+   "tag": "p",
+   "en": "Planned around your own knee with the J&amp;J VELYS™ system."
+  },
+  {
+   "key": "orthopaedics.span.learn-more",
+   "tag": "span",
+   "en": "Learn more"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.total-knee-replacement",
+   "tag": "h3",
+   "en": "Total knee replacement"
+  },
+  {
+   "key": "orthopaedics.p.the-whole-worn-joint-surface-is-replaced-w",
+   "tag": "p",
+   "en": "The whole worn joint surface is replaced when arthritis affects the entire knee."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.partial-knee-replacement",
+   "tag": "h3",
+   "en": "Partial knee replacement"
+  },
+  {
+   "key": "orthopaedics.p.only-the-damaged-part-is-replaced-when-the",
+   "tag": "p",
+   "en": "Only the damaged part is replaced when the rest of the knee is healthy."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp-1",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.hip-replacement",
+   "tag": "h3",
+   "en": "Hip replacement"
+  },
+  {
+   "key": "orthopaedics.p.for-hip-arthritis-and-some-hip-fractures-t",
+   "tag": "p",
+   "en": "For hip arthritis and some hip fractures, to ease pain and help you walk."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp-1",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.fractures-amp-trauma",
+   "tag": "h3",
+   "en": "Fractures &amp; trauma"
+  },
+  {
+   "key": "orthopaedics.p.accident-injuries-with-special-care-for-hi",
+   "tag": "p",
+   "en": "Accident injuries, with special care for hip fractures in older people."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp-1",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.arthroscopy-amp-sports-injuries",
+   "tag": "h3",
+   "en": "Arthroscopy &amp; sports injuries"
+  },
+  {
+   "key": "orthopaedics.p.keyhole-surgery-for-ligament-and-meniscus-",
+   "tag": "p",
+   "en": "Keyhole surgery for ligament and meniscus tears, with rehab after."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp-1",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.back-pain-clinic",
+   "tag": "h3",
+   "en": "Back pain clinic"
+  },
+  {
+   "key": "orthopaedics.p.slip-disc-sciatica-and-neck-pain-with-non-",
+   "tag": "p",
+   "en": "Slip disc, sciatica and neck pain, with non-surgical care first."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp-1",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.orthopaedics-1",
+   "tag": "span",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "orthopaedics.h3.physiotherapy-amp-rehab",
+   "tag": "h3",
+   "en": "Physiotherapy &amp; rehab"
+  },
+  {
+   "key": "orthopaedics.p.recovery-after-joint-replacement-fractures",
+   "tag": "p",
+   "en": "Recovery after joint replacement, fractures and sports injuries."
+  },
+  {
+   "key": "orthopaedics.span.ask-on-whatsapp-1",
+   "tag": "span",
+   "en": "Ask on WhatsApp"
+  },
+  {
+   "key": "orthopaedics.span.inside-the-knee",
+   "tag": "span",
+   "en": "Inside the knee"
+  },
+  {
+   "key": "orthopaedics.h2.every-part-of-the-knee-and-what-can-go-wro",
+   "tag": "h2",
+   "en": "Every part of the knee, and <span class=\"em-g\">what can go wrong.</span>"
+  },
+  {
+   "key": "orthopaedics.p.tap-a-part-of-the-knee-to-see-what-it-does",
+   "tag": "p",
+   "en": "Tap a part of the knee to see what it does and which problem affects it."
+  },
+  {
+   "key": "orthopaedics.text.thigh-bone",
+   "tag": "text",
+   "en": "Thigh bone"
+  },
+  {
+   "key": "orthopaedics.text.shin-bone",
+   "tag": "text",
+   "en": "Shin bone"
+  },
+  {
+   "key": "orthopaedics.text.cartilage",
+   "tag": "text",
+   "en": "Cartilage"
+  },
+  {
+   "key": "orthopaedics.text.meniscus",
+   "tag": "text",
+   "en": "Meniscus"
+  },
+  {
+   "key": "orthopaedics.text.acl",
+   "tag": "text",
+   "en": "ACL"
+  },
+  {
+   "key": "orthopaedics.text.side-ligaments",
+   "tag": "text",
+   "en": "Side ligaments"
+  },
+  {
+   "key": "orthopaedics.span.arthritis",
+   "tag": "span",
+   "en": "Arthritis"
+  },
+  {
+   "key": "orthopaedics.h2.a-healthy-knee-next-to-a-worn-one",
+   "tag": "h2",
+   "en": "A healthy knee next to a worn one."
+  },
+  {
+   "key": "orthopaedics.p.drag-the-slider-in-a-worn-knee-the-cartila",
+   "tag": "p",
+   "en": "Drag the slider. In a worn knee the cartilage thins and the gap between the bones narrows. Illustration only."
+  },
+  {
+   "key": "orthopaedics.text.thin-worn-cartilage",
+   "tag": "text",
+   "en": "Thin, worn cartilage"
+  },
+  {
+   "key": "orthopaedics.text.bone-spurs",
+   "tag": "text",
+   "en": "Bone spurs"
+  },
+  {
+   "key": "orthopaedics.text.thick-smooth-cartilage",
+   "tag": "text",
+   "en": "Thick, smooth cartilage"
+  },
+  {
+   "key": "orthopaedics.text.a-healthy-gap",
+   "tag": "text",
+   "en": "A healthy gap"
+  },
+  {
+   "key": "orthopaedics.span.worn-knee",
+   "tag": "span",
+   "en": "Worn knee"
+  },
+  {
+   "key": "orthopaedics.span.healthy-knee",
+   "tag": "span",
+   "en": "Healthy knee"
+  },
+  {
+   "key": "orthopaedics.span.check-yourself",
+   "tag": "span",
+   "en": "Check yourself"
+  },
+  {
+   "key": "orthopaedics.h2.what-do-you-feel",
+   "tag": "h2",
+   "en": "What do you <span class=\"em\">feel?</span>"
+  },
+  {
+   "key": "orthopaedics.p.tap-the-ones-that-sound-like-you-this-is-n",
+   "tag": "p",
+   "en": "Tap the ones that sound like you. This is not a diagnosis, just a place to start."
+  },
+  {
+   "key": "orthopaedics.span.pain-on-the-stairs",
+   "tag": "span",
+   "en": "Pain on the stairs"
+  },
+  {
+   "key": "orthopaedics.span.stiff-in-the-morning",
+   "tag": "span",
+   "en": "Stiff in the morning"
+  },
+  {
+   "key": "orthopaedics.span.swelling",
+   "tag": "span",
+   "en": "Swelling"
+  },
+  {
+   "key": "orthopaedics.span.the-knee-gives-way",
+   "tag": "span",
+   "en": "The knee gives way"
+  },
+  {
+   "key": "orthopaedics.span.pain-at-night",
+   "tag": "span",
+   "en": "Pain at night"
+  },
+  {
+   "key": "orthopaedics.span.pain-after-a-fall-or-injury",
+   "tag": "span",
+   "en": "Pain after a fall or injury"
+  },
+  {
+   "key": "orthopaedics.span.book-a-check-up",
+   "tag": "span",
+   "en": "Book a check-up"
+  },
+  {
+   "key": "orthopaedics.span.after-joint-replacement",
+   "tag": "span",
+   "en": "After joint replacement"
+  },
+  {
+   "key": "orthopaedics.h2.the-road-back-to-walking",
+   "tag": "h2",
+   "en": "The road back to <span class=\"em\">walking.</span>"
+  },
+  {
+   "key": "orthopaedics.p.every-recovery-is-different-dr-mohit-will-",
+   "tag": "p",
+   "en": "Every recovery is different. Dr. Mohit will guide you at each step."
+  },
+  {
+   "key": "orthopaedics.h3.getting-ready",
+   "tag": "h3",
+   "en": "Getting ready"
+  },
+  {
+   "key": "orthopaedics.p.strengthening-exercises-before-surgery-whe",
+   "tag": "p",
+   "en": "Strengthening exercises before surgery, where suitable."
+  },
+  {
+   "key": "orthopaedics.h3.in-hospital",
+   "tag": "h3",
+   "en": "In hospital"
+  },
+  {
+   "key": "orthopaedics.p.physiotherapy-begins-in-hospital-after-the",
+   "tag": "p",
+   "en": "Physiotherapy begins in hospital after the operation."
+  },
+  {
+   "key": "orthopaedics.h3.at-home",
+   "tag": "h3",
+   "en": "At home"
+  },
+  {
+   "key": "orthopaedics.p.exercises-at-home-and-regular-follow-up-vi",
+   "tag": "p",
+   "en": "Exercises at home and regular follow-up visits."
+  },
+  {
+   "key": "orthopaedics.h3.back-to-routine",
+   "tag": "h3",
+   "en": "Back to routine"
+  },
+  {
+   "key": "orthopaedics.p.a-return-to-daily-activities-guided-by-dr-",
+   "tag": "p",
+   "en": "A return to daily activities, guided by Dr. Mohit."
+  },
+  {
+   "key": "orthopaedics.span.by-body-area",
+   "tag": "span",
+   "en": "By body area"
+  },
+  {
+   "key": "orthopaedics.h2.what-we-treat",
+   "tag": "h2",
+   "en": "What we treat"
+  },
+  {
+   "key": "orthopaedics.span.knee",
+   "tag": "span",
+   "en": "Knee"
+  },
+  {
+   "key": "orthopaedics.span.hip",
+   "tag": "span",
+   "en": "Hip"
+  },
+  {
+   "key": "orthopaedics.span.back-amp-spine",
+   "tag": "span",
+   "en": "Back &amp; spine"
+  },
+  {
+   "key": "orthopaedics.span.shoulder",
+   "tag": "span",
+   "en": "Shoulder"
+  },
+  {
+   "key": "orthopaedics.span.elbow-wrist-amp-hand",
+   "tag": "span",
+   "en": "Elbow, wrist &amp; hand"
+  },
+  {
+   "key": "orthopaedics.span.ankle-amp-foot",
+   "tag": "span",
+   "en": "Ankle &amp; foot"
+  },
+  {
+   "key": "orthopaedics.span.arthroscopy-amp-sports-injuries",
+   "tag": "span",
+   "en": "Arthroscopy &amp; sports injuries"
+  },
+  {
+   "key": "orthopaedics.h2.keyhole-surgery-when-it-is-needed",
+   "tag": "h2",
+   "en": "Keyhole surgery, <span class=\"em\">when it is needed.</span>"
+  },
+  {
+   "key": "orthopaedics.p.many-injuries-heal-with-rest-and-physiothe",
+   "tag": "p",
+   "en": "Many injuries heal with rest and physiotherapy. When they do not, arthroscopy repairs the joint through a few small cuts. Pick a joint to see what is treated."
+  },
+  {
+   "key": "orthopaedics.button.shoulder",
+   "tag": "button",
+   "en": "Shoulder"
+  },
+  {
+   "key": "orthopaedics.button.knee",
+   "tag": "button",
+   "en": "Knee"
+  },
+  {
+   "key": "orthopaedics.button.elbow",
+   "tag": "button",
+   "en": "Elbow"
+  },
+  {
+   "key": "orthopaedics.button.back-amp-neck",
+   "tag": "button",
+   "en": "Back &amp; neck"
+  },
+  {
+   "key": "orthopaedics.h3.what-we-see",
+   "tag": "h3",
+   "en": "What we see"
+  },
+  {
+   "key": "orthopaedics.h3.how-it-can-be-treated",
+   "tag": "h3",
+   "en": "How it can be treated"
+  },
+  {
+   "key": "orthopaedics.small.back-to-the-game-sports-rehab-session",
+   "tag": "small",
+   "en": "Back to the game: sports rehab session"
+  },
+  {
+   "key": "orthopaedics.h3.what-we-see-1",
+   "tag": "h3",
+   "en": "What we see"
+  },
+  {
+   "key": "orthopaedics.h3.how-it-can-be-treated-1",
+   "tag": "h3",
+   "en": "How it can be treated"
+  },
+  {
+   "key": "orthopaedics.small.back-to-the-game-sports-rehab-session-1",
+   "tag": "small",
+   "en": "Back to the game: sports rehab session"
+  },
+  {
+   "key": "orthopaedics.h3.what-we-see-1",
+   "tag": "h3",
+   "en": "What we see"
+  },
+  {
+   "key": "orthopaedics.h3.how-it-can-be-treated-1",
+   "tag": "h3",
+   "en": "How it can be treated"
+  },
+  {
+   "key": "orthopaedics.small.back-to-the-game-sports-rehab-session-1",
+   "tag": "small",
+   "en": "Back to the game: sports rehab session"
+  },
+  {
+   "key": "orthopaedics.h3.what-we-see-1",
+   "tag": "h3",
+   "en": "What we see"
+  },
+  {
+   "key": "orthopaedics.h3.how-it-can-be-treated-1",
+   "tag": "h3",
+   "en": "How it can be treated"
+  },
+  {
+   "key": "orthopaedics.small.back-to-the-game-sports-rehab-session-1",
+   "tag": "small",
+   "en": "Back to the game: sports rehab session"
+  },
+  {
+   "key": "orthopaedics.h3.physiotherapy-methods-used",
+   "tag": "h3",
+   "en": "Physiotherapy methods used"
+  },
+  {
+   "key": "orthopaedics.p.rehab-is-planned-for-each-person-with-the-",
+   "tag": "p",
+   "en": "Rehab is planned for each person, with the aim of getting you back to the highest level you can reach."
+  },
+  {
+   "key": "orthopaedics.span.myths-amp-facts",
+   "tag": "span",
+   "en": "Myths &amp; facts"
+  },
+  {
+   "key": "orthopaedics.h2.what-people-often-believe",
+   "tag": "h2",
+   "en": "What people <span class=\"em\">often believe.</span>"
+  },
+  {
+   "key": "orthopaedics.p.these-come-up-often-in-dr-mohit-s-clinic-a",
+   "tag": "p",
+   "en": "These come up often in Dr. Mohit’s clinic. Ask him about any others."
+  },
+  {
+   "key": "orthopaedics.span.x-rays-alone-decide-if-i-need-surgery",
+   "tag": "span",
+   "en": "“X-rays alone decide if I need surgery.”"
+  },
+  {
+   "key": "orthopaedics.div.fact-the-decision-depends-on-your-pain-how",
+   "tag": "div",
+   "en": "<b>Fact:</b> The decision depends on your pain, how much it limits daily life, and how you respond to other treatment, not just on the X-ray."
+  },
+  {
+   "key": "orthopaedics.span.joint-replacement-is-only-for-very-old-peo",
+   "tag": "span",
+   "en": "“Joint replacement is only for very old people.”"
+  },
+  {
+   "key": "orthopaedics.div.fact-age-matters-less-than-the-damage-to-t",
+   "tag": "div",
+   "en": "<b>Fact:</b> Age matters less than the damage to the joint and your overall health. Some younger people with severe arthritis also benefit."
+  },
+  {
+   "key": "orthopaedics.span.after-a-fracture-rest-is-all-you-need",
+   "tag": "span",
+   "en": "“After a fracture, rest is all you need.”"
+  },
+  {
+   "key": "orthopaedics.div.fact-some-fractures-need-to-be-set-or-fixe",
+   "tag": "div",
+   "en": "<b>Fact:</b> Some fractures need to be set or fixed to heal straight. Long bed rest in older people can also cause stiffness and other problems, so get it checked early."
+  },
+  {
+   "key": "orthopaedics.span.back-pain-always-means-a-slip-disc",
+   "tag": "span",
+   "en": "“Back pain always means a slip disc.”"
+  },
+  {
+   "key": "orthopaedics.div.fact-most-back-pain-comes-from-muscles-joi",
+   "tag": "div",
+   "en": "<b>Fact:</b> Most back pain comes from muscles, joints or posture and improves with exercise and time. A doctor can tell when a scan is actually needed."
+  },
+  {
+   "key": "orthopaedics.span.oil-massage-will-fix-a-torn-ligament",
+   "tag": "span",
+   "en": "“Oil massage will fix a torn ligament.”"
+  },
+  {
+   "key": "orthopaedics.div.fact-massage-can-ease-sore-muscles-but-can",
+   "tag": "div",
+   "en": "<b>Fact:</b> Massage can ease sore muscles but cannot join a torn ligament. A knee that keeps giving way should be examined."
+  },
+  {
+   "key": "orthopaedics.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "orthopaedics.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "robotic-knee": [
+  {
+   "key": "robotic-knee.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "robotic-knee.a.orthopaedics",
+   "tag": "a",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "robotic-knee.span.robotic-knee",
+   "tag": "span",
+   "en": "Robotic knee"
+  },
+  {
+   "key": "robotic-knee.h1.robotic-assisted-knee-replacement",
+   "tag": "h1",
+   "en": "Robotic-assisted knee replacement."
+  },
+  {
+   "key": "robotic-knee.p.gupta-hospital-uses-the-johnson-amp-johnso",
+   "tag": "p",
+   "en": "Gupta Hospital uses the Johnson &amp; Johnson VELYS™ robotic-assisted solution. It helps the surgeon plan the operation around your own knee and carry out that plan accurately."
+  },
+  {
+   "key": "robotic-knee.span.the-process",
+   "tag": "span",
+   "en": "The process"
+  },
+  {
+   "key": "robotic-knee.h2.five-steps-start-to-finish",
+   "tag": "h2",
+   "en": "Five steps, start to finish"
+  },
+  {
+   "key": "robotic-knee.h3.assessment",
+   "tag": "h3",
+   "en": "Assessment"
+  },
+  {
+   "key": "robotic-knee.p.dr-mohit-examines-your-knee-reads-your-x-r",
+   "tag": "p",
+   "en": "Dr. Mohit examines your knee, reads your X-rays and tells you plainly whether you need surgery, or whether medicines and physiotherapy should come first."
+  },
+  {
+   "key": "robotic-knee.h3.mapping-your-knee",
+   "tag": "h3",
+   "en": "Mapping your knee"
+  },
+  {
+   "key": "robotic-knee.p.during-surgery-the-system-records-the-shap",
+   "tag": "p",
+   "en": "During surgery the system records the shape and alignment of your bones, without a separate CT scan beforehand."
+  },
+  {
+   "key": "robotic-knee.h3.balancing-the-ligaments",
+   "tag": "h3",
+   "en": "Balancing the ligaments"
+  },
+  {
+   "key": "robotic-knee.p.a-camera-tracks-the-knee-as-it-bends-and-s",
+   "tag": "p",
+   "en": "A camera tracks the knee as it bends and straightens, so the soft tissues can be balanced before any bone is cut."
+  },
+  {
+   "key": "robotic-knee.h3.preparing-to-plan",
+   "tag": "h3",
+   "en": "Preparing to plan"
+  },
+  {
+   "key": "robotic-knee.p.a-robotic-handpiece-holds-the-saw-to-the-p",
+   "tag": "p",
+   "en": "A robotic handpiece holds the saw to the planned angle while the surgeon guides it. Only the worn surface is removed."
+  },
+  {
+   "key": "robotic-knee.h3.recovery",
+   "tag": "h3",
+   "en": "Recovery"
+  },
+  {
+   "key": "robotic-knee.p.physiotherapy-starts-in-hospital-and-conti",
+   "tag": "p",
+   "en": "Physiotherapy starts in hospital and continues at home, with follow-up visits at the clinic."
+  },
+  {
+   "key": "robotic-knee.span.balancing-the-knee",
+   "tag": "span",
+   "en": "Balancing the knee"
+  },
+  {
+   "key": "robotic-knee.h2.bend-the-knee-and-watch-the-balance",
+   "tag": "h2",
+   "en": "Bend the knee and watch the <span class=\"em\">balance.</span>"
+  },
+  {
+   "key": "robotic-knee.p.a-camera-follows-markers-on-the-bones-and-",
+   "tag": "p",
+   "en": "A camera follows markers on the bones and measures the space on each side of the knee as it bends. Illustration only."
+  },
+  {
+   "key": "robotic-knee.text.camera",
+   "tag": "text",
+   "en": "Camera"
+  },
+  {
+   "key": "robotic-knee.button.before-balancing",
+   "tag": "button",
+   "en": "Before balancing"
+  },
+  {
+   "key": "robotic-knee.button.after-balancing",
+   "tag": "button",
+   "en": "After balancing"
+  },
+  {
+   "key": "robotic-knee.b.inner-side",
+   "tag": "b",
+   "en": "Inner side"
+  },
+  {
+   "key": "robotic-knee.b.outer-side",
+   "tag": "b",
+   "en": "Outer side"
+  },
+  {
+   "key": "robotic-knee.label.bend-the-knee",
+   "tag": "label",
+   "en": "Bend the knee"
+  },
+  {
+   "key": "robotic-knee.span.myths-amp-facts",
+   "tag": "span",
+   "en": "Myths &amp; facts"
+  },
+  {
+   "key": "robotic-knee.h2.common-worries-answered",
+   "tag": "h2",
+   "en": "Common worries, answered"
+  },
+  {
+   "key": "robotic-knee.span.do-i-need-a-ct-scan-before-robotic-surgery",
+   "tag": "span",
+   "en": "“Do I need a CT scan before robotic surgery?”"
+  },
+  {
+   "key": "robotic-knee.div.no-separate-ct-scan-is-needed-for-the-vely",
+   "tag": "div",
+   "en": "No separate CT scan is needed for the VELYS™ system. Your knee is mapped during the operation. You will still need the usual X-rays and blood tests."
+  },
+  {
+   "key": "robotic-knee.span.is-robotic-surgery-right-for-everyone",
+   "tag": "span",
+   "en": "“Is robotic surgery right for everyone?”"
+  },
+  {
+   "key": "robotic-knee.div.not-always-dr-mohit-will-look-at-your-knee",
+   "tag": "div",
+   "en": "Not always. Dr. Mohit will look at your knee, your X-rays and your general health, and tell you whether robotic-assisted, conventional or partial replacement suits you best."
+  },
+  {
+   "key": "robotic-knee.span.will-i-have-less-pain-afterwards",
+   "tag": "span",
+   "en": "“Will I have less pain afterwards?”"
+  },
+  {
+   "key": "robotic-knee.div.any-knee-replacement-involves-some-pain-wh",
+   "tag": "div",
+   "en": "Any knee replacement involves some pain while you heal, which is managed with medicines and physiotherapy. Careful soft-tissue handling may help early movement, but recovery differs from person to person."
+  },
+  {
+   "key": "robotic-knee.span.what-is-used",
+   "tag": "span",
+   "en": "What is used"
+  },
+  {
+   "key": "robotic-knee.h2.two-parts-the-system-and-the-implant",
+   "tag": "h2",
+   "en": "Two parts: <span class=\"em\">the system and the implant.</span>"
+  },
+  {
+   "key": "robotic-knee.p.the-robotic-system-helps-place-the-implant",
+   "tag": "p",
+   "en": "The robotic system helps place the implant. The implant is the new joint surface that stays in your knee."
+  },
+  {
+   "key": "robotic-knee.p.a-camera-and-a-small-robotic-handpiece-tha",
+   "tag": "p",
+   "en": "A camera and a small robotic handpiece that work with the surgeon during the operation."
+  },
+  {
+   "key": "robotic-knee.li.maps-your-knee-during-surgery-without-a-se",
+   "tag": "li",
+   "en": "Maps your knee during surgery, without a separate CT scan"
+  },
+  {
+   "key": "robotic-knee.li.shows-ligament-balance-as-the-knee-bends",
+   "tag": "li",
+   "en": "Shows ligament balance as the knee bends"
+  },
+  {
+   "key": "robotic-knee.li.holds-the-saw-to-the-planned-angle-the-sur",
+   "tag": "li",
+   "en": "Holds the saw to the planned angle; the surgeon stays in control"
+  },
+  {
+   "key": "robotic-knee.p.the-implant-used-with-the-robotic-system-a",
+   "tag": "p",
+   "en": "The implant used with the robotic system at Gupta Hospital. It replaces the worn surfaces of the thigh bone and shin bone."
+  },
+  {
+   "key": "robotic-knee.li.metal-parts-cover-the-ends-of-the-bones",
+   "tag": "li",
+   "en": "Metal parts cover the ends of the bones"
+  },
+  {
+   "key": "robotic-knee.li.a-smooth-plastic-insert-sits-between-them",
+   "tag": "li",
+   "en": "A smooth plastic insert sits between them"
+  },
+  {
+   "key": "robotic-knee.li.sizes-are-chosen-to-fit-your-knee",
+   "tag": "li",
+   "en": "Sizes are chosen to fit your knee"
+  },
+  {
+   "key": "robotic-knee.h3.it-may-suit-you-if",
+   "tag": "h3",
+   "en": "<i>✓</i>It may suit you if"
+  },
+  {
+   "key": "robotic-knee.li.knee-arthritis-limits-walking-stairs-or-sl",
+   "tag": "li",
+   "en": "Knee arthritis limits walking, stairs or sleep"
+  },
+  {
+   "key": "robotic-knee.li.medicines-exercise-and-injections-no-longe",
+   "tag": "li",
+   "en": "Medicines, exercise and injections no longer help"
+  },
+  {
+   "key": "robotic-knee.li.your-x-ray-shows-advanced-joint-damage",
+   "tag": "li",
+   "en": "Your X-ray shows advanced joint damage"
+  },
+  {
+   "key": "robotic-knee.h3.it-may-not-suit-you-if",
+   "tag": "h3",
+   "en": "<i>!</i>It may not suit you if"
+  },
+  {
+   "key": "robotic-knee.li.there-is-an-active-infection-in-the-body",
+   "tag": "li",
+   "en": "There is an active infection in the body"
+  },
+  {
+   "key": "robotic-knee.li.other-health-problems-make-surgery-unsafe-",
+   "tag": "li",
+   "en": "Other health problems make surgery unsafe for now"
+  },
+  {
+   "key": "robotic-knee.li.the-pain-comes-from-the-hip-or-back-not-th",
+   "tag": "li",
+   "en": "The pain comes from the hip or back, not the knee"
+  },
+  {
+   "key": "robotic-knee.p.only-an-examination-by-the-surgeon-can-dec",
+   "tag": "p",
+   "en": "Only an examination by the surgeon can decide. This list is a guide, not a diagnosis."
+  },
+  {
+   "key": "robotic-knee.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "robotic-knee.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "eye-care": [
+  {
+   "key": "eye-care.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "eye-care.span.eye-care",
+   "tag": "span",
+   "en": "Eye care"
+  },
+  {
+   "key": "eye-care.h1.complete-eye-care",
+   "tag": "h1",
+   "en": "Complete eye care."
+  },
+  {
+   "key": "eye-care.p.led-by-dr-parul-gupta-who-is-specially-tra",
+   "tag": "p",
+   "en": "Led by Dr. Parul Gupta, who is specially trained in phacoemulsification cataract surgery. The department handles cataract screening, refraction, glaucoma, children's eye problems, cornea and retina, with its own modular operation theatre."
+  },
+  {
+   "key": "eye-care.span.eye-department",
+   "tag": "span",
+   "en": "Eye department:"
+  },
+  {
+   "key": "eye-care.span.services",
+   "tag": "span",
+   "en": "Services"
+  },
+  {
+   "key": "eye-care.span.how-the-eye-works",
+   "tag": "span",
+   "en": "How the eye works"
+  },
+  {
+   "key": "eye-care.h2.follow-the-light-and-see-where-things-go-w",
+   "tag": "h2",
+   "en": "Follow the <span class=\"em-g\">light</span>, and see where things go wrong."
+  },
+  {
+   "key": "eye-care.p.tap-a-part-of-the-eye-to-see-what-it-does-",
+   "tag": "p",
+   "en": "Tap a part of the eye to see what it does and which condition affects it."
+  },
+  {
+   "key": "eye-care.span.vision",
+   "tag": "span",
+   "en": "Vision"
+  },
+  {
+   "key": "eye-care.h2.how-cataract-can-change-what-you-see",
+   "tag": "h2",
+   "en": "How cataract can change what you see."
+  },
+  {
+   "key": "eye-care.p.drag-the-slider-this-is-an-illustration-on",
+   "tag": "p",
+   "en": "Drag the slider. This is an illustration only; everyone's vision changes differently."
+  },
+  {
+   "key": "eye-care.span.with-cataract",
+   "tag": "span",
+   "en": "With cataract"
+  },
+  {
+   "key": "eye-care.span.clear-lens",
+   "tag": "span",
+   "en": "Clear lens"
+  },
+  {
+   "key": "eye-care.span.cataract",
+   "tag": "span",
+   "en": "Cataract"
+  },
+  {
+   "key": "eye-care.h2.signs-it-may-be-cataract",
+   "tag": "h2",
+   "en": "Signs it may be cataract"
+  },
+  {
+   "key": "eye-care.p.cataract-develops-slowly-if-you-notice-any",
+   "tag": "p",
+   "en": "Cataract develops slowly. If you notice any of these, book an eye check-up."
+  },
+  {
+   "key": "eye-care.li.cloudy-dim-or-yellowed-vision",
+   "tag": "li",
+   "en": "Cloudy, dim or yellowed vision"
+  },
+  {
+   "key": "eye-care.li.glare-from-headlights-or-lamps-at-night",
+   "tag": "li",
+   "en": "Glare from headlights or lamps at night"
+  },
+  {
+   "key": "eye-care.li.glasses-that-need-changing-often",
+   "tag": "li",
+   "en": "Glasses that need changing often"
+  },
+  {
+   "key": "eye-care.li.colours-that-look-faded",
+   "tag": "li",
+   "en": "Colours that look faded"
+  },
+  {
+   "key": "eye-care.li.needing-more-light-to-read",
+   "tag": "li",
+   "en": "Needing more light to read"
+  },
+  {
+   "key": "eye-care.span.cataract-surgery-day",
+   "tag": "span",
+   "en": "Cataract surgery day"
+  },
+  {
+   "key": "eye-care.h2.in-by-morning-home-the-same-day",
+   "tag": "h2",
+   "en": "In by morning, <span class=\"em\">home the same day.</span>"
+  },
+  {
+   "key": "eye-care.p.cataract-surgery-is-done-as-day-care-here-",
+   "tag": "p",
+   "en": "Cataract surgery is done as day care. Here is roughly how the day goes; your own timings may differ."
+  },
+  {
+   "key": "eye-care.small.arrive",
+   "tag": "small",
+   "en": "Arrive"
+  },
+  {
+   "key": "eye-care.h3.check-in-and-drops",
+   "tag": "h3",
+   "en": "Check-in and drops"
+  },
+  {
+   "key": "eye-care.p.your-eye-is-checked-again-and-drops-widen-",
+   "tag": "p",
+   "en": "Your eye is checked again and drops widen the pupil. Eat a light meal before you come unless told otherwise."
+  },
+  {
+   "key": "eye-care.small.numbing",
+   "tag": "small",
+   "en": "Numbing"
+  },
+  {
+   "key": "eye-care.h3.the-eye-is-numbed",
+   "tag": "h3",
+   "en": "The eye is numbed"
+  },
+  {
+   "key": "eye-care.p.usually-with-drops-you-stay-awake-and-can-",
+   "tag": "p",
+   "en": "Usually with drops. You stay awake and can talk to the surgeon."
+  },
+  {
+   "key": "eye-care.small.surgery",
+   "tag": "small",
+   "en": "Surgery"
+  },
+  {
+   "key": "eye-care.h3.phaco-surgery",
+   "tag": "h3",
+   "en": "Phaco surgery"
+  },
+  {
+   "key": "eye-care.p.through-a-tiny-opening-the-cloudy-lens-is-",
+   "tag": "p",
+   "en": "Through a tiny opening, the cloudy lens is removed and a clear lens put in. It often takes under 30 minutes."
+  },
+  {
+   "key": "eye-care.small.rest",
+   "tag": "small",
+   "en": "Rest"
+  },
+  {
+   "key": "eye-care.h3.a-short-rest",
+   "tag": "h3",
+   "en": "A short rest"
+  },
+  {
+   "key": "eye-care.p.you-rest-with-an-eye-shield-while-the-team",
+   "tag": "p",
+   "en": "You rest with an eye shield while the team checks the eye and explains your drops."
+  },
+  {
+   "key": "eye-care.small.home",
+   "tag": "small",
+   "en": "Home"
+  },
+  {
+   "key": "eye-care.h3.home-the-same-day",
+   "tag": "h3",
+   "en": "Home the same day"
+  },
+  {
+   "key": "eye-care.p.most-people-go-home-in-about-two-hours-wit",
+   "tag": "p",
+   "en": "Most people go home in about two hours, with a family member. A check-up is fixed for the next day."
+  },
+  {
+   "key": "eye-care.figcaption.eye-examination",
+   "tag": "figcaption",
+   "en": "Eye examination"
+  },
+  {
+   "key": "eye-care.span.choosing-your-lens",
+   "tag": "span",
+   "en": "Choosing your lens"
+  },
+  {
+   "key": "eye-care.h2.the-new-lens-stays-for-life",
+   "tag": "h2",
+   "en": "The new lens <span class=\"em\">stays for life.</span>"
+  },
+  {
+   "key": "eye-care.p.before-surgery-dr-parul-measures-your-eye-",
+   "tag": "p",
+   "en": "Before surgery Dr. Parul measures your eye and talks you through the lens options, your daily needs and the cost of each."
+  },
+  {
+   "key": "eye-care.span.monofocal",
+   "tag": "span",
+   "en": "Monofocal"
+  },
+  {
+   "key": "eye-care.h3.clear-at-one-distance",
+   "tag": "h3",
+   "en": "Clear at one distance"
+  },
+  {
+   "key": "eye-care.p.usually-set-for-distance-most-people-still",
+   "tag": "p",
+   "en": "Usually set for distance. Most people still use reading glasses."
+  },
+  {
+   "key": "eye-care.span.toric",
+   "tag": "span",
+   "en": "Toric"
+  },
+  {
+   "key": "eye-care.h3.corrects-astigmatism",
+   "tag": "h3",
+   "en": "Corrects astigmatism"
+  },
+  {
+   "key": "eye-care.p.for-people-with-a-cylindrical-number-so-di",
+   "tag": "p",
+   "en": "For people with a cylindrical number, so distance vision is sharper."
+  },
+  {
+   "key": "eye-care.span.multifocal",
+   "tag": "span",
+   "en": "Multifocal"
+  },
+  {
+   "key": "eye-care.h3.near-and-far",
+   "tag": "h3",
+   "en": "Near and far"
+  },
+  {
+   "key": "eye-care.p.can-reduce-the-need-for-glasses-some-peopl",
+   "tag": "p",
+   "en": "Can reduce the need for glasses. Some people notice halos around lights at night."
+  },
+  {
+   "key": "eye-care.small.a-folded-artificial-lens-close-up",
+   "tag": "small",
+   "en": "A folded artificial lens, close up"
+  },
+  {
+   "key": "eye-care.span.myths-amp-facts",
+   "tag": "span",
+   "en": "Myths &amp; facts"
+  },
+  {
+   "key": "eye-care.h2.what-people-often-believe",
+   "tag": "h2",
+   "en": "What people <span class=\"em\">often believe.</span>"
+  },
+  {
+   "key": "eye-care.span.eye-department-91-99886-32241",
+   "tag": "span",
+   "en": "Eye department +91 99886 32241"
+  },
+  {
+   "key": "eye-care.span.eye-drops-can-dissolve-a-cataract",
+   "tag": "span",
+   "en": "“Eye drops can dissolve a cataract.”"
+  },
+  {
+   "key": "eye-care.div.fact-no-drop-or-medicine-can-clear-a-catar",
+   "tag": "div",
+   "en": "<b>Fact:</b> No drop or medicine can clear a cataract. Surgery is the only treatment that removes it."
+  },
+  {
+   "key": "eye-care.span.a-cataract-must-be-ripe-before-surgery",
+   "tag": "span",
+   "en": "“A cataract must be ripe before surgery.”"
+  },
+  {
+   "key": "eye-care.div.fact-with-modern-phaco-surgery-there-is-no",
+   "tag": "div",
+   "en": "<b>Fact:</b> With modern phaco surgery there is no need to wait. Very hard, old cataracts can actually make surgery more difficult."
+  },
+  {
+   "key": "eye-care.span.my-reading-got-better-without-glasses-so-m",
+   "tag": "span",
+   "en": "“My reading got better without glasses, so my eyes are healing.”"
+  },
+  {
+   "key": "eye-care.div.fact-this-second-sight-can-be-an-early-sig",
+   "tag": "div",
+   "en": "<b>Fact:</b> This “second sight” can be an early sign of cataract changing the lens. It is a reason to get an eye check."
+  },
+  {
+   "key": "eye-care.span.people-with-diabetes-only-need-eye-checks-",
+   "tag": "span",
+   "en": "“People with diabetes only need eye checks when vision drops.”"
+  },
+  {
+   "key": "eye-care.div.fact-retina-damage-from-diabetes-can-start",
+   "tag": "div",
+   "en": "<b>Fact:</b> Retina damage from diabetes can start with no symptoms. A yearly retina check is advised."
+  },
+  {
+   "key": "eye-care.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "eye-care.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "mental-health": [
+  {
+   "key": "mental-health.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "mental-health.span.mental-health",
+   "tag": "span",
+   "en": "Mental health"
+  },
+  {
+   "key": "mental-health.h1.mental-health-and-de-addiction",
+   "tag": "h1",
+   "en": "Mental health and de-addiction."
+  },
+  {
+   "key": "mental-health.p.since-2000-dr-amit-gupta-has-worked-with-f",
+   "tag": "p",
+   "en": "Since 2000, Dr. Amit Gupta has worked with families across Malwa facing addiction, depression and anxiety. The hospital runs a licensed de-addiction centre that is clean, quiet and focused on full rehabilitation, with patient confidentiality protected."
+  },
+  {
+   "key": "mental-health.span.services",
+   "tag": "span",
+   "en": "Services"
+  },
+  {
+   "key": "mental-health.span.your-first-visit",
+   "tag": "span",
+   "en": "Your first visit"
+  },
+  {
+   "key": "mental-health.h2.what-to-expect",
+   "tag": "h2",
+   "en": "What to expect"
+  },
+  {
+   "key": "mental-health.p.you-talk-without-being-rushed-a-family-mem",
+   "tag": "p",
+   "en": "You talk, without being rushed. A family member can come with you if you wish."
+  },
+  {
+   "key": "mental-health.p.the-doctor-explains-what-may-be-happening-",
+   "tag": "p",
+   "en": "The doctor explains what may be happening and the treatment options, in plain words."
+  },
+  {
+   "key": "mental-health.p.you-agree-a-plan-together-everything-you-s",
+   "tag": "p",
+   "en": "You agree a plan together. Everything you share stays confidential."
+  },
+  {
+   "key": "mental-health.span.what-we-help-with",
+   "tag": "span",
+   "en": "What we help with"
+  },
+  {
+   "key": "mental-health.h2.more-than-depression-and-addiction",
+   "tag": "h2",
+   "en": "More than <span class=\"em\">depression and addiction.</span>"
+  },
+  {
+   "key": "mental-health.p.many-people-do-not-know-that-sleep-problem",
+   "tag": "p",
+   "en": "Many people do not know that sleep problems, headaches or memory changes can be treated by a psychiatrist. If something here sounds familiar, it is worth a conversation."
+  },
+  {
+   "key": "mental-health.h3.worry-amp-fear",
+   "tag": "h3",
+   "en": "Worry &amp; fear"
+  },
+  {
+   "key": "mental-health.span.generalised-anxiety",
+   "tag": "span",
+   "en": "Generalised anxiety"
+  },
+  {
+   "key": "mental-health.span.panic-attacks",
+   "tag": "span",
+   "en": "Panic attacks"
+  },
+  {
+   "key": "mental-health.span.social-anxiety",
+   "tag": "span",
+   "en": "Social anxiety"
+  },
+  {
+   "key": "mental-health.span.phobias",
+   "tag": "span",
+   "en": "Phobias"
+  },
+  {
+   "key": "mental-health.span.ocd",
+   "tag": "span",
+   "en": "OCD"
+  },
+  {
+   "key": "mental-health.span.ptsd",
+   "tag": "span",
+   "en": "PTSD"
+  },
+  {
+   "key": "mental-health.h3.mood",
+   "tag": "h3",
+   "en": "Mood"
+  },
+  {
+   "key": "mental-health.span.depression",
+   "tag": "span",
+   "en": "Depression"
+  },
+  {
+   "key": "mental-health.span.bipolar-disorder",
+   "tag": "span",
+   "en": "Bipolar disorder"
+  },
+  {
+   "key": "mental-health.span.cyclothymia",
+   "tag": "span",
+   "en": "Cyclothymia"
+  },
+  {
+   "key": "mental-health.span.stress-after-life-events",
+   "tag": "span",
+   "en": "Stress after life events"
+  },
+  {
+   "key": "mental-health.h3.addiction-amp-habits",
+   "tag": "h3",
+   "en": "Addiction &amp; habits"
+  },
+  {
+   "key": "mental-health.span.alcohol",
+   "tag": "span",
+   "en": "Alcohol"
+  },
+  {
+   "key": "mental-health.span.opioids-and-chitta",
+   "tag": "span",
+   "en": "Opioids and chitta"
+  },
+  {
+   "key": "mental-health.span.other-drugs",
+   "tag": "span",
+   "en": "Other drugs"
+  },
+  {
+   "key": "mental-health.span.gambling",
+   "tag": "span",
+   "en": "Gambling"
+  },
+  {
+   "key": "mental-health.span.impulse-control",
+   "tag": "span",
+   "en": "Impulse control"
+  },
+  {
+   "key": "mental-health.h3.thinking-amp-reality",
+   "tag": "h3",
+   "en": "Thinking &amp; reality"
+  },
+  {
+   "key": "mental-health.span.schizophrenia",
+   "tag": "span",
+   "en": "Schizophrenia"
+  },
+  {
+   "key": "mental-health.span.hallucinations",
+   "tag": "span",
+   "en": "Hallucinations"
+  },
+  {
+   "key": "mental-health.span.delusions",
+   "tag": "span",
+   "en": "Delusions"
+  },
+  {
+   "key": "mental-health.span.dissociative-disorders",
+   "tag": "span",
+   "en": "Dissociative disorders"
+  },
+  {
+   "key": "mental-health.h3.sleep",
+   "tag": "h3",
+   "en": "Sleep"
+  },
+  {
+   "key": "mental-health.span.insomnia",
+   "tag": "span",
+   "en": "Insomnia"
+  },
+  {
+   "key": "mental-health.span.nightmares-and-night-terrors",
+   "tag": "span",
+   "en": "Nightmares and night terrors"
+  },
+  {
+   "key": "mental-health.span.sleepwalking",
+   "tag": "span",
+   "en": "Sleepwalking"
+  },
+  {
+   "key": "mental-health.span.restless-legs",
+   "tag": "span",
+   "en": "Restless legs"
+  },
+  {
+   "key": "mental-health.span.teeth-grinding",
+   "tag": "span",
+   "en": "Teeth grinding"
+  },
+  {
+   "key": "mental-health.h3.memory-headache-amp-body",
+   "tag": "h3",
+   "en": "Memory, headache &amp; body"
+  },
+  {
+   "key": "mental-health.span.memory-loss-and-dementia",
+   "tag": "span",
+   "en": "Memory loss and dementia"
+  },
+  {
+   "key": "mental-health.span.migraine",
+   "tag": "span",
+   "en": "Migraine"
+  },
+  {
+   "key": "mental-health.span.tension-headache",
+   "tag": "span",
+   "en": "Tension headache"
+  },
+  {
+   "key": "mental-health.span.epilepsy",
+   "tag": "span",
+   "en": "Epilepsy"
+  },
+  {
+   "key": "mental-health.span.eating-disorders",
+   "tag": "span",
+   "en": "Eating disorders"
+  },
+  {
+   "key": "mental-health.span.sexual-health-concerns",
+   "tag": "span",
+   "en": "Sexual health concerns"
+  },
+  {
+   "key": "mental-health.span.understanding-stress",
+   "tag": "span",
+   "en": "Understanding stress"
+  },
+  {
+   "key": "mental-health.h2.stress-shows-up-in-four-places",
+   "tag": "h2",
+   "en": "Stress shows up in <span class=\"em\">four places.</span>"
+  },
+  {
+   "key": "mental-health.p.some-stress-is-a-normal-part-of-life-when-",
+   "tag": "p",
+   "en": "Some stress is a normal part of life. When these signs last for weeks, or get in the way of work, family or sleep, talking to a doctor can help."
+  },
+  {
+   "key": "mental-health.h3.in-the-body",
+   "tag": "h3",
+   "en": "In the body"
+  },
+  {
+   "key": "mental-health.li.headaches-tight-shoulders",
+   "tag": "li",
+   "en": "Headaches, tight shoulders"
+  },
+  {
+   "key": "mental-health.li.poor-sleep-or-tiredness",
+   "tag": "li",
+   "en": "Poor sleep or tiredness"
+  },
+  {
+   "key": "mental-health.li.stomach-upsets",
+   "tag": "li",
+   "en": "Stomach upsets"
+  },
+  {
+   "key": "mental-health.h3.in-your-thoughts",
+   "tag": "h3",
+   "en": "In your thoughts"
+  },
+  {
+   "key": "mental-health.li.constant-worrying",
+   "tag": "li",
+   "en": "Constant worrying"
+  },
+  {
+   "key": "mental-health.li.trouble-concentrating",
+   "tag": "li",
+   "en": "Trouble concentrating"
+  },
+  {
+   "key": "mental-health.li.forgetting-things",
+   "tag": "li",
+   "en": "Forgetting things"
+  },
+  {
+   "key": "mental-health.h3.in-your-feelings",
+   "tag": "h3",
+   "en": "In your feelings"
+  },
+  {
+   "key": "mental-health.li.irritable-or-short-tempered",
+   "tag": "li",
+   "en": "Irritable or short-tempered"
+  },
+  {
+   "key": "mental-health.li.feeling-low-or-numb",
+   "tag": "li",
+   "en": "Feeling low or numb"
+  },
+  {
+   "key": "mental-health.li.feeling-overwhelmed",
+   "tag": "li",
+   "en": "Feeling overwhelmed"
+  },
+  {
+   "key": "mental-health.h3.in-what-you-do",
+   "tag": "h3",
+   "en": "In what you do"
+  },
+  {
+   "key": "mental-health.li.eating-more-or-less",
+   "tag": "li",
+   "en": "Eating more or less"
+  },
+  {
+   "key": "mental-health.li.more-alcohol-or-smoking",
+   "tag": "li",
+   "en": "More alcohol or smoking"
+  },
+  {
+   "key": "mental-health.li.pulling-away-from-people",
+   "tag": "li",
+   "en": "Pulling away from people"
+  },
+  {
+   "key": "mental-health.span.questions",
+   "tag": "span",
+   "en": "Questions"
+  },
+  {
+   "key": "mental-health.h2.questions-families-often-ask",
+   "tag": "h2",
+   "en": "Questions families <span class=\"em\">often ask.</span>"
+  },
+  {
+   "key": "mental-health.figcaption.psychiatry-clinic",
+   "tag": "figcaption",
+   "en": "Psychiatry clinic"
+  },
+  {
+   "key": "mental-health.span.will-anyone-know-i-came-to-see-a-psychiatr",
+   "tag": "span",
+   "en": "Will anyone know I came to see a psychiatrist?"
+  },
+  {
+   "key": "mental-health.div.no-what-you-share-and-your-records-are-kep",
+   "tag": "div",
+   "en": "No. What you share and your records are kept confidential. Nothing is shared with your employer or relatives without your consent, except where the law requires it."
+  },
+  {
+   "key": "mental-health.span.will-i-have-to-take-medicines-for-life",
+   "tag": "span",
+   "en": "Will I have to take medicines for life?"
+  },
+  {
+   "key": "mental-health.div.most-people-do-not-some-conditions-need-on",
+   "tag": "div",
+   "en": "Most people do not. Some conditions need only counselling, others need medicines for a set period. Dr. Amit will explain how long and why, and medicines are reduced slowly when it is safe."
+  },
+  {
+   "key": "mental-health.span.are-psychiatric-medicines-addictive",
+   "tag": "span",
+   "en": "Are psychiatric medicines addictive?"
+  },
+  {
+   "key": "mental-health.div.most-commonly-used-medicines-such-as-antid",
+   "tag": "div",
+   "en": "Most commonly used medicines, such as antidepressants, are not habit-forming. A few sleep and anxiety medicines can be, so they are used carefully and for short periods."
+  },
+  {
+   "key": "mental-health.span.my-family-member-refuses-help-what-can-i-d",
+   "tag": "span",
+   "en": "My family member refuses help. What can I do?"
+  },
+  {
+   "key": "mental-health.div.you-can-come-alone-first-and-talk-to-the-d",
+   "tag": "div",
+   "en": "You can come alone first and talk to the doctor about what you are seeing at home. Family sessions can help you find the right way to bring the person in."
+  },
+  {
+   "key": "mental-health.span.does-de-addiction-mean-being-admitted",
+   "tag": "span",
+   "en": "Does de-addiction mean being admitted?"
+  },
+  {
+   "key": "mental-health.div.not-always-some-people-are-treated-as-outp",
+   "tag": "div",
+   "en": "Not always. Some people are treated as outpatients. Others need a short stay in the licensed centre while withdrawal is managed safely. The doctor will advise after an assessment."
+  },
+  {
+   "key": "mental-health.span.only-weak-people-need-mental-health-care",
+   "tag": "span",
+   "en": "“Only weak people need mental health care.”"
+  },
+  {
+   "key": "mental-health.div.fact-mental-illness-is-a-health-condition-",
+   "tag": "div",
+   "en": "<b>Fact:</b> Mental illness is a health condition, like diabetes or blood pressure. It can affect anyone, and it responds to treatment."
+  },
+  {
+   "key": "mental-health.span.a-moment-for-you",
+   "tag": "span",
+   "en": "A moment for you"
+  },
+  {
+   "key": "mental-health.h2.breathe-slowly-with-the-circle",
+   "tag": "h2",
+   "en": "Breathe slowly with the <span class=\"em\">circle.</span>"
+  },
+  {
+   "key": "mental-health.p.asking-for-help-is-not-weakness-what-you-s",
+   "tag": "p",
+   "en": "Asking for help is not weakness. What you share with Dr. Amit stays private."
+  },
+  {
+   "key": "mental-health.span.book-a-private-visit",
+   "tag": "span",
+   "en": "Book a private visit"
+  },
+  {
+   "key": "mental-health.p.if-you-need-urgent-help-call-112-for-emerg",
+   "tag": "p",
+   "en": "If you need urgent help, call 112 for emergencies or the national Tele-MANAS helpline on 14416, any time."
+  },
+  {
+   "key": "mental-health.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "mental-health.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "doctors": [
+  {
+   "key": "doctors.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "doctors.span.doctors",
+   "tag": "span",
+   "en": "Doctors"
+  },
+  {
+   "key": "doctors.h1.our-doctors",
+   "tag": "h1",
+   "en": "Our doctors."
+  },
+  {
+   "key": "doctors.p.the-clinic-dr-amrit-gupta-opened-in-1980-i",
+   "tag": "p",
+   "en": "The clinic Dr. Amrit Gupta opened in 1980 is now led by the next generation of the family."
+  },
+  {
+   "key": "doctors.span.orthopaedics-amp-joint-replacement",
+   "tag": "span",
+   "en": "Orthopaedics &amp; joint replacement"
+  },
+  {
+   "key": "doctors.p.fellowships-in-orthopaedics-and-joint-repl",
+   "tag": "p",
+   "en": "Fellowships in orthopaedics and joint replacement at Asklepios Klinik Lindenlohe, Germany, and the cantonal hospital in Fribourg, Switzerland. He leads robotic knee, hip, trauma and sports injury care at Gupta Hospital."
+  },
+  {
+   "key": "doctors.span.orthopaedics-department",
+   "tag": "span",
+   "en": "Orthopaedics department"
+  },
+  {
+   "key": "doctors.span.ophthalmology",
+   "tag": "span",
+   "en": "Ophthalmology"
+  },
+  {
+   "key": "doctors.p.specialised-training-in-cataract-surgery-u",
+   "tag": "p",
+   "en": "Specialised training in cataract surgery using phacoemulsification, with several years of experience. She leads the eye department's cataract, glaucoma, children's eye, cornea and retina services."
+  },
+  {
+   "key": "doctors.span.phaco-cataract-surgery",
+   "tag": "span",
+   "en": "Phaco cataract surgery"
+  },
+  {
+   "key": "doctors.span.eye-care-department",
+   "tag": "span",
+   "en": "Eye care department"
+  },
+  {
+   "key": "doctors.span.psychiatry-amp-de-addiction",
+   "tag": "span",
+   "en": "Psychiatry &amp; de-addiction"
+  },
+  {
+   "key": "doctors.p.psychiatry-consultant-and-de-addiction-spe",
+   "tag": "p",
+   "en": "Psychiatry consultant and de-addiction specialist at Gupta Hospital since 2000. He runs the licensed de-addiction centre and treats depression, anxiety, OCD, schizophrenia, epilepsy and headaches."
+  },
+  {
+   "key": "doctors.span.since-2000",
+   "tag": "span",
+   "en": "Since 2000"
+  },
+  {
+   "key": "doctors.span.licensed-de-addiction-centre",
+   "tag": "span",
+   "en": "Licensed de-addiction centre"
+  },
+  {
+   "key": "doctors.span.mental-health-department",
+   "tag": "span",
+   "en": "Mental health department"
+  },
+  {
+   "key": "doctors.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "doctors.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "about": [
+  {
+   "key": "about.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "about.span.about",
+   "tag": "span",
+   "en": "About"
+  },
+  {
+   "key": "about.h1.on-power-house-road-since-1980",
+   "tag": "h1",
+   "en": "On Power House Road since 1980."
+  },
+  {
+   "key": "about.span.founded-by-dr-amrit-gupta",
+   "tag": "span",
+   "en": "Founded by Dr. Amrit Gupta"
+  },
+  {
+   "key": "about.span.departments-under-one-roof",
+   "tag": "span",
+   "en": "Departments under one roof"
+  },
+  {
+   "key": "about.span.de-addiction-centre-begins",
+   "tag": "span",
+   "en": "De-addiction centre begins"
+  },
+  {
+   "key": "about.span.ayushman-bharat-empanelled-since-2019",
+   "tag": "span",
+   "en": "Ayushman Bharat empanelled since 2019"
+  },
+  {
+   "key": "about.span.where-it-began",
+   "tag": "span",
+   "en": "Where it began"
+  },
+  {
+   "key": "about.h2.dr-amrit-gupta-founder",
+   "tag": "h2",
+   "en": "Dr. Amrit Gupta, <span class=\"em\">founder.</span>"
+  },
+  {
+   "key": "about.p.in-1980-dr-amrit-gupta-opened-a-small-orth",
+   "tag": "p",
+   "en": "In 1980 Dr. Amrit Gupta opened a small orthopaedic clinic on Power House Road so that people in and around Bathinda would not have to travel to big cities for bone and joint surgery. The hospital still works by that idea: specialist care, close to home, at a fair cost."
+  },
+  {
+   "key": "about.p.today-his-children-lead-the-three-departme",
+   "tag": "p",
+   "en": "Today his children lead the three departments, and each of them still sees patients personally."
+  },
+  {
+   "key": "about.span.meet-the-doctors-today",
+   "tag": "span",
+   "en": "Meet the doctors today"
+  },
+  {
+   "key": "about.p.specialist-care-for-the-people-of-this-reg",
+   "tag": "p",
+   "en": "Specialist care for the people of this region, close to home and at a fair cost."
+  },
+  {
+   "key": "about.span.timeline",
+   "tag": "span",
+   "en": "Timeline"
+  },
+  {
+   "key": "about.p.dr-amrit-gupta-opens-an-orthopaedic-clinic",
+   "tag": "p",
+   "en": "Dr. Amrit Gupta opens an orthopaedic clinic."
+  },
+  {
+   "key": "about.p.dr-amit-gupta-joins-psychiatry-and-de-addi",
+   "tag": "p",
+   "en": "Dr. Amit Gupta joins; psychiatry and de-addiction begin."
+  },
+  {
+   "key": "about.p.empanelled-under-ayushman-bharat-pm-jay",
+   "tag": "p",
+   "en": "Empanelled under Ayushman Bharat PM-JAY."
+  },
+  {
+   "key": "about.p.velys-robotic-knee-system-publicly-launche",
+   "tag": "p",
+   "en": "VELYS robotic knee system publicly launched.<small>Dainik Bhaskar, 12 March 2024</small>"
+  },
+  {
+   "key": "about.p.tribune-health-care-award-for-excellence-i",
+   "tag": "p",
+   "en": "Tribune Health Care Award for excellence in joint replacement and ortho robotic surgery.<small>24 August 2025</small>"
+  },
+  {
+   "key": "about.span.facilities",
+   "tag": "span",
+   "en": "Facilities"
+  },
+  {
+   "key": "about.span.what-we-stand-for",
+   "tag": "span",
+   "en": "What we stand for"
+  },
+  {
+   "key": "about.h2.three-ideas-we-have-kept-since-1980",
+   "tag": "h2",
+   "en": "Three ideas we have <span class=\"em\">kept since 1980.</span>"
+  },
+  {
+   "key": "about.h3.care-close-to-home",
+   "tag": "h3",
+   "en": "Care close to home"
+  },
+  {
+   "key": "about.p.specialist-treatment-in-bathinda-so-famili",
+   "tag": "p",
+   "en": "Specialist treatment in Bathinda, so families do not have to leave the region for it."
+  },
+  {
+   "key": "about.h3.a-fair-cost",
+   "tag": "h3",
+   "en": "A fair cost"
+  },
+  {
+   "key": "about.p.clear-estimates-before-treatment-and-pm-ja",
+   "tag": "p",
+   "en": "Clear estimates before treatment, and PM-JAY for eligible card holders."
+  },
+  {
+   "key": "about.h3.plain-explanations",
+   "tag": "h3",
+   "en": "Plain explanations"
+  },
+  {
+   "key": "about.p.your-doctor-explains-reports-and-options-i",
+   "tag": "p",
+   "en": "Your doctor explains reports and options in Punjabi, Hindi or English, and answers your questions."
+  },
+  {
+   "key": "about.span.in-the-community",
+   "tag": "span",
+   "en": "In the community"
+  },
+  {
+   "key": "about.h2.free-camps-in-villages-and-colleges",
+   "tag": "h2",
+   "en": "Free camps in <span class=\"em\">villages and colleges.</span>"
+  },
+  {
+   "key": "about.p.the-hospital-regularly-holds-free-bone-and",
+   "tag": "p",
+   "en": "The hospital regularly holds free bone and eye screening camps, often with local societies and colleges. Hundreds of people are checked at a single camp, and those who need treatment are guided on what to do next."
+  },
+  {
+   "key": "about.span.see-camp-coverage",
+   "tag": "span",
+   "en": "See camp coverage"
+  },
+  {
+   "key": "about.small.a-free-screening-camp-in-a-village",
+   "tag": "small",
+   "en": "A free screening camp in a village"
+  },
+  {
+   "key": "about.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "about.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "media": [
+  {
+   "key": "media.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "media.span.media",
+   "tag": "span",
+   "en": "Media"
+  },
+  {
+   "key": "media.h1.in-the-news",
+   "tag": "h1",
+   "en": "In the news."
+  },
+  {
+   "key": "media.p.coverage-from-local-newspapers-in-hindi-pu",
+   "tag": "p",
+   "en": "Coverage from local newspapers in Hindi, Punjabi and English. Drag the clippings around, click one to read it."
+  },
+  {
+   "key": "media.span.free-camps",
+   "tag": "span",
+   "en": "Free camps"
+  },
+  {
+   "key": "media.h2.free-screening-camps",
+   "tag": "h2",
+   "en": "Free screening camps"
+  },
+  {
+   "key": "media.p.numbers-as-reported-in-each-newspaper",
+   "tag": "p",
+   "en": "Numbers as reported in each newspaper."
+  },
+  {
+   "key": "media.span.follow-along",
+   "tag": "span",
+   "en": "Follow along"
+  },
+  {
+   "key": "media.h2.camp-dates-and-health-talks-as-they-happen",
+   "tag": "h2",
+   "en": "Camp dates and health talks, <span class=\"em\">as they happen.</span>"
+  },
+  {
+   "key": "media.p.newspaper-reports-come-after-the-event-the",
+   "tag": "p",
+   "en": "Newspaper reports come after the event. The hospital’s own channels announce camps before they happen."
+  },
+  {
+   "key": "media.span.health-talks-and-explainers-from-the-docto",
+   "tag": "span",
+   "en": "Health talks and explainers from the doctors."
+  },
+  {
+   "key": "media.span.camp-dates-hospital-news-and-short-tips",
+   "tag": "span",
+   "en": "Camp dates, hospital news and short tips."
+  },
+  {
+   "key": "media.span.announcements-and-events-in-bathinda",
+   "tag": "span",
+   "en": "Announcements and events in Bathinda."
+  },
+  {
+   "key": "media.span.book-a-visit-or-send-reports-to-the-team",
+   "tag": "span",
+   "en": "Book a visit or send reports to the team."
+  },
+  {
+   "key": "media.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "media.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
+  }
+ ],
+ "contact": [
+  {
+   "key": "contact.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "contact.span.book-amp-contact",
+   "tag": "span",
+   "en": "Book &amp; contact"
+  },
+  {
+   "key": "contact.h1.book-an-appointment",
+   "tag": "h1",
+   "en": "Book an appointment."
+  },
+  {
+   "key": "contact.p.fill-in-the-form-and-send-it-on-whatsapp-o",
+   "tag": "p",
+   "en": "Fill in the form and send it on WhatsApp. Our team will call you back to confirm a time."
+  },
+  {
+   "key": "contact.span.department",
+   "tag": "span",
+   "en": "Department"
+  },
+  {
+   "key": "contact.button.orthopaedics",
+   "tag": "button",
+   "en": "Orthopaedics"
+  },
+  {
+   "key": "contact.button.robotic-knee",
+   "tag": "button",
+   "en": "Robotic knee"
+  },
+  {
+   "key": "contact.button.eye-care",
+   "tag": "button",
+   "en": "Eye care"
+  },
+  {
+   "key": "contact.button.mental-health",
+   "tag": "button",
+   "en": "Mental health"
+  },
+  {
+   "key": "contact.button.not-sure",
+   "tag": "button",
+   "en": "Not sure"
+  },
+  {
+   "key": "contact.span.patient-name",
+   "tag": "span",
+   "en": "Patient name"
+  },
+  {
+   "key": "contact.span.mobile-number",
+   "tag": "span",
+   "en": "Mobile number"
+  },
+  {
+   "key": "contact.span.preferred-day",
+   "tag": "span",
+   "en": "Preferred day"
+  },
+  {
+   "key": "contact.span.preferred-language",
+   "tag": "span",
+   "en": "Preferred language"
+  },
+  {
+   "key": "contact.span.what-s-the-problem-optional",
+   "tag": "span",
+   "en": "What's the problem? (optional)"
+  },
+  {
+   "key": "contact.span.prepare-whatsapp-message",
+   "tag": "span",
+   "en": "Prepare WhatsApp message"
+  },
+  {
+   "key": "contact.dt.address",
+   "tag": "dt",
+   "en": "Address"
+  },
+  {
+   "key": "contact.dt.appointments-amp-whatsapp",
+   "tag": "dt",
+   "en": "Appointments &amp; WhatsApp"
+  },
+  {
+   "key": "contact.dt.eye-department",
+   "tag": "dt",
+   "en": "Eye department"
+  },
+  {
+   "key": "contact.dt.opd-timings",
+   "tag": "dt",
+   "en": "OPD timings"
+  },
+  {
+   "key": "contact.dd.to-be-confirmed",
+   "tag": "dd",
+   "en": "To be confirmed"
+  },
+  {
+   "key": "contact.span.open-in-google-maps",
+   "tag": "span",
+   "en": "Open in Google Maps"
+  },
+  {
+   "key": "contact.span.before-you-come",
+   "tag": "span",
+   "en": "Before you come"
+  },
+  {
+   "key": "contact.h2.what-to-bring-with-you",
+   "tag": "h2",
+   "en": "What to <span class=\"em\">bring with you.</span>"
+  },
+  {
+   "key": "contact.p.a-complete-history-helps-the-doctor-decide",
+   "tag": "p",
+   "en": "A complete history helps the doctor decide faster, and can save you a repeat test."
+  },
+  {
+   "key": "contact.h3.old-reports",
+   "tag": "h3",
+   "en": "Old reports"
+  },
+  {
+   "key": "contact.p.x-rays-scans-and-discharge-papers",
+   "tag": "p",
+   "en": "X-rays, scans and discharge papers."
+  },
+  {
+   "key": "contact.h3.your-medicines",
+   "tag": "h3",
+   "en": "Your medicines"
+  },
+  {
+   "key": "contact.p.the-strips-or-a-list-of-what-you-take-now",
+   "tag": "p",
+   "en": "The strips or a list of what you take now."
+  },
+  {
+   "key": "contact.h3.id-and-cards",
+   "tag": "h3",
+   "en": "ID and cards"
+  },
+  {
+   "key": "contact.p.aadhaar-and-your-ayushman-or-insurance-car",
+   "tag": "p",
+   "en": "Aadhaar, and your Ayushman or insurance card if you have one."
+  },
+  {
+   "key": "contact.h3.someone-with-you",
+   "tag": "h3",
+   "en": "Someone with you"
+  },
+  {
+   "key": "contact.p.helpful-for-eye-drops-surgery-days-and-tal",
+   "tag": "p",
+   "en": "Helpful for eye drops, surgery days and talking through options."
+  },
+  {
+   "key": "contact.span.hospital-number",
+   "tag": "span",
+   "en": "Hospital number"
+  },
+  {
+   "key": "contact.span.call",
+   "tag": "span",
+   "en": "Call"
+  },
+  {
+   "key": "contact.span.alternate-number",
+   "tag": "span",
+   "en": "Alternate number"
+  },
+  {
+   "key": "contact.span.call-1",
+   "tag": "span",
+   "en": "Call"
+  },
+  {
+   "key": "contact.span.write",
+   "tag": "span",
+   "en": "Write"
+  },
+  {
+   "key": "contact.span.send-reports-before-your-visit",
+   "tag": "span",
+   "en": "Send reports before your visit"
+  },
+  {
+   "key": "contact.span.open",
+   "tag": "span",
+   "en": "Open"
+  },
+  {
+   "key": "contact.span.questions",
+   "tag": "span",
+   "en": "Questions"
+  },
+  {
+   "key": "contact.h2.questions-families-often-ask",
+   "tag": "h2",
+   "en": "Questions families <span class=\"em\">often ask.</span>"
+  },
+  {
+   "key": "contact.p.still-unsure-call-91-98787-52241-and-the-t",
+   "tag": "p",
+   "en": "Still unsure? Call +91 98787 52241 and the team will help."
+  },
+  {
+   "key": "contact.span.do-i-need-an-appointment",
+   "tag": "span",
+   "en": "Do I need an appointment?"
+  },
+  {
+   "key": "contact.div.booking-ahead-by-phone-or-whatsapp-on-91-9",
+   "tag": "div",
+   "en": "Booking ahead by phone or WhatsApp on +91 98787 52241 helps the team plan your visit and keeps your wait short."
+  },
+  {
+   "key": "contact.span.which-doctor-should-i-see",
+   "tag": "span",
+   "en": "Which doctor should I see?"
+  },
+  {
+   "key": "contact.div.bones-joints-back-and-injuries-dr-mohit-gu",
+   "tag": "div",
+   "en": "Bones, joints, back and injuries: Dr. Mohit Gupta. Eyes: Dr. Parul Gupta. Mood, sleep, stress and addiction: Dr. Amit Gupta. If you are unsure, tell the team your problem and they will guide you."
+  },
+  {
+   "key": "contact.span.is-treatment-covered-under-ayushman-bharat",
+   "tag": "span",
+   "en": "Is treatment covered under Ayushman Bharat?"
+  },
+  {
+   "key": "contact.div.gupta-hospital-is-empanelled-under-pm-jay-",
+   "tag": "div",
+   "en": "Gupta Hospital is empanelled under PM-JAY (HFR ID IN0310002794). Whether your procedure is covered depends on the scheme’s rules, so bring your card and the team will check."
+  },
+  {
+   "key": "contact.span.can-i-talk-to-the-doctor-in-punjabi",
+   "tag": "span",
+   "en": "Can I talk to the doctor in Punjabi?"
+  },
+  {
+   "key": "contact.div.yes-all-three-doctors-speak-punjabi-hindi-",
+   "tag": "div",
+   "en": "Yes. All three doctors speak Punjabi, Hindi and English, and will explain your reports in the language you are comfortable with."
+  },
+  {
+   "key": "contact.span.what-should-i-bring-to-my-first-visit",
+   "tag": "span",
+   "en": "What should I bring to my first visit?"
+  },
+  {
+   "key": "contact.div.all-old-reports-x-rays-and-scans-the-medic",
+   "tag": "div",
+   "en": "All old reports, X-rays and scans, the medicines you take now, Aadhaar, and your Ayushman or insurance card if you have one."
+  }
+ ]
+}

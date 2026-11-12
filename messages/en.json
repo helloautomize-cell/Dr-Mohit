@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Gupta Hospital Bathinda"
+  },
+  "nav": {
+    "orthopaedics": "Orthopaedics",
+    "robotic": "Robotic knee",
+    "eye": "Eye care",
+    "mind": "Mental health",
+    "doctors": "Doctors",
+    "about": "About",
+    "media": "Media",
+    "book": "Book appointment"
+  },
+  "sg": {
+    "title": "Design system",
+    "subtitle": "Gupta Hospital website · component reference",
+    "en": "English",
+    "pa": "ਪੰਜਾਬੀ"
+  },
+  "shell": {
+    "eyebrow": "Gupta Hospital · Bathinda · Since 1980",
+    "hours": "OPD hours: {v}",
+    "emergency": "Medical emergency? Call 108 or 112",
+    "textsize": "Text size",
+    "smaller": "Smaller text",
+    "larger": "Larger text",
+    "home": "Gupta Hospital, home",
+    "homePage": "Home",
+    "main": "Main",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mobileNav": "Mobile",
+    "orthoLead": "Orthopaedics lead",
+    "call": "Call",
+    "callNow": "Call Now",
+    "bookNow": "Book Now",
+    "appointments": "Appointments",
+    "eyeDept": "Eye department",
+    "cancel": "Cancel",
+    "quickActions": "Quick actions",
+    "contact": "Contact",
+    "legal": "Legal",
+    "cookieSettings": "Cookie settings",
+    "directions": "Get directions",
+    "email": "Email",
+    "cookieTitle": "Cookies on this site",
+    "cookieBody": "We use essential cookies to run the site. Analytics cookies help us improve it and only load with your consent.",
+    "cookieEssential": "Essential (required)",
+    "cookieAnalytics": "Analytics (optional)",
+    "acceptAll": "Accept all",
+    "decline": "Essential only",
+    "settings": "Settings",
+    "saveChoice": "Save choice",
+    "lp": {
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "disclaimer": "Medical disclaimer",
+      "editorial": "Editorial and medical review policy",
+      "rights": "Patient rights and responsibilities",
+      "cancelRefund": "Appointment cancellation and refund",
+      "access": "Accessibility statement"
+    },
+    "nf": {
+      "title": "Page not found",
+      "body": "The page you asked for does not exist. These departments may help:",
+      "back": "Back to home"
+    },
+    "ty": {
+      "title": "Appointment request received",
+      "received": "Requested on {time}",
+      "body": "Our team will call you back to confirm the time. Keep your phone nearby.",
+      "emergency": "For urgent medical needs call {phone} or the emergency line 112.",
+      "back": "Back to home"
+    },
+    "gbp": "See us on Google Maps"
+  },
+  "form": {
+    "department": "Department",
+    "patientName": "Patient name",
+    "mobile": "Mobile number",
+    "age": "Age",
+    "ageYears": "Years",
+    "ageMonths": "Months",
+    "doctor": "Doctor",
+    "doctors": {
+      "mohit": "Dr. Mohit Gupta",
+      "parul": "Dr. Parul Gupta",
+      "amit": "Dr. Amit Gupta",
+      "notsure": "Not sure"
+    },
+    "reason": "Reason for visit",
+    "reasons": {
+      "orthopaedics": {
+        "knee-pain": "Knee pain",
+        "hip-pain": "Hip pain",
+        "back-neck": "Back or neck pain",
+        "sports-injury": "Sports injury",
+        "fracture": "Fracture or injury",
+        "shoulder-elbow": "Shoulder or elbow",
+        "foot-ankle": "Foot or ankle",
+        "child-bone": "Child bone or joint",
+        "other": "Something else"
+      },
+      "robotic": {
+        "knee-replacement": "Robotic knee replacement consult",
+        "second-opinion": "Second opinion on knee replacement",
+        "follow-up": "Follow-up after surgery",
+        "other": "Something else"
+      },
+      "eye": {
+        "cataract": "Cataract consultation",
+        "eye-checkup": "Routine eye check-up",
+        "diabetic-eye": "Diabetes eye check",
+        "child-eye": "Child eye check",
+        "glasses": "Glasses or vision check",
+        "lasik": "LASIK enquiry",
+        "other": "Something else"
+      },
+      "mind": {
+        "counselling": "Counselling or therapy",
+        "deaddiction": "De-addiction support",
+        "stress-anxiety": "Stress, anxiety or mood",
+        "sleep": "Sleep problems",
+        "family-support": "Support for a family member",
+        "other": "Something else"
+      },
+      "notsure": {
+        "not-sure": "Not sure — need guidance",
+        "other": "Something else"
+      }
+    },
+    "preferredDay": "Preferred day",
+    "sundayNote": "The team will confirm your Sunday appointment time by phone.",
+    "timeOfDay": "Preferred time",
+    "times": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "any": "Any time"
+    },
+    "language": "Preferred language",
+    "city": "City or town (optional)",
+    "noMedicalInfo": "Please do not include detailed medical information.",
+    "under18": "The patient is under 18",
+    "guardianName": "Guardian name",
+    "guardianNote": "A parent or guardian must book for patients under 18.",
+    "consent": "I agree that Gupta Hospital may contact me about this appointment request.",
+    "submit": "Request appointment",
+    "whatsappPrep": "Prepare WhatsApp message",
+    "sending": "Sending…",
+    "errors": {
+      "summary": "Please fix the fields marked below.",
+      "dept": "Choose a department",
+      "name": "Enter the patient name",
+      "phone": "Enter a valid 10-digit mobile number",
+      "age": "Enter a valid age",
+      "doctor": "Choose a doctor",
+      "reason": "Choose a reason",
+      "day": "Choose a date within the next 60 days",
+      "time": "Choose a time",
+      "language": "Choose a language",
+      "under18": "For patients under 18, tick this box and add a guardian",
+      "guardian": "Enter the guardian name",
+      "consent": "Please tick the consent box to continue"
+    },
+    "unavailable": "We could not send this online right now. Your details are kept below — please call or send them on WhatsApp instead.",
+    "callCta": "Call {phone}",
+    "whatsappCta": "Send on WhatsApp",
+    "messageLabel": "What's the problem? (optional)"
+  },
+  "ui": {
+    "pause": "Pause",
+    "play": "Play"
+  }
+}
