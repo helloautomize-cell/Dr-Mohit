@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { alternates } from '@/lib/seo';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
 import { SITE } from '@/lib/site-config';
@@ -11,6 +12,7 @@ import { WaveDivider } from '@/components/WaveDivider';
 import { BookButton } from '@/components/Buttons';
 import { LIcon, type LineIconName } from '@/components/icons';
 import { SecHead } from '@/components/home/sections';
+import { Swipe } from '@/components/Swipe';
 import { PressBoard, MEDIA_CLIPS } from '@/components/PressBoard';
 
 export function generateStaticParams() {
@@ -23,10 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: pageTitle('media'),
     description: copy('media', 'Coverage from local newspapers', l),
-    alternates: {
-      canonical: l === 'pa' ? '/pa/media/' : '/media/',
-      languages: { en: '/media/', pa: '/pa/media/' },
-    },
+    alternates: alternates('/media/', l),
   };
 }
 
@@ -119,7 +118,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             h2={c('Camp dates and health talks, <span class="em">as they happen.</span>')}
             lede={c('Newspaper reports come after the event')}
           />
-          <div className="soc">
+          <Swipe className="soc" count={socials.length} label={c('Follow along')}>
             {socials.map((s) => (
               <a className="rv" href={s.href} target="_blank" rel="noopener" key={s.name}>
                 <span className="ico">
@@ -130,7 +129,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <span className="go">Open ↗</span>
               </a>
             ))}
-          </div>
+          </Swipe>
         </div>
       </section>
       <WaveDivider from="sky" to="white" />

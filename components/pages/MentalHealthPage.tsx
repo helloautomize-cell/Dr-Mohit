@@ -114,9 +114,9 @@ export function MentalHealthPage({ locale }: { locale: Locale }) {
         </div>
       </section>
       <WaveDivider from="mint" to="white" />
-      <WaveDivider from="white" to="teal" />
+      <WaveDivider from="white" to="teal-dark" />
 
-      <section className="sec on-dark" style={{ background: 'var(--teal)' }}>
+      <section className="sec on-dark on-teal" style={{ background: 'var(--teal-ink)' }}>
         <div className="wrap">
           <div className="g12 rv" style={{ marginBottom: 0, alignItems: 'end' }}>
             <div className="c-7">
@@ -130,7 +130,7 @@ export function MentalHealthPage({ locale }: { locale: Locale }) {
           <ConditionGroups locale={locale} />
         </div>
       </section>
-      <WaveDivider from="teal" to="navy" />
+      <WaveDivider from="teal-dark" to="navy" />
 
       <section className="sec on-dark">
         <div className="wrap">

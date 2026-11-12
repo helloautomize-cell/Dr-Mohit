@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { alternates } from '@/lib/seo';
 import { routing, type Locale } from '@/i18n/routing';
 import { SITE } from '@/lib/site-config';
 import { copy, pageTitle } from '@/lib/copy';
@@ -28,10 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: pageTitle('plan-your-visit'),
     description: copy('plan-your-visit', 'A little planning makes the visit smoother', l),
-    alternates: {
-      canonical: l === 'pa' ? '/pa/plan-your-visit/' : '/plan-your-visit/',
-      languages: { en: '/plan-your-visit/', pa: '/pa/plan-your-visit/' },
-    },
+    alternates: alternates('/plan-your-visit/', l),
   };
 }
 

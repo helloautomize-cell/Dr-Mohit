@@ -8,8 +8,10 @@ import { copy } from '@/lib/copy';
 import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
 import { Icon, type IconName } from '../icons';
-import { Accordion, StepsTrail } from '../sections/bands';
+import { Accordion } from '../sections/bands';
+import { Swipe } from '../Swipe';
 import { ConfirmChip, ConfirmNote, SHOW_CONFIRM } from '../Confirm';
+import { faqLd } from '@/lib/seo';
 import { SITE } from '@/lib/site-config';
 
 type L = Locale;
@@ -209,9 +211,9 @@ export function FitBoxes({
 }
 
 /** .cg icon + chips card grid (injury groups, back-pain causes). */
-export function CgGrid({ items }: { items: { icon: IconName; h3: string; chips: string[] }[] }) {
+export function CgGrid({ items, label }: { items: { icon: IconName; h3: string; chips: string[] }[]; label: string }) {
   return (
-    <div className="cg">
+    <Swipe className="cg" count={items.length} label={label}>
       {items.map((it) => (
         <div className="rv" key={it.h3}>
           <span className="sic">
@@ -225,15 +227,15 @@ export function CgGrid({ items }: { items: { icon: IconName; h3: string; chips: 
           </div>
         </div>
       ))}
-    </div>
+    </Swipe>
   );
 }
 
 /** .signs navy warning grid (back-pain red flags) + emergency button row. */
-export function SignsGrid({ items, page, locale }: { items: { icon: IconName; h3: string; lis: string[] }[]; page: string; locale: L }) {
+export function SignsGrid({ items, page, locale, label }: { items: { icon: IconName; h3: string; lis: string[] }[]; page: string; locale: L; label: string }) {
   return (
     <>
-      <div className="signs">
+      <Swipe className="signs" count={items.length} label={label}>
         {items.map((it) => (
           <div className="rv" key={it.h3}>
             <span className="sic">
@@ -247,7 +249,7 @@ export function SignsGrid({ items, page, locale }: { items: { icon: IconName; h3
             </ul>
           </div>
         ))}
-      </div>
+      </Swipe>
       <div style={{ marginTop: 32, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
         <a className="btn btn-em" href="tel:112">
           <span>{c(page, 'Call 112', locale)}</span>
@@ -261,9 +263,9 @@ export function SignsGrid({ items, page, locale }: { items: { icon: IconName; h3
 }
 
 /** .bring four-card habits grid (back-pain "Everyday habits"). */
-export function BringGrid({ items }: { items: { icon: IconName; h3: string; p: string }[] }) {
+export function BringGrid({ items, label }: { items: { icon: IconName; h3: string; p: string }[]; label: string }) {
   return (
-    <div className="bring">
+    <Swipe className="bring" count={items.length} label={label}>
       {items.map((it) => (
         <div className="rv" key={it.h3}>
           <span className="sic">
@@ -273,11 +275,12 @@ export function BringGrid({ items }: { items: { icon: IconName; h3: string; p: s
           <p>{it.p}</p>
         </div>
       ))}
-    </div>
+    </Swipe>
   );
 }
 
-/** The shared .sec.faq-sec: left label/h2 + "Ask us something else" link. */
+/** The shared .sec.faq-sec: left label/h2 + "Ask us something else" link.
+    Emits FAQPage JSON-LD from the same items the accordion renders. */
 export function FaqSec({
   page,
   locale,
@@ -308,6 +311,10 @@ export function FaqSec({
           <Accordion items={items} />
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd(items)) }}
+      />
     </section>
   );
 }

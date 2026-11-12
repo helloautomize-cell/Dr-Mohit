@@ -10,7 +10,9 @@
     "format": "prettier --write .",
     "process-images": "node scripts/process-images.mjs",
     "test:e2e": "playwright test",
-    "launch-check": "node scripts/launch-check.mjs"
+    "launch-check": "node scripts/launch-check.mjs",
+    "gen:seo": "node scripts/gen-seo-files.mjs",
+    "prebuild": "node scripts/gen-seo-files.mjs"
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.4.1",

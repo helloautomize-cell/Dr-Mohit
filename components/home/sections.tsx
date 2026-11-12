@@ -95,7 +95,7 @@ export function HomeHero({ locale }: { locale: L }) {
             </div>
             <div className="cap">
               <span>Dr. Mohit Gupta</span>
-              <span>{c('VELYS™ robotic-assisted knee system')}</span>
+              <span>{c('Joint replacement surgeon')}</span>
             </div>
           </div>
         </div>

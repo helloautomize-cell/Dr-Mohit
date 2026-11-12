@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
+import { alternates, itemListLd, physicianLd, SITE_BASE } from '@/lib/seo';
 import { SITE } from '@/lib/site-config';
 import { slot, type SlotId } from '@/lib/image-slots';
 import { LabelText, H1, H2, H3, Lede } from '@/components/primitives';
@@ -24,10 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: pageTitle('doctors'),
     description: copy('doctors', 'The clinic Dr. Amrit Gupta opened', l),
-    alternates: {
-      canonical: l === 'pa' ? '/pa/doctors/' : '/doctors/',
-      languages: { en: '/doctors/', pa: '/pa/doctors/' },
-    },
+    alternates: alternates('/doctors/', l),
   };
 }
 
@@ -41,6 +39,7 @@ type Doctor = {
   ledeKey: string;
   chips: { key?: string; confirmId?: 'parul-degrees' | 'amit-md' }[];
   specialty: string;
+  credentials: string[];
 };
 
 const DOCTORS: Doctor[] = [
@@ -60,6 +59,11 @@ const DOCTORS: Doctor[] = [
       { key: 'Tribune Health Care Award 2025' },
     ],
     specialty: 'Orthopaedics and joint replacement',
+    credentials: [
+      'D.Ortho, MS Ortho, MCh Ortho',
+      'Punjab Medical Council registration no. 43354',
+      'Fellowships: Asklepios Klinik Lindenlohe (Germany), Fribourg cantonal hospital (Switzerland)',
+    ],
   },
   {
     name: 'Dr. Parul Gupta',
@@ -75,6 +79,7 @@ const DOCTORS: Doctor[] = [
       { key: 'Phaco cataract surgery' },
     ],
     specialty: 'Ophthalmology',
+    credentials: ['Specialised training in phacoemulsification cataract surgery'],
   },
   {
     name: 'Dr. Amit Gupta',
@@ -90,41 +95,22 @@ const DOCTORS: Doctor[] = [
       { key: 'Licensed de-addiction centre' },
     ],
     specialty: 'Psychiatry',
+    credentials: [
+      'Psychiatry consultant and de-addiction specialist since 2000',
+      'Runs the licensed de-addiction centre',
+    ],
   },
 ];
 
-function physicianLd(d: Doctor) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Physician',
+function doctorLd(d: Doctor) {
+  return physicianLd({
     name: d.name,
-    medicalSpecialty: d.specialty,
-    url: d.href,
-    image: slot(d.slot).src,
-    worksFor: {
-      '@type': 'Hospital',
-      name: `${SITE.name}, ${SITE.city}`,
-      telephone: SITE.phoneMain,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: 'Power House Road',
-        addressLocality: 'Bathinda',
-        addressRegion: 'Punjab',
-        postalCode: '151001',
-        addressCountry: 'IN',
-      },
-    },
-    ...(d.name === 'Dr. Mohit Gupta'
-      ? {
-          award: SITE.award,
-          identifier: {
-            '@type': 'PropertyValue',
-            propertyID: 'Punjab Medical Council registration',
-            value: '43354',
-          },
-        }
-      : {}),
-  };
+    dept: d.specialty,
+    route: d.href,
+    image: `${SITE_BASE}${slot(d.slot).src}`,
+    credentials: d.credentials,
+    ...(d.name === 'Dr. Mohit Gupta' ? { award: SITE.award } : {}),
+  });
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
@@ -183,9 +169,20 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <script
           key={d.href}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianLd(d)) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(doctorLd(d)) }}
         />
       ))}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            itemListLd(
+              DOCTORS.map((d) => ({ name: d.name, url: d.href })),
+              'Doctors at Gupta Hospital',
+            ),
+          ),
+        }}
+      />
     </>
   );
 }

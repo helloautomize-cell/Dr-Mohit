@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { alternates } from '@/lib/seo';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
 import { SITE } from '@/lib/site-config';
@@ -24,10 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: pageTitle('about'),
     description: copy('about', 'In 1980 Dr. Amrit Gupta opened', l),
-    alternates: {
-      canonical: l === 'pa' ? '/pa/about/' : '/about/',
-      languages: { en: '/about/', pa: '/pa/about/' },
-    },
+    alternates: alternates('/about/', l),
   };
 }
 
@@ -60,40 +58,6 @@ const STORY = [
   'Under Dr. Mohit Gupta, the orthopaedic department added arthroscopy',
   'Patients come from across Punjab and from neighbouring parts',
 ];
-
-function orgJsonLd() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Hospital',
-    name: `${SITE.name}, ${SITE.city}`,
-    foundingDate: '1980',
-    founder: { '@type': 'Person', name: 'Dr. Amrit Gupta' },
-    telephone: SITE.phoneMain,
-    email: SITE.email,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'Power House Road',
-      addressLocality: 'Bathinda',
-      addressRegion: 'Punjab',
-      postalCode: '151001',
-      addressCountry: 'IN',
-    },
-    identifier: {
-      '@type': 'PropertyValue',
-      propertyID: 'HFR ID',
-      value: SITE.hfrId,
-    },
-    openingHoursSpecification: {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: [
-        'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
-      ],
-      opens: '00:00',
-      closes: '23:59',
-    },
-    sameAs: [SITE.social.youtube, SITE.social.instagram, SITE.social.facebook],
-  };
-}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -285,10 +249,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd()) }}
-      />
     </>
   );
 }

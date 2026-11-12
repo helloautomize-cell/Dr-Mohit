@@ -1,8 +1,12 @@
 import { setRequestLocale } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { DoctorProfile, type DoctorFacts } from '@/components/DoctorProfile';
+import { alternates, physicianLd, SITE_BASE } from '@/lib/seo';
+import { slot } from '@/lib/image-slots';
+import { SITE } from '@/lib/site-config';
 
 const D: DoctorFacts = {
   "name": "Dr. Mohit Gupta",
@@ -57,9 +61,40 @@ const D: DoctorFacts = {
   ]
 };
 
+const ROUTE = '/doctors/dr-mohit-gupta/';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const pa = locale === 'pa';
+  return {
+    title: `${pa && D.namePa ? D.namePa : D.name} — ${pa && D.deptPa ? D.deptPa : D.dept}`,
+    description: pa && D.aboutPa ? D.aboutPa[0] : D.about[0],
+    alternates: alternates(ROUTE, locale as Locale),
+  };
+}
+
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
-  return <DoctorProfile d={D} locale={locale as Locale} />;
+  return (
+    <>
+      <DoctorProfile d={D} locale={locale as Locale} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            physicianLd({
+              name: D.name,
+              dept: 'Orthopedic',
+              route: ROUTE,
+              image: `${SITE_BASE}${slot('doctors.mohit').src}`,
+              credentials: D.qualifications.filter((q) => !q.confirmId).map((q) => q.text),
+              award: SITE.award,
+            }),
+          ),
+        }}
+      />
+    </>
+  );
 }

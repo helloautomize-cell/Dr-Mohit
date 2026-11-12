@@ -105,7 +105,7 @@ export function SportsInjuriesPage({ locale }: { locale: Locale }) {
       <section className="sec" style={{ background: 'var(--sky)' }}>
         <div className="wrap">
           <SecHead page={PAGE} locale={locale} label="Common injuries" h2="Injuries we see" />
-          <CgGrid items={GROUPS.map((g) => ({ icon: g.icon, h3: c(g.h3), chips: g.chips.map(c) }))} />
+          <CgGrid items={GROUPS.map((g) => ({ icon: g.icon, h3: c(g.h3), chips: g.chips.map(c) }))} label={c('Common injuries')} />
         </div>
       </section>
       <WaveDivider from="sky" to="white" />

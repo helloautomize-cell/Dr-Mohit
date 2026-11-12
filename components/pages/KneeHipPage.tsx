@@ -9,6 +9,7 @@ import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
 import { WaveDivider } from '../WaveDivider';
 import { DeptHero, DeptBookCta, DeptPhoneCta } from './DeptHero';
+import { Swipe } from '../Swipe';
 import { Callout, StepsTrail } from '../sections/bands';
 import { Icon, type IconName } from '../icons';
 import { SecHead, FitBoxes, TickList, FaqSec, OrthoSubTail } from './ortho-shared';
@@ -71,7 +72,7 @@ export function KneeHipPage({ locale }: { locale: Locale }) {
       <section className="sec">
         <div className="wrap">
           <SecHead page={PAGE} locale={locale} label="Options" h2="Four ways to" lede="Which one suits you" margin={48} />
-          <div className="svc two">
+          <Swipe className="svc two" count={OPTIONS.length} label={c('Options')}>
             {OPTIONS.map((o) => {
               const full = c(o.p);
               // The robotic card's copy ends "… How it works →": split the
@@ -96,7 +97,7 @@ export function KneeHipPage({ locale }: { locale: Locale }) {
                 </div>
               );
             })}
-          </div>
+          </Swipe>
         </div>
       </section>
       <WaveDivider from="white" to="mint" />

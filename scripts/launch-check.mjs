@@ -67,5 +67,51 @@ for (const dir of ['app', 'components', 'lib']) {
   }
 }
 
+// ---- 3. Phase-9 SEO gates ----
+// Every indexable content route must own a generateMetadata export (checked
+// statically; noindex legal pages are exempt).
+const INDEXABLE_ROUTES = [
+  'app/[locale]/page.tsx',
+  'app/[locale]/orthopaedics/page.tsx',
+  'app/[locale]/orthopaedics/robotic-knee-replacement/page.tsx',
+  'app/[locale]/orthopaedics/knee-and-hip-replacement/page.tsx',
+  'app/[locale]/orthopaedics/fractures-and-trauma/page.tsx',
+  'app/[locale]/orthopaedics/arthroscopy-and-sports-injuries/page.tsx',
+  'app/[locale]/orthopaedics/back-pain-clinic/page.tsx',
+  'app/[locale]/eye-care/page.tsx',
+  'app/[locale]/mental-health/page.tsx',
+  'app/[locale]/doctors/page.tsx',
+  'app/[locale]/doctors/dr-mohit-gupta/page.tsx',
+  'app/[locale]/doctors/dr-parul-gupta/page.tsx',
+  'app/[locale]/doctors/dr-amit-gupta/page.tsx',
+  'app/[locale]/about/page.tsx',
+  'app/[locale]/media/page.tsx',
+  'app/[locale]/contact/page.tsx',
+  'app/[locale]/plan-your-visit/page.tsx',
+];
+for (const f of INDEXABLE_ROUTES) {
+  const t = fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : '';
+  if (!t.includes('generateMetadata') && !t.includes('export const metadata')) {
+    fail(`${f}: indexable route has no metadata export`);
+  }
+}
+ok('indexable routes all export metadata');
+
+// GEO files must regenerate on every build via the prebuild hook.
+const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+if (!pkg.scripts?.prebuild?.includes('gen-seo-files')) {
+  fail('package.json: prebuild must run gen-seo-files.mjs');
+} else ok('prebuild regenerates llms.txt + md mirrors');
+
+// robots.ts must carry the AI-crawler policy for the indexable build.
+const robotsSrc = fs.readFileSync('app/robots.ts', 'utf8');
+if (!/GPTBot/.test(robotsSrc)) fail('app/robots.ts: missing AI-crawler rules');
+else ok('robots AI-crawler rules present');
+
+// sitewide entity schema must be emitted from the locale layout.
+const layoutSrc = fs.readFileSync('app/[locale]/layout.tsx', 'utf8');
+if (!/hospitalLd/.test(layoutSrc)) fail('layout.tsx: Hospital JSON-LD missing');
+else ok('sitewide Hospital schema present');
+
 console.log(fails ? `\n=== launch-check FAILED: ${fails} issue(s) ===` : '\n=== launch-check PASSED ===');
 process.exit(fails ? 1 : 0);

@@ -20,8 +20,8 @@ const alt = (stem: string, fallback?: { en: string; pa: string }) =>
 
 export const SLOTS: Record<string, Slot> = {
   'home.hero': {
-    src: '/images/photos/dr-mohit-with-velys-hero.jpg',
-    alt: alt('photos/dr-mohit-with-velys'),
+    src: '/images/photos/home-hero-mohit.jpg',
+    alt: alt('photos/home-hero-mohit'),
     ratio: '4/5',
     focal: '50% 30%',
     sizes: '(max-width:900px) 92vw, 42vw',

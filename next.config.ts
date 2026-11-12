@@ -28,6 +28,17 @@ const nextConfig: NextConfig = {
     deviceSizes: [390, 640, 750, 828, 1080, 1200, 1440, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 160, 256, 384, 512],
   },
+  // trailingSlash 308-redirects the extensionless metadata routes
+  // (/opengraph-image → /opengraph-image/) which then 404 — serve them at the
+  // slash path too so the emitted og:image URL always resolves.
+  async rewrites() {
+    return {
+      beforeFiles: [
+        { source: '/opengraph-image/', destination: '/opengraph-image' },
+        { source: '/twitter-image/', destination: '/twitter-image' },
+      ],
+    };
+  },
   // Old-site URLs folded into the new orthopaedics structure (v14 kit).
   async redirects() {
     const kneeHip = '/orthopaedics/knee-and-hip-replacement/';

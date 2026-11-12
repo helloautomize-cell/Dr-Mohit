@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { alternates } from '@/lib/seo';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
 import { SITE } from '@/lib/site-config';
@@ -24,10 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: pageTitle('contact'),
     description: copy('contact', 'Fill in the form and send it on WhatsApp', l),
-    alternates: {
-      canonical: l === 'pa' ? '/pa/contact/' : '/contact/',
-      languages: { en: '/contact/', pa: '/pa/contact/' },
-    },
+    alternates: alternates('/contact/', l),
   };
 }
 
@@ -163,7 +161,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </div>
             ))}
           </Swipe>
-          <div className="soc" style={{ marginTop: 16 }}>
+          <Swipe className="soc" count={reach.length} label={c('Book &amp; contact')} trackProps={{ style: { marginTop: 16 } }}>
             {reach.map((r) => (
               <a className="rv" href={r.href} target={r.ext ? '_blank' : undefined} rel="noopener" key={r.b}>
                 <span className="ico">
@@ -177,7 +175,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <span className="go">{r.go} ↗</span>
               </a>
             ))}
-          </div>
+          </Swipe>
         </div>
       </section>
       <WaveDivider from="white" to="sky" />

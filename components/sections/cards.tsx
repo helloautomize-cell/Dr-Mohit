@@ -253,10 +253,10 @@ export function TreatmentGrid({ locale }: { locale: L }) {
   const cards: Parameters<typeof TreatmentCard>[0][] = [
     { art: 'robotic', cat: cat.o, h3: c('home', 'Robotic knee replacement', locale), p: c('home', 'Planned around your own knee', locale), cta: lm, href: '/orthopaedics/robotic-knee-replacement/' },
     { art: 'kneehip', cat: cat.o, h3: c('home', 'Knee &amp; hip replacement', locale), p: c('home', 'Total and partial knee replacement', locale), cta: lm, href: '/orthopaedics/' },
-    { art: 'fracture', cat: cat.o, h3: c('home', 'Fractures &amp; trauma', locale), p: c('home', 'Accident injuries, hip fractures', locale), cta: lm, href: '/orthopaedics/', accent: '#D0574A', tint: '#FBEDEA' },
+    { art: 'fracture', cat: cat.o, h3: c('home', 'Fractures &amp; trauma', locale), p: c('home', 'Accident injuries, hip fractures', locale), cta: lm, href: '/orthopaedics/', accent: '#A83828', tint: '#FBEDEA' },
     { art: 'spine', cat: cat.o, h3: c('home', 'Back pain clinic', locale), p: c('home', 'Slip disc, sciatica and neck pain', locale), cta: lm, href: '/orthopaedics/' },
-    { art: 'eye', cat: cat.e, h3: c('home', 'Cataract &amp; eye care', locale), p: c('home', 'Dr. Parul Gupta: phaco', locale), cta: lm, href: '/eye-care/', accent: 'var(--leaf)', tint: 'var(--mint)' },
-    { art: 'mind', cat: cat.m, h3: c('home', 'Mind &amp; de-addiction', locale), p: c('home', 'Dr. Amit Gupta: stress', locale), cta: lm, href: '/mental-health/', accent: 'var(--teal)', tint: '#E4F3F1' },
+    { art: 'eye', cat: cat.e, h3: c('home', 'Cataract &amp; eye care', locale), p: c('home', 'Dr. Parul Gupta: phaco', locale), cta: lm, href: '/eye-care/', accent: 'var(--leaf-ink)', tint: 'var(--mint)' },
+    { art: 'mind', cat: cat.m, h3: c('home', 'Mind &amp; de-addiction', locale), p: c('home', 'Dr. Amit Gupta: stress', locale), cta: lm, href: '/mental-health/', accent: 'var(--teal-ink)', tint: '#E4F3F1' },
   ];
   return (
     <Swipe className="tgrid" count={cards.length} label={c('home', 'Treatments', locale)}>
@@ -312,10 +312,10 @@ export function OrthoServices({ locale }: { locale: L }) {
     { art: 'kneehip', cat, h3: c('orthopaedics', 'Total knee replacement', locale), p: c('orthopaedics', 'The whole worn joint surface', locale), cta: ask, href: whatsappAsk('total knee replacement') },
     { art: 'kneepartial', cat, h3: c('orthopaedics', 'Partial knee replacement', locale), p: c('orthopaedics', 'Only the damaged part is replaced', locale), cta: ask, href: whatsappAsk('partial knee replacement') },
     { art: 'hip', cat, h3: c('orthopaedics', 'Hip replacement', locale), p: c('orthopaedics', 'For hip arthritis and some hip fractures', locale), cta: ask, href: whatsappAsk('hip replacement') },
-    { art: 'fracture', cat, h3: c('orthopaedics', 'Fractures &amp; trauma', locale), p: c('orthopaedics', 'Accident injuries, with special care', locale), cta: ask, href: whatsappAsk('fracture or injury'), accent: '#D0574A', tint: '#FBEDEA' },
-    { art: 'scope', cat, h3: c('orthopaedics', 'Arthroscopy &amp; sports injuries', locale), p: c('orthopaedics', 'Keyhole surgery for ligament', locale), cta: ask, href: whatsappAsk('arthroscopy or sports injury'), accent: 'var(--teal)', tint: '#E4F3F1' },
+    { art: 'fracture', cat, h3: c('orthopaedics', 'Fractures &amp; trauma', locale), p: c('orthopaedics', 'Accident injuries, with special care', locale), cta: ask, href: whatsappAsk('fracture or injury'), accent: '#A83828', tint: '#FBEDEA' },
+    { art: 'scope', cat, h3: c('orthopaedics', 'Arthroscopy &amp; sports injuries', locale), p: c('orthopaedics', 'Keyhole surgery for ligament', locale), cta: ask, href: whatsappAsk('arthroscopy or sports injury'), accent: 'var(--teal-ink)', tint: '#E4F3F1' },
     { art: 'spine', cat, h3: c('orthopaedics', 'Back pain clinic', locale), p: c('orthopaedics', 'Slip disc, sciatica and neck pain', locale), cta: ask, href: whatsappAsk('back pain') },
-    { art: 'physio', cat, h3: c('orthopaedics', 'Physiotherapy &amp; rehab', locale), p: c('orthopaedics', 'Recovery after joint replacement', locale), cta: ask, href: whatsappAsk('physiotherapy'), accent: 'var(--leaf)', tint: 'var(--mint)' },
+    { art: 'physio', cat, h3: c('orthopaedics', 'Physiotherapy &amp; rehab', locale), p: c('orthopaedics', 'Recovery after joint replacement', locale), cta: ask, href: whatsappAsk('physiotherapy'), accent: 'var(--leaf-ink)', tint: 'var(--mint)' },
   ];
   return (
     <Swipe className="tgrid t4" count={cards.length} label={c('orthopaedics', 'Services', locale)}>

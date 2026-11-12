@@ -18,6 +18,7 @@ import {
 } from '@/components/sections/bands';
 import { TreatmentGrid } from '@/components/sections/cards';
 import { RichText } from '@/components/RichText';
+import { alternates, websiteLd } from '@/lib/seo';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: copy('home', 'Bone, eye and mental health care', l).replace(/<[^>]+>/g, ''),
     description: copy('home', 'One family of doctors on Power House Road', l),
-    alternates: { canonical: l === 'pa' ? '/pa/' : '/', languages: { en: '/', pa: '/pa/' } },
+    alternates: alternates('/', l),
   };
 }
 
@@ -200,6 +201,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* 14. Visit band (navy) — directions link loads the map only on click */}
       <VisitBand locale={l} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd(l)) }}
+      />
     </>
   );
 }

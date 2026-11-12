@@ -261,6 +261,10 @@ const A = {
     pa: 'ATTUNE ਗੋਡਾ ਇੰਪਲਾਂਟ ਪ੍ਰਣਾਲੀ ਦੇ ਹਿੱਸੇ',
   },
   'knee-xray': { en: 'Knee X-ray used during consultation', pa: 'ਸਲਾਹ ਦੌਰਾਨ ਵਰਤਿਆ ਗੋਡੇ ਦਾ ਐਕਸ-ਰੇ' },
+  'home-hero-mohit': {
+    en: 'Dr. Mohit Gupta, joint replacement surgeon at Gupta Hospital',
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਗੁਪਤਾ ਹਸਪਤਾਲ ਵਿੱਚ ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ',
+  },
   // Phase 11 new batch (resources/images/new -> photos/<stem>)
   'dr-mohit-gupta-desk': {
     en: 'Dr. Mohit Gupta at his desk in the orthopaedic clinic',

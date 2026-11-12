@@ -18,3 +18,6 @@ Each item shows on the site as a [CONFIRM] chip until answered. `pnpm launch-che
 | 12 | Last-reviewed date for the four new orthopaedics sub-pages | Knee/hip, Fractures, Sports injuries, Back pain (reviewer line) |
 | 13 | Which spine procedures are offered at the hospital (injections, surgery, or referral only?) | Back pain clinic, step 5 |
 | 14 | Punjabi alt text for the knee-and-hip "Getting home ready" photo (ortho-recovery-walk-spare.jpg) — current pa text is our translation, not supplied | Image alt |
+| 15 | Google Business Profile listing URL (for sameAs/schema) | Hospital schema, Phase 9 |
+| 16 | Exact map pin coordinates for the Power House Road building (schema `geo`) | Hospital schema, Phase 9 |
+| 17 | Official social profile URLs to confirm: YouTube / Instagram / Facebook currently in site-config | Hospital schema `sameAs` |

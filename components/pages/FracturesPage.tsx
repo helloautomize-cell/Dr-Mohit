@@ -81,7 +81,7 @@ export function FracturesPage({ locale }: { locale: Locale }) {
       <section className="sec" style={{ background: 'var(--sky)' }}>
         <div className="wrap">
           <SecHead page={PAGE} locale={locale} label="What we treat" h2="Fractures of every" />
-          <CgGrid items={GROUPS.map((g) => ({ icon: g.icon, h3: c(g.h3), chips: g.chips.map(c) }))} />
+          <CgGrid items={GROUPS.map((g) => ({ icon: g.icon, h3: c(g.h3), chips: g.chips.map(c) }))} label={c('What we treat')} />
         </div>
       </section>
       <WaveDivider from="sky" to="white" />

@@ -9,6 +9,7 @@ import Shell from '@/components/shell/Shell';
 import { AnalyticsGate } from '@/components/shell/AnalyticsGate';
 import { SITE_INDEXABLE } from '@/lib/site-config';
 import { CONSENT_DEFAULT_SNIPPET } from '@/lib/analytics';
+import { hospitalLd } from '@/lib/seo';
 import '../globals.css';
 
 // Self-hosted via next/font; only Geist (the body face) is preloaded.
@@ -38,6 +39,12 @@ export const metadata: Metadata = {
   },
   description:
     'Bone, eye and mental health care for Bathinda. One family of doctors on Power House Road since 1980.',
+  openGraph: {
+    siteName: 'Gupta Hospital Bathinda',
+    type: 'website',
+    // og:image comes from app/opengraph-image.tsx (generated at build).
+  },
+  twitter: { card: 'summary_large_image' },
   // Until launch approval every host is noindex (phase-02 item 9).
   ...(SITE_INDEXABLE ? {} : { robots: { index: false, follow: false } }),
 };
@@ -67,6 +74,11 @@ export default async function LocaleLayout({
           <Shell>{children}</Shell>
           <SiteEffects />
           <AnalyticsGate />
+          {/* Sitewide Hospital entity — verified facts from site-config only. */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(hospitalLd()) }}
+          />
         </NextIntlClientProvider>
       </body>
     </html>

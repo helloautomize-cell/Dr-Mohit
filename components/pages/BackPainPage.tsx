@@ -83,6 +83,7 @@ export function BackPainPage({ locale }: { locale: Locale }) {
           <SignsGrid
             page={PAGE}
             locale={locale}
+            label={c('Do not wait')}
             items={SIGNS.map((s) => ({ icon: s.icon, h3: c(s.h3), lis: s.lis.map(c) }))}
           />
         </div>
@@ -92,7 +93,7 @@ export function BackPainPage({ locale }: { locale: Locale }) {
       <section className="sec" style={{ background: 'var(--sky)' }}>
         <div className="wrap">
           <SecHead page={PAGE} locale={locale} label="Common causes" h2="Where back pain" />
-          <CgGrid items={CAUSES.map((g) => ({ icon: g.icon, h3: c(g.h3), chips: g.chips.map(c) }))} />
+          <CgGrid items={CAUSES.map((g) => ({ icon: g.icon, h3: c(g.h3), chips: g.chips.map(c) }))} label={c('Common causes')} />
         </div>
       </section>
       <WaveDivider from="sky" to="white" />
@@ -111,7 +112,7 @@ export function BackPainPage({ locale }: { locale: Locale }) {
       <section className="sec" style={{ background: 'var(--mint)' }}>
         <div className="wrap">
           <SecHead page={PAGE} locale={locale} label="Everyday habits" h2="Small habits that" />
-          <BringGrid items={HABITS.map((it) => ({ icon: it.icon, h3: c(it.h3), p: c(it.p) }))} />
+          <BringGrid items={HABITS.map((it) => ({ icon: it.icon, h3: c(it.h3), p: c(it.p) }))} label={c('Everyday habits')} />
         </div>
       </section>
       <WaveDivider from="mint" to="white" />

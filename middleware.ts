@@ -14,6 +14,8 @@ export default function middleware(req: NextRequest) {
 }
 
 export const config = {
-  // Match all pathnames except files, api routes, and Next internals.
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
+  // Match all pathnames except files, api routes, Next internals, and the
+  // extensionless file-metadata routes (opengraph-image, twitter-image) —
+  // those must reach their route handler, not the locale catch-all.
+  matcher: ['/((?!api|_next|_vercel|opengraph-image|twitter-image|.*\\..*).*)'],
 };
