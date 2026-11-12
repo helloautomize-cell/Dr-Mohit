@@ -7,7 +7,7 @@ import type { Locale } from '@/i18n/routing';
 import { SITE } from '@/lib/site-config';
 import { Swipe } from '../Swipe';
 
-const TOWNS: { x: number; y: number; en: string; anchor: 'start' | 'end'; cls?: string }[] = [
+const TOWNS: { x: number; y: number; en: string; anchor: 'start' | 'end' | 'middle'; cls?: string }[] = [
   { x: 432, y: 276, en: 'Mansa', anchor: 'start' },
   { x: 468, y: 183, en: 'Barnala', anchor: 'start' },
   { x: 377, y: 77, en: 'Moga', anchor: 'start' },
@@ -17,7 +17,7 @@ const TOWNS: { x: number; y: number; en: string; anchor: 'start' | 'end'; cls?: 
   { x: 538, y: 214, en: 'Sangrur', anchor: 'start' },
   { x: 343, y: 387, en: 'Sirsa', anchor: 'start', cls: 'h' },
   { x: 175, y: 375, en: 'Hanumangarh', anchor: 'end', cls: 'r' },
-  { x: 67, y: 298, en: 'Sri Ganganagar', anchor: 'end', cls: 'r' },
+  { x: 67, y: 298, en: 'Sri Ganganagar', anchor: 'middle', cls: 'r' },
 ];
 
 const FLOWS: { d: string; cls?: string }[] = [
@@ -63,7 +63,7 @@ export function ReachMap({ locale }: { locale: Locale }) {
   return (
     <div className="reach">
       <div className="rv">
-        <svg className="rmap" viewBox="0 0 600 420" aria-hidden="true">
+        <svg className="rmap" viewBox="-30 0 660 420" aria-hidden="true">
           <text className="st" x="250" y="40">
             {c('PUNJAB')}
           </text>
@@ -80,8 +80,8 @@ export function ReachMap({ locale }: { locale: Locale }) {
             <g key={t.en} className={`tw${t.cls ? ` ${t.cls}` : ''}`}>
               <circle cx={t.x} cy={t.y} r="5" />
               <text
-                x={t.anchor === 'start' ? t.x + 10 : t.x - 10}
-                y={t.y + 4}
+                x={t.anchor === 'middle' ? t.x : t.anchor === 'start' ? t.x + 10 : t.x - 10}
+                y={t.anchor === 'middle' ? t.y + 20 : t.y + 4}
                 textAnchor={t.anchor}
               >
                 {c(t.en)}

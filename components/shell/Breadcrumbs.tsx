@@ -18,6 +18,10 @@ const SEG_LABEL: Record<string, string> = {
   'contact': 'Book appointment',
   'robotic-knee': 'Robotic knee',
   'robotic-knee-replacement': 'Robotic knee',
+  'knee-and-hip-replacement': 'Knee and hip replacement',
+  'fractures-and-trauma': 'Fractures and trauma',
+  'arthroscopy-and-sports-injuries': 'Arthroscopy and sports injuries',
+  'back-pain-clinic': 'Back pain clinic',
   'plan-your-visit': 'Plan your visit',
 };
 

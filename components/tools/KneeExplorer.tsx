@@ -25,13 +25,12 @@ export function KneeExplorer({ locale }: { locale: Locale }) {
   return (
     <div className="eyebox">
       <div className="rv">
-        <svg className="kneesvg" viewBox="0 0 520 430" role="img" aria-label="Front view of the knee">
+        <svg className="kneesvg" viewBox="0 0 520 430" role="group" aria-label="Front view of the knee">
           <g
             className={`ep${k === 'bone' ? ' on' : ''}`}
             data-k="bone"
             tabIndex={0}
             role="button"
-            aria-label={d.length ? partText(KNEE, 'bone', locale)[0] : 'Bones'}
             onClick={() => pick('bone')}
             onKeyDown={(e) => keyPick(e, 'bone')}
           >

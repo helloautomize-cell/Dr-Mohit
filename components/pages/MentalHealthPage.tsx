@@ -116,7 +116,7 @@ export function MentalHealthPage({ locale }: { locale: Locale }) {
       <WaveDivider from="mint" to="white" />
       <WaveDivider from="white" to="teal" />
 
-      <section className="sec" style={{ background: 'var(--teal)' }}>
+      <section className="sec on-dark" style={{ background: 'var(--teal)' }}>
         <div className="wrap">
           <div className="g12 rv" style={{ marginBottom: 0, alignItems: 'end' }}>
             <div className="c-7">

@@ -11,6 +11,7 @@ import { BtnWLine } from '../Buttons';
 
 import { Swipe } from '../Swipe';
 import { SITE } from '@/lib/site-config';
+import { ConfirmChip } from '../Confirm';
 
 type L = Locale;
 const c = (page: string, en: string, l: L) => copy(page, en, l);
@@ -147,30 +148,36 @@ export function StoryTrail({ locale }: { locale: L }) {
   return <TrailTimeline items={items} label={c('home', 'Our story', locale)} />;
 }
 
-// Robotic knee five-step trail (steps.trail with icons).
+// Robotic knee five-step trail (steps.trail with icons). A step's `p` may
+// carry a [CONFIRM: …] marker (ortho sub-pages): it is stripped for display
+// and a dev-only chip is appended — same contract as ContentStream chips.
 export function StepsTrail({
   items,
   label,
 }: {
-  items: { icon: IconName; h3: string; p: string }[];
+  items: { icon: IconName; h3: string; p: string; confirmId?: string }[];
   label: string;
 }) {
   return (
     <Swipe className="steps trail" count={items.length} label={label} dataTrail>
       <span className="fill" />
-      {items.map((it) => (
-        <div className="step rv" key={it.h3}>
-          <span className="sic">
-            <Icon name={it.icon} />
-          </span>
-          <h3>
-            <RichText text={it.h3} />
-          </h3>
-          <p>
-            <RichText text={it.p} />
-          </p>
-        </div>
-      ))}
+      {items.map((it) => {
+        const confirm = /\[CONFIRM[^\]]*\]/.test(it.p);
+        return (
+          <div className="step rv" key={it.h3}>
+            <span className="sic">
+              <Icon name={it.icon} />
+            </span>
+            <h3>
+              <RichText text={it.h3} />
+            </h3>
+            <p>
+              <RichText text={it.p.replace(/\[CONFIRM[^\]]*\]/, '')} />
+              {confirm ? <> <ConfirmChip id={it.confirmId} /></> : null}
+            </p>
+          </div>
+        );
+      })}
     </Swipe>
   );
 }

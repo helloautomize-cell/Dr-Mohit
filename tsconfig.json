@@ -32,11 +32,12 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    ".next-p6-prod/types/**/*.ts",
     ".next-p6/types/**/*.ts",
     ".next-prod/types/**/*.ts",
     ".next/types/**/*.ts",
     "next-env.d.ts",
-    ".next-p6-prod/types/**/*.ts"
+    ".next-verify/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

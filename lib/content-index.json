@@ -104,6 +104,11 @@
    "key": "global.span.general-information-only-it-does-not-repla",
    "tag": "span",
    "en": "General information only. It does not replace a consultation."
+  },
+  {
+   "key": "global.a.plan-your-visit",
+   "tag": "a",
+   "en": "Plan your visit"
   }
  ],
  "home": [
@@ -1595,6 +1600,36 @@
    "en": "Ankle &amp; foot"
   },
   {
+   "key": "orthopaedics.div.knee-arthritis-ligament-acl-tears-meniscus",
+   "tag": "div",
+   "en": "Knee arthritis, ligament (ACL) tears, meniscus injuries, knee pain in older adults, knee replacement and revision."
+  },
+  {
+   "key": "orthopaedics.div.hip-arthritis-hip-fractures-after-falls-av",
+   "tag": "div",
+   "en": "Hip arthritis, hip fractures after falls, avascular necrosis, hip replacement."
+  },
+  {
+   "key": "orthopaedics.div.low-back-pain-sciatica-slip-disc-neck-pain",
+   "tag": "div",
+   "en": "Low back pain, sciatica, slip disc, neck pain, osteoporosis, spine fractures."
+  },
+  {
+   "key": "orthopaedics.div.frozen-shoulder-rotator-cuff-tears-disloca",
+   "tag": "div",
+   "en": "Frozen shoulder, rotator cuff tears, dislocation, collarbone fractures."
+  },
+  {
+   "key": "orthopaedics.div.wrist-and-elbow-fractures-tennis-elbow-car",
+   "tag": "div",
+   "en": "Wrist and elbow fractures, tennis elbow, carpal tunnel, trigger finger."
+  },
+  {
+   "key": "orthopaedics.div.ankle-sprains-and-fractures-heel-pain-flat",
+   "tag": "div",
+   "en": "Ankle sprains and fractures, heel pain, flat feet, diabetic foot care."
+  },
+  {
    "key": "orthopaedics.span.arthroscopy-amp-sports-injuries",
    "tag": "span",
    "en": "Arthroscopy &amp; sports injuries"
@@ -2936,6 +2971,51 @@
    "key": "doctors.span.book-an-appointment",
    "tag": "span",
    "en": "Book an appointment"
+  },
+  {
+   "key": "doctors.span.d-ortho",
+   "tag": "span",
+   "en": "D.Ortho"
+  },
+  {
+   "key": "doctors.span.ms-ortho",
+   "tag": "span",
+   "en": "MS Ortho"
+  },
+  {
+   "key": "doctors.span.mch-ortho",
+   "tag": "span",
+   "en": "MCh Ortho"
+  },
+  {
+   "key": "doctors.span.reg-no-43354",
+   "tag": "span",
+   "en": "Reg. no. 43354"
+  },
+  {
+   "key": "doctors.span.tribune-health-care-award-2025",
+   "tag": "span",
+   "en": "Tribune Health Care Award 2025"
+  },
+  {
+   "key": "doctors.span.mbbs",
+   "tag": "span",
+   "en": "MBBS"
+  },
+  {
+   "key": "doctors.span.ms",
+   "tag": "span",
+   "en": "MS"
+  },
+  {
+   "key": "doctors.span.md-psychiatry",
+   "tag": "span",
+   "en": "MD Psychiatry"
+  },
+  {
+   "key": "doctors.span.full-profile",
+   "tag": "span",
+   "en": "Full profile"
   }
  ],
  "about": [
@@ -3105,6 +3185,16 @@
    "en": "A free screening camp in a village"
   },
   {
+   "key": "about.small.representative-image",
+   "tag": "small",
+   "en": "Representative image"
+  },
+  {
+   "key": "about.figcaption.three-doctors-one-family-since-1980",
+   "tag": "figcaption",
+   "en": "Three doctors, one family, since 1980"
+  },
+  {
    "key": "about.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
    "tag": "h3",
    "en": "Want to see a doctor? Book a time on WhatsApp."
@@ -3113,6 +3203,86 @@
    "key": "about.span.book-an-appointment",
    "tag": "span",
    "en": "Book an appointment"
+  },
+  {
+   "key": "about.p.gupta-hospital-began-in-1980-as-a-small-or",
+   "tag": "p",
+   "en": "Gupta Hospital began in 1980 as a small orthopaedic clinic opened by Dr. Amrit Gupta. It has grown into a tertiary-care orthopaedic surgical centre, with departments for psychiatry and ophthalmology and services including gynaecology, a blood bank and critical care."
+  },
+  {
+   "key": "about.p.dr-amit-gupta-joined-in-2000-as-psychiatry",
+   "tag": "p",
+   "en": "Dr. Amit Gupta joined in 2000 as psychiatry consultant and de-addiction specialist, at a time when the Malwa region was badly affected by drug addiction. The licensed de-addiction centre he runs is part of the hospital today."
+  },
+  {
+   "key": "about.p.under-dr-mohit-gupta-the-orthopaedic-depar",
+   "tag": "p",
+   "en": "Under Dr. Mohit Gupta, the orthopaedic department added arthroscopy and sports injury care, a back pain clinic, and robotic-assisted knee replacement. Dr. Parul Gupta leads the eye department, with its own modular operation theatre."
+  },
+  {
+   "key": "about.p.patients-come-from-across-punjab-and-from-",
+   "tag": "p",
+   "en": "Patients come from across Punjab and from neighbouring parts of Haryana and Rajasthan. The hospital also runs regular free orthopaedic and eye screening camps."
+  },
+  {
+   "key": "about.h3.modular-operation-theatres",
+   "tag": "h3",
+   "en": "Modular operation theatres"
+  },
+  {
+   "key": "about.p.separate-theatres-for-orthopaedic-and-eye-",
+   "tag": "p",
+   "en": "Separate theatres for orthopaedic and eye surgery."
+  },
+  {
+   "key": "about.h3.critical-care",
+   "tag": "h3",
+   "en": "Critical care"
+  },
+  {
+   "key": "about.p.close-monitoring-after-surgery-and-in-emer",
+   "tag": "p",
+   "en": "Close monitoring after surgery and in emergencies."
+  },
+  {
+   "key": "about.h3.blood-bank",
+   "tag": "h3",
+   "en": "Blood bank"
+  },
+  {
+   "key": "about.p.on-site-blood-bank",
+   "tag": "p",
+   "en": "On-site blood bank."
+  },
+  {
+   "key": "about.h3.gynaecology",
+   "tag": "h3",
+   "en": "Gynaecology"
+  },
+  {
+   "key": "about.p.women-s-health-services",
+   "tag": "p",
+   "en": "Women's health services."
+  },
+  {
+   "key": "about.h3.physiotherapy",
+   "tag": "h3",
+   "en": "Physiotherapy"
+  },
+  {
+   "key": "about.p.rehabilitation-after-surgery-and-injury",
+   "tag": "p",
+   "en": "Rehabilitation after surgery and injury."
+  },
+  {
+   "key": "about.h3.ayushman-bharat-pm-jay",
+   "tag": "h3",
+   "en": "Ayushman Bharat PM-JAY"
+  },
+  {
+   "key": "about.p.treatment-for-eligible-card-holders-hfr-id",
+   "tag": "p",
+   "en": "Treatment for eligible card holders. HFR ID IN0310002794."
   }
  ],
  "media": [
@@ -3195,6 +3365,36 @@
    "key": "media.span.book-an-appointment",
    "tag": "span",
    "en": "Book an appointment"
+  },
+  {
+   "key": "media.span.jhuneer-eye-amp-bone-camp",
+   "tag": "span",
+   "en": "Jhuneer eye &amp; bone camp"
+  },
+  {
+   "key": "media.span.camp-3-december",
+   "tag": "span",
+   "en": "Camp, 3 December"
+  },
+  {
+   "key": "media.span.goodwill-society-bone-camp",
+   "tag": "span",
+   "en": "Goodwill Society bone camp"
+  },
+  {
+   "key": "media.span.26th-camp",
+   "tag": "span",
+   "en": "26th camp"
+  },
+  {
+   "key": "media.span.rajindra-college-students",
+   "tag": "span",
+   "en": "Rajindra College students"
+  },
+  {
+   "key": "media.span.oriya-colony-eye-camp",
+   "tag": "span",
+   "en": "Oriya Colony eye camp"
   }
  ],
  "contact": [
@@ -3299,9 +3499,9 @@
    "en": "OPD timings"
   },
   {
-   "key": "contact.dd.to-be-confirmed",
+   "key": "contact.dd.open-24-hours",
    "tag": "dd",
-   "en": "To be confirmed"
+   "en": "Open 24 hours"
   },
   {
    "key": "contact.span.open-in-google-maps",
@@ -3462,6 +3662,163 @@
    "key": "contact.div.all-old-reports-x-rays-and-scans-the-medic",
    "tag": "div",
    "en": "All old reports, X-rays and scans, the medicines you take now, Aadhaar, and your Ayushman or insurance card if you have one."
+  },
+  {
+   "key": "contact.span.show-map",
+   "tag": "span",
+   "en": "Show map"
+  },
+  {
+   "key": "contact.span.map-of-the-area-around-gupta-hospital",
+   "tag": "span",
+   "en": "Map of the area around Gupta Hospital"
+  },
+  {
+   "key": "contact.span.punjabi",
+   "tag": "span",
+   "en": "Punjabi"
+  },
+  {
+   "key": "contact.span.hindi",
+   "tag": "span",
+   "en": "Hindi"
+  },
+  {
+   "key": "contact.span.english",
+   "tag": "span",
+   "en": "English"
+  }
+ ],
+ "plan-your-visit": [
+  {
+   "key": "plan-your-visit.a.home",
+   "tag": "a",
+   "en": "Home"
+  },
+  {
+   "key": "plan-your-visit.span.plan-your-visit",
+   "tag": "span",
+   "en": "Plan your visit"
+  },
+  {
+   "key": "plan-your-visit.h1.plan-your-visit",
+   "tag": "h1",
+   "en": "Plan your visit."
+  },
+  {
+   "key": "plan-your-visit.p.a-little-planning-makes-the-visit-smoother",
+   "tag": "p",
+   "en": "A little planning makes the visit smoother, especially if you are travelling from another town."
+  },
+  {
+   "key": "plan-your-visit.span.out-of-town",
+   "tag": "span",
+   "en": "Out of town"
+  },
+  {
+   "key": "plan-your-visit.h2.coming-from-outside-bathinda",
+   "tag": "h2",
+   "en": "Coming from <span class=\"em\">outside Bathinda?</span>"
+  },
+  {
+   "key": "plan-your-visit.p.patients-visit-daily-from-mansa-barnala-mo",
+   "tag": "p",
+   "en": "Patients visit daily from Mansa, Barnala, Moga, Faridkot, Sri Muktsar Sahib, Fazilka and Sangrur in Punjab, Sirsa in Haryana, and Hanumangarh and Sri Ganganagar in Rajasthan. Tests, surgery and rehab all happen here, so fewer trips are needed."
+  },
+  {
+   "key": "plan-your-visit.span.punjab",
+   "tag": "span",
+   "en": "Punjab"
+  },
+  {
+   "key": "plan-your-visit.span.haryana",
+   "tag": "span",
+   "en": "Haryana"
+  },
+  {
+   "key": "plan-your-visit.span.rajasthan",
+   "tag": "span",
+   "en": "Rajasthan"
+  },
+  {
+   "key": "plan-your-visit.span.before-you-come",
+   "tag": "span",
+   "en": "Before you come"
+  },
+  {
+   "key": "plan-your-visit.h2.what-to-bring-with-you",
+   "tag": "h2",
+   "en": "What to <span class=\"em\">bring with you.</span>"
+  },
+  {
+   "key": "plan-your-visit.p.a-complete-history-helps-the-doctor-decide",
+   "tag": "p",
+   "en": "A complete history helps the doctor decide faster, and can save you a repeat test."
+  },
+  {
+   "key": "plan-your-visit.span.travel-tips",
+   "tag": "span",
+   "en": "Travel tips"
+  },
+  {
+   "key": "plan-your-visit.h2.before-a-long-trip",
+   "tag": "h2",
+   "en": "Before a <span class=\"em\">long trip.</span>"
+  },
+  {
+   "key": "plan-your-visit.span.visit",
+   "tag": "span",
+   "en": "Visit"
+  },
+  {
+   "key": "plan-your-visit.h2.address-and-timings",
+   "tag": "h2",
+   "en": "Address and <span class=\"em\">timings.</span>"
+  },
+  {
+   "key": "plan-your-visit.dt.address",
+   "tag": "dt",
+   "en": "Address"
+  },
+  {
+   "key": "plan-your-visit.dd.gupta-hospital-power-house-road-bathinda-p",
+   "tag": "dd",
+   "en": "Gupta Hospital, Power House Road, Bathinda, Punjab 151001"
+  },
+  {
+   "key": "plan-your-visit.dt.appointments",
+   "tag": "dt",
+   "en": "Appointments"
+  },
+  {
+   "key": "plan-your-visit.dt.eye-department",
+   "tag": "dt",
+   "en": "Eye department"
+  },
+  {
+   "key": "plan-your-visit.dt.opd-timings",
+   "tag": "dt",
+   "en": "OPD timings"
+  },
+  {
+   "key": "plan-your-visit.dd.open-24-hours",
+   "tag": "dd",
+   "en": "Open 24 hours"
+  },
+  {
+   "key": "plan-your-visit.span.get-directions",
+   "tag": "span",
+   "en": "Get directions"
+  },
+  {
+   "key": "plan-your-visit.h3.want-to-see-a-doctor-book-a-time-on-whatsa",
+   "tag": "h3",
+   "en": "Want to see a doctor? Book a time on WhatsApp."
+  },
+  {
+   "key": "plan-your-visit.span.book-an-appointment",
+   "tag": "span",
+   "en": "Book an appointment"
   }
  ]
 }

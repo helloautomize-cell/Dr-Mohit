@@ -8,6 +8,7 @@ import { copy } from '@/lib/copy';
 import { slot, type SlotId } from '@/lib/image-slots';
 import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
+import { ImageSlot } from '../ImageSlot';
 import { SITE } from '@/lib/site-config';
 import type { ReactNode } from 'react';
 
@@ -17,7 +18,7 @@ export function DeptHero({
   h1Key,
   ledeKey,
   image,
-  align = 'end',
+  align = 'center',
   wrapped = false,
   imStyle,
   ctas,
@@ -36,7 +37,7 @@ export function DeptHero({
 }) {
   const c = (en: string) => copy(page, en, locale);
   const s = slot(image);
-  const img = (
+  const img = s.src ? (
     <div className="im" style={{ aspectRatio: s.ratio, ...imStyle }}>
       <Image
         src={s.src!}
@@ -48,6 +49,10 @@ export function DeptHero({
         style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: s.focal }}
       />
     </div>
+  ) : (
+    // Photo not supplied yet — the .aimg placeholder carries the slot code
+    // and alt text exactly like the preview's data-img frame.
+    <ImageSlot id={image} locale={locale} className="rv" caption={locale === 'pa' ? s.alt.pa : s.alt.en} />
   );
   return (
     <section className="ph ph-c">

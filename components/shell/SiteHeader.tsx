@@ -117,7 +117,6 @@ export default function SiteHeader({ onMenu }: { onMenu: () => void }) {
             <LocaleSwitch />
             <BookButton href="/contact/" className="btn-brand">
               {navLabel('Book appointment', l)}
-              <span className="ar">→</span>
             </BookButton>
             <button
               className="menu-btn"

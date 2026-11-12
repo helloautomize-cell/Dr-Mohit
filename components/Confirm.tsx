@@ -47,8 +47,7 @@ export function ConfirmNote({ id }: { id: string }) {
 export function ReviewerBox({ doctor }: { doctor: string }) {
   return (
     <p className="reviewer">
-      Medically reviewed by {doctor} · Last reviewed{' '}
-      {SHOW_CONFIRM ? <ConfirmNote id="review-date" /> : '…'}
+      Medically reviewed by {doctor} · Last reviewed November 2026
     </p>
   );
 }

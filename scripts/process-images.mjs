@@ -150,8 +150,10 @@ const NEW_DIR = join(SRC, 'new');
 for (const f of list(NEW_DIR)) {
   const ext = extname(f).toLowerCase();
   if (!['.jpg', '.jpeg', '.png'].includes(ext)) continue;
-  if (f.includes('SPARE')) continue; // ortho-recovery-walk-SPARE.jpg: do not use
-  const name = basename(f, ext);
+  const name = basename(f, ext)
+    // ortho-recovery-walk-SPARE.jpg is no longer spare — the knee-and-hip
+    // "Getting home ready" photo. Emit it lowercase as a normal photo.
+    .replace(/-SPARE$/, '-spare');
   let input = join(NEW_DIR, f);
   if (name === 'ortho-sports-physio-balance') {
     // map note: remove the Nike logo on the T-shirt -> clone a clean patch of the
@@ -319,6 +321,10 @@ const A = {
   'ortho-recovery-walk': {
     en: 'A patient walks with a frame after knee surgery, helped by a physiotherapist',
     pa: 'ਗੋਡੇ ਦੀ ਸਰਜਰੀ ਤੋਂ ਬਾਅਦ ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਦੀ ਮਦਦ ਨਾਲ ਮਰੀਜ਼ ਵਾਕਰ ਨਾਲ ਤੁਰਦਾ ਹੈ',
+  },
+  'ortho-recovery-walk-spare': {
+    en: 'Dr. Mohit Gupta and a physiotherapist walk with a patient after knee replacement',
+    pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਗੋਡਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਮਰੀਜ਼ ਨਾਲ ਤੁਰਦੇ ਹਨ',
   },
   'robotic-hero-mohit-velys': {
     en: 'Dr. Mohit Gupta beside the VELYS robotic knee system in the operation theatre',

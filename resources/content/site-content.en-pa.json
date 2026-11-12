@@ -1605,6 +1605,36 @@
         "pa": "ਗਿੱਟਾ ਅਤੇ ਪੈਰ"
       },
       {
+        "tag": "div",
+        "en": "Knee arthritis, ligament (ACL) tears, meniscus injuries, knee pain in older adults, knee replacement and revision.",
+        "pa": "ਗੋਡੇ ਦਾ ਗੰਢੀਆ, ਲਿਗਾਮੈਂਟ (ACL) ਦੇ ਪਾੜੇ, ਮੈਨਿਸਕਸ ਦੀਆਂ ਸੱਟਾਂ, ਬਜ਼ੁਰਗਾਂ ਵਿਚ ਗੋਡੇ ਦਾ ਦਰਦ, ਗੋਡੇ ਦੀ ਰਿਪਲੇਸਮੈਂਟ ਅਤੇ ਰਿਵੀਜ਼ਨ।"
+      },
+      {
+        "tag": "div",
+        "en": "Hip arthritis, hip fractures after falls, avascular necrosis, hip replacement.",
+        "pa": "ਹਿੱਪ ਦਾ ਗੰਢੀਆ, ਡਿੱਗਣ ਨਾਲ ਹਿੱਪ ਦੀਆਂ ਫ੍ਰੈਕਚਰ, ਅਵੈਸਕੂਲਰ ਨੈਕਰੋਸਿਸ, ਹਿੱਪ ਰਿਪਲੇਸਮੈਂਟ।"
+      },
+      {
+        "tag": "div",
+        "en": "Low back pain, sciatica, slip disc, neck pain, osteoporosis, spine fractures.",
+        "pa": "ਕਮਰ ਦਰਦ, ਸਾਇਟਿਕਾ, ਸਲਿੱਪ ਡਿਸਕ, ਗਰਦਨ ਦਾ ਦਰਦ, ਹੱਡੀਆਂ ਦਾ ਭੁਰਭੁਰਾਪਣ (ਓਸਟੀਓਪੋਰੋਸਿਸ), ਰੀਝ੍ਹ ਦੀਆਂ ਫ੍ਰੈਕਚਰ।"
+      },
+      {
+        "tag": "div",
+        "en": "Frozen shoulder, rotator cuff tears, dislocation, collarbone fractures.",
+        "pa": "ਫ੍ਰੋਜ਼ਨ ਮੋਢਾ, ਰੋਟੇਟਰ ਕਫ਼ ਦੇ ਪਾੜੇ, ਜੋੜ ਉੱਖੜਨਾ (ਡਿਸਲੋਕੇਸ਼ਨ), ਹੰਗਲੀ ਦੀ ਹੱਡੀ ਦੀਆਂ ਫ੍ਰੈਕਚਰ।"
+      },
+      {
+        "tag": "div",
+        "en": "Wrist and elbow fractures, tennis elbow, carpal tunnel, trigger finger.",
+        "pa": "ਕਲਾਈ ਅਤੇ ਕੁਹਨੀ ਦੀਆਂ ਫ੍ਰੈਕਚਰ, ਟੈਨਿਸ ਐਲਬੋ, ਕਾਰਪਲ ਟਨਲ, ਟ੍ਰਿਗਰ ਫਿੰਗਰ।"
+      },
+      {
+        "tag": "div",
+        "en": "Ankle sprains and fractures, heel pain, flat feet, diabetic foot care.",
+        "pa": "ਟਖਨੇ ਦੀਆਂ ਮੋਚਾਂ ਅਤੇ ਫ੍ਰੈਕਚਰ, ਏੜੀ ਦਾ ਦਰਦ, ਚਪਟੇ ਪੈਰ, ਸ਼ੂਗਰ ਮਰੀਜ਼ਾਂ ਦੇ ਪੈਰਾਂ ਦੀ ਦੇਖਭਾਲ।"
+      },
+      {
         "tag": "span",
         "en": "Arthroscopy &amp; sports injuries",
         "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"

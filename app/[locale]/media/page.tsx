@@ -69,7 +69,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <div className="ctas" style={{ marginTop: 20 }}>
               <BookButton href="/contact/">
                 <RichText text={copy('global', 'Book appointment', l)} />
-                <span className="ar">→</span>
               </BookButton>
             </div>
           </div>
@@ -144,7 +143,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <BookButton href="/contact/">
                 <RichText text={c('Book an appointment')} />
-                <span className="ar">→</span>
               </BookButton>
               <a className="btn btn-line" href={SITE.phoneMainHref}>
                 {SITE.phoneMain}

@@ -18,11 +18,27 @@ const nextConfig: NextConfig = {
     : {}),
   trailingSlash: true,
   poweredByHeader: false,
+  experimental: {
+    // Root 404 lives outside [locale]; it renders its own <html>/<body>.
+    globalNotFound: true,
+  },
   productionBrowserSourceMaps: false,
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [390, 640, 750, 828, 1080, 1200, 1440, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 160, 256, 384, 512],
+  },
+  // Old-site URLs folded into the new orthopaedics structure (v14 kit).
+  async redirects() {
+    const kneeHip = '/orthopaedics/knee-and-hip-replacement/';
+    return [
+      { source: '/total-knee-replacement/', destination: kneeHip, permanent: true },
+      { source: '/partial-knee-replacement/', destination: kneeHip, permanent: true },
+      { source: '/hip-joint-replacement/', destination: kneeHip, permanent: true },
+      { source: '/knee-joint-replacement/', destination: kneeHip, permanent: true },
+      { source: '/orthopaedics-and-trauma-center/', destination: '/orthopaedics/fractures-and-trauma/', permanent: true },
+      { source: '/arthroscopic-surgery-and-sports-injury-services/', destination: '/orthopaedics/arthroscopy-and-sports-injuries/', permanent: true },
+    ];
   },
   async headers() {
     if (indexable) return [];

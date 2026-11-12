@@ -45,8 +45,10 @@ for (const f of ['messages/en.json', 'messages/pa.json']) {
   if (fs.existsSync(f)) checkFile(f, f);
 }
 // content JSON = hospital-approved copy: list hits as warnings for review.
-{
-  const f = 'resources/content/site-content.en-pa.json';
+for (const f of [
+  'resources/content/site-content.en-pa.json',
+  'resources/content/ortho-subpages.en-pa.json',
+]) {
   const t = scan(f, f);
   const hits = [...t.matchAll(new RegExp(BANNED, 'gi'))].map((m) => m[0]);
   if (hits.length) console.log(`WARN ${f}: ${hits.length} banned-word hit(s) in approved copy [${[...new Set(hits)].join(', ')}] — review in Phase 9`);

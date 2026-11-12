@@ -1,0 +1,1345 @@
+{
+ "_note": "All strings for the four Orthopaedics sub-pages in page order, English and Punjabi. Section structure and components: see resources/reference/prototype.html (#knee-hip, #fractures, #sports, #back-pain). Punjabi to be checked by the hospital.",
+ "/orthopaedics/knee-and-hip-replacement/": [
+  {
+   "en": "Home",
+   "pa": "ਮੁੱਖ ਪੰਨਾ"
+  },
+  {
+   "en": "Orthopaedics",
+   "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+  },
+  {
+   "en": "Knee and hip replacement",
+   "pa": "ਗੋਡਾ ਅਤੇ ਚੂਲਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "Walk, sit and sleep <span class=\"em\">without joint pain.</span>",
+   "pa": "ਜੋੜਾਂ ਦੇ ਦਰਦ ਤੋਂ ਬਿਨਾਂ <span class=\"em\">ਤੁਰੋ, ਬੈਠੋ ਅਤੇ ਸੌਂਵੋ।</span>"
+  },
+  {
+   "en": "When arthritis has worn a knee or hip down and medicines, exercise and injections no longer help, a new joint surface can bring back everyday movement. Dr. Mohit Gupta, fellowship-trained in joint replacement in Germany and Switzerland, leads the joint replacement service.",
+   "pa": "ਜਦੋਂ ਗਠੀਏ ਨਾਲ ਗੋਡਾ ਜਾਂ ਚੂਲਾ ਘਿਸ ਜਾਵੇ ਅਤੇ ਦਵਾਈਆਂ, ਕਸਰਤ ਤੇ ਟੀਕੇ ਮਦਦ ਨਾ ਕਰਨ, ਤਾਂ ਨਵੀਂ ਜੋੜ ਸਤ੍ਹਾ ਰੋਜ਼ਾਨਾ ਚੱਲਣ-ਫਿਰਨ ਨੂੰ ਵਾਪਸ ਲਿਆ ਸਕਦੀ ਹੈ। ਜਰਮਨੀ ਅਤੇ ਸਵਿਟਜ਼ਰਲੈਂਡ ਤੋਂ ਜੋੜ ਬਦਲਣ ਦੀ ਫੈਲੋਸ਼ਿਪ ਪ੍ਰਾਪਤ ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇਸ ਸੇਵਾ ਦੀ ਅਗਵਾਈ ਕਰਦੇ ਹਨ।"
+  },
+  {
+   "en": "Book with Dr. Mohit",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਨਾਲ ਬੁੱਕ ਕਰੋ"
+  },
+  {
+   "en": "Dr. Mohit Gupta explains a knee and hip model to an older couple",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਬਜ਼ੁਰਗ ਜੋੜੇ ਨੂੰ ਗੋਡੇ ਅਤੇ ਚੂਲੇ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ"
+  },
+  {
+   "en": "Options",
+   "pa": "ਵਿਕਲਪ"
+  },
+  {
+   "en": "Four ways to <span class=\"em\">replace a worn joint.</span>",
+   "pa": "ਘਿਸੇ ਜੋੜ ਨੂੰ ਬਦਲਣ ਦੇ <span class=\"em\">ਚਾਰ ਤਰੀਕੇ।</span>"
+  },
+  {
+   "en": "Which one suits you depends on how much of the joint is worn, your age, your bones and your daily life. Dr. Mohit explains the options after examining you.",
+   "pa": "ਕਿਹੜਾ ਤੁਹਾਡੇ ਲਈ ਠੀਕ ਹੈ, ਇਹ ਜੋੜ ਦੇ ਘਿਸਣ, ਉਮਰ, ਹੱਡੀਆਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਜੀਵਨ ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ। ਡਾ. ਮੋਹਿਤ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਵਿਕਲਪ ਸਮਝਾਉਂਦੇ ਹਨ।"
+  },
+  {
+   "en": "Total knee replacement",
+   "pa": "ਪੂਰਾ ਗੋਡਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "The worn ends of the thigh and shin bones are replaced with metal surfaces and a smooth plastic insert between them.",
+   "pa": "ਪੱਟ ਅਤੇ ਪਿੰਨੀ ਦੀ ਹੱਡੀ ਦੇ ਘਿਸੇ ਸਿਰਿਆਂ ਨੂੰ ਧਾਤ ਦੀਆਂ ਸਤ੍ਹਾਵਾਂ ਨਾਲ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ, ਵਿਚਕਾਰ ਮੁਲਾਇਮ ਪਲਾਸਟਿਕ ਹੁੰਦਾ ਹੈ।"
+  },
+  {
+   "en": "Partial knee replacement",
+   "pa": "ਅੱਧਾ ਗੋਡਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "When only one part of the knee is worn, only that part is resurfaced and the healthy parts are kept.",
+   "pa": "ਜਦੋਂ ਗੋਡੇ ਦਾ ਸਿਰਫ਼ ਇੱਕ ਹਿੱਸਾ ਘਿਸਿਆ ਹੋਵੇ, ਤਾਂ ਸਿਰਫ਼ ਉਹੀ ਹਿੱਸਾ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਸਿਹਤਮੰਦ ਹਿੱਸੇ ਰੱਖੇ ਜਾਂਦੇ ਹਨ।"
+  },
+  {
+   "en": "Robotic-assisted knee replacement",
+   "pa": "ਰੋਬੋਟ-ਸਹਾਇਤਾ ਗੋਡਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "The VELYS™ system helps plan the operation around your own knee. How it works →",
+   "pa": "VELYS™ ਸਿਸਟਮ ਤੁਹਾਡੇ ਆਪਣੇ ਗੋਡੇ ਮੁਤਾਬਕ ਅਪਰੇਸ਼ਨ ਦੀ ਯੋਜਨਾ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ →"
+  },
+  {
+   "en": "Hip replacement",
+   "pa": "ਚੂਲਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "A worn or damaged hip joint is replaced with a new ball and socket, for arthritis or some hip fractures.",
+   "pa": "ਘਿਸੇ ਜਾਂ ਖ਼ਰਾਬ ਚੂਲੇ ਨੂੰ ਨਵੀਂ ਗੇਂਦ ਅਤੇ ਕਟੋਰੀ ਨਾਲ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ, ਗਠੀਏ ਜਾਂ ਕੁਝ ਚੂਲੇ ਦੇ ਫ੍ਰੈਕਚਰ ਲਈ।"
+  },
+  {
+   "en": "Is it time?",
+   "pa": "ਕੀ ਸਮਾਂ ਆ ਗਿਆ ਹੈ?"
+  },
+  {
+   "en": "Signs it may be <span class=\"em\">worth a consultation.</span>",
+   "pa": "ਸੰਕੇਤ ਕਿ <span class=\"em\">ਸਲਾਹ ਲੈਣੀ ਚਾਹੀਦੀ ਹੈ।</span>"
+  },
+  {
+   "en": "Talk to us about replacement if",
+   "pa": "ਬਦਲਣ ਬਾਰੇ ਗੱਲ ਕਰੋ ਜੇ"
+  },
+  {
+   "en": "Pain limits walking, stairs or sleep",
+   "pa": "ਦਰਦ ਤੁਰਨ, ਪੌੜੀਆਂ ਜਾਂ ਨੀਂਦ ਵਿੱਚ ਰੁਕਾਵਟ ਪਾਉਂਦਾ ਹੈ"
+  },
+  {
+   "en": "Medicines, exercise and injections no longer help",
+   "pa": "ਦਵਾਈਆਂ, ਕਸਰਤ ਅਤੇ ਟੀਕੇ ਹੁਣ ਮਦਦ ਨਹੀਂ ਕਰਦੇ"
+  },
+  {
+   "en": "The knee is bending outwards or inwards",
+   "pa": "ਗੋਡਾ ਬਾਹਰ ਜਾਂ ਅੰਦਰ ਵੱਲ ਮੁੜ ਰਿਹਾ ਹੈ"
+  },
+  {
+   "en": "You avoid going out because of the pain",
+   "pa": "ਦਰਦ ਕਾਰਨ ਤੁਸੀਂ ਬਾਹਰ ਜਾਣ ਤੋਂ ਬਚਦੇ ਹੋ"
+  },
+  {
+   "en": "Try other treatment first if",
+   "pa": "ਪਹਿਲਾਂ ਹੋਰ ਇਲਾਜ ਅਜ਼ਮਾਓ ਜੇ"
+  },
+  {
+   "en": "Pain comes and goes and you stay active",
+   "pa": "ਦਰਦ ਆਉਂਦਾ-ਜਾਂਦਾ ਹੈ ਅਤੇ ਤੁਸੀਂ ਸਰਗਰਮ ਹੋ"
+  },
+  {
+   "en": "Your X-ray shows early wear",
+   "pa": "ਐਕਸ-ਰੇ ਵਿੱਚ ਸ਼ੁਰੂਆਤੀ ਘਿਸਾਅ ਹੈ"
+  },
+  {
+   "en": "You have not tried physiotherapy yet",
+   "pa": "ਤੁਸੀਂ ਅਜੇ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਹੀਂ ਕੀਤੀ"
+  },
+  {
+   "en": "Weight loss could ease the load on the joint",
+   "pa": "ਭਾਰ ਘਟਾਉਣ ਨਾਲ ਜੋੜ ਤੇ ਬੋਝ ਘੱਟ ਸਕਦਾ ਹੈ"
+  },
+  {
+   "en": "Only an examination and X-rays can decide. This list is a guide, not a diagnosis.",
+   "pa": "ਸਿਰਫ਼ ਜਾਂਚ ਅਤੇ ਐਕਸ-ਰੇ ਨਾਲ ਹੀ ਫ਼ੈਸਲਾ ਹੋ ਸਕਦਾ ਹੈ। ਇਹ ਸੂਚੀ ਸੇਧ ਹੈ, ਨਿਦਾਨ ਨਹੀਂ।"
+  },
+  {
+   "en": "Your journey",
+   "pa": "ਤੁਹਾਡਾ ਸਫ਼ਰ"
+  },
+  {
+   "en": "From first visit to <span class=\"em\">walking again.</span>",
+   "pa": "ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਤੋਂ <span class=\"em\">ਮੁੜ ਤੁਰਨ ਤੱਕ।</span>"
+  },
+  {
+   "en": "Consultation and X-rays",
+   "pa": "ਸਲਾਹ ਅਤੇ ਐਕਸ-ਰੇ"
+  },
+  {
+   "en": "Dr. Mohit examines the joint, reads standing X-rays and explains whether surgery is needed now, later or not at all.",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਜੋੜ ਦੀ ਜਾਂਚ ਕਰਦੇ ਹਨ, ਐਕਸ-ਰੇ ਦੇਖਦੇ ਹਨ ਅਤੇ ਦੱਸਦੇ ਹਨ ਕਿ ਸਰਜਰੀ ਹੁਣ, ਬਾਅਦ ਵਿੱਚ ਜਾਂ ਬਿਲਕੁਲ ਨਹੀਂ ਚਾਹੀਦੀ।"
+  },
+  {
+   "en": "Checks before surgery",
+   "pa": "ਸਰਜਰੀ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚਾਂ"
+  },
+  {
+   "en": "Blood tests, heart and sugar checks, and a talk with the anaesthetist, so the operation is planned safely.",
+   "pa": "ਖ਼ੂਨ ਦੇ ਟੈਸਟ, ਦਿਲ ਅਤੇ ਸ਼ੂਗਰ ਦੀ ਜਾਂਚ, ਅਤੇ ਬੇਹੋਸ਼ੀ ਦੇ ਡਾਕਟਰ ਨਾਲ ਗੱਲ, ਤਾਂ ਜੋ ਅਪਰੇਸ਼ਨ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਹੋਵੇ।"
+  },
+  {
+   "en": "The operation",
+   "pa": "ਅਪਰੇਸ਼ਨ"
+  },
+  {
+   "en": "Done in the modular operation theatre, usually under spinal anaesthesia. Family wait nearby and are updated after.",
+   "pa": "ਮਾਡਿਊਲਰ ਅਪਰੇਸ਼ਨ ਥੀਏਟਰ ਵਿੱਚ, ਆਮ ਤੌਰ ਤੇ ਰੀੜ੍ਹ ਦੀ ਬੇਹੋਸ਼ੀ ਨਾਲ। ਪਰਿਵਾਰ ਨੇੜੇ ਉਡੀਕਦਾ ਹੈ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਜਾਣਕਾਰੀ ਮਿਲਦੀ ਹੈ।"
+  },
+  {
+   "en": "First steps in hospital",
+   "pa": "ਹਸਪਤਾਲ ਵਿੱਚ ਪਹਿਲੇ ਕਦਮ"
+  },
+  {
+   "en": "Physiotherapy starts in hospital. Most people stand with a walker soon after surgery, guided by the team.",
+   "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਹਸਪਤਾਲ ਵਿੱਚ ਹੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ। ਜ਼ਿਆਦਾਤਰ ਲੋਕ ਟੀਮ ਦੀ ਮਦਦ ਨਾਲ ਜਲਦੀ ਵਾਕਰ ਨਾਲ ਖੜ੍ਹੇ ਹੋ ਜਾਂਦੇ ਹਨ।"
+  },
+  {
+   "en": "Home and follow-up",
+   "pa": "ਘਰ ਅਤੇ ਮੁੜ ਜਾਂਚ"
+  },
+  {
+   "en": "Exercises continue at home, with clinic visits to check the wound, movement and X-rays.",
+   "pa": "ਕਸਰਤਾਂ ਘਰ ਵਿੱਚ ਜਾਰੀ ਰਹਿੰਦੀਆਂ ਹਨ, ਅਤੇ ਜ਼ਖ਼ਮ, ਹਿਲਜੁਲ ਅਤੇ ਐਕਸ-ਰੇ ਦੀ ਜਾਂਚ ਲਈ ਕਲੀਨਿਕ ਆਉਣਾ ਪੈਂਦਾ ਹੈ।"
+  },
+  {
+   "en": "Getting home ready",
+   "pa": "ਘਰ ਤਿਆਰ ਕਰਨਾ"
+  },
+  {
+   "en": "Small changes that make <span class=\"em\">the first weeks easier.</span>",
+   "pa": "ਛੋਟੀਆਂ ਤਬਦੀਲੀਆਂ ਜੋ <span class=\"em\">ਪਹਿਲੇ ਹਫ਼ਤੇ ਸੌਖੇ ਕਰਦੀਆਂ ਹਨ।</span>"
+  },
+  {
+   "en": "A firm chair with arm rests, at a good height",
+   "pa": "ਬਾਹਾਂ ਵਾਲੀ ਮਜ਼ਬੂਤ ਕੁਰਸੀ, ਠੀਕ ਉਚਾਈ ਤੇ"
+  },
+  {
+   "en": "A raised or western toilet seat",
+   "pa": "ਉੱਚੀ ਜਾਂ ਵੈਸਟਰਨ ਟਾਇਲਟ ਸੀਟ"
+  },
+  {
+   "en": "Loose rugs and wires moved out of the way",
+   "pa": "ਢਿੱਲੇ ਗਲੀਚੇ ਅਤੇ ਤਾਰਾਂ ਰਸਤੇ ਤੋਂ ਹਟਾਓ"
+  },
+  {
+   "en": "A bed on the ground floor if stairs are hard",
+   "pa": "ਜੇ ਪੌੜੀਆਂ ਔਖੀਆਂ ਹਨ ਤਾਂ ਹੇਠਲੀ ਮੰਜ਼ਿਲ ਤੇ ਬਿਸਤਰਾ"
+  },
+  {
+   "en": "Someone at home for the first days",
+   "pa": "ਪਹਿਲੇ ਦਿਨਾਂ ਲਈ ਘਰ ਵਿੱਚ ਕੋਈ ਸਾਥ"
+  },
+  {
+   "en": "Questions",
+   "pa": "ਸਵਾਲ"
+  },
+  {
+   "en": "Questions people <span class=\"em\">often ask.</span>",
+   "pa": "ਲੋਕ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+  },
+  {
+   "en": "Ask us something else",
+   "pa": "ਕੁਝ ਹੋਰ ਪੁੱਛੋ"
+  },
+  {
+   "en": "How long does a new knee or hip last?",
+   "pa": "ਨਵਾਂ ਗੋਡਾ ਜਾਂ ਚੂਲਾ ਕਿੰਨਾ ਚਿਰ ਚੱਲਦਾ ਹੈ?"
+  },
+  {
+   "en": "Most modern joints last many years. How long yours lasts depends on your weight, activity and bone health. Dr. Mohit will talk this through with you.",
+   "pa": "ਜ਼ਿਆਦਾਤਰ ਆਧੁਨਿਕ ਜੋੜ ਕਈ ਸਾਲ ਚੱਲਦੇ ਹਨ। ਤੁਹਾਡਾ ਕਿੰਨਾ ਚੱਲੇਗਾ, ਇਹ ਭਾਰ, ਸਰਗਰਮੀ ਅਤੇ ਹੱਡੀਆਂ ਦੀ ਸਿਹਤ ਤੇ ਨਿਰਭਰ ਹੈ। ਡਾ. ਮੋਹਿਤ ਤੁਹਾਡੇ ਨਾਲ ਇਸ ਬਾਰੇ ਗੱਲ ਕਰਨਗੇ।"
+  },
+  {
+   "en": "Can both knees be done together?",
+   "pa": "ਕੀ ਦੋਵੇਂ ਗੋਡੇ ਇਕੱਠੇ ਹੋ ਸਕਦੇ ਹਨ?"
+  },
+  {
+   "en": "Sometimes, if your general health allows it. Otherwise the second knee is done a few weeks or months later.",
+   "pa": "ਕਈ ਵਾਰ, ਜੇ ਤੁਹਾਡੀ ਆਮ ਸਿਹਤ ਇਜਾਜ਼ਤ ਦੇਵੇ। ਨਹੀਂ ਤਾਂ ਦੂਜਾ ਗੋਡਾ ਕੁਝ ਹਫ਼ਤਿਆਂ ਜਾਂ ਮਹੀਨਿਆਂ ਬਾਅਦ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+  },
+  {
+   "en": "Will I be able to sit on the floor?",
+   "pa": "ਕੀ ਮੈਂ ਫ਼ਰਸ਼ ਤੇ ਬੈਠ ਸਕਾਂਗਾ?"
+  },
+  {
+   "en": "Many people get good bending back, but deep squatting and sitting cross-legged are not always possible. Ask about your own case.",
+   "pa": "ਬਹੁਤ ਲੋਕਾਂ ਦਾ ਗੋਡਾ ਚੰਗਾ ਮੁੜਦਾ ਹੈ, ਪਰ ਚੌਂਕੜੀ ਮਾਰ ਕੇ ਬੈਠਣਾ ਹਮੇਸ਼ਾ ਸੰਭਵ ਨਹੀਂ ਹੁੰਦਾ। ਆਪਣੇ ਬਾਰੇ ਪੁੱਛੋ।"
+  },
+  {
+   "en": "Is it covered under Ayushman Bharat?",
+   "pa": "ਕੀ ਇਹ ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਵਿੱਚ ਸ਼ਾਮਲ ਹੈ?"
+  },
+  {
+   "en": "Gupta Hospital is empanelled under PM-JAY. Ask our team whether your card and procedure are eligible.",
+   "pa": "ਗੁਪਤਾ ਹਸਪਤਾਲ PM-JAY ਅਧੀਨ ਸੂਚੀਬੱਧ ਹੈ। ਸਾਡੀ ਟੀਮ ਤੋਂ ਪੁੱਛੋ ਕਿ ਤੁਹਾਡਾ ਕਾਰਡ ਅਤੇ ਇਲਾਜ ਯੋਗ ਹੈ ਜਾਂ ਨਹੀਂ।"
+  },
+  {
+   "en": "How long will I stay in hospital?",
+   "pa": "ਹਸਪਤਾਲ ਵਿੱਚ ਕਿੰਨੇ ਦਿਨ ਰਹਿਣਾ ਪਵੇਗਾ?"
+  },
+  {
+   "en": "It depends on your health and the operation. You will be told what to expect at your consultation.",
+   "pa": "ਇਹ ਤੁਹਾਡੀ ਸਿਹਤ ਅਤੇ ਅਪਰੇਸ਼ਨ ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ। ਸਲਾਹ ਵੇਲੇ ਤੁਹਾਨੂੰ ਦੱਸ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
+  },
+  {
+   "en": "Medically reviewed by Dr. Mohit Gupta, MS (Ortho), joint replacement surgeon. Last reviewed [CONFIRM: date].",
+   "pa": "ਡਾਕਟਰੀ ਸਮੀਖਿਆ: ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਐਮ.ਐਸ. (ਆਰਥੋ), ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ। ਆਖਰੀ ਸਮੀਖਿਆ [CONFIRM: ਮਿਤੀ]।"
+  },
+  {
+   "en": "This page explains common treatments. It is not a diagnosis; please see a doctor about your own symptoms.",
+   "pa": "ਇਹ ਪੰਨਾ ਆਮ ਇਲਾਜਾਂ ਬਾਰੇ ਦੱਸਦਾ ਹੈ। ਇਹ ਨਿਦਾਨ ਨਹੀਂ ਹੈ; ਆਪਣੇ ਲੱਛਣਾਂ ਲਈ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋ।"
+  },
+  {
+   "en": "Other orthopaedic services",
+   "pa": "ਹੱਡੀਆਂ ਦੇ ਹੋਰ ਇਲਾਜ"
+  },
+  {
+   "en": "Robotic knee",
+   "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+  },
+  {
+   "en": "Fractures and trauma",
+   "pa": "ਫ੍ਰੈਕਚਰ ਅਤੇ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Arthroscopy and sports injuries",
+   "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Back pain clinic",
+   "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+  }
+ ],
+ "/orthopaedics/fractures-and-trauma/": [
+  {
+   "en": "Home",
+   "pa": "ਮੁੱਖ ਪੰਨਾ"
+  },
+  {
+   "en": "Orthopaedics",
+   "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+  },
+  {
+   "en": "Fractures and trauma",
+   "pa": "ਫ੍ਰੈਕਚਰ ਅਤੇ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Broken bones, set right and <span class=\"em\">healed well.</span>",
+   "pa": "ਟੁੱਟੀਆਂ ਹੱਡੀਆਂ, ਸਹੀ ਜੋੜੀਆਂ ਅਤੇ <span class=\"em\">ਚੰਗੀ ਤਰ੍ਹਾਂ ਠੀਕ।</span>"
+  },
+  {
+   "en": "From a child’s wrist after a fall to a hip fracture in an older parent or injuries from a road accident, the orthopaedic team treats fractures with plaster, splints or surgery, and follows you until the bone has healed.",
+   "pa": "ਡਿੱਗਣ ਨਾਲ ਬੱਚੇ ਦੇ ਗੁੱਟ ਤੋਂ ਲੈ ਕੇ ਬਜ਼ੁਰਗ ਮਾਪਿਆਂ ਦੇ ਚੂਲੇ ਦੇ ਫ੍ਰੈਕਚਰ ਜਾਂ ਸੜਕ ਹਾਦਸੇ ਦੀਆਂ ਸੱਟਾਂ ਤੱਕ, ਹੱਡੀਆਂ ਦੀ ਟੀਮ ਪਲਸਤਰ, ਸਪਲਿੰਟ ਜਾਂ ਸਰਜਰੀ ਨਾਲ ਇਲਾਜ ਕਰਦੀ ਹੈ ਅਤੇ ਹੱਡੀ ਜੁੜਨ ਤੱਕ ਤੁਹਾਡੀ ਦੇਖਭਾਲ ਕਰਦੀ ਹੈ।"
+  },
+  {
+   "en": "Book with Dr. Mohit",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਨਾਲ ਬੁੱਕ ਕਰੋ"
+  },
+  {
+   "en": "Dr. Mohit Gupta checks a forearm cast on a young man",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਦੀ ਬਾਂਹ ਦਾ ਪਲਸਤਰ ਜਾਂਚਦੇ ਹੋਏ"
+  },
+  {
+   "en": "Injured right now?",
+   "pa": "ਹੁਣੇ ਸੱਟ ਲੱਗੀ ਹੈ?"
+  },
+  {
+   "en": "Call <span class=\"em\">108 or 112</span> for an ambulance, or come straight to the hospital.",
+   "pa": "ਐਂਬੂਲੈਂਸ ਲਈ <span class=\"em\">108 ਜਾਂ 112</span> ਤੇ ਕਾਲ ਕਰੋ, ਜਾਂ ਸਿੱਧਾ ਹਸਪਤਾਲ ਆਓ।"
+  },
+  {
+   "en": "Power House Road, Bathinda. If you can, call ahead so the team is ready.",
+   "pa": "ਪਾਵਰ ਹਾਊਸ ਰੋਡ, ਬਠਿੰਡਾ। ਹੋ ਸਕੇ ਤਾਂ ਪਹਿਲਾਂ ਕਾਲ ਕਰੋ ਤਾਂ ਜੋ ਟੀਮ ਤਿਆਰ ਰਹੇ।"
+  },
+  {
+   "en": "Call 112",
+   "pa": "112 ਤੇ ਕਾਲ ਕਰੋ"
+  },
+  {
+   "en": "What we treat",
+   "pa": "ਅਸੀਂ ਕੀ ਇਲਾਜ ਕਰਦੇ ਹਾਂ"
+  },
+  {
+   "en": "Fractures of every <span class=\"em\">age and kind.</span>",
+   "pa": "ਹਰ <span class=\"em\">ਉਮਰ ਅਤੇ ਕਿਸਮ</span> ਦੇ ਫ੍ਰੈਕਚਰ।"
+  },
+  {
+   "en": "Shoulder and arm",
+   "pa": "ਮੋਢਾ ਅਤੇ ਬਾਂਹ"
+  },
+  {
+   "en": "Collarbone",
+   "pa": "ਹੰਸਲੀ"
+  },
+  {
+   "en": "Upper arm",
+   "pa": "ਉੱਪਰਲੀ ਬਾਂਹ"
+  },
+  {
+   "en": "Elbow",
+   "pa": "ਕੂਹਣੀ"
+  },
+  {
+   "en": "Dislocation",
+   "pa": "ਜੋੜ ਉਤਰਨਾ"
+  },
+  {
+   "en": "Wrist and hand",
+   "pa": "ਗੁੱਟ ਅਤੇ ਹੱਥ"
+  },
+  {
+   "en": "Wrist fracture",
+   "pa": "ਗੁੱਟ ਦਾ ਫ੍ਰੈਕਚਰ"
+  },
+  {
+   "en": "Finger and hand",
+   "pa": "ਉਂਗਲਾਂ ਅਤੇ ਹੱਥ"
+  },
+  {
+   "en": "Scaphoid",
+   "pa": "ਸਕੈਫ਼ੌਇਡ"
+  },
+  {
+   "en": "Hip and thigh",
+   "pa": "ਚੂਲਾ ਅਤੇ ਪੱਟ"
+  },
+  {
+   "en": "Hip fracture in older people",
+   "pa": "ਬਜ਼ੁਰਗਾਂ ਵਿੱਚ ਚੂਲੇ ਦਾ ਫ੍ਰੈਕਚਰ"
+  },
+  {
+   "en": "Thigh bone",
+   "pa": "ਪੱਟ ਦੀ ਹੱਡੀ"
+  },
+  {
+   "en": "Pelvis",
+   "pa": "ਪੇਡੂ"
+  },
+  {
+   "en": "Leg, ankle and foot",
+   "pa": "ਲੱਤ, ਗਿੱਟਾ ਅਤੇ ਪੈਰ"
+  },
+  {
+   "en": "Shin bone",
+   "pa": "ਪਿੰਨੀ ਦੀ ਹੱਡੀ"
+  },
+  {
+   "en": "Ankle fracture",
+   "pa": "ਗਿੱਟੇ ਦਾ ਫ੍ਰੈਕਚਰ"
+  },
+  {
+   "en": "Kneecap",
+   "pa": "ਚੱਪਣੀ"
+  },
+  {
+   "en": "Foot",
+   "pa": "ਪੈਰ"
+  },
+  {
+   "en": "Children’s fractures",
+   "pa": "ਬੱਚਿਆਂ ਦੇ ਫ੍ਰੈਕਚਰ"
+  },
+  {
+   "en": "Falls from play",
+   "pa": "ਖੇਡਦਿਆਂ ਡਿੱਗਣਾ"
+  },
+  {
+   "en": "Growth plate injuries",
+   "pa": "ਵਧਣ ਵਾਲੀ ਪਲੇਟ ਦੀ ਸੱਟ"
+  },
+  {
+   "en": "Elbow in children",
+   "pa": "ਬੱਚਿਆਂ ਦੀ ਕੂਹਣੀ"
+  },
+  {
+   "en": "Road and farm injuries",
+   "pa": "ਸੜਕ ਅਤੇ ਖੇਤ ਦੀਆਂ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Multiple fractures",
+   "pa": "ਕਈ ਫ੍ਰੈਕਚਰ"
+  },
+  {
+   "en": "Open wounds with fracture",
+   "pa": "ਜ਼ਖ਼ਮ ਸਮੇਤ ਫ੍ਰੈਕਚਰ"
+  },
+  {
+   "en": "Machinery injuries",
+   "pa": "ਮਸ਼ੀਨਰੀ ਦੀਆਂ ਸੱਟਾਂ"
+  },
+  {
+   "en": "How a fracture heals",
+   "pa": "ਫ੍ਰੈਕਚਰ ਕਿਵੇਂ ਠੀਕ ਹੁੰਦਾ ਹੈ"
+  },
+  {
+   "en": "Five steps to a <span class=\"em\">bone that works again.</span>",
+   "pa": "ਹੱਡੀ ਦੇ <span class=\"em\">ਮੁੜ ਕੰਮ ਕਰਨ ਤੱਕ</span> ਪੰਜ ਕਦਮ।"
+  },
+  {
+   "en": "Examination and X-ray",
+   "pa": "ਜਾਂਚ ਅਤੇ ਐਕਸ-ਰੇ"
+  },
+  {
+   "en": "The injury is checked for swelling, wounds, nerves and blood flow, and an X-ray shows the break.",
+   "pa": "ਸੋਜ, ਜ਼ਖ਼ਮ, ਨਸਾਂ ਅਤੇ ਖ਼ੂਨ ਦੇ ਵਹਾਅ ਦੀ ਜਾਂਚ ਹੁੰਦੀ ਹੈ, ਅਤੇ ਐਕਸ-ਰੇ ਨਾਲ ਟੁੱਟ ਦਿਸਦੀ ਹੈ।"
+  },
+  {
+   "en": "Setting the bone",
+   "pa": "ਹੱਡੀ ਬਿਠਾਉਣਾ"
+  },
+  {
+   "en": "If the pieces have moved, they are brought back into line, under pain relief or anaesthesia.",
+   "pa": "ਜੇ ਟੁਕੜੇ ਹਿੱਲ ਗਏ ਹੋਣ, ਤਾਂ ਦਰਦ ਨਿਵਾਰਕ ਜਾਂ ਬੇਹੋਸ਼ੀ ਹੇਠ ਉਨ੍ਹਾਂ ਨੂੰ ਸਿੱਧਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+  },
+  {
+   "en": "Holding it still",
+   "pa": "ਸਥਿਰ ਰੱਖਣਾ"
+  },
+  {
+   "en": "A plaster, splint or brace holds simple breaks. Plates, screws, wires or nails hold breaks that will not stay in place.",
+   "pa": "ਸਧਾਰਨ ਟੁੱਟਾਂ ਲਈ ਪਲਸਤਰ, ਸਪਲਿੰਟ ਜਾਂ ਬਰੇਸ। ਜੋ ਟੁੱਟਾਂ ਥਾਂ ਤੇ ਨਾ ਟਿਕਣ, ਉਨ੍ਹਾਂ ਲਈ ਪਲੇਟਾਂ, ਪੇਚ, ਤਾਰਾਂ ਜਾਂ ਰਾਡ।"
+  },
+  {
+   "en": "Check-up X-rays",
+   "pa": "ਮੁੜ ਜਾਂਚ ਐਕਸ-ਰੇ"
+  },
+  {
+   "en": "Follow-up visits make sure the bone is healing in the right position.",
+   "pa": "ਮੁੜ ਜਾਂਚ ਨਾਲ ਪੱਕਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਕਿ ਹੱਡੀ ਸਹੀ ਥਾਂ ਤੇ ਜੁੜ ਰਹੀ ਹੈ।"
+  },
+  {
+   "en": "Getting strength back",
+   "pa": "ਤਾਕਤ ਵਾਪਸ ਲਿਆਉਣਾ"
+  },
+  {
+   "en": "Physiotherapy brings back movement and strength once the bone allows it.",
+   "pa": "ਹੱਡੀ ਜੁੜਨ ਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਾਲ ਹਿਲਜੁਲ ਅਤੇ ਤਾਕਤ ਵਾਪਸ ਆਉਂਦੀ ਹੈ।"
+  },
+  {
+   "en": "First aid",
+   "pa": "ਮੁੱਢਲੀ ਸਹਾਇਤਾ"
+  },
+  {
+   "en": "Before you reach <span class=\"em\">the hospital.</span>",
+   "pa": "<span class=\"em\">ਹਸਪਤਾਲ ਪਹੁੰਚਣ</span> ਤੋਂ ਪਹਿਲਾਂ।"
+  },
+  {
+   "en": "Do",
+   "pa": "ਕਰੋ"
+  },
+  {
+   "en": "Keep the injured part still, as you found it",
+   "pa": "ਸੱਟ ਵਾਲੇ ਹਿੱਸੇ ਨੂੰ ਜਿਵੇਂ ਹੈ, ਉਵੇਂ ਹੀ ਸਥਿਰ ਰੱਖੋ"
+  },
+  {
+   "en": "Support it with a folded cloth or cardboard",
+   "pa": "ਤਹਿ ਕੀਤੇ ਕੱਪੜੇ ਜਾਂ ਗੱਤੇ ਨਾਲ ਸਹਾਰਾ ਦਿਓ"
+  },
+  {
+   "en": "Cover any wound with a clean cloth",
+   "pa": "ਜ਼ਖ਼ਮ ਨੂੰ ਸਾਫ਼ ਕੱਪੜੇ ਨਾਲ ਢਕੋ"
+  },
+  {
+   "en": "Remove rings and bangles before swelling starts",
+   "pa": "ਸੋਜ ਤੋਂ ਪਹਿਲਾਂ ਮੁੰਦਰੀਆਂ ਅਤੇ ਚੂੜੀਆਂ ਉਤਾਰੋ"
+  },
+  {
+   "en": "Do not",
+   "pa": "ਨਾ ਕਰੋ"
+  },
+  {
+   "en": "Pull or try to straighten the limb",
+   "pa": "ਅੰਗ ਨੂੰ ਖਿੱਚੋ ਜਾਂ ਸਿੱਧਾ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਾ ਕਰੋ"
+  },
+  {
+   "en": "Massage or apply oil on the injury",
+   "pa": "ਸੱਟ ਤੇ ਮਾਲਿਸ਼ ਜਾਂ ਤੇਲ ਨਾ ਲਾਓ"
+  },
+  {
+   "en": "Tie a tight bandage or local splint for days",
+   "pa": "ਕਈ ਦਿਨਾਂ ਲਈ ਘੁੱਟ ਕੇ ਪੱਟੀ ਜਾਂ ਦੇਸੀ ਬੰਨ੍ਹ ਨਾ ਬੰਨ੍ਹੋ"
+  },
+  {
+   "en": "Give food or water if surgery may be needed",
+   "pa": "ਜੇ ਸਰਜਰੀ ਦੀ ਲੋੜ ਹੋ ਸਕਦੀ ਹੈ ਤਾਂ ਖਾਣਾ-ਪਾਣੀ ਨਾ ਦਿਓ"
+  },
+  {
+   "en": "Dr. Mohit Gupta reviews a fracture X-ray with plates on screen",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਸਕਰੀਨ ਤੇ ਪਲੇਟਾਂ ਵਾਲਾ ਫ੍ਰੈਕਚਰ ਐਕਸ-ਰੇ ਦੇਖਦੇ ਹੋਏ"
+  },
+  {
+   "en": "Older parents",
+   "pa": "ਬਜ਼ੁਰਗ ਮਾਪੇ"
+  },
+  {
+   "en": "A fall at home is <span class=\"em\">more than a bruise.</span>",
+   "pa": "ਘਰ ਵਿੱਚ ਡਿੱਗਣਾ <span class=\"em\">ਸਿਰਫ਼ ਨੀਲ ਨਹੀਂ ਹੁੰਦਾ।</span>"
+  },
+  {
+   "en": "After a fall, an older person who cannot stand or has pain in the groin may have a hip fracture. Early surgery usually helps them get out of bed sooner. After the fracture, ask about a bone health check, because thin bones (osteoporosis) make further fractures more likely.",
+   "pa": "ਡਿੱਗਣ ਤੋਂ ਬਾਅਦ ਜੇ ਬਜ਼ੁਰਗ ਖੜ੍ਹਾ ਨਾ ਹੋ ਸਕੇ ਜਾਂ ਪੱਟ ਦੇ ਜੋੜ ਵਿੱਚ ਦਰਦ ਹੋਵੇ, ਤਾਂ ਚੂਲੇ ਦਾ ਫ੍ਰੈਕਚਰ ਹੋ ਸਕਦਾ ਹੈ। ਜਲਦੀ ਸਰਜਰੀ ਅਕਸਰ ਉਨ੍ਹਾਂ ਨੂੰ ਛੇਤੀ ਬਿਸਤਰ ਤੋਂ ਉੱਠਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ। ਫ੍ਰੈਕਚਰ ਤੋਂ ਬਾਅਦ ਹੱਡੀਆਂ ਦੀ ਸਿਹਤ ਦੀ ਜਾਂਚ ਬਾਰੇ ਪੁੱਛੋ, ਕਿਉਂਕਿ ਕਮਜ਼ੋਰ ਹੱਡੀਆਂ (ਓਸਟੀਓਪੋਰੋਸਿਸ) ਨਾਲ ਦੁਬਾਰਾ ਫ੍ਰੈਕਚਰ ਦਾ ਖ਼ਤਰਾ ਵੱਧ ਜਾਂਦਾ ਹੈ।"
+  },
+  {
+   "en": "Questions",
+   "pa": "ਸਵਾਲ"
+  },
+  {
+   "en": "Questions people <span class=\"em\">often ask.</span>",
+   "pa": "ਲੋਕ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+  },
+  {
+   "en": "Ask us something else",
+   "pa": "ਕੁਝ ਹੋਰ ਪੁੱਛੋ"
+  },
+  {
+   "en": "How long does a plaster stay on?",
+   "pa": "ਪਲਸਤਰ ਕਿੰਨਾ ਚਿਰ ਲੱਗਾ ਰਹਿੰਦਾ ਹੈ?"
+  },
+  {
+   "en": "It depends on the bone and your age. Many plasters stay for a few weeks; you will get a date at your follow-up visit.",
+   "pa": "ਇਹ ਹੱਡੀ ਅਤੇ ਉਮਰ ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ। ਬਹੁਤੇ ਪਲਸਤਰ ਕੁਝ ਹਫ਼ਤੇ ਰਹਿੰਦੇ ਹਨ; ਮੁੜ ਜਾਂਚ ਤੇ ਤਾਰੀਖ਼ ਦੱਸੀ ਜਾਵੇਗੀ।"
+  },
+  {
+   "en": "Will the plates and screws be removed?",
+   "pa": "ਕੀ ਪਲੇਟਾਂ ਅਤੇ ਪੇਚ ਕੱਢੇ ਜਾਣਗੇ?"
+  },
+  {
+   "en": "Often they stay in for life without trouble. Sometimes they are removed later; the surgeon will advise you.",
+   "pa": "ਅਕਸਰ ਇਹ ਬਿਨਾਂ ਮੁਸ਼ਕਲ ਸਾਰੀ ਉਮਰ ਰਹਿੰਦੇ ਹਨ। ਕਈ ਵਾਰ ਬਾਅਦ ਵਿੱਚ ਕੱਢੇ ਜਾਂਦੇ ਹਨ; ਸਰਜਨ ਸਲਾਹ ਦੇਣਗੇ।"
+  },
+  {
+   "en": "Is a local bone-setter enough?",
+   "pa": "ਕੀ ਦੇਸੀ ਹੱਡੀ ਬਿਠਾਉਣ ਵਾਲਾ ਕਾਫ਼ੀ ਹੈ?"
+  },
+  {
+   "en": "Tight local bandages can cut off blood flow and let bones join in the wrong position. Please get an X-ray and see an orthopaedic doctor.",
+   "pa": "ਘੁੱਟ ਕੇ ਬੰਨ੍ਹੀਆਂ ਦੇਸੀ ਪੱਟੀਆਂ ਖ਼ੂਨ ਦਾ ਵਹਾਅ ਰੋਕ ਸਕਦੀਆਂ ਹਨ ਅਤੇ ਹੱਡੀ ਗ਼ਲਤ ਥਾਂ ਜੁੜ ਸਕਦੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਐਕਸ-ਰੇ ਕਰਵਾਓ ਅਤੇ ਹੱਡੀਆਂ ਦੇ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋ।"
+  },
+  {
+   "en": "Do children’s fractures heal differently?",
+   "pa": "ਕੀ ਬੱਚਿਆਂ ਦੇ ਫ੍ਰੈਕਚਰ ਵੱਖਰੇ ਠੀਕ ਹੁੰਦੇ ਹਨ?"
+  },
+  {
+   "en": "Children’s bones usually heal faster, but injuries near the growth plates need careful follow-up.",
+   "pa": "ਬੱਚਿਆਂ ਦੀਆਂ ਹੱਡੀਆਂ ਆਮ ਤੌਰ ਤੇ ਜਲਦੀ ਜੁੜਦੀਆਂ ਹਨ, ਪਰ ਵਧਣ ਵਾਲੀਆਂ ਪਲੇਟਾਂ ਨੇੜੇ ਸੱਟਾਂ ਦੀ ਧਿਆਨ ਨਾਲ ਜਾਂਚ ਜ਼ਰੂਰੀ ਹੈ।"
+  },
+  {
+   "en": "Medically reviewed by Dr. Mohit Gupta, MS (Ortho), joint replacement surgeon. Last reviewed [CONFIRM: date].",
+   "pa": "ਡਾਕਟਰੀ ਸਮੀਖਿਆ: ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਐਮ.ਐਸ. (ਆਰਥੋ), ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ। ਆਖਰੀ ਸਮੀਖਿਆ [CONFIRM: ਮਿਤੀ]।"
+  },
+  {
+   "en": "This page explains common treatments. It is not a diagnosis; please see a doctor about your own symptoms.",
+   "pa": "ਇਹ ਪੰਨਾ ਆਮ ਇਲਾਜਾਂ ਬਾਰੇ ਦੱਸਦਾ ਹੈ। ਇਹ ਨਿਦਾਨ ਨਹੀਂ ਹੈ; ਆਪਣੇ ਲੱਛਣਾਂ ਲਈ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋ।"
+  },
+  {
+   "en": "Other orthopaedic services",
+   "pa": "ਹੱਡੀਆਂ ਦੇ ਹੋਰ ਇਲਾਜ"
+  },
+  {
+   "en": "Knee and hip replacement",
+   "pa": "ਗੋਡਾ ਅਤੇ ਚੂਲਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "Robotic knee",
+   "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+  },
+  {
+   "en": "Arthroscopy and sports injuries",
+   "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Back pain clinic",
+   "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+  }
+ ],
+ "/orthopaedics/arthroscopy-and-sports-injuries/": [
+  {
+   "en": "Home",
+   "pa": "ਮੁੱਖ ਪੰਨਾ"
+  },
+  {
+   "en": "Orthopaedics",
+   "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+  },
+  {
+   "en": "Arthroscopy and sports injuries",
+   "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Back to the field, <span class=\"em\">the gym or the farm.</span>",
+   "pa": "<span class=\"em\">ਮੈਦਾਨ, ਜਿਮ ਜਾਂ ਖੇਤ</span> ਵਿੱਚ ਵਾਪਸੀ।"
+  },
+  {
+   "en": "Twisted knees, torn ligaments and shoulders that keep slipping out are common in sport and in hard physical work. Many can be treated with physiotherapy; some need keyhole surgery (arthroscopy) to repair the damage.",
+   "pa": "ਮਰੋੜੇ ਗੋਡੇ, ਫਟੇ ਲਿਗਾਮੈਂਟ ਅਤੇ ਵਾਰ-ਵਾਰ ਉਤਰਦੇ ਮੋਢੇ ਖੇਡਾਂ ਅਤੇ ਸਖ਼ਤ ਮਿਹਨਤ ਵਿੱਚ ਆਮ ਹਨ। ਬਹੁਤਿਆਂ ਦਾ ਇਲਾਜ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਾਲ ਹੋ ਜਾਂਦਾ ਹੈ; ਕੁਝ ਲਈ ਦੂਰਬੀਨ ਸਰਜਰੀ (ਆਰਥਰੋਸਕੋਪੀ) ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"
+  },
+  {
+   "en": "Book with Dr. Mohit",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਨਾਲ ਬੁੱਕ ਕਰੋ"
+  },
+  {
+   "en": "Dr. Mohit Gupta tests the knee stability of a young athlete",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਇੱਕ ਨੌਜਵਾਨ ਖਿਡਾਰੀ ਦੇ ਗੋਡੇ ਦੀ ਮਜ਼ਬੂਤੀ ਜਾਂਚਦੇ ਹੋਏ"
+  },
+  {
+   "en": "What is arthroscopy?",
+   "pa": "ਆਰਥਰੋਸਕੋਪੀ ਕੀ ਹੈ?"
+  },
+  {
+   "en": "Surgery through <span class=\"em\">two small cuts.</span>",
+   "pa": "<span class=\"em\">ਦੋ ਛੋਟੇ ਚੀਰਿਆਂ</span> ਰਾਹੀਂ ਸਰਜਰੀ।"
+  },
+  {
+   "en": "A thin camera goes into the joint through a small cut and shows the inside on a screen. Fine instruments enter through a second cut to repair or trim what is damaged. Because the cuts are small, many people go home the same day or the next.",
+   "pa": "ਇੱਕ ਪਤਲਾ ਕੈਮਰਾ ਛੋਟੇ ਚੀਰੇ ਰਾਹੀਂ ਜੋੜ ਵਿੱਚ ਜਾਂਦਾ ਹੈ ਅਤੇ ਸਕਰੀਨ ਤੇ ਅੰਦਰ ਦਿਖਾਉਂਦਾ ਹੈ। ਦੂਜੇ ਚੀਰੇ ਰਾਹੀਂ ਬਰੀਕ ਔਜ਼ਾਰ ਜਾਂਦੇ ਹਨ ਜੋ ਖ਼ਰਾਬ ਹਿੱਸੇ ਦੀ ਮੁਰੰਮਤ ਕਰਦੇ ਹਨ। ਚੀਰੇ ਛੋਟੇ ਹੋਣ ਕਰਕੇ ਬਹੁਤ ਲੋਕ ਉਸੇ ਦਿਨ ਜਾਂ ਅਗਲੇ ਦਿਨ ਘਰ ਚਲੇ ਜਾਂਦੇ ਹਨ।"
+  },
+  {
+   "en": "Illustration only.",
+   "pa": "ਸਿਰਫ਼ ਦਰਸਾਉਣ ਲਈ।"
+  },
+  {
+   "en": "Common injuries",
+   "pa": "ਆਮ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Injuries we see <span class=\"em\">every week.</span>",
+   "pa": "ਸੱਟਾਂ ਜੋ ਅਸੀਂ <span class=\"em\">ਹਰ ਹਫ਼ਤੇ</span> ਦੇਖਦੇ ਹਾਂ।"
+  },
+  {
+   "en": "Knee",
+   "pa": "ਗੋਡਾ"
+  },
+  {
+   "en": "ACL tear",
+   "pa": "ACL ਫਟਣਾ"
+  },
+  {
+   "en": "Meniscus tear",
+   "pa": "ਮੇਨਿਸਕਸ ਫਟਣਾ"
+  },
+  {
+   "en": "Kneecap slipping",
+   "pa": "ਚੱਪਣੀ ਖਿਸਕਣਾ"
+  },
+  {
+   "en": "Cartilage damage",
+   "pa": "ਕਾਰਟੀਲੇਜ ਨੁਕਸਾਨ"
+  },
+  {
+   "en": "Shoulder",
+   "pa": "ਮੋਢਾ"
+  },
+  {
+   "en": "Rotator cuff tear",
+   "pa": "ਰੋਟੇਟਰ ਕਫ਼ ਫਟਣਾ"
+  },
+  {
+   "en": "Recurrent dislocation",
+   "pa": "ਵਾਰ-ਵਾਰ ਉਤਰਨਾ"
+  },
+  {
+   "en": "Frozen shoulder",
+   "pa": "ਜੰਮਿਆ ਮੋਢਾ"
+  },
+  {
+   "en": "Impingement",
+   "pa": "ਇੰਪਿੰਜਮੈਂਟ"
+  },
+  {
+   "en": "Ankle and foot",
+   "pa": "ਗਿੱਟਾ ਅਤੇ ਪੈਰ"
+  },
+  {
+   "en": "Ankle sprain",
+   "pa": "ਗਿੱਟੇ ਦੀ ਮੋਚ"
+  },
+  {
+   "en": "Ligament tear",
+   "pa": "ਲਿਗਾਮੈਂਟ ਫਟਣਾ"
+  },
+  {
+   "en": "Achilles pain",
+   "pa": "ਅੱਡੀ ਦੀ ਨਸ ਦਾ ਦਰਦ"
+  },
+  {
+   "en": "Elbow and wrist",
+   "pa": "ਕੂਹਣੀ ਅਤੇ ਗੁੱਟ"
+  },
+  {
+   "en": "Tennis elbow",
+   "pa": "ਟੈਨਿਸ ਐਲਬੋ"
+  },
+  {
+   "en": "Golfer’s elbow",
+   "pa": "ਗੋਲਫ਼ਰ ਐਲਬੋ"
+  },
+  {
+   "en": "Wrist sprain",
+   "pa": "ਗੁੱਟ ਦੀ ਮੋਚ"
+  },
+  {
+   "en": "When to see a doctor",
+   "pa": "ਡਾਕਟਰ ਨੂੰ ਕਦੋਂ ਮਿਲੀਏ"
+  },
+  {
+   "en": "Rest it, or <span class=\"em\">get it checked?</span>",
+   "pa": "ਆਰਾਮ ਕਰੀਏ, ਜਾਂ <span class=\"em\">ਜਾਂਚ ਕਰਵਾਈਏ?</span>"
+  },
+  {
+   "en": "Often settles with rest and ice if",
+   "pa": "ਅਕਸਰ ਆਰਾਮ ਅਤੇ ਬਰਫ਼ ਨਾਲ ਠੀਕ ਜੇ"
+  },
+  {
+   "en": "You can walk on it with mild pain",
+   "pa": "ਹਲਕੇ ਦਰਦ ਨਾਲ ਤੁਰ ਸਕਦੇ ਹੋ"
+  },
+  {
+   "en": "Swelling is small and going down",
+   "pa": "ਸੋਜ ਥੋੜ੍ਹੀ ਹੈ ਅਤੇ ਘੱਟ ਰਹੀ ਹੈ"
+  },
+  {
+   "en": "It feels better each day",
+   "pa": "ਹਰ ਦਿਨ ਬਿਹਤਰ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ"
+  },
+  {
+   "en": "See a doctor soon if",
+   "pa": "ਜਲਦੀ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋ ਜੇ"
+  },
+  {
+   "en": "You heard a pop and the knee swelled within hours",
+   "pa": "ਪਟਾਕਾ ਸੁਣਿਆ ਅਤੇ ਘੰਟਿਆਂ ਵਿੱਚ ਗੋਡਾ ਸੁੱਜ ਗਿਆ"
+  },
+  {
+   "en": "The joint gives way, locks or catches",
+   "pa": "ਜੋੜ ਜਵਾਬ ਦੇ ਜਾਂਦਾ ਹੈ, ਅੜ ਜਾਂਦਾ ਹੈ ਜਾਂ ਫਸਦਾ ਹੈ"
+  },
+  {
+   "en": "You cannot put weight on it",
+   "pa": "ਭਾਰ ਨਹੀਂ ਪਾ ਸਕਦੇ"
+  },
+  {
+   "en": "The shoulder has come out of place",
+   "pa": "ਮੋਢਾ ਥਾਂ ਤੋਂ ਉਤਰ ਗਿਆ ਹੈ"
+  },
+  {
+   "en": "If pain is severe or the limb looks out of shape, treat it as a possible fracture and come to the hospital.",
+   "pa": "ਜੇ ਦਰਦ ਬਹੁਤ ਹੈ ਜਾਂ ਅੰਗ ਟੇਢਾ ਦਿਸਦਾ ਹੈ, ਤਾਂ ਇਸ ਨੂੰ ਫ੍ਰੈਕਚਰ ਸਮਝੋ ਅਤੇ ਹਸਪਤਾਲ ਆਓ।"
+  },
+  {
+   "en": "Return to sport",
+   "pa": "ਖੇਡ ਵਿੱਚ ਵਾਪਸੀ"
+  },
+  {
+   "en": "Five stages, <span class=\"em\">with or without surgery.</span>",
+   "pa": "ਪੰਜ ਪੜਾਅ, <span class=\"em\">ਸਰਜਰੀ ਨਾਲ ਜਾਂ ਬਿਨਾਂ।</span>"
+  },
+  {
+   "en": "Protect",
+   "pa": "ਬਚਾਅ"
+  },
+  {
+   "en": "Rest, ice, a brace if needed, and early gentle movement to control swelling.",
+   "pa": "ਆਰਾਮ, ਬਰਫ਼, ਲੋੜ ਹੋਵੇ ਤਾਂ ਬਰੇਸ, ਅਤੇ ਸੋਜ ਘਟਾਉਣ ਲਈ ਹਲਕੀ ਹਿਲਜੁਲ।"
+  },
+  {
+   "en": "Move",
+   "pa": "ਹਿਲਜੁਲ"
+  },
+  {
+   "en": "Physiotherapy brings back the full range of movement.",
+   "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਾਲ ਪੂਰੀ ਹਿਲਜੁਲ ਵਾਪਸ ਆਉਂਦੀ ਹੈ।"
+  },
+  {
+   "en": "Strengthen",
+   "pa": "ਮਜ਼ਬੂਤੀ"
+  },
+  {
+   "en": "Muscles around the joint are built up to protect it.",
+   "pa": "ਜੋੜ ਦੀ ਰਾਖੀ ਲਈ ਆਲੇ-ਦੁਆਲੇ ਦੇ ਪੱਠੇ ਮਜ਼ਬੂਤ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।"
+  },
+  {
+   "en": "Train",
+   "pa": "ਅਭਿਆਸ"
+  },
+  {
+   "en": "Balance, running and turning drills, step by step.",
+   "pa": "ਸੰਤੁਲਨ, ਦੌੜ ਅਤੇ ਮੁੜਨ ਦੇ ਅਭਿਆਸ, ਹੌਲੀ-ਹੌਲੀ।"
+  },
+  {
+   "en": "Play",
+   "pa": "ਖੇਡ"
+  },
+  {
+   "en": "You return to sport or heavy work when strength and control are back, not just when the pain has gone.",
+   "pa": "ਤਾਕਤ ਅਤੇ ਕਾਬੂ ਵਾਪਸ ਆਉਣ ਤੇ ਖੇਡ ਜਾਂ ਭਾਰੀ ਕੰਮ ਤੇ ਵਾਪਸੀ, ਸਿਰਫ਼ ਦਰਦ ਜਾਣ ਤੇ ਨਹੀਂ।"
+  },
+  {
+   "en": "Dr. Mohit Gupta performs knee arthroscopy, watching the camera view on a monitor",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਮਾਨੀਟਰ ਤੇ ਕੈਮਰਾ ਦੇਖਦੇ ਹੋਏ ਗੋਡੇ ਦੀ ਆਰਥਰੋਸਕੋਪੀ ਕਰਦੇ ਹੋਏ"
+  },
+  {
+   "en": "Procedures",
+   "pa": "ਪ੍ਰਕਿਰਿਆਵਾਂ"
+  },
+  {
+   "en": "Keyhole repairs <span class=\"em\">we perform.</span>",
+   "pa": "ਦੂਰਬੀਨ ਨਾਲ <span class=\"em\">ਮੁਰੰਮਤ।</span>"
+  },
+  {
+   "en": "ACL reconstruction",
+   "pa": "ACL ਮੁੜ-ਨਿਰਮਾਣ"
+  },
+  {
+   "en": "Meniscus repair or trimming",
+   "pa": "ਮੇਨਿਸਕਸ ਦੀ ਮੁਰੰਮਤ ਜਾਂ ਕਟਾਈ"
+  },
+  {
+   "en": "Shoulder stabilisation",
+   "pa": "ਮੋਢੇ ਨੂੰ ਸਥਿਰ ਕਰਨਾ"
+  },
+  {
+   "en": "Rotator cuff repair",
+   "pa": "ਰੋਟੇਟਰ ਕਫ਼ ਦੀ ਮੁਰੰਮਤ"
+  },
+  {
+   "en": "Kneecap realignment and cartilage procedures",
+   "pa": "ਚੱਪਣੀ ਸਿੱਧੀ ਕਰਨਾ ਅਤੇ ਕਾਰਟੀਲੇਜ ਪ੍ਰਕਿਰਿਆਵਾਂ"
+  },
+  {
+   "en": "Questions",
+   "pa": "ਸਵਾਲ"
+  },
+  {
+   "en": "Questions people <span class=\"em\">often ask.</span>",
+   "pa": "ਲੋਕ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+  },
+  {
+   "en": "Ask us something else",
+   "pa": "ਕੁਝ ਹੋਰ ਪੁੱਛੋ"
+  },
+  {
+   "en": "Do I need an MRI?",
+   "pa": "ਕੀ ਮੈਨੂੰ MRI ਦੀ ਲੋੜ ਹੈ?"
+  },
+  {
+   "en": "Not always. The examination often tells us a lot. An MRI is advised when it will change the treatment.",
+   "pa": "ਹਮੇਸ਼ਾ ਨਹੀਂ। ਜਾਂਚ ਤੋਂ ਅਕਸਰ ਕਾਫ਼ੀ ਪਤਾ ਲੱਗ ਜਾਂਦਾ ਹੈ। MRI ਉਦੋਂ ਕਰਵਾਈ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਇਸ ਨਾਲ ਇਲਾਜ ਬਦਲ ਸਕਦਾ ਹੋਵੇ।"
+  },
+  {
+   "en": "Can a torn ACL heal without surgery?",
+   "pa": "ਕੀ ਫਟਿਆ ACL ਬਿਨਾਂ ਸਰਜਰੀ ਠੀਕ ਹੋ ਸਕਦਾ ਹੈ?"
+  },
+  {
+   "en": "The ligament does not usually join again, but some people with less active lives do well with strengthening alone. Young and sporty people often need reconstruction.",
+   "pa": "ਲਿਗਾਮੈਂਟ ਆਮ ਤੌਰ ਤੇ ਮੁੜ ਨਹੀਂ ਜੁੜਦਾ, ਪਰ ਘੱਟ ਸਰਗਰਮ ਲੋਕ ਸਿਰਫ਼ ਮਜ਼ਬੂਤੀ ਦੀਆਂ ਕਸਰਤਾਂ ਨਾਲ ਠੀਕ ਰਹਿ ਸਕਦੇ ਹਨ। ਨੌਜਵਾਨ ਖਿਡਾਰੀਆਂ ਨੂੰ ਅਕਸਰ ਮੁੜ-ਨਿਰਮਾਣ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"
+  },
+  {
+   "en": "When can I play again after ACL surgery?",
+   "pa": "ACL ਸਰਜਰੀ ਤੋਂ ਬਾਅਦ ਕਦੋਂ ਖੇਡ ਸਕਦਾ ਹਾਂ?"
+  },
+  {
+   "en": "It usually takes several months of physiotherapy. The decision is based on strength and control tests, not the calendar alone.",
+   "pa": "ਆਮ ਤੌਰ ਤੇ ਕਈ ਮਹੀਨੇ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਲੱਗਦੀ ਹੈ। ਫ਼ੈਸਲਾ ਤਾਕਤ ਅਤੇ ਕਾਬੂ ਦੀ ਜਾਂਚ ਨਾਲ ਹੁੰਦਾ ਹੈ, ਸਿਰਫ਼ ਤਾਰੀਖ਼ ਨਾਲ ਨਹੀਂ।"
+  },
+  {
+   "en": "Is arthroscopy done under general anaesthesia?",
+   "pa": "ਕੀ ਆਰਥਰੋਸਕੋਪੀ ਪੂਰੀ ਬੇਹੋਸ਼ੀ ਨਾਲ ਹੁੰਦੀ ਹੈ?"
+  },
+  {
+   "en": "Knee arthroscopy is often done under spinal anaesthesia and shoulder arthroscopy under general anaesthesia. The anaesthetist will explain your options.",
+   "pa": "ਗੋਡੇ ਦੀ ਆਰਥਰੋਸਕੋਪੀ ਅਕਸਰ ਰੀੜ੍ਹ ਦੀ ਬੇਹੋਸ਼ੀ ਨਾਲ ਅਤੇ ਮੋਢੇ ਦੀ ਪੂਰੀ ਬੇਹੋਸ਼ੀ ਨਾਲ ਹੁੰਦੀ ਹੈ। ਬੇਹੋਸ਼ੀ ਦੇ ਡਾਕਟਰ ਤੁਹਾਨੂੰ ਸਮਝਾਉਣਗੇ।"
+  },
+  {
+   "en": "Medically reviewed by Dr. Mohit Gupta, MS (Ortho), joint replacement surgeon. Last reviewed [CONFIRM: date].",
+   "pa": "ਡਾਕਟਰੀ ਸਮੀਖਿਆ: ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਐਮ.ਐਸ. (ਆਰਥੋ), ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ। ਆਖਰੀ ਸਮੀਖਿਆ [CONFIRM: ਮਿਤੀ]।"
+  },
+  {
+   "en": "This page explains common treatments. It is not a diagnosis; please see a doctor about your own symptoms.",
+   "pa": "ਇਹ ਪੰਨਾ ਆਮ ਇਲਾਜਾਂ ਬਾਰੇ ਦੱਸਦਾ ਹੈ। ਇਹ ਨਿਦਾਨ ਨਹੀਂ ਹੈ; ਆਪਣੇ ਲੱਛਣਾਂ ਲਈ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋ।"
+  },
+  {
+   "en": "Other orthopaedic services",
+   "pa": "ਹੱਡੀਆਂ ਦੇ ਹੋਰ ਇਲਾਜ"
+  },
+  {
+   "en": "Knee and hip replacement",
+   "pa": "ਗੋਡਾ ਅਤੇ ਚੂਲਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "Robotic knee",
+   "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+  },
+  {
+   "en": "Fractures and trauma",
+   "pa": "ਫ੍ਰੈਕਚਰ ਅਤੇ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Back pain clinic",
+   "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+  }
+ ],
+ "/orthopaedics/back-pain-clinic/": [
+  {
+   "en": "Home",
+   "pa": "ਮੁੱਖ ਪੰਨਾ"
+  },
+  {
+   "en": "Orthopaedics",
+   "pa": "ਹੱਡੀਆਂ ਤੇ ਜੋੜ"
+  },
+  {
+   "en": "Back pain clinic",
+   "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+  },
+  {
+   "en": "Most back pain gets better <span class=\"em\">without surgery.</span>",
+   "pa": "ਜ਼ਿਆਦਾਤਰ ਕਮਰ ਦਰਦ <span class=\"em\">ਬਿਨਾਂ ਸਰਜਰੀ</span> ਠੀਕ ਹੁੰਦਾ ਹੈ।"
+  },
+  {
+   "en": "Low back pain, sciatica and a stiff neck are among the most common reasons people miss work. The back pain clinic starts with a careful examination, then medicines, physiotherapy and posture work, and looks at injections or surgery only when they are truly needed.",
+   "pa": "ਕਮਰ ਦਰਦ, ਸਾਇਟਿਕਾ ਅਤੇ ਅਕੜੀ ਗਰਦਨ ਕੰਮ ਤੋਂ ਛੁੱਟੀ ਦੇ ਸਭ ਤੋਂ ਆਮ ਕਾਰਨਾਂ ਵਿੱਚੋਂ ਹਨ। ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ ਧਿਆਨ ਨਾਲ ਜਾਂਚ ਤੋਂ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ, ਫਿਰ ਦਵਾਈਆਂ, ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਅਤੇ ਬੈਠਣ-ਉੱਠਣ ਦੇ ਢੰਗ ਤੇ ਕੰਮ, ਅਤੇ ਟੀਕੇ ਜਾਂ ਸਰਜਰੀ ਸਿਰਫ਼ ਲੋੜ ਪੈਣ ਤੇ।"
+  },
+  {
+   "en": "Book with Dr. Mohit",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਨਾਲ ਬੁੱਕ ਕਰੋ"
+  },
+  {
+   "en": "Dr. Mohit Gupta explains a spine model to a man with back pain",
+   "pa": "ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਕਮਰ ਦਰਦ ਵਾਲੇ ਆਦਮੀ ਨੂੰ ਰੀੜ੍ਹ ਦਾ ਮਾਡਲ ਸਮਝਾਉਂਦੇ ਹੋਏ"
+  },
+  {
+   "en": "Do not wait",
+   "pa": "ਉਡੀਕ ਨਾ ਕਰੋ"
+  },
+  {
+   "en": "Come to the hospital <span class=\"em\">the same day</span> if you have:",
+   "pa": "ਜੇ ਇਹ ਹੈ ਤਾਂ <span class=\"em\">ਉਸੇ ਦਿਨ</span> ਹਸਪਤਾਲ ਆਓ:"
+  },
+  {
+   "en": "These signs can mean pressure on the nerves or another serious cause, and need urgent attention.",
+   "pa": "ਇਹ ਸੰਕੇਤ ਨਸਾਂ ਤੇ ਦਬਾਅ ਜਾਂ ਕਿਸੇ ਗੰਭੀਰ ਕਾਰਨ ਦਾ ਇਸ਼ਾਰਾ ਹੋ ਸਕਦੇ ਹਨ, ਤੁਰੰਤ ਧਿਆਨ ਜ਼ਰੂਰੀ ਹੈ।"
+  },
+  {
+   "en": "Bladder or bowel",
+   "pa": "ਪਿਸ਼ਾਬ ਜਾਂ ਟੱਟੀ"
+  },
+  {
+   "en": "New trouble passing or holding urine",
+   "pa": "ਪਿਸ਼ਾਬ ਕਰਨ ਜਾਂ ਰੋਕਣ ਵਿੱਚ ਨਵੀਂ ਮੁਸ਼ਕਲ"
+  },
+  {
+   "en": "Loss of bowel control",
+   "pa": "ਟੱਟੀ ਤੇ ਕਾਬੂ ਨਾ ਰਹਿਣਾ"
+  },
+  {
+   "en": "Numbness",
+   "pa": "ਸੁੰਨਪਣ"
+  },
+  {
+   "en": "Numbness around the groin or buttocks",
+   "pa": "ਪੱਟਾਂ ਦੇ ਵਿਚਕਾਰ ਜਾਂ ਚਿੱਤੜਾਂ ਦੁਆਲੇ ਸੁੰਨਪਣ"
+  },
+  {
+   "en": "Numbness spreading down both legs",
+   "pa": "ਦੋਵਾਂ ਲੱਤਾਂ ਵਿੱਚ ਫੈਲਦਾ ਸੁੰਨਪਣ"
+  },
+  {
+   "en": "Weakness",
+   "pa": "ਕਮਜ਼ੋਰੀ"
+  },
+  {
+   "en": "Foot drop or a leg giving way",
+   "pa": "ਪੈਰ ਲਟਕਣਾ ਜਾਂ ਲੱਤ ਜਵਾਬ ਦੇਣਾ"
+  },
+  {
+   "en": "Weakness getting worse",
+   "pa": "ਵਧਦੀ ਕਮਜ਼ੋਰੀ"
+  },
+  {
+   "en": "Other warning signs",
+   "pa": "ਹੋਰ ਚੇਤਾਵਨੀ ਸੰਕੇਤ"
+  },
+  {
+   "en": "Back pain after a fall or accident",
+   "pa": "ਡਿੱਗਣ ਜਾਂ ਹਾਦਸੇ ਤੋਂ ਬਾਅਦ ਕਮਰ ਦਰਦ"
+  },
+  {
+   "en": "Fever or weight loss with back pain",
+   "pa": "ਕਮਰ ਦਰਦ ਨਾਲ ਬੁਖ਼ਾਰ ਜਾਂ ਭਾਰ ਘਟਣਾ"
+  },
+  {
+   "en": "Call 112",
+   "pa": "112 ਤੇ ਕਾਲ ਕਰੋ"
+  },
+  {
+   "en": "Common causes",
+   "pa": "ਆਮ ਕਾਰਨ"
+  },
+  {
+   "en": "Where back pain <span class=\"em\">usually comes from.</span>",
+   "pa": "ਕਮਰ ਦਰਦ <span class=\"em\">ਆਮ ਤੌਰ ਤੇ ਕਿੱਥੋਂ</span> ਆਉਂਦਾ ਹੈ।"
+  },
+  {
+   "en": "Muscle and posture",
+   "pa": "ਪੱਠੇ ਅਤੇ ਬੈਠਣ ਦਾ ਢੰਗ"
+  },
+  {
+   "en": "Muscle strain",
+   "pa": "ਪੱਠੇ ਖਿੱਚਣਾ"
+  },
+  {
+   "en": "Long hours sitting or driving",
+   "pa": "ਲੰਮੇ ਸਮੇਂ ਬੈਠਣਾ ਜਾਂ ਗੱਡੀ ਚਲਾਉਣਾ"
+  },
+  {
+   "en": "Heavy lifting",
+   "pa": "ਭਾਰੀ ਭਾਰ ਚੁੱਕਣਾ"
+  },
+  {
+   "en": "Discs and nerves",
+   "pa": "ਡਿਸਕ ਅਤੇ ਨਸਾਂ"
+  },
+  {
+   "en": "Disc bulge",
+   "pa": "ਡਿਸਕ ਉਭਾਰ"
+  },
+  {
+   "en": "Sciatica",
+   "pa": "ਸਾਇਟਿਕਾ"
+  },
+  {
+   "en": "Narrowed spinal canal",
+   "pa": "ਤੰਗ ਰੀੜ੍ਹ ਨਾਲੀ"
+  },
+  {
+   "en": "Neck",
+   "pa": "ਗਰਦਨ"
+  },
+  {
+   "en": "Stiff neck",
+   "pa": "ਅਕੜੀ ਗਰਦਨ"
+  },
+  {
+   "en": "Pain spreading to the arm",
+   "pa": "ਬਾਂਹ ਵੱਲ ਜਾਂਦਾ ਦਰਦ"
+  },
+  {
+   "en": "Phone and screen posture",
+   "pa": "ਫ਼ੋਨ ਅਤੇ ਸਕਰੀਨ ਵਾਲਾ ਢੰਗ"
+  },
+  {
+   "en": "Wear and age",
+   "pa": "ਘਿਸਾਅ ਅਤੇ ਉਮਰ"
+  },
+  {
+   "en": "Spinal arthritis",
+   "pa": "ਰੀੜ੍ਹ ਦਾ ਗਠੀਆ"
+  },
+  {
+   "en": "Thin bones",
+   "pa": "ਕਮਜ਼ੋਰ ਹੱਡੀਆਂ"
+  },
+  {
+   "en": "Sacroiliac joint pain",
+   "pa": "ਸੈਕਰੋਇਲਿਐਕ ਜੋੜ ਦਾ ਦਰਦ"
+  },
+  {
+   "en": "How the clinic works",
+   "pa": "ਕਲੀਨਿਕ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ"
+  },
+  {
+   "en": "Simple treatment first, <span class=\"em\">step by step.</span>",
+   "pa": "ਪਹਿਲਾਂ ਸਧਾਰਨ ਇਲਾਜ, <span class=\"em\">ਕਦਮ-ਦਰ-ਕਦਮ।</span>"
+  },
+  {
+   "en": "Listen and examine",
+   "pa": "ਸੁਣਨਾ ਅਤੇ ਜਾਂਚ"
+  },
+  {
+   "en": "Where it hurts, what makes it worse, your work and sleep, and a check of nerves, strength and reflexes.",
+   "pa": "ਦਰਦ ਕਿੱਥੇ ਹੈ, ਕਿਸ ਨਾਲ ਵਧਦਾ ਹੈ, ਤੁਹਾਡਾ ਕੰਮ ਅਤੇ ਨੀਂਦ, ਅਤੇ ਨਸਾਂ, ਤਾਕਤ ਤੇ ਰਿਫ਼ਲੈਕਸ ਦੀ ਜਾਂਚ।"
+  },
+  {
+   "en": "Tests only if needed",
+   "pa": "ਟੈਸਟ ਸਿਰਫ਼ ਲੋੜ ਪੈਣ ਤੇ"
+  },
+  {
+   "en": "Many people do not need an X-ray or MRI at first. They are advised when the result will change the treatment.",
+   "pa": "ਬਹੁਤਿਆਂ ਨੂੰ ਸ਼ੁਰੂ ਵਿੱਚ ਐਕਸ-ਰੇ ਜਾਂ MRI ਦੀ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ। ਇਹ ਉਦੋਂ ਕਰਵਾਏ ਜਾਂਦੇ ਹਨ ਜਦੋਂ ਨਤੀਜੇ ਨਾਲ ਇਲਾਜ ਬਦਲ ਸਕੇ।"
+  },
+  {
+   "en": "Pain relief",
+   "pa": "ਦਰਦ ਤੋਂ ਰਾਹਤ"
+  },
+  {
+   "en": "The right medicines for a short time, so you can keep moving.",
+   "pa": "ਥੋੜ੍ਹੇ ਸਮੇਂ ਲਈ ਸਹੀ ਦਵਾਈਆਂ, ਤਾਂ ਜੋ ਤੁਸੀਂ ਚੱਲਦੇ-ਫਿਰਦੇ ਰਹੋ।"
+  },
+  {
+   "en": "Physiotherapy and core work",
+   "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਅਤੇ ਕੋਰ ਕਸਰਤ"
+  },
+  {
+   "en": "Exercises to strengthen the back and stomach muscles, and posture changes for work and home.",
+   "pa": "ਕਮਰ ਅਤੇ ਪੇਟ ਦੇ ਪੱਠੇ ਮਜ਼ਬੂਤ ਕਰਨ ਦੀਆਂ ਕਸਰਤਾਂ, ਅਤੇ ਕੰਮ ਤੇ ਘਰ ਲਈ ਬੈਠਣ ਦੇ ਢੰਗ ਵਿੱਚ ਬਦਲਾਅ।"
+  },
+  {
+   "en": "Next steps if pain stays",
+   "pa": "ਜੇ ਦਰਦ ਨਾ ਜਾਵੇ ਤਾਂ ਅਗਲੇ ਕਦਮ"
+  },
+  {
+   "en": "If pain or nerve symptoms continue, further options are discussed, including injections or a surgical opinion. [CONFIRM: which spine procedures are offered at the hospital]",
+   "pa": "ਜੇ ਦਰਦ ਜਾਂ ਨਸਾਂ ਦੇ ਲੱਛਣ ਜਾਰੀ ਰਹਿਣ, ਤਾਂ ਟੀਕਿਆਂ ਜਾਂ ਸਰਜਰੀ ਦੀ ਰਾਇ ਸਮੇਤ ਹੋਰ ਵਿਕਲਪਾਂ ਤੇ ਗੱਲ ਹੁੰਦੀ ਹੈ। [CONFIRM: ਹਸਪਤਾਲ ਵਿੱਚ ਰੀੜ੍ਹ ਦੀਆਂ ਕਿਹੜੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਹੁੰਦੀਆਂ ਹਨ]"
+  },
+  {
+   "en": "Everyday habits",
+   "pa": "ਰੋਜ਼ਾਨਾ ਆਦਤਾਂ"
+  },
+  {
+   "en": "Small habits that <span class=\"em\">protect your back.</span>",
+   "pa": "ਛੋਟੀਆਂ ਆਦਤਾਂ ਜੋ <span class=\"em\">ਕਮਰ ਦੀ ਰਾਖੀ</span> ਕਰਦੀਆਂ ਹਨ।"
+  },
+  {
+   "en": "Sitting",
+   "pa": "ਬੈਠਣਾ"
+  },
+  {
+   "en": "Feet flat, back supported, screen at eye level. Stand up and move every 30 to 45 minutes.",
+   "pa": "ਪੈਰ ਫ਼ਰਸ਼ ਤੇ, ਕਮਰ ਨੂੰ ਸਹਾਰਾ, ਸਕਰੀਨ ਅੱਖਾਂ ਦੀ ਉਚਾਈ ਤੇ। ਹਰ 30 ਤੋਂ 45 ਮਿੰਟ ਬਾਅਦ ਉੱਠ ਕੇ ਤੁਰੋ।"
+  },
+  {
+   "en": "Lifting",
+   "pa": "ਭਾਰ ਚੁੱਕਣਾ"
+  },
+  {
+   "en": "Bend your knees, keep the load close to your body and do not twist while lifting.",
+   "pa": "ਗੋਡੇ ਮੋੜੋ, ਭਾਰ ਸਰੀਰ ਦੇ ਨੇੜੇ ਰੱਖੋ ਅਤੇ ਚੁੱਕਦਿਆਂ ਮਰੋੜੋ ਨਾ।"
+  },
+  {
+   "en": "Sleeping",
+   "pa": "ਸੌਣਾ"
+  },
+  {
+   "en": "A firm, even mattress. A pillow between the knees can help when lying on your side.",
+   "pa": "ਸਖ਼ਤ, ਪੱਧਰਾ ਗੱਦਾ। ਪਾਸੇ ਲੇਟਣ ਵੇਲੇ ਗੋਡਿਆਂ ਵਿਚਕਾਰ ਸਿਰਹਾਣਾ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ।"
+  },
+  {
+   "en": "Keep moving",
+   "pa": "ਚੱਲਦੇ ਰਹੋ"
+  },
+  {
+   "en": "Long bed rest usually slows recovery. Gentle walking helps most back pain settle.",
+   "pa": "ਲੰਮਾ ਬਿਸਤਰ ਆਰਾਮ ਅਕਸਰ ਠੀਕ ਹੋਣ ਵਿੱਚ ਦੇਰੀ ਕਰਦਾ ਹੈ। ਹਲਕੀ ਸੈਰ ਨਾਲ ਜ਼ਿਆਦਾਤਰ ਕਮਰ ਦਰਦ ਘੱਟਦਾ ਹੈ।"
+  },
+  {
+   "en": "Physiotherapy",
+   "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪੀ"
+  },
+  {
+   "en": "Exercise is often <span class=\"em\">the main treatment.</span>",
+   "pa": "ਕਸਰਤ ਅਕਸਰ <span class=\"em\">ਮੁੱਖ ਇਲਾਜ</span> ਹੁੰਦੀ ਹੈ।"
+  },
+  {
+   "en": "A physiotherapist teaches you exercises for your back and stomach muscles, shows you how to sit, lift and sleep, and gives you a plan to follow at home. Most people feel the difference within a few weeks of regular practice.",
+   "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਤੁਹਾਨੂੰ ਕਮਰ ਅਤੇ ਪੇਟ ਦੇ ਪੱਠਿਆਂ ਦੀਆਂ ਕਸਰਤਾਂ ਸਿਖਾਉਂਦੇ ਹਨ, ਬੈਠਣ, ਚੁੱਕਣ ਅਤੇ ਸੌਣ ਦਾ ਢੰਗ ਦੱਸਦੇ ਹਨ, ਅਤੇ ਘਰ ਲਈ ਯੋਜਨਾ ਦਿੰਦੇ ਹਨ। ਨਿਯਮਤ ਅਭਿਆਸ ਨਾਲ ਬਹੁਤੇ ਲੋਕ ਕੁਝ ਹਫ਼ਤਿਆਂ ਵਿੱਚ ਫ਼ਰਕ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ।"
+  },
+  {
+   "en": "A physiotherapist guides a woman through a core exercise for back pain",
+   "pa": "ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਕਮਰ ਦਰਦ ਲਈ ਇੱਕ ਔਰਤ ਨੂੰ ਕੋਰ ਕਸਰਤ ਕਰਵਾਉਂਦੇ ਹੋਏ"
+  },
+  {
+   "en": "Questions",
+   "pa": "ਸਵਾਲ"
+  },
+  {
+   "en": "Questions people <span class=\"em\">often ask.</span>",
+   "pa": "ਲੋਕ <span class=\"em\">ਅਕਸਰ ਪੁੱਛਦੇ ਹਨ।</span>"
+  },
+  {
+   "en": "Ask us something else",
+   "pa": "ਕੁਝ ਹੋਰ ਪੁੱਛੋ"
+  },
+  {
+   "en": "Should I rest in bed until the pain goes?",
+   "pa": "ਕੀ ਦਰਦ ਜਾਣ ਤੱਕ ਬਿਸਤਰ ਤੇ ਆਰਾਮ ਕਰਾਂ?"
+  },
+  {
+   "en": "A day or two of rest can help in a bad flare-up, but staying active usually helps the back recover faster.",
+   "pa": "ਬਹੁਤ ਦਰਦ ਵੇਲੇ ਇੱਕ-ਦੋ ਦਿਨ ਆਰਾਮ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ, ਪਰ ਸਰਗਰਮ ਰਹਿਣ ਨਾਲ ਕਮਰ ਅਕਸਰ ਜਲਦੀ ਠੀਕ ਹੁੰਦੀ ਹੈ।"
+  },
+  {
+   "en": "Will I need surgery for a disc bulge?",
+   "pa": "ਕੀ ਡਿਸਕ ਉਭਾਰ ਲਈ ਸਰਜਰੀ ਚਾਹੀਦੀ ਹੈ?"
+  },
+  {
+   "en": "Most disc bulges settle with time, medicines and physiotherapy. Surgery is considered when there is nerve weakness or pain that does not improve.",
+   "pa": "ਜ਼ਿਆਦਾਤਰ ਡਿਸਕ ਉਭਾਰ ਸਮੇਂ, ਦਵਾਈਆਂ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪੀ ਨਾਲ ਠੀਕ ਹੋ ਜਾਂਦੇ ਹਨ। ਸਰਜਰੀ ਉਦੋਂ ਸੋਚੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਨਸਾਂ ਵਿੱਚ ਕਮਜ਼ੋਰੀ ਹੋਵੇ ਜਾਂ ਦਰਦ ਨਾ ਘਟੇ।"
+  },
+  {
+   "en": "Do I need an MRI straight away?",
+   "pa": "ਕੀ ਤੁਰੰਤ MRI ਚਾਹੀਦੀ ਹੈ?"
+  },
+  {
+   "en": "Usually not, unless there are warning signs. Scans often show age-related changes that are not the cause of the pain.",
+   "pa": "ਆਮ ਤੌਰ ਤੇ ਨਹੀਂ, ਜਦ ਤੱਕ ਚੇਤਾਵਨੀ ਸੰਕੇਤ ਨਾ ਹੋਣ। ਸਕੈਨ ਵਿੱਚ ਅਕਸਰ ਉਮਰ ਨਾਲ ਹੋਏ ਬਦਲਾਅ ਦਿਸਦੇ ਹਨ ਜੋ ਦਰਦ ਦਾ ਕਾਰਨ ਨਹੀਂ ਹੁੰਦੇ।"
+  },
+  {
+   "en": "Is a back belt helpful?",
+   "pa": "ਕੀ ਕਮਰ ਦੀ ਬੈਲਟ ਮਦਦ ਕਰਦੀ ਹੈ?"
+  },
+  {
+   "en": "A belt can help for a short time during a flare-up, but wearing it for long can weaken the muscles. Ask before using one daily.",
+   "pa": "ਬਹੁਤ ਦਰਦ ਵੇਲੇ ਥੋੜ੍ਹੇ ਸਮੇਂ ਲਈ ਬੈਲਟ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ, ਪਰ ਲੰਮੇ ਸਮੇਂ ਤੱਕ ਪਹਿਨਣ ਨਾਲ ਪੱਠੇ ਕਮਜ਼ੋਰ ਹੋ ਸਕਦੇ ਹਨ। ਰੋਜ਼ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁੱਛੋ।"
+  },
+  {
+   "en": "Medically reviewed by Dr. Mohit Gupta, MS (Ortho), joint replacement surgeon. Last reviewed [CONFIRM: date].",
+   "pa": "ਡਾਕਟਰੀ ਸਮੀਖਿਆ: ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ, ਐਮ.ਐਸ. (ਆਰਥੋ), ਜੋੜ ਬਦਲਣ ਦੇ ਸਰਜਨ। ਆਖਰੀ ਸਮੀਖਿਆ [CONFIRM: ਮਿਤੀ]।"
+  },
+  {
+   "en": "This page explains common treatments. It is not a diagnosis; please see a doctor about your own symptoms.",
+   "pa": "ਇਹ ਪੰਨਾ ਆਮ ਇਲਾਜਾਂ ਬਾਰੇ ਦੱਸਦਾ ਹੈ। ਇਹ ਨਿਦਾਨ ਨਹੀਂ ਹੈ; ਆਪਣੇ ਲੱਛਣਾਂ ਲਈ ਡਾਕਟਰ ਨੂੰ ਮਿਲੋ।"
+  },
+  {
+   "en": "Other orthopaedic services",
+   "pa": "ਹੱਡੀਆਂ ਦੇ ਹੋਰ ਇਲਾਜ"
+  },
+  {
+   "en": "Knee and hip replacement",
+   "pa": "ਗੋਡਾ ਅਤੇ ਚੂਲਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "Robotic knee",
+   "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ"
+  },
+  {
+   "en": "Fractures and trauma",
+   "pa": "ਫ੍ਰੈਕਚਰ ਅਤੇ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Arthroscopy and sports injuries",
+   "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+  }
+ ],
+ "/orthopaedics/ (new \"Explore by treatment\" section)": [
+  {
+   "en": "Treatments",
+   "pa": "ਇਲਾਜ"
+  },
+  {
+   "en": "Explore by <span class=\"em\">treatment.</span>",
+   "pa": "<span class=\"em\">ਇਲਾਜ ਮੁਤਾਬਕ</span> ਦੇਖੋ।"
+  },
+  {
+   "en": "Robotic knee replacement",
+   "pa": "ਰੋਬੋਟਿਕ ਗੋਡਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "VELYS™ robotic-assisted surgery",
+   "pa": "VELYS™ ਰੋਬੋਟ-ਸਹਾਇਤਾ ਸਰਜਰੀ"
+  },
+  {
+   "en": "Knee and hip replacement",
+   "pa": "ਗੋਡਾ ਅਤੇ ਚੂਲਾ ਬਦਲਣਾ"
+  },
+  {
+   "en": "Total, partial and hip",
+   "pa": "ਪੂਰਾ, ਅੱਧਾ ਅਤੇ ਚੂਲਾ"
+  },
+  {
+   "en": "Fractures and trauma",
+   "pa": "ਫ੍ਰੈਕਚਰ ਅਤੇ ਸੱਟਾਂ"
+  },
+  {
+   "en": "Plaster, surgery and rehab",
+   "pa": "ਪਲਸਤਰ, ਸਰਜਰੀ ਅਤੇ ਰੀਹੈਬ"
+  },
+  {
+   "en": "Arthroscopy and sports injuries",
+   "pa": "ਆਰਥਰੋਸਕੋਪੀ ਅਤੇ ਖੇਡ ਸੱਟਾਂ"
+  },
+  {
+   "en": "ACL, meniscus, shoulder",
+   "pa": "ACL, ਮੇਨਿਸਕਸ, ਮੋਢਾ"
+  },
+  {
+   "en": "Back pain clinic",
+   "pa": "ਕਮਰ ਦਰਦ ਕਲੀਨਿਕ"
+  },
+  {
+   "en": "Non-surgical care first",
+   "pa": "ਪਹਿਲਾਂ ਬਿਨਾਂ ਸਰਜਰੀ ਇਲਾਜ"
+  }
+ ]
+}

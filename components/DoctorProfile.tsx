@@ -39,7 +39,7 @@ export function DoctorProfile({ d, locale: l }: { d: DoctorFacts; locale: Locale
     <>
       <section className="hero hero-c">
         <div className="wrap">
-          <div className="g12">
+          <div className="g12" style={{ alignItems: 'center' }}>
             <div className="c-7">
               <LabelText text={dept} />
               <H1 text={name} />
@@ -57,7 +57,6 @@ export function DoctorProfile({ d, locale: l }: { d: DoctorFacts; locale: Locale
               <div className="ctas" style={{ marginTop: 22 }}>
                 <BookButton href="/contact/">
                   <RichText text={copy('global', 'Book appointment', l)} />
-                  <span className="ar">→</span>
                 </BookButton>
               </div>
             </div>

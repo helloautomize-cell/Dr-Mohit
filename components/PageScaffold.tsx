@@ -45,7 +45,6 @@ export function PageScaffold({
               <div className="ctas" style={{ marginTop: 20 }}>
                 <BookButton href="/contact/">
                   <RichText text={copy('global', 'Book appointment', l)} />
-                  <span className="ar">→</span>
                 </BookButton>
               </div>
             </div>

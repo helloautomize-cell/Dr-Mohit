@@ -1,5 +1,5 @@
 import type { Locale } from '@/i18n/routing';
-import { copy } from '@/lib/copy';
+import { copy, orthoLabel } from '@/lib/copy';
 
 // Single source of truth for all navigation structure (header, mobile menu,
 // footer columns, breadcrumbs, legal pages). Copy resolves through lib/copy
@@ -25,10 +25,10 @@ export const NAV_MAIN: NavItem[] = [
 export const ORTHO_MENU: NavItem[] = [
   { key: 'Orthopaedics overview', href: '/orthopaedics/' },
   { key: 'Robotic knee replacement', href: '/orthopaedics/robotic-knee-replacement/' },
-  { key: 'Knee and hip replacement', href: '/orthopaedics/' },
-  { key: 'Fractures and trauma', href: '/orthopaedics/' },
-  { key: 'Arthroscopy and sports injuries', href: '/orthopaedics/' },
-  { key: 'Back pain clinic', href: '/orthopaedics/' },
+  { key: 'Knee and hip replacement', href: '/orthopaedics/knee-and-hip-replacement/' },
+  { key: 'Fractures and trauma', href: '/orthopaedics/fractures-and-trauma/' },
+  { key: 'Arthroscopy and sports injuries', href: '/orthopaedics/arthroscopy-and-sports-injuries/' },
+  { key: 'Back pain clinic', href: '/orthopaedics/back-pain-clinic/' },
 ];
 
 export const LEGAL_PAGES: NavItem[] = [
@@ -60,11 +60,11 @@ export function pageForSegment(seg: string): string | undefined {
   return SEGMENT_PAGE[seg];
 }
 
-/** Resolve a chrome label through copy with a safe fallback. */
+/** Resolve a chrome label through copy, then ortho-subpages, then English. */
 export function navLabel(key: string, l: Locale): string {
   try {
     return copy('global', key, l);
   } catch {
-    return key;
+    return orthoLabel(key, l) ?? key;
   }
 }

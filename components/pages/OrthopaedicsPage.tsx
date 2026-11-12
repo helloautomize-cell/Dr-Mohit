@@ -10,6 +10,7 @@ import { WaveDivider } from '../WaveDivider';
 import { DeptHero, DeptBookCta, DeptPhoneCta } from './DeptHero';
 import { ImageSlot } from '../ImageSlot';
 import { OrthoFacts, Accordion, OrthoJourney, Callout } from '../sections/bands';
+import { ExploreLinks } from './ortho-shared';
 import { OrthoServices } from '../sections/cards';
 import { KneeExplorer } from '../tools/KneeExplorer';
 import { CmpSlider } from '../tools/CmpSlider';
@@ -53,7 +54,22 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
           </>
         }
       />
-      <WaveDivider from="sky" to="brand" />
+      <WaveDivider from="sky" to="white" />
+
+      <section className="sec" style={{ paddingBlock: 'clamp(48px,6vw,88px)' }}>
+        <div className="wrap">
+          <div className="g12 rv" style={{ marginBottom: 0, alignItems: 'end' }}>
+            <div className="c-7">
+              <span className="label">{copy('ortho-explore', 'Treatments', locale)}</span>
+              <h2 style={{ marginTop: 18 }}>
+                <RichText text={copy('ortho-explore', 'Explore by', locale)} />
+              </h2>
+            </div>
+          </div>
+          <ExploreLinks locale={locale} />
+        </div>
+      </section>
+      <WaveDivider from="white" to="brand" />
       <OrthoFacts locale={locale} />
       <WaveDivider from="brand" to="white" />
 
@@ -112,10 +128,10 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
                     </g>
                     <circle className="glow" cx="-46" cy="238" r="22" />
                     <circle className="glow" cx="54" cy="240" r="18" style={{ animationDelay: '-1s' }} />
-                    <path d="M-120 236 H-200" stroke="#3D4652" strokeWidth="1.2" />
-                    <text x="-206" y="240" textAnchor="end">{c('Thin, worn cartilage')}</text>
-                    <path d="M-128 250 H-200 V286" fill="none" stroke="#3D4652" strokeWidth="1.2" />
-                    <text x="-206" y="300" textAnchor="end">{c('Bone spurs')}</text>
+                    <path className="kcall" d="M-120 236 H-200" stroke="#3D4652" strokeWidth="1.2" />
+                    <text className="kcall" x="-206" y="240" textAnchor="end">{c('Thin, worn cartilage')}</text>
+                    <path className="kcall" d="M-128 250 H-200 V286" fill="none" stroke="#3D4652" strokeWidth="1.2" />
+                    <text className="kcall" x="-206" y="300" textAnchor="end">{c('Bone spurs')}</text>
                   </g>
                 </svg>
               </div>
@@ -130,10 +146,10 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
                     <path d="M-104 222 C-90 212 -50 212 -30 220 C-50 224 -80 226 -104 230Z M104 222 C90 212 50 212 30 220 C50 224 80 226 104 230Z" fill="#7FB2F5" />
                     <path className="kb" d="M-112 256 C-60 242 60 242 112 256 L104 284 L80 296 L74 400 L-74 400 L-80 296 L-104 284 Z" />
                     <path d="M-110 252 C-60 240 60 240 110 252" stroke="#1E9A4B" strokeWidth="13" fill="none" strokeLinecap="round" />
-                    <path d="M120 196 H200" stroke="#3D4652" strokeWidth="1.2" />
-                    <text x="206" y="200">{c('Thick, smooth cartilage')}</text>
-                    <path d="M120 236 H200" stroke="#3D4652" strokeWidth="1.2" />
-                    <text x="206" y="240">{c('A healthy gap')}</text>
+                    <path className="kcall" d="M120 196 H200" stroke="#3D4652" strokeWidth="1.2" />
+                    <text className="kcall" x="206" y="200">{c('Thick, smooth cartilage')}</text>
+                    <path className="kcall" d="M120 236 H200" stroke="#3D4652" strokeWidth="1.2" />
+                    <text className="kcall" x="206" y="240">{c('A healthy gap')}</text>
                   </g>
                 </svg>
               </div>
@@ -198,7 +214,7 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
                   </span>
                   <i />
                 </summary>
-                <div className="body">{it.a}</div>
+                <div className="body">{c(it.a)}</div>
               </details>
             ))}
           </div>
