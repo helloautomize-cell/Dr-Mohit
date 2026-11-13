@@ -21,6 +21,8 @@ const nextConfig: NextConfig = {
   experimental: {
     // Root 404 lives outside [locale]; it renders its own <html>/<body>.
     globalNotFound: true,
+    // Trim shared chunk bytes: rewrite barrel imports to direct subpaths.
+    optimizePackageImports: ['@radix-ui/react-navigation-menu', 'next-intl'],
   },
   productionBrowserSourceMaps: false,
   images: {

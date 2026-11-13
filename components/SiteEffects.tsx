@@ -86,13 +86,17 @@ export default function SiteEffects() {
     };
 
     const heads = (scope: ParentNode) => {
-      const hs = scope.querySelectorAll('h1,h2');
       if (RM) return;
+      const hs = scope.querySelectorAll('h1,h2');
       if (!hio)
         hio = new IntersectionObserver(
           (es) =>
             es.forEach((e) => {
               if (e.isIntersecting) {
+                // Split just-in-time so the mount pass never pays for it; the
+                // forced reflow lets the 108% -> 0 mask transition still run.
+                split(e.target);
+                void (e.target as HTMLElement).offsetHeight;
                 e.target.classList.add('sh');
                 hio!.unobserve(e.target);
               }
@@ -100,28 +104,34 @@ export default function SiteEffects() {
           { rootMargin: '0px 0px -6% 0px' },
         );
       hs.forEach((h) => {
-        split(h);
         h.classList.remove('sh');
-        if (h.getBoundingClientRect().top < window.innerHeight * 0.95) {
-          requestAnimationFrame(() => requestAnimationFrame(() => h.classList.add('sh')));
-        } else hio!.observe(h);
+        // Already in view on load: leave the text painted as-is. The h1's
+        // load-in is a CSS fade (globals.css pgIn) — no post-hydration repaint.
+        if (h.getBoundingClientRect().top < window.innerHeight * 0.95) return;
+        hio!.observe(h);
       });
     };
 
     const prog = document.getElementById('prog');
+    // Cached at mount — the scroll path never re-queries the DOM.
+    const parEls = [...document.querySelectorAll<HTMLElement>('[data-par]')].map((el) => ({
+      el,
+      img: el.querySelector('img') as HTMLElement | null,
+    }));
+    const trailEls = [...document.querySelectorAll<HTMLElement>('[data-trail]')];
+    const jflowEls = [...document.querySelectorAll('[data-jflow]')];
     const onScroll = () => {
       const H = document.documentElement.scrollHeight - window.innerHeight;
       if (prog) prog.style.transform = `scaleX(${H > 0 ? window.scrollY / H : 0})`;
       if (!RM)
-        document.querySelectorAll<HTMLElement>('[data-par]').forEach((el) => {
+        parEls.forEach(({ el, img }) => {
           const r = el.getBoundingClientRect();
           if (r.bottom < 0 || r.top > window.innerHeight) return;
           const k = Number(el.dataset.par) || 0.08;
           const c = r.top + r.height / 2 - window.innerHeight / 2;
-          const img = el.querySelector('img');
-          if (img) (img as HTMLElement).style.transform = `translateY(${(-c * k).toFixed(1)}px)`;
+          if (img) img.style.transform = `translateY(${(-c * k).toFixed(1)}px)`;
         });
-      document.querySelectorAll<HTMLElement>('[data-trail]').forEach((t) => {
+      trailEls.forEach((t) => {
         const r = t.getBoundingClientRect();
         const mark = window.innerHeight * 0.6;
         let p = (mark - r.top) / r.height;
@@ -147,23 +157,31 @@ export default function SiteEffects() {
       jf.querySelectorAll('.jn').forEach((n, k) => n.classList.toggle('lit', p >= k * 0.25 + 0.1));
     };
     const jcheck = () =>
-      document.querySelectorAll('[data-jflow]').forEach((jf) => {
+      jflowEls.forEach((jf) => {
         if ((jf as HTMLElement).offsetParent !== null || raf === 0) jone(jf);
       });
+
+    // One rAF-gated dispatcher for all scroll work — no per-event long tasks.
+    let ticking = false;
+    const onScrollEvent = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        onScroll();
+        jcheck();
+      });
+    };
 
     prepReveal(document);
     heads(document);
     onScroll();
     jcheck();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll);
-    window.addEventListener('scroll', jcheck, { passive: true });
-    window.addEventListener('resize', jcheck);
+    window.addEventListener('scroll', onScrollEvent, { passive: true });
+    window.addEventListener('resize', onScrollEvent);
     return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      window.removeEventListener('scroll', jcheck);
-      window.removeEventListener('resize', jcheck);
+      window.removeEventListener('scroll', onScrollEvent);
+      window.removeEventListener('resize', onScrollEvent);
       io?.disconnect();
       hio?.disconnect();
       raf = -1;

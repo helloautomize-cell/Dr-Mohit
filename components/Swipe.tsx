@@ -54,6 +54,8 @@ export function Swipe({ children, className = '', count, label, dataTrail, track
 
     let timer: ReturnType<typeof setInterval> | null = null;
     let resumeT: ReturnType<typeof setTimeout> | null = null;
+    let bootT: ReturnType<typeof setTimeout> | null = null;
+    let booted = false;
     let hold = false;
     let inView = true;
 
@@ -63,8 +65,21 @@ export function Swipe({ children, className = '', count, label, dataTrail, track
       if (el.scrollLeft >= max - 8) el.scrollTo({ left: 0, behavior: 'smooth' });
       else el.scrollBy({ left: stepPx(), behavior: 'smooth' });
     };
-    const stop = () => { if (timer) clearInterval(timer); timer = null; };
-    const start = () => { stop(); if (enabled()) timer = setInterval(tick, 4500); };
+    const stop = () => {
+      if (timer) clearInterval(timer); timer = null;
+      if (bootT) clearTimeout(bootT); bootT = null;
+    };
+    // First auto-advance waits ~8s so the initial viewport settles (perf);
+    // subsequent restarts resume the normal 4.5s cadence.
+    const start = () => {
+      stop();
+      if (!enabled()) return;
+      if (booted) { timer = setInterval(tick, 4500); return; }
+      bootT = setTimeout(() => {
+        booted = true;
+        if (enabled()) timer = setInterval(tick, 4500);
+      }, 8000);
+    };
     const pauseHold = () => { hold = true; if (resumeT) clearTimeout(resumeT); resumeT = null; };
     const resumeSoon = () => {
       if (resumeT) clearTimeout(resumeT);

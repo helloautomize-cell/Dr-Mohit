@@ -197,6 +197,28 @@ if (existsSync(join(SRC, 'press', 'press-index.json'))) {
   copyFileSync(join(SRC, 'press', 'press-index.json'), join(OUT, 'press', 'press-index.json'));
 }
 
+// ---------- hero static renditions (LCP: serve /images/hero/ files, not the
+// runtime /_next/image optimizer) ----------
+// Home hero: LCP element on mobile. Emit fixed AVIF sizes + one JPG fallback;
+// HomeHero renders them via <picture> + preload instead of next/image.
+const HERO_SRC = join(NEW_DIR, 'home-hero-mohit.jpg');
+if (existsSync(HERO_SRC)) {
+  mkdirSync(join(OUT, 'hero'), { recursive: true });
+  for (const w of [390, 640, 828, 1200]) {
+    await sharp(HERO_SRC)
+      .rotate()
+      .resize({ width: w, withoutEnlargement: true })
+      .avif({ quality: 62 })
+      .toFile(join(OUT, 'hero', `home-hero-mohit-${w}.avif`));
+  }
+  await sharp(HERO_SRC)
+    .rotate()
+    .resize({ width: 640, withoutEnlargement: true })
+    .flatten({ background: '#ffffff' })
+    .jpeg({ quality: 82, mozjpeg: true })
+    .toFile(join(OUT, 'hero', 'home-hero-mohit-640.jpg'));
+}
+
 // ---------- alt text seed (en + pa, refined by hand / Phase 11) ----------
 const A = {
   'dr-mohit-with-velys': {

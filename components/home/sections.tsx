@@ -82,15 +82,34 @@ export function HomeHero({ locale }: { locale: L }) {
           <div className="c-5">
             <div className="hero-wrap">
               <div className="im hero-im">
-                <Image
-                  src={slot('home.hero').src!}
-                  alt={slot('home.hero').alt[locale]}
-                  width={1200}
-                  height={1290}
-                  priority
-                  sizes={slot('home.hero').sizes}
-                  style={{ objectPosition: slot('home.hero').focal }}
+                {/* LCP image: static AVIF renditions from public/images/hero/
+                    (process-images.mjs) — no /_next/image optimizer latency.
+                    The link preload is hoisted to <head> by React 19. */}
+                <link
+                  rel="preload"
+                  as="image"
+                  type="image/avif"
+                  imageSrcSet="/images/hero/home-hero-mohit-390.avif 390w, /images/hero/home-hero-mohit-640.avif 640w, /images/hero/home-hero-mohit-828.avif 828w, /images/hero/home-hero-mohit-1200.avif 1200w"
+                  imageSizes="(max-width:900px) 92vw, 42vw"
+                  fetchPriority="high"
                 />
+                <picture>
+                  <source
+                    type="image/avif"
+                    srcSet="/images/hero/home-hero-mohit-390.avif 390w, /images/hero/home-hero-mohit-640.avif 640w, /images/hero/home-hero-mohit-828.avif 828w, /images/hero/home-hero-mohit-1200.avif 1200w"
+                    sizes="(max-width:900px) 92vw, 42vw"
+                  />
+                  {/* eslint-disable-next-line @next/next/no-img-element -- static renditions, not next/image */}
+                  <img
+                    src="/images/hero/home-hero-mohit-640.jpg"
+                    alt={slot('home.hero').alt[locale]}
+                    width={1200}
+                    height={1290}
+                    decoding="async"
+                    fetchPriority="high"
+                    style={{ objectPosition: slot('home.hero').focal }}
+                  />
+                </picture>
               </div>
             </div>
             <div className="cap">

@@ -1,8 +1,7 @@
-'use client';
-
 // Site footer (phase-02 item 5): preview fgrid + hours stacked rows with
 // icons, obfuscated email, Get directions, Legal column (7 pages), "Cookie
-// settings" link, © line with education disclaimer.
+// settings" link, © line with education disclaimer. Server component — the
+// interactive bits (CookieSettings, ObfuscatedEmail) are client islands.
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
@@ -13,6 +12,7 @@ import { copy } from '@/lib/copy';
 import { Logo } from '@/components/Logo';
 
 import CookieSettings from '@/components/shell/CookieSettings';
+import ObfuscatedEmail from '@/components/shell/ObfuscatedEmail';
 
 export default function SiteFooter() {
   const l = useLocale() as Locale;
@@ -102,21 +102,5 @@ export default function SiteFooter() {
         </div>
       </div>
     </footer>
-  );
-}
-
-// Email kept out of source: assembled at click time.
-function ObfuscatedEmail({ label }: { label: string }) {
-  return (
-    <a
-      href="#"
-      onClick={(e) => {
-        e.preventDefault();
-        const [u, d] = SITE.email.split('@');
-        window.location.href = `mailto:${u}@${d}`;
-      }}
-    >
-      {label}
-    </a>
   );
 }

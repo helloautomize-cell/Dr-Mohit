@@ -11,7 +11,6 @@ export function Logo({ locale, height = 42 }: { locale: Locale; height?: number 
       width={1600}
       height={580}
       style={{ height, width: 'auto', display: 'block' }}
-      priority
     />
   );
 }

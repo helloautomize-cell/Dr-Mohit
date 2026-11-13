@@ -1,5 +1,5 @@
 import type { Locale } from '@/i18n/routing';
-import { copy, orthoLabel } from '@/lib/copy';
+import NAV_LABELS from './nav-labels.json';
 
 // Single source of truth for all navigation structure (header, mobile menu,
 // footer columns, breadcrumbs, legal pages). Copy resolves through lib/copy
@@ -60,11 +60,12 @@ export function pageForSegment(seg: string): string | undefined {
   return SEGMENT_PAGE[seg];
 }
 
-/** Resolve a chrome label through copy, then ortho-subpages, then English. */
+/** Resolve a chrome label from the build-generated map (gen-nav-labels.mjs).
+    Client-safe: no content-JSON import, so nav chrome never bundles copy(). */
 export function navLabel(key: string, l: Locale): string {
-  try {
-    return copy('global', key, l);
-  } catch {
-    return orthoLabel(key, l) ?? key;
+  const hit = (NAV_LABELS as Record<string, Record<string, string>>)[l]?.[key];
+  if (!hit && process.env.NODE_ENV !== 'production') {
+    console.warn(`navLabel: "${key}" not in lib/nav-labels.json — add it in scripts/gen-nav-labels.mjs`);
   }
+  return hit ?? key;
 }
