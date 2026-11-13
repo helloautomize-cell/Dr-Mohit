@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { RoboticKneePage } from '@/components/pages/RoboticKneePage';
-import { pageMeta, medicalWebPageLd } from '@/lib/seo';
+import { pageMeta, medicalWebPageLd, breadcrumbLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 
 const ROUTE = '/orthopaedics/robotic-knee-replacement/';
 
@@ -21,20 +23,18 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <RoboticKneePage locale={l} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            medicalWebPageLd({
-              page: 'robotic-knee',
-              route: ROUTE,
-              h1Key: 'Robotic-assisted knee replacement.',
-              ledeKey: 'Gupta Hospital uses the Johnson',
-              locale: l,
-              reviewer: { name: 'Dr. Mohit Gupta', specialty: 'Orthopedic' },
-            }),
-          ),
-        }}
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail(ROUTE, l), l),
+          medicalWebPageLd({
+            page: 'robotic-knee',
+            route: ROUTE,
+            h1Key: 'Robotic-assisted knee replacement.',
+            ledeKey: 'Gupta Hospital uses the Johnson',
+            locale: l,
+            reviewer: { name: 'Dr. Mohit Gupta', specialty: 'Orthopedic' },
+          }),
+        )}
       />
     </>
   );

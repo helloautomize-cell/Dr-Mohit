@@ -10,7 +10,7 @@ export const BAND_HEX: Record<Band, string> = {
   brand: '#1D4E9E',
   navy: '#0F2A55',
   teal: '#E4F3F1',
-  'teal-dark': '#0B6E66',
+  'teal-dark': '#076E66',
 };
 
 const W2 = 'M0 45 Q 180 75 360 45 T 720 45 T 1080 45 T 1440 45 T 1800 45 T 2160 45 T 2520 45 T 2880 45 V80 H0 Z';

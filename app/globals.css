@@ -296,7 +296,9 @@ ul.clean{list-style:none;margin:0;padding:0}
 .err{color:#B3261E;font-size:.9rem}
 .ok{background:var(--bg-2);padding:18px 20px;font-size:.98rem}
 .ok a{text-decoration:underline;font-weight:500}
-@media (max-width:600px){.form{grid-template-columns:1fr}}
+/* keep the form two-up on mobile: short fields pair like desktop, which
+   halves the stacked height (phase-08 mobile tightening) */
+@media (max-width:600px){.form{gap:16px 18px}}
 
 /* footer */
 footer{border-top:1px solid var(--line);padding-block:72px calc(36px + env(safe-area-inset-bottom,0px))}
@@ -306,7 +308,7 @@ footer{border-top:1px solid var(--line);padding-block:72px calc(36px + env(safe-
 .fgrid a:hover{color:var(--ink)}
 .legal{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-size:.82rem;color:var(--mute)}
 @media (max-width:900px){.fgrid{grid-template-columns:1fr 1fr}}
-@media (max-width:520px){.fgrid{grid-template-columns:1fr}}
+@media (max-width:520px){.fgrid{grid-template-columns:1fr 1fr;gap:24px}.fgrid .fbrand{grid-column:1/-1}.fhours{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px}}
 
 /* mobile bar */
 .mbar{display:none}
@@ -387,7 +389,9 @@ nav.main a::after{background:var(--brand);height:2px}
 .feature-im img{height:118%;margin-top:-9%}
 
 /* doctors */
-.doc-sec{background:var(--mint)!important}
+/* preview ports .doc-sec as mint, but the approved render overrides it inline
+   to sky; without !important the component's own inline background wins */
+.doc-sec{background:var(--mint)}
 .doc .im{border-radius:4px}
 .doc .meta h3{transition:color .3s}
 .doc:hover .meta h3{color:var(--brand)}
@@ -814,12 +818,18 @@ html:lang(pa) .balsvg text{font-family:var(--f-pa)}
 /* contact */
 .form-sec{background:var(--mint)}
 .form-sec .form{background:#fff;border-radius:24px;padding:clamp(22px,3vw,36px);box-shadow:0 30px 60px -40px rgba(15,42,85,.4)}
-.form-sec .kv{grid-template-columns:1fr!important;align-items:start;border-top-color:rgba(15,42,85,.1)}
-.form-sec .kv .ci{width:40px;height:40px;border-radius:12px;background:#fff;color:var(--brand);display:grid;place-items:center}
+.form-sec .kv{grid-template-columns:44px 1fr!important;align-items:start;border-top-color:rgba(15,42,85,.1)}
+.form-sec .kv .ci{width:40px;height:40px;border-radius:12px;background:#fff;color:var(--brand);display:grid;place-items:center;grid-row:span 2}
 .form-sec .kv .ci svg{width:20px;height:20px}
-.form-sec .kv dt{grid-column:1/-1;display:grid;grid-template-columns:44px 1fr;column-gap:24px;align-items:center;padding-top:0}
-.form-sec .kv dd{grid-column:1;margin-left:68px}
-@media (max-width:520px){.form-sec .kv dd{margin-left:0}}
+.form-sec .kv dt,.form-sec .kv dd{grid-column:2}
+/* contact rail: call/WhatsApp escape hatch above the kv list; the rail rides
+   alongside the form and stays in view while it scrolls */
+.form-sec .rail{align-self:start}
+@media (min-width:901px){.form-sec .rail{position:sticky;top:96px}}
+.rail-cta{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.rail-cta .btn{justify-content:center}
+.faq-call{margin-top:20px;padding:18px 20px;background:#fff;border-radius:16px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;box-shadow:0 16px 40px -30px rgba(15,42,85,.3)}
+.faq-call p{flex:1 1 180px;margin:0}
 .s-5{grid-column:5/-1}
 
 /* ===== v8: content sections ===== */
@@ -894,6 +904,7 @@ html:lang(pa) .rmap text{font-family:var(--f-pa)}
 @media (max-width:900px){.reach{grid-template-columns:minmax(0,1fr)}.reach>*{min-width:0}}
 
 /* FAQ block */
+.faq-arts{display:grid;gap:20px}
 .faq-sec .acc .body{color:var(--ink-2);padding:0 0 24px;max-width:62ch}
 .faq-sec .acc summary{font-weight:400}
 
@@ -1303,21 +1314,54 @@ header.sc .wrap{height:68px}
   .mswipe-track .fv-art .art{min-height:200px}
   .mswipe-track.tips{margin-top:20px;list-style:none}
   .mswipe-track.board{height:auto;padding-top:26px;overflow-y:hidden}
+  /* .olinks grids (defined later in this sheet) keep display:grid — force the
+     swipe flex track here so the rule wins on specificity, not source order */
+  .mswipe-track.olinks{display:flex}
+  .mswipe-track.olinks>.olink{min-height:0}
   .mswipe-bar{flex:1;height:3px;border-radius:99px;background:rgba(15,42,85,.12);overflow:hidden}
   .mswipe-bar i{display:block;height:100%;width:100%;border-radius:99px;background:var(--brand);
     transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
   .mswipe-pp{flex:none;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);
     background:#fff;color:var(--ink);border-radius:999px;padding:9px 16px;font:inherit;
-    font-size:.85rem;font-weight:500;cursor:pointer;min-height:44px}
+    font-size:.85rem;font-weight:500;cursor:pointer;min-height:48px}
   .mswipe-pp svg{width:13px;height:13px}
 }
 @media (max-width:600px){
-  .sec{padding-block:48px}
+  .sec{padding-block:36px}
   .dband{padding-block:40px}
   .hero{padding-block:36px 40px}
-  .hero .hero-wrap .im{max-height:320px}
+  .hero .hero-wrap .im{max-height:260px}
   .ph .im{max-height:340px}
-  .wave{height:30px}
+  .wave{height:24px}
+  /* phase-08 tightening: photo slots and illustration blocks stay well under
+     a third of the viewport; nothing decorative may fill a screen */
+  .aimg{max-height:190px}
+  .rimg{max-height:170px}
+  .jpan .aimg,.jpan .rimg{display:none}
+  .faq-arts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .faq-arts .aimg{max-height:130px}
+  .founder .aimg,.founder .im,.founder .rimg{max-height:180px}
+  .kneesvg{max-height:230px}
+  .eyesvg{max-height:180px}
+  .rmap{max-width:330px;margin-inline:auto}
+  .feature-im{max-height:170px}
+  .fv-art{min-height:0;margin-top:16px;padding:14px}
+  .fv-art .art{min-height:0}
+  .fv-art .art svg{max-height:150px}
+  .fv-step,.fv-step:first-child,.fv-step:last-child{padding-bottom:30px}
+  .doc-sec .aimg{max-height:150px}
+  .fgrid{gap:20px}
+  .fgrid a{padding:3px 0}
+  .acc summary{padding:18px 0}
+  .jt{flex-wrap:nowrap;overflow-x:auto;margin:20px 0 18px;padding-bottom:6px}
+  .jpan{padding:20px}
+  .physio{margin-top:24px}
+  .einfo .cond{padding:14px 16px}
+  .etabs{margin-bottom:16px}
+  .duo .tx{padding:18px 18px 20px}
+  .fit>div{padding:18px}
+  footer{padding-block:44px calc(30px + env(safe-area-inset-bottom,0px))}
+  .legal{margin-top:20px}
   .doc .im{aspect-ratio:16/10}
   .doc .im img{object-position:50% 15%}
   .mswipe-track{margin-left:-18px;margin-right:-18px;padding-left:18px;padding-right:18px}
@@ -1329,7 +1373,7 @@ header.sc .wrap{height:68px}
   .fv-sec .g12{margin-bottom:18px!important}
   .fv-sec .lede{display:none}
   .yrs{margin:10px 0 10px}
-  .yrs b{font-size:2.6rem}
+  .yrs b{font-size:2.2rem}
   .yrs span{font-size:.95rem;padding-top:4px}
   .fig{max-width:110px}
   .finder{gap:16px}

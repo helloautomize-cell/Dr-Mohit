@@ -2,7 +2,9 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { alternates } from '@/lib/seo';
+import { alternates, breadcrumbLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
 import { SITE } from '@/lib/site-config';
@@ -126,7 +128,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             </div>
           </div>
         </div>
-        <div className="wrap" style={{ marginTop: 'clamp(40px,6vw,72px)' }}>
+        <div className="wrap" style={{ marginTop: 'clamp(24px,5vw,72px)' }}>
           <ImageSlot id="about.legacy" locale={l} className="rv" caption={c('Three doctors, one family, since 1980')} />
         </div>
       </section>
@@ -249,6 +251,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
+      <JsonLd data={ldGraph(breadcrumbLd(crumbTrail('/about/', l), l))} />
     </>
   );
 }

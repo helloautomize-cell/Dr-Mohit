@@ -5,6 +5,9 @@ import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { ORTHO_SUBPAGES } from '@/lib/copy';
 import { orthoMeta, orthoMedicalWebPageLd } from '@/lib/ortho-seo';
+import { breadcrumbLd, conditionLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { KneeHipPage } from '@/components/pages/KneeHipPage';
 
 const ROUTE = '/orthopaedics/knee-and-hip-replacement/';
@@ -22,11 +25,16 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <KneeHipPage locale={l} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(orthoMedicalWebPageLd(ORTHO_SUBPAGES.kneeHip, ROUTE, 'Walk, sit and sleep', 'When arthritis has worn', l)),
-        }}
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail(ROUTE, l), l),
+          orthoMedicalWebPageLd(ORTHO_SUBPAGES.kneeHip, ROUTE, 'Walk, sit and sleep', 'When arthritis has worn', l),
+          conditionLd({
+            id: 'osteoarthritis',
+            name: 'Osteoarthritis',
+            alternateName: ['gathiya', 'ਗਠੀਯਾ', 'घुटनों का दर्द'],
+          }),
+        )}
       />
     </>
   );

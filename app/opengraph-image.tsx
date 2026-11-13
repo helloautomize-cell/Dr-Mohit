@@ -3,7 +3,7 @@
 // route adds its own.
 import { ImageResponse } from 'next/og';
 
-export const alt = 'Gupta Hospital Bathinda — bone, eye and mental health care';
+export const alt = 'Gupta Hospital Bathinda: bone, eye and mental health care';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 

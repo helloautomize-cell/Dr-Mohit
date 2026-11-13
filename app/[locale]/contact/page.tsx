@@ -2,7 +2,9 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { alternates } from '@/lib/seo';
+import { alternates, breadcrumbLd, faqLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
 import { SITE } from '@/lib/site-config';
@@ -69,58 +71,70 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <div style={{ marginTop: 24 }}>
               <Lede text={c('Fill in the form and send it on WhatsApp')} />
             </div>
+            <div className="ctas">
+              <a className="btn btn-brand" href={SITE.phoneMainHref}>
+                <span>{SITE.phoneMain}</span>
+                <span className="ar">→</span>
+              </a>
+              <a className="btn btn-line" href={SITE.whatsapp} target="_blank" rel="noopener">
+                <span>WhatsApp</span>
+                <span className="ar">↗</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
       <WaveDivider from="sky" to="mint" />
 
-      {/* 2. Form shell + contact kv (mint) */}
+      {/* 2. Form + contact rail (mint, one row — prototype composition) */}
       <section className="sec form-sec" style={{ paddingTop: 40 }}>
         <div className="wrap g12">
           <BookingForm
             depts={['Orthopaedics', 'Robotic knee', 'Eye care', 'Mental health', 'Not sure'].map((d) => c(d))}
             source={`${l === 'pa' ? '/pa' : ''}/contact/`}
           />
-          <div className="s-9" style={{ gridColumn: '9/-1' }}>
+          <aside className="s-9 rail" style={{ gridColumn: '9/-1' }}>
+            <div className="rail-cta">
+              <a className="btn btn-brand" href={SITE.phoneMainHref}>
+                <span>{SITE.phoneMain}</span>
+                <span className="ar">→</span>
+              </a>
+              <a className="btn btn-line" href={SITE.whatsapp} target="_blank" rel="noopener">
+                <span>WhatsApp</span>
+                <span className="ar">↗</span>
+              </a>
+            </div>
             <dl style={{ margin: 0 }}>
               <div className="kv">
-                <dt>
-                  <span className="ci">
-                    <LIcon name="pin" />
-                  </span>
-                  {c('Address')}
-                </dt>
+                <span className="ci">
+                  <LIcon name="pin" />
+                </span>
+                <dt>{c('Address')}</dt>
                 <dd>{`${SITE.name}, ${SITE.address}`}</dd>
               </div>
               <div className="kv">
-                <dt>
-                  <span className="ci">
-                    <LIcon name="phone" />
-                  </span>
-                  {c('Appointments &amp; WhatsApp')}
-                </dt>
+                <span className="ci">
+                  <LIcon name="phone" />
+                </span>
+                <dt>{c('Appointments &amp; WhatsApp')}</dt>
                 <dd>
                   <a href={SITE.phoneMainHref}>{SITE.phoneMain}</a>
                 </dd>
               </div>
               <div className="kv">
-                <dt>
-                  <span className="ci">
-                    <LIcon name="eye" />
-                  </span>
-                  {c('Eye department')}
-                </dt>
+                <span className="ci">
+                  <LIcon name="eye" />
+                </span>
+                <dt>{c('Eye department')}</dt>
                 <dd>
                   <a href={SITE.phoneEyeHref}>{SITE.phoneEye}</a>
                 </dd>
               </div>
               <div className="kv">
-                <dt>
-                  <span className="ci">
-                    <LIcon name="clock" />
-                  </span>
-                  {c('OPD timings')}
-                </dt>
+                <span className="ci">
+                  <LIcon name="clock" />
+                </span>
+                <dt>{c('OPD timings')}</dt>
                 <dd className="muted">{c('Open 24 hours')}</dd>
               </div>
             </dl>
@@ -135,9 +149,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </a>
             </div>
             <div style={{ marginTop: 20 }}>
-              <MapFacade showLabel={c('Show map')} title={c('Map of the area around Gupta Hospital')} />
+              <MapFacade autoLoad showLabel={c('Show map')} title={c('Map of the area around Gupta Hospital')} />
             </div>
-          </div>
+          </aside>
         </div>
       </section>
       <WaveDivider from="mint" to="white" />
@@ -183,9 +197,15 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <div className="c-4 rv">
             <LabelText text={c('Questions')} />
             <H2 text={c('Questions families <span class="em">often ask.</span>')} style={{ marginTop: 18 }} />
-            <p className="muted" style={{ marginTop: 20 }}>
-              {c('Still unsure? Call +91 98787 52241')}
-            </p>
+            <div className="faq-call">
+              <p className="muted" style={{ margin: 0 }}>
+                {c('Still unsure? Call +91 98787 52241')}
+              </p>
+              <a className="btn btn-brand" href={SITE.phoneMainHref}>
+                <span>{c('Call')}</span>
+                <span className="ar">→</span>
+              </a>
+            </div>
           </div>
           <div className="s-6 rv">
             <Accordion items={FAQ.map(([q, a]) => ({ q: c(q), a: c(a) }))} />
@@ -193,6 +213,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
       <WaveDivider from="sky" to="white" />
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail('/contact/', l), l),
+          faqLd(FAQ.map(([q, a]) => ({ q: c(q), a: c(a) }))),
+        )}
+      />
     </>
   );
 }

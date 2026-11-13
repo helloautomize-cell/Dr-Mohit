@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { EyeCarePage } from '@/components/pages/EyeCarePage';
-import { pageMeta, medicalWebPageLd } from '@/lib/seo';
+import { pageMeta, medicalWebPageLd, breadcrumbLd, conditionLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 
 const ROUTE = '/eye-care/';
 
@@ -21,20 +23,23 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <EyeCarePage locale={l} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            medicalWebPageLd({
-              page: 'eye-care',
-              route: ROUTE,
-              h1Key: 'Complete eye care.',
-              ledeKey: 'Led by Dr. Parul Gupta',
-              locale: l,
-              reviewer: { name: 'Dr. Parul Gupta', specialty: 'Ophthalmologic' },
-            }),
-          ),
-        }}
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail(ROUTE, l), l),
+          medicalWebPageLd({
+            page: 'eye-care',
+            route: ROUTE,
+            h1Key: 'Complete eye care.',
+            ledeKey: 'Led by Dr. Parul Gupta',
+            locale: l,
+            reviewer: { name: 'Dr. Parul Gupta', specialty: 'Ophthalmologic' },
+          }),
+          conditionLd({
+            id: 'cataract',
+            name: 'Cataract',
+            alternateName: ['motiya', 'ਮੋਤੀਆ', 'मोतियाबिंद'],
+          }),
+        )}
       />
     </>
   );

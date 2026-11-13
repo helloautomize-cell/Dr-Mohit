@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { DoctorProfile, type DoctorFacts } from '@/components/DoctorProfile';
-import { alternates, physicianLd, SITE_BASE } from '@/lib/seo';
+import { alternates, breadcrumbLd, ldGraph, physicianLd, SITE_BASE } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { slot } from '@/lib/image-slots';
 
 const D: DoctorFacts = {
@@ -75,19 +77,18 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <DoctorProfile d={D} locale={locale as Locale} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            physicianLd({
-              name: D.name,
-              dept: 'Ophthalmologic',
-              route: ROUTE,
-              image: `${SITE_BASE}${slot('doctors.parul').src}`,
-              credentials: D.qualifications.filter((q) => !q.confirmId).map((q) => q.text),
-            }),
-          ),
-        }}
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail(ROUTE, locale as Locale), locale as Locale),
+          physicianLd({
+            id: 'dr-parul-gupta',
+            name: D.name,
+            dept: 'Ophthalmologic',
+            route: ROUTE,
+            image: `${SITE_BASE}${slot('doctors.parul').src}`,
+            credentials: D.qualifications.filter((q) => !q.confirmId).map((q) => q.text),
+          }),
+        )}
       />
     </>
   );

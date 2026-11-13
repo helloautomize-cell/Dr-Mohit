@@ -11,7 +11,7 @@ import { Icon, type IconName } from '../icons';
 import { Accordion } from '../sections/bands';
 import { Swipe } from '../Swipe';
 import { ConfirmChip } from '../Confirm';
-import { faqLd } from '@/lib/seo';
+import { faqLd, ldGraph } from '@/lib/seo';
 import { SITE } from '@/lib/site-config';
 
 type L = Locale;
@@ -48,7 +48,7 @@ const TAIL_ORDER: OrthoLinkId[] = ['kneeHip', 'robotic', 'fractures', 'sports', 
 /** "Explore by treatment" 5-card row on /orthopaedics/ (.olinks.big). */
 export function ExploreLinks({ locale }: { locale: L }) {
   return (
-    <div className="olinks big">
+    <Swipe className="olinks big" count={EXPLORE_ORDER.length} label={c('ortho-explore', 'Treatments', locale)}>
       {EXPLORE_ORDER.map((id) => {
         const l = ORTHO_LINKS[id];
         return (
@@ -64,7 +64,7 @@ export function ExploreLinks({ locale }: { locale: L }) {
           </Link>
         );
       })}
-    </div>
+    </Swipe>
   );
 }
 
@@ -89,7 +89,12 @@ export function OrthoSubTail({ page, locale, exclude }: { page: string; locale: 
       <div className="wrap">
         <RevBlock page={page} locale={locale} />
         <h3 style={{ margin: '40px 0 0', fontSize: '1.1rem' }}>{c(page, 'Other orthopaedic services', locale)}</h3>
-        <div className="olinks" style={{ marginTop: 28 }}>
+        <Swipe
+          className="olinks"
+          count={order.length}
+          label={c(page, 'Other orthopaedic services', locale)}
+          trackProps={{ style: { marginTop: 28 } }}
+        >
           {order.map((id) => {
             const l = ORTHO_LINKS[id];
             return (
@@ -102,7 +107,7 @@ export function OrthoSubTail({ page, locale, exclude }: { page: string; locale: 
               </Link>
             );
           })}
-        </div>
+        </Swipe>
       </div>
     </section>
   );
@@ -300,7 +305,7 @@ export function FaqSec({
       </div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd(items)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(ldGraph(faqLd(items))) }}
       />
     </section>
   );

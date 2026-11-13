@@ -5,6 +5,9 @@ import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { ORTHO_SUBPAGES } from '@/lib/copy';
 import { orthoMeta, orthoMedicalWebPageLd } from '@/lib/ortho-seo';
+import { breadcrumbLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { FracturesPage } from '@/components/pages/FracturesPage';
 
 const ROUTE = '/orthopaedics/fractures-and-trauma/';
@@ -22,11 +25,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <FracturesPage locale={l} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(orthoMedicalWebPageLd(ORTHO_SUBPAGES.fractures, ROUTE, 'Broken bones, set right', 'From a child’s wrist', l)),
-        }}
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail(ROUTE, l), l),
+          orthoMedicalWebPageLd(ORTHO_SUBPAGES.fractures, ROUTE, 'Broken bones, set right', 'From a child’s wrist', l),
+        )}
       />
     </>
   );

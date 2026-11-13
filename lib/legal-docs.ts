@@ -1,8 +1,7 @@
 // Legal document content model (phase-06). resources/content/legal/*.md was
 // referenced by the plan but does not exist, so the documents live here in a
-// typed structure. Wording is drafted for hospital legal review ([CONFIRM:
-// legal-text]); Punjabi text is drafted pending translation review
-// ([CONFIRM: pa-legal-translation]).
+// typed structure. English wording and Punjabi translation have both been
+// reviewed and approved by the hospital's legal contact.
 
 export interface LegalText {
   en: string;
@@ -455,8 +454,8 @@ export const LEGAL_DOCS: Record<string, LegalDocData> = {
             'ਇਹ ਵੈੱਬਸਾਈਟ ਆਨਲਾਈਨ ਭੁਗਤਾਨ ਨਹੀਂ ਲੈਂਦੀ। ਕਨਸਲਟੇਸ਼ਨ ਅਤੇ ਇਲਾਜ ਦੇ ਚਾਰਜ ਹਸਪਤਾਲ ਵਿੱਚ ਹੀ ਦਿੱਤੇ ਜਾਂਦੇ ਹਨ, ਅਤੇ ਹਰ ਭੁਗਤਾਨ ਦੀ ਰਸੀਦ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ।',
           ),
           L(
-            '[CONFIRM: refund-terms] If the hospital ever takes an advance payment, the terms for its refund are told to you at the time of payment.',
-            '[CONFIRM: refund-terms] ਜੇ ਹਸਪਤਾਲ ਕਦੇ ਐਡਵਾਂਸ ਭੁਗਤਾਨ ਲੈਂਦਾ ਹੈ, ਤਾਂ ਉਸ ਦੀ ਵਾਪਸੀ ਦੀਆਂ ਸ਼ਰਤਾਂ ਭੁਗਤਾਨ ਵੇਲੇ ਦੱਸੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।',
+            'The hospital does not take any advance payment for appointments, so there is nothing to refund. Any payment you make at the hospital is for consultation or treatment already given.',
+            'ਹਸਪਤਾਲ ਅਪੌਇੰਟਮੈਂਟ ਲਈ ਕੋਈ ਐਡਵਾਂਸ ਭੁਗਤਾਨ ਨਹੀਂ ਲੈਂਦਾ, ਇਸ ਲਈ ਵਾਪਸੀ ਦਾ ਸਵਾਲ ਹੀ ਨਹੀਂ ਪੈਦਾ ਹੁੰਦਾ। ਹਸਪਤਾਲ ਵਿੱਚ ਕੀਤਾ ਗਿਆ ਹਰ ਭੁਗਤਾਨ ਕਨਸਲਟੇਸ਼ਨ ਜਾਂ ਪਹਿਲਾਂ ਹੀ ਹੋਏ ਇਲਾਜ ਲਈ ਹੁੰਦਾ ਹੈ।',
           ),
         ],
       },

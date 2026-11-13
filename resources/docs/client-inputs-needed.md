@@ -10,14 +10,17 @@ Each item shows on the site as a [CONFIRM] chip until answered. `pnpm launch-che
 | 4 | ~~OPD timings, and whether Sunday OPD is closed~~ **Resolved** — Google Business Profile shows "Open 24 hours", all days. | Utility bar, Contact, Plan your visit, schema openingHours |
 | 5 | ~~NABH status (old site shows "Entry level certified"); current certificate~~ **Resolved** — Entry Level certified; badge shows in the footer. | Footer |
 | 6 | ~~Should the "Dr. Mohit Gupta's Ortho Robotic Centre" sub-brand appear?~~ **Resolved** — decided no; the banner is not used anywhere. (The name still appears inside one press clipping caption — that's a quote, left as-is.) | Orthopaedics, Robotic knee |
-| 7 | Final domain, DNS access and access to the current WordPress site (for 301 redirects) | Launch |
+| 7 | Final domain, DNS access and access to the current WordPress site (for 301 redirects). The full old-URL map is already built from the preserved sitemap in `resources/reference/old-site/` — access is only needed if the live site gained URLs after that snapshot | Launch |
 | 8 | WhatsApp number for bookings, and the inbox that receives booking emails | Action bar, forms |
 | 9 | Grievance officer name and email (DPDP Act) | Privacy policy, Grievance page |
-| 10 | Written consent from each doctor for new photos, and camp photo permissions | Image mapping (Phase 11) |
-| 11 | Medical reviewer for each department page (name, degree, review date) | Reviewer box |
+| 10 | ~~Written consent from each doctor for new photos, and camp photo permissions~~ **Resolved** — the doctor's consent covers all images, including the new doctor photos and camp photos. | Image mapping (Phase 11) |
+| 11 | ~~Medical reviewer for each department page~~ **Resolved** — each page's reviewer is its own department doctor (Mohit/Parul/Amit), in both the visible reviewer box and schema `reviewedBy`. Degree display stays pending item 1. | Reviewer box |
 | 12 | ~~Last-reviewed date for the four new orthopaedics sub-pages~~ **Resolved** — November 2026. | Knee/hip, Fractures, Sports injuries, Back pain (reviewer line) |
 | 13 | Which spine procedures are offered at the hospital (injections, surgery, or referral only?) | Back pain clinic, step 5 |
-| 14 | Punjabi alt text for the knee-and-hip "Getting home ready" photo (ortho-recovery-walk-spare.jpg) — current pa text is our translation, not supplied | Image alt |
+| 14 | ~~Punjabi alt text for the knee-and-hip "Getting home ready" photo~~ **Resolved** — our Punjabi alt approved by the hospital; tightened to site terminology (ਗੋਡਾ ਬਦਲੀ). | Image alt |
 | 15 | ~~Google Business Profile listing URL (for sameAs/schema)~~ **Resolved** — https://maps.app.goo.gl/soMPeQvZgJAGNquK7 | Hospital schema, Phase 9 |
-| 16 | Exact map pin coordinates for the Power House Road building (schema `geo`) | Hospital schema, Phase 9 |
-| 17 | Official social profile URLs to confirm: YouTube / Instagram / Facebook currently in site-config | Hospital schema `sameAs` |
+| 16 | ~~Exact map pin coordinates for the Power House Road building (schema `geo`)~~ **Resolved** — pin taken from the GBP link (30.2074949, 74.9501122); `geo` now in Hospital schema. | Hospital schema, Phase 9 |
+| 17 | ~~Official social profile URLs to confirm~~ **Resolved** — YouTube / Instagram / Facebook in site-config confirmed correct. | Hospital schema `sameAs` |
+| 18 | Dr. Mohit Gupta's experience phrasing — exact year count vs "over a decade" | About, doctors, copy |
+| 19 | ~~Legal page wording review by the hospital's legal contact, and review of the Punjabi legal translation~~ **Resolved** — both reviews done; header chips removed from legal pages. | All legal pages (privacy, terms, disclaimer, rights, cancellation, accessibility) |
+| 20 | ~~Whether any advance payment is taken for bookings and its refund terms~~ **Resolved** — no advance payment is taken; the cancellation page now states this outright. | Cancellation/refund page |

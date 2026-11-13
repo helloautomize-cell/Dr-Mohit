@@ -9,7 +9,7 @@ import Shell from '@/components/shell/Shell';
 import { AnalyticsGate } from '@/components/shell/AnalyticsGate';
 import { SITE_INDEXABLE } from '@/lib/site-config';
 import { CONSENT_DEFAULT_SNIPPET } from '@/lib/analytics';
-import { hospitalLd } from '@/lib/seo';
+import { hospitalLd, ldGraph } from '@/lib/seo';
 import '../globals.css';
 
 // Self-hosted via next/font; only Geist (the body face) is preloaded.
@@ -29,25 +29,31 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? 'https://guptahospitalbathinda.com',
-  ),
-  title: {
-    default: 'Gupta Hospital Bathinda',
-    template: '%s · Gupta Hospital',
-  },
-  description:
-    'Bone, eye and mental health care for Bathinda. One family of doctors on Power House Road since 1980.',
-  openGraph: {
-    siteName: 'Gupta Hospital Bathinda',
-    type: 'website',
-    // og:image comes from app/opengraph-image.tsx (generated at build).
-  },
-  twitter: { card: 'summary_large_image' },
-  // Until launch approval every host is noindex (phase-02 item 9).
-  ...(SITE_INDEXABLE ? {} : { robots: { index: false, follow: false } }),
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const pa = locale === 'pa';
+  return {
+    metadataBase: new URL(
+      process.env.NEXT_PUBLIC_SITE_URL ?? 'https://guptahospitalbathinda.com',
+    ),
+    title: {
+      default: 'Gupta Hospital Bathinda',
+      template: '%s · Gupta Hospital',
+    },
+    description:
+      'Bone, eye and mental health care for Bathinda. One family of doctors on Power House Road since 1980.',
+    openGraph: {
+      siteName: 'Gupta Hospital Bathinda',
+      type: 'website',
+      // og:image comes from app/opengraph-image.tsx (generated at build).
+      locale: pa ? 'pa_IN' : 'en_IN',
+      alternateLocale: pa ? 'en_IN' : 'pa_IN',
+    },
+    twitter: { card: 'summary_large_image' },
+    // Until launch approval every host is noindex (phase-02 item 9).
+    ...(SITE_INDEXABLE ? {} : { robots: { index: false, follow: false } }),
+  };
+}
 
 export default async function LocaleLayout({
   children,
@@ -77,7 +83,7 @@ export default async function LocaleLayout({
           {/* Sitewide Hospital entity — verified facts from site-config only. */}
           <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(hospitalLd()) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(ldGraph(hospitalLd())) }}
           />
         </NextIntlClientProvider>
       </body>

@@ -169,18 +169,26 @@ export function JTabs({ locale }: { locale: Locale }) {
           />
         </div>
       ))}
-      <div className="physio rv">
-        <div>
-          <h3 style={{ fontSize: '1.1rem', margin: 0 }}>{c('Physiotherapy methods used')}</h3>
-          <p className="muted" style={{ marginTop: 8, fontSize: '.95rem' }}>
-            {c('Rehab is planned for each person')}
-          </p>
-        </div>
-        <div className="chips">
-          {PHYSIO_CHIPS.map((s) => (
-            <span key={s}>{s}</span>
-          ))}
-        </div>
+    </div>
+  );
+}
+
+// Rendered as a sibling below <JTabs/> — the page places it in its own
+// section so the tab widget stays under the mobile 1.3x-viewport rule.
+export function JPhysio({ locale }: { locale: Locale }) {
+  const c = (en: string) => copy('orthopaedics', en, locale);
+  return (
+    <div className="physio rv">
+      <div>
+        <h3 style={{ fontSize: '1.1rem', margin: 0 }}>{c('Physiotherapy methods used')}</h3>
+        <p className="muted" style={{ marginTop: 8, fontSize: '.95rem' }}>
+          {c('Rehab is planned for each person')}
+        </p>
+      </div>
+      <div className="chips">
+        {PHYSIO_CHIPS.map((s) => (
+          <span key={s}>{s}</span>
+        ))}
       </div>
     </div>
   );

@@ -22,6 +22,46 @@ export function alternates(route: string, locale: Locale) {
   };
 }
 
+/** Wrap a page's schema nodes in a single @graph: one script per page, every
+    entity cross-linked through the shared @ids below. Node-level @context
+    keys are dropped — the graph carries one. */
+export function ldGraph(...nodes: Record<string, unknown>[]) {
+  const graph = nodes.map((n) => {
+    const rest = { ...n };
+    delete rest['@context'];
+    return rest;
+  });
+  return { '@context': 'https://schema.org', '@graph': graph };
+}
+
+/** BreadcrumbList JSON-LD for a resolved crumb trail (see lib/crumbs). */
+export function breadcrumbLd(trail: { name: string; href: string }[], locale: Locale) {
+  const last = trail[trail.length - 1];
+  const base = `${SITE_BASE}${locale === 'pa' ? '/pa' : ''}`;
+  return {
+    '@type': 'BreadcrumbList',
+    '@id': `${base}${last?.href ?? '/'}#breadcrumb`,
+    itemListElement: trail.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      item: `${base}${it.href}`,
+    })),
+  };
+}
+
+/** MedicalCondition node with the local-language name patients actually search
+    (gathiya for arthritis, motiya for cataract). Emitted only where the
+    condition is visibly treated on the page. */
+export function conditionLd({ id, name, alternateName }: { id: string; name: string; alternateName: string[] }) {
+  return {
+    '@type': 'MedicalCondition',
+    '@id': `${SITE_BASE}/#${id}`,
+    name,
+    alternateName,
+  };
+}
+
 /** Route metadata: localized h1 title + lede description + alternates. */
 export function pageMeta(
   page: string,
@@ -48,8 +88,8 @@ const address = {
 
 /** Sitewide Hospital entity — emitted once in the root layout. No
     aggregateRating (hospital review schema is intentionally omitted
-    site-wide). `geo` is omitted until the exact pin is confirmed; `hasMap`
-    carries the listing URL instead. */
+    site-wide). `geo` carries the pin resolved from the Google Business
+    Profile URL; `hasMap` carries the query URL. */
 export function hospitalLd() {
   return {
     '@context': 'https://schema.org',
@@ -66,6 +106,11 @@ export function hospitalLd() {
     telephone: SITE.phoneMain,
     email: SITE.email,
     address,
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: SITE.geo.latitude,
+      longitude: SITE.geo.longitude,
+    },
     hasMap: SITE.mapsUrl,
     foundingDate: String(SITE.founded),
     founder: { '@type': 'Person', name: 'Dr. Amrit Gupta' },
@@ -142,6 +187,7 @@ export function websiteLd(locale: Locale) {
     confirmed qualification strings only (unconfirmed ones stay as
     [CONFIRM] chips in the UI, never in schema). */
 export function physicianLd({
+  id,
   name,
   dept,
   route,
@@ -149,6 +195,8 @@ export function physicianLd({
   credentials,
   award,
 }: {
+  /** stable entity slug, e.g. 'dr-mohit-gupta' -> SITE_BASE/#dr-mohit-gupta */
+  id: string;
   name: string;
   dept: string;
   route: string;
@@ -159,6 +207,7 @@ export function physicianLd({
   return {
     '@context': 'https://schema.org',
     '@type': 'Physician',
+    '@id': `${SITE_BASE}/#${id}`,
     name,
     medicalSpecialty: dept,
     url: `${SITE_BASE}${route}`,
@@ -195,6 +244,7 @@ export function medicalWebPageLd({
   return {
     '@context': 'https://schema.org',
     '@type': 'MedicalWebPage',
+    '@id': `${SITE_BASE}${route}#webpage`,
     name: stripTags(copy(page, h1Key, locale)),
     description: stripTags(copy(page, ledeKey, locale)),
     url: `${SITE_BASE}${locale === 'pa' ? '/pa' : ''}${route}`,

@@ -39,26 +39,42 @@ const nextConfig: NextConfig = {
       ],
     };
   },
-  // Old-site URLs folded into the new orthopaedics structure (v14 kit).
-  async redirects() {
-    const kneeHip = '/orthopaedics/knee-and-hip-replacement/';
-    return [
-      { source: '/total-knee-replacement/', destination: kneeHip, permanent: true },
-      { source: '/partial-knee-replacement/', destination: kneeHip, permanent: true },
-      { source: '/hip-joint-replacement/', destination: kneeHip, permanent: true },
-      { source: '/knee-joint-replacement/', destination: kneeHip, permanent: true },
-      { source: '/orthopaedics-and-trauma-center/', destination: '/orthopaedics/fractures-and-trauma/', permanent: true },
-      { source: '/arthroscopic-surgery-and-sports-injury-services/', destination: '/orthopaedics/arthroscopy-and-sports-injuries/', permanent: true },
-    ];
-  },
+  // Old-site 301s live in middleware.ts (true 301 status; redirects() here
+  // would emit 308). Map: resources/reference/old-site/_page-sitemap.xml.
   async headers() {
-    if (indexable) return [];
-    return [
-      {
-        source: '/:path*',
-        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
-      },
+    // Baseline hardening on every deploy, previews included.
+    const headers = [
+      { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+      { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+      { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+      { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
     ];
+    if (!indexable) {
+      headers.push({ key: 'X-Robots-Tag', value: 'noindex, nofollow' });
+    } else {
+      // Production-only CSP. script-src keeps 'unsafe-inline' — Next's inline
+      // bootstrap, the consent-default snippet and dynamic gtag/turnstile
+      // loaders can't carry a nonce without custom plumbing.
+      headers.push({
+        key: 'Content-Security-Policy',
+        value: [
+          "default-src 'self'",
+          "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://challenges.cloudflare.com",
+          "style-src 'self' 'unsafe-inline'",
+          "img-src 'self' data:",
+          "font-src 'self'",
+          "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://challenges.cloudflare.com",
+          "frame-src https://www.google.com https://maps.google.com https://challenges.cloudflare.com",
+          "worker-src 'self' blob:",
+          "form-action 'self'",
+          "base-uri 'self'",
+          "object-src 'none'",
+          "frame-ancestors 'self'",
+        ].join('; '),
+      });
+    }
+    return [{ source: '/:path*', headers }];
   },
 };
 

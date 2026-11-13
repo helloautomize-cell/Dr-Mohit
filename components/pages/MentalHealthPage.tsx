@@ -155,10 +155,8 @@ export function MentalHealthPage({ locale }: { locale: Locale }) {
             <h2 style={{ marginTop: 18 }}>
               <RichText text={c('Questions families')} />
             </h2>
-            <div style={{ marginTop: 24 }}>
+            <div className="faq-arts" style={{ marginTop: 24 }}>
               <ImageSlot id="mind.faq" locale={locale} caption={c('Psychiatry clinic')} />
-            </div>
-            <div className="rv" style={{ marginTop: 20 }}>
               <ImageSlot id="mind.family" locale={locale} />
             </div>
           </div>

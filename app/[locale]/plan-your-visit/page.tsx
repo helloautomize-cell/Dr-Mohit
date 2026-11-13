@@ -4,7 +4,9 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { alternates } from '@/lib/seo';
+import { alternates, breadcrumbLd, ldGraph } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { routing, type Locale } from '@/i18n/routing';
 import { SITE } from '@/lib/site-config';
 import { copy, pageTitle } from '@/lib/copy';
@@ -169,6 +171,7 @@ export default async function PlanVisitPage({
           </div>
         </div>
       </section>
+      <JsonLd data={ldGraph(breadcrumbLd(crumbTrail('/plan-your-visit/', l), l))} />
     </>
   );
 }

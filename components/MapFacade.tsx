@@ -6,8 +6,8 @@ import { useState } from 'react';
 import { SITE } from '@/lib/site-config';
 import { LIcon } from './icons';
 
-export function MapFacade({ showLabel, title }: { showLabel: string; title: string }) {
-  const [load, setLoad] = useState(false);
+export function MapFacade({ showLabel, title, autoLoad = false }: { showLabel: string; title: string; autoLoad?: boolean }) {
+  const [load, setLoad] = useState(autoLoad);
   if (load) {
     return (
       <iframe

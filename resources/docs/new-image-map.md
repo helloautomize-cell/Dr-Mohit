@@ -62,4 +62,4 @@ Unchanged: mind.faq.
 ## Notes
 - Hero crops: landscape photos cropped to 4:5 come out about 750 to 870px wide. If the 4:5 crop of ortho.hero or robotic.hero cuts out the X-ray screen or the VELYS machine, switch that one hero frame to 5:4 instead. Do not upscale.
 - Fix before publishing: remove the Nike logo on the T-shirt in ortho-sports-physio-balance.png (retouch, or crop so it is not visible).
-- Doctor photos are AI-assisted: each doctor's written approval must be on file before go-live.
+- Doctor photos are AI-assisted: consent from the doctor covers all images (confirmed 2026-11-13).

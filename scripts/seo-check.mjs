@@ -1,9 +1,12 @@
 // Phase 9 SEO audit: every indexable route must have a unique title, meta
-// description, self-canonical + en/pa/x-default hreflang, og:image and a
-// twitter card; JSON-LD blocks must parse and carry the expected @types;
-// /robots.txt, /llms.txt, /llms-full.txt and the md mirrors must serve.
+// description, self-canonical + en/pa/x-default hreflang, og:image, og:locale
+// pair and a twitter card; JSON-LD @graph blocks must parse and carry the
+// expected @types; rendered text must carry no em/en dashes (AI-fingerprint
+// rule); /robots.txt, /llms.txt, /llms-full.txt and the md mirrors must serve.
+// Also exports resources/docs/titles-descriptions.csv for client review.
 // BASE=http://localhost:3001 node scripts/seo-check.mjs
 import { chromium } from 'playwright-core';
+import { writeFileSync } from 'node:fs';
 
 const BASE = process.env.BASE || 'http://localhost:3001';
 // Canonicals/hreflang always point at the production host even on localhost.
@@ -42,6 +45,7 @@ const b = await chromium.launch({ channel: 'msedge', headless: true });
 const pg = await b.newPage();
 
 const titles = new Map();
+const csvRows = [['locale', 'route', 'title', 'description']];
 for (const { path, types } of ROUTES) {
   for (const pa of [false, true]) {
     const url = `${pa ? '/pa' : ''}${path}`;
@@ -61,9 +65,12 @@ for (const { path, types } of ROUTES) {
         canonical: q('link[rel="canonical"]')?.href ?? null,
         langs: [...document.querySelectorAll('link[rel="alternate"][hreflang]')].map((l) => [l.getAttribute('hreflang'), l.getAttribute('href')]),
         ogImage: q('meta[property="og:image"]')?.content ?? null,
+        ogLocale: q('meta[property="og:locale"]')?.content ?? null,
+        ogLocaleAlt: [...document.querySelectorAll('meta[property="og:locale:alternate"]')].map((m) => m.content),
         twitterCard: q('meta[name="twitter:card"]')?.content ?? null,
         lds: [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => s.textContent),
         lang: document.documentElement.lang,
+        dashes: (document.body.innerText.match(/[\u2013\u2014]/g) || []).length,
       };
     });
 
@@ -76,15 +83,23 @@ for (const { path, types } of ROUTES) {
     const langMap = Object.fromEntries(head.langs);
     ok(!!langMap.en && !!langMap.pa && !!langMap['x-default'], `${label} hreflang trio`, JSON.stringify(head.langs));
     ok(!!head.ogImage, `${label} og:image`);
+    ok(head.ogLocale === (pa ? 'pa_IN' : 'en_IN'), `${label} og:locale`, head.ogLocale ?? '(missing)');
+    ok(head.ogLocaleAlt.includes(pa ? 'en_IN' : 'pa_IN'), `${label} og:locale:alternate`, head.ogLocaleAlt.join(','));
     ok(head.twitterCard === 'summary_large_image', `${label} twitter:card`, head.twitterCard ?? '(missing)');
+    ok(head.dashes === 0, `${label} no em/en dashes in rendered text`, `${head.dashes} found`);
 
     let parsed = [];
     for (const raw of head.lds) {
       try { parsed.push(JSON.parse(raw)); } catch { ok(false, `${label} JSON-LD parse`); }
     }
-    const foundTypes = new Set(parsed.map((d) => d['@type']));
+    // Every script is an @graph; collect @types from graph nodes (a bare
+    // single-node doc would still work via the fallback).
+    const foundTypes = new Set(
+      parsed.flatMap((d) => (Array.isArray(d['@graph']) ? d['@graph'] : [d])).map((n) => n['@type']),
+    );
     ok(foundTypes.has('Hospital'), `${label} Hospital schema`);
     for (const t of types) ok(foundTypes.has(t), `${label} schema ${t}`, [...foundTypes].join(','));
+    csvRows.push([pa ? 'pa' : 'en', path, head.title, head.desc ?? '']);
   }
 }
 
@@ -102,6 +117,13 @@ const robots = await (await pg.request.get(BASE + '/robots.txt')).text();
 const lockedDown = /Disallow: \/\s*$/.test(robots.trim());
 ok(/sitemap/i.test(robots) || lockedDown, 'robots.txt sitemap ref or lockdown');
 ok(/GPTBot/.test(robots) || lockedDown, 'robots.txt AI policy or pre-launch lockdown');
+
+// Titles/descriptions CSV for client review (phase 9 deliverable).
+const csv = csvRows
+  .map((r) => r.map((cell) => `"${String(cell).replace(/"/g, '""')}"`).join(','))
+  .join('\n');
+writeFileSync('resources/docs/titles-descriptions.csv', csv + '\n');
+console.log('wrote resources/docs/titles-descriptions.csv');
 
 await b.close();
 console.log(`\nseo-check: ${pass} pass / ${fail} fail`);

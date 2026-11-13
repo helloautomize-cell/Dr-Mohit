@@ -18,7 +18,8 @@ import {
 } from '@/components/sections/bands';
 import { TreatmentGrid } from '@/components/sections/cards';
 import { RichText } from '@/components/RichText';
-import { alternates, websiteLd } from '@/lib/seo';
+import { alternates, ldGraph, websiteLd } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -192,19 +193,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <HomeFaq locale={l} />
           </div>
         </div>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(l)) }}
-        />
       </section>
       <WaveDivider from="sky" to="navy" />
 
       {/* 14. Visit band (navy) — directions link loads the map only on click */}
       <VisitBand locale={l} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd(l)) }}
-      />
+      <JsonLd data={ldGraph(websiteLd(l), faqJsonLd(l))} />
     </>
   );
 }

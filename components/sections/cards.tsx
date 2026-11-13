@@ -448,7 +448,7 @@ export function DuoCard({
 // VELYS + ATTUNE pair (robotic knee page pattern).
 export function VelysAttuneDuo({ locale }: { locale: L }) {
   return (
-    <div className="duo">
+    <Swipe className="duo" count={2} label={c('robotic-knee', 'What is used', locale)}>
       <DuoCard
         img="robotic.velys"
         locale={locale}
@@ -474,7 +474,7 @@ export function VelysAttuneDuo({ locale }: { locale: L }) {
         ]}
         contain
       />
-    </div>
+    </Swipe>
   );
 }
 
@@ -637,7 +637,7 @@ export function BringGrid({ locale }: { locale: L }) {
     { icon: 'family', h: c('contact', 'Someone with you', locale), p: c('contact', 'Helpful for eye drops, surgery days', locale) },
   ];
   return (
-    <div className="bring">
+    <Swipe className="bring" count={items.length} label={c('contact', 'Before you come', locale)}>
       {items.map((it) => (
         <div className="rv" key={it.h}>
           <span className="sic">
@@ -647,7 +647,7 @@ export function BringGrid({ locale }: { locale: L }) {
           <p>{it.p}</p>
         </div>
       ))}
-    </div>
+    </Swipe>
   );
 }
 
@@ -661,7 +661,7 @@ export function SocialCards({ locale }: { locale: L }) {
     { icon: 'wa', name: 'WhatsApp', desc: c('media', 'Book a visit or send reports', locale), href: SITE.whatsapp },
   ];
   return (
-    <div className="soc">
+    <Swipe className="soc" count={items.length} label={c('media', 'Follow along', locale)}>
       {items.map((it) => (
         <a className="rv" href={it.href} target="_blank" rel="noopener" key={it.name}>
           <span className="ico">
@@ -672,6 +672,6 @@ export function SocialCards({ locale }: { locale: L }) {
           <span className="go">{locale === 'pa' ? 'ਖੋਲ੍ਹੋ' : 'Open'} ↗</span>
         </a>
       ))}
-    </div>
+    </Swipe>
   );
 }

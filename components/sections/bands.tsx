@@ -496,7 +496,7 @@ export function ContactRow({ locale }: { locale: L }) {
     { icon: 'wa', b: SITE.phoneMain, s: c('contact', 'Send reports before your visit', locale), go: c('contact', 'Open', locale), href: SITE.whatsapp },
   ];
   return (
-    <div className="soc">
+    <Swipe className="soc" count={items.length} label={c('contact', 'Book &amp; contact', locale)}>
       {items.map((it) => (
         <a className="rv" href={it.href} target={it.href.startsWith('http') ? '_blank' : undefined} rel="noopener" key={it.b + it.s}>
           <span className="ico">
@@ -507,6 +507,6 @@ export function ContactRow({ locale }: { locale: L }) {
           <span className="go">{it.go} ↗</span>
         </a>
       ))}
-    </div>
+    </Swipe>
   );
 }

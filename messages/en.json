@@ -127,7 +127,7 @@
         "other": "Something else"
       },
       "notsure": {
-        "not-sure": "Not sure — need guidance",
+        "not-sure": "Not sure, need guidance",
         "other": "Something else"
       }
     },
@@ -165,7 +165,7 @@
       "guardian": "Enter the guardian name",
       "consent": "Please tick the consent box to continue"
     },
-    "unavailable": "We could not send this online right now. Your details are kept below — please call or send them on WhatsApp instead.",
+    "unavailable": "We could not send this online right now. Your details are kept below. Please call or send them on WhatsApp instead.",
     "callCta": "Call {phone}",
     "whatsappCta": "Send on WhatsApp",
     "messageLabel": "What's the problem? (optional)"

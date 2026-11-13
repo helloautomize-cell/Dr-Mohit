@@ -36,6 +36,9 @@ export const SITE = {
     'https://maps.google.com/?q=Gupta+Hospital+Power+House+Road+Bathinda+Punjab+151001',
   // Google Business Profile listing (confirmed; feeds schema sameAs).
   googleBusiness: 'https://maps.app.goo.gl/soMPeQvZgJAGNquK7',
+  // Pin coordinates resolved from the GBP link above (maps.app.goo.gl →
+  // google.com/maps/place/Gupta+Hospital/@30.2074949,74.9501122). Feeds schema geo.
+  geo: { latitude: 30.2074949, longitude: 74.9501122 },
   emergencyLine: 'Medical emergency? Call 108 or 112',
 } as const;
 

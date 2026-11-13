@@ -17,10 +17,7 @@ export const CONFIRMS: ConfirmItem[] = [
 
   { id: 'mohit-years', note: 'Dr. Mohit Gupta experience phrasing (year count vs over a decade)' },
 
-  { id: 'legal-text', note: 'All legal page wording (hospital legal review)' },
-  { id: 'pa-legal-translation', note: 'Punjabi legal text pending translation review' },
   { id: 'privacy-contact', note: 'Privacy contact / grievance officer name and email (DPDP Rules 2025)' },
-  { id: 'refund-terms', note: 'Whether any advance payment is taken and its refund terms' },
 
   // Orthopaedics sub-pages (v14 kit).
   { id: 'spine-procedures', note: 'Which spine procedures are offered at the hospital (back pain clinic)' },

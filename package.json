@@ -11,6 +11,9 @@
     "process-images": "node scripts/process-images.mjs",
     "test:e2e": "playwright test",
     "launch-check": "node scripts/launch-check.mjs",
+    "mobile-check": "node scripts/mobile-check.mjs",
+    "seo-check": "node scripts/seo-check.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
     "gen:seo": "node scripts/gen-seo-files.mjs",
     "prebuild": "node scripts/gen-seo-files.mjs"
   },

@@ -1,7 +1,6 @@
 // Legal document renderer (phase-06): left sticky TOC, sectioned body,
-// last-updated line, print-friendly. Content comes from lib/legal-docs.ts;
-// wording is pending hospital legal review ([CONFIRM: legal-text]) and the
-// Punjabi text is pending translation review ([CONFIRM: pa-legal-translation]).
+// last-updated line, print-friendly. Content comes from lib/legal-docs.ts
+// (wording + Punjabi translation reviewed by the hospital's legal contact).
 import type { Locale } from '@/i18n/routing';
 import { SITE } from '@/lib/site-config';
 import { getLegalDoc } from '@/lib/legal-docs';
@@ -39,15 +38,6 @@ export function LegalDoc({ slug, locale }: { slug: string; locale: Locale }) {
         <h1>{pick(doc.title)}</h1>
         <p className="upd">
           {pa ? 'ਆਖ਼ਰੀ ਅੱਪਡੇਟ' : 'Last updated'}: {SITE.legalLastUpdated}
-        </p>
-        <p className="upd">
-          <ConfirmNote id="legal-text" />
-          {pa && (
-            <>
-              {' '}
-              <ConfirmNote id="pa-legal-translation" />
-            </>
-          )}
         </p>
         {doc.intro && <p className="lede">{pick(doc.intro)}</p>}
       </header>

@@ -15,7 +15,7 @@ import { OrthoServices } from '../sections/cards';
 import { KneeExplorer } from '../tools/KneeExplorer';
 import { CmpSlider } from '../tools/CmpSlider';
 import { SymptomCheck } from '../tools/SymptomCheck';
-import { JTabs } from '../tools/JTabs';
+import { JTabs, JPhysio } from '../tools/JTabs';
 import { ReviewerBox } from '../Confirm';
 
 const BODY_AREAS: { q: string; a: string }[] = [
@@ -101,7 +101,13 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
             <p className="lede s-8">{c('Tap a part of the knee')}</p>
           </div>
           <KneeExplorer locale={locale} />
-          <div className="g12 rv" style={{ marginTop: 'clamp(56px,8vw,110px)', marginBottom: 28, alignItems: 'end' }}>
+        </div>
+      </section>
+      {/* same mint band continues — split so each part stays under the
+          mobile 1.3x-viewport rule */}
+      <section className="sec" style={{ background: 'var(--mint)', paddingTop: 'clamp(32px,5vw,56px)' }}>
+        <div className="wrap">
+          <div className="g12 rv" style={{ marginTop: 0, marginBottom: 28, alignItems: 'end' }}>
             <div className="c-6">
               <span className="label">{c('Arthritis')}</span>
               <h2 style={{ marginTop: 18 }}>
@@ -234,6 +240,13 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
             <p className="lede s-8">{c('Many injuries heal with rest')}</p>
           </div>
           <JTabs locale={locale} />
+        </div>
+      </section>
+      {/* same sky band continues — physio gets its own section so the tab
+          widget stays under the mobile 1.3x-viewport rule */}
+      <section className="sec" style={{ background: 'var(--sky)', paddingTop: 0 }}>
+        <div className="wrap">
+          <JPhysio locale={locale} />
         </div>
       </section>
       <WaveDivider from="sky" to="mint" />

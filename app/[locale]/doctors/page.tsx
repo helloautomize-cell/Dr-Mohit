@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy, pageTitle } from '@/lib/copy';
-import { alternates, itemListLd, physicianLd, SITE_BASE } from '@/lib/seo';
+import { alternates, breadcrumbLd, itemListLd, ldGraph, physicianLd, SITE_BASE } from '@/lib/seo';
+import { crumbTrail } from '@/lib/crumbs';
+import { JsonLd } from '@/components/JsonLd';
 import { SITE } from '@/lib/site-config';
 import { slot, type SlotId } from '@/lib/image-slots';
 import { LabelText, H1, H2, H3, Lede } from '@/components/primitives';
@@ -104,6 +106,7 @@ const DOCTORS: Doctor[] = [
 
 function doctorLd(d: Doctor) {
   return physicianLd({
+    id: d.href.replace(/^\/doctors\/|\/$/g, ''),
     name: d.name,
     dept: d.specialty,
     route: d.href,
@@ -165,23 +168,15 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
-      {DOCTORS.map((d) => (
-        <script
-          key={d.href}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(doctorLd(d)) }}
-        />
-      ))}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            itemListLd(
-              DOCTORS.map((d) => ({ name: d.name, url: d.href })),
-              'Doctors at Gupta Hospital',
-            ),
+      <JsonLd
+        data={ldGraph(
+          breadcrumbLd(crumbTrail('/doctors/', l), l),
+          itemListLd(
+            DOCTORS.map((d) => ({ name: d.name, url: d.href })),
+            'Doctors at Gupta Hospital',
           ),
-        }}
+          ...DOCTORS.map(doctorLd),
+        )}
       />
     </>
   );

@@ -134,6 +134,12 @@ export function RoboticKneePage({ locale }: { locale: Locale }) {
             <p className="lede s-8">{c('The robotic system helps place')}</p>
           </div>
           <VelysAttuneDuo locale={locale} />
+        </div>
+      </section>
+      {/* same sky band continues — own section so neither part exceeds the
+          mobile 1.3x-viewport rule */}
+      <section className="sec" style={{ background: 'var(--sky)', paddingTop: 'clamp(32px,6vw,64px)' }}>
+        <div className="wrap">
           <FitCheck locale={locale} />
         </div>
       </section>

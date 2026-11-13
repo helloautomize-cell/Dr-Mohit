@@ -142,9 +142,8 @@ export const SLOTS: Record<string, Slot> = {
   'ortho.kh.recovery': {
     src: '/images/photos/ortho-recovery-walk-spare.jpg',
     alt: {
-      // pa translation ours (alt not in the supplied JSON) — flag in report.
       en: 'Dr. Mohit Gupta and a physiotherapist walk with a patient after knee replacement',
-      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਗੋਡਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਮਰੀਜ਼ ਨਾਲ ਤੁਰਦੇ ਹਨ',
+      pa: 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ ਅਤੇ ਫਿਜ਼ੀਓਥੈਰੇਪਿਸਟ ਗੋਡਾ ਬਦਲੀ ਤੋਂ ਬਾਅਦ ਮਰੀਜ਼ ਨਾਲ ਤੁਰਦੇ ਹਨ',
     },
     ratio: '16/9',
     focal: '50% 45%',
