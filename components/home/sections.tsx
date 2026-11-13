@@ -4,6 +4,7 @@
 // + lede pair.
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { copy } from '@/lib/copy';
 import { slot } from '@/lib/image-slots';
 import type { Locale } from '@/i18n/routing';
@@ -164,51 +165,12 @@ export function StorySection({ locale }: { locale: L }) {
   );
 }
 
-/* ---------------------------- Robotic feature ----------------------------- */
-
-export function RoboticFeature({ locale }: { locale: L }) {
-  const c = (en: string) => copy('home', en, locale);
-  return (
-    <section style={{ paddingBottom: 'clamp(72px,10vw,140px)' }}>
-      <div className="wrap">
-        <div className="im feature-im rv" data-par=".1">
-          <Image
-            src={slot('home.feature-ot').src!}
-            alt={slot('home.feature-ot').alt[locale]}
-            width={1600}
-            height={1000}
-            style={{ width: '100%', height: '118%', objectFit: 'cover', marginTop: '-9%' }}
-          />
-        </div>
-        <div className="cap2">
-          <span>{c('Modular operation theatre, Gupta Hospital')}</span>
-          <span>Bathinda</span>
-        </div>
-        <div className="g12" style={{ marginTop: 'clamp(48px,6vw,80px)' }}>
-          <div className="c-5 rv">
-            <span className="label">{c('Robotic knee replacement')}</span>
-            <h2 style={{ marginTop: 18 }}>
-              <RichText text={c('A plan built around <span class="em">your own knee.</span>')} />
-            </h2>
-          </div>
-          <div className="s-7 rv">
-            <p className="lede">{c('During surgery the VELYS system records the shape of your knee')}</p>
-            <div style={{ marginTop: 32 }}>
-              <Lnk href="/orthopaedics/robotic-knee-replacement/">{c('How it works')}</Lnk>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ------------------------------- Doctors row ------------------------------ */
 
-const DOC_CARDS: { img: SlotId; href: string; name: string; roleKey: string }[] = [
-  { img: 'home.doc-mohit', href: '/doctors/dr-mohit-gupta/', name: 'Dr. Mohit Gupta', roleKey: 'Orthopaedic &amp; joint replacement surgeon' },
-  { img: 'home.doc-parul', href: '/doctors/dr-parul-gupta/', name: 'Dr. Parul Gupta', roleKey: 'Eye surgeon' },
-  { img: 'home.doc-amit', href: '/doctors/dr-amit-gupta/', name: 'Dr. Amit Gupta', roleKey: 'Psychiatrist &amp; de-addiction specialist' },
+const DOC_CARDS: { img: SlotId; href: string; name: string; roleKey: string; dovKey: 'mohit' | 'parul' | 'amit' }[] = [
+  { img: 'home.doc-mohit', href: '/doctors/dr-mohit-gupta/', name: 'Dr. Mohit Gupta', roleKey: 'Orthopaedic &amp; joint replacement surgeon', dovKey: 'mohit' },
+  { img: 'home.doc-parul', href: '/doctors/dr-parul-gupta/', name: 'Dr. Parul Gupta', roleKey: 'Eye surgeon', dovKey: 'parul' },
+  { img: 'home.doc-amit', href: '/doctors/dr-amit-gupta/', name: 'Dr. Amit Gupta', roleKey: 'Psychiatrist &amp; de-addiction specialist', dovKey: 'amit' },
 ];
 
 const DOC_PA: Record<string, string> = {
@@ -219,6 +181,7 @@ const DOC_PA: Record<string, string> = {
 
 export function DoctorsRow({ locale }: { locale: L }) {
   const c = (en: string) => copy('home', en, locale);
+  const d = useTranslations('home.doc');
   return (
     <section className="sec doc-sec" style={{ background: 'var(--sky)' }}>
       <div className="wrap">
@@ -235,21 +198,27 @@ export function DoctorsRow({ locale }: { locale: L }) {
           <ImageSlot id="home.doctors-banner" locale={locale} />
         </div>
         <Swipe className="docs" count={DOC_CARDS.length} label={c('Doctors')}>
-          {DOC_CARDS.map((d) => (
-            <Link className="doc rv" href={d.href} key={d.href}>
+          {DOC_CARDS.map((doc) => (
+            <Link className="doc rv" href={doc.href} key={doc.href}>
               <div className="im">
                 <Image
-                  src={slot(d.img).src!}
-                  alt={slot(d.img).alt[locale]}
+                  src={slot(doc.img).src!}
+                  alt={slot(doc.img).alt[locale]}
                   width={800}
                   height={1000}
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
+                <div className="dov">
+                  <span>{d('sees')}</span>
+                  <p>{d(doc.dovKey)}</p>
+                  <b>{d('profile')}</b>
+                  <span className="ar">→</span>
+                </div>
               </div>
               <div className="meta">
-                <h3>{locale === 'pa' ? DOC_PA[d.name] : d.name}</h3>
+                <h3>{locale === 'pa' ? DOC_PA[doc.name] : doc.name}</h3>
                 <span>
-                  <RichText text={c(d.roleKey)} />
+                  <RichText text={c(doc.roleKey)} />
                 </span>
               </div>
             </Link>

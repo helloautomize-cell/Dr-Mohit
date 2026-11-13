@@ -1,16 +1,19 @@
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy } from '@/lib/copy';
 import { WaveDivider } from '@/components/WaveDivider';
-import { HomeHero, StorySection, RoboticFeature, DoctorsRow, SecHead, Lnk } from '@/components/home/sections';
+import { HomeHero, StorySection, DoctorsRow, SecHead, Lnk } from '@/components/home/sections';
+import { Bento } from '@/components/home/Bento';
+import { DeptPanels } from '@/components/home/DeptPanels';
+import { RoboStory } from '@/components/home/RoboStory';
+import HomeFx from '@/components/home/HomeFx';
 import { FirstVisit } from '@/components/home/FirstVisit';
 import { DoctorFinder } from '@/components/home/DoctorFinder';
 import { ReachMap } from '@/components/home/ReachMap';
 import { PressBoard, HOME_CLIPS } from '@/components/PressBoard';
 import {
-  FactsBand,
   HomeFaq,
   JourneyPath,
   FacilitiesBand,
@@ -21,6 +24,17 @@ import { RichText } from '@/components/RichText';
 import { alternates, ldGraph, websiteLd } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import type { Metadata } from 'next';
+
+const NEWSPAPERS = [
+  'Hindustan Times',
+  'Dainik Bhaskar',
+  'Sach Kahoon',
+  'Jagmarg',
+  'Bathinda Bhaskar',
+  'Dabwali Bhaskar',
+  'Punjabi press',
+  'Hindi press',
+];
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -66,22 +80,22 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   setRequestLocale(locale);
   const l = locale as Locale;
   const c = (en: string) => copy('home', en, l);
+  const t = await getTranslations({ locale: l, namespace: 'home' });
 
   return (
-    <>
+    <div id="p-home">
       {/* 1. Hero (sky) */}
       <HomeHero locale={l} />
-      <WaveDivider from="sky" to="brand" />
 
-      {/* 2. Facts band (blue) */}
-      <FactsBand locale={l} />
-      <WaveDivider from="brand" to="white" />
+      {/* 2. Bento (sky) — replaces the old facts band */}
+      <Bento />
+      <WaveDivider from="sky" to="white" />
 
       {/* 3. Your first visit — sticky stage */}
       <FirstVisit locale={l} />
       <WaveDivider from="white" to="mint" />
 
-      {/* 4. Treatments (mint) */}
+      {/* 4. Treatments (mint) — department panels + cards */}
       <section className="sec treat-sec">
         <div className="wrap">
           <SecHead
@@ -89,6 +103,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             h2={c('Care for bones, eyes <span class="em-g">and the mind.</span>')}
             lede={c('Three departments, each led by a specialist from the Gupta family')}
           />
+          <DeptPanels />
+          <h3 className="tg-h rv">{t('popular')}</h3>
           <TreatmentGrid locale={l} />
         </div>
       </section>
@@ -128,8 +144,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
       <WaveDivider from="navy" to="white" />
 
-      {/* 8. Robotic knee feature */}
-      <RoboticFeature locale={l} />
+      {/* 8. Robotic knee scroll story */}
+      <RoboStory />
       <WaveDivider from="white" to="brand" />
 
       {/* 9. Under one roof (brand band) */}
@@ -151,6 +167,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <p className="lede s-8">
               {c('Free camps, health talks and new services, as reported by local papers')}
             </p>
+          </div>
+          <div className="mq" aria-label={t('newsAria')}>
+            <div className="mq-t">
+              {[...NEWSPAPERS, ...NEWSPAPERS].map((n, i) => (
+                <span key={i} style={{ display: 'contents' }}>
+                  <span>{n}</span>
+                  <i aria-hidden="true">●</i>
+                </span>
+              ))}
+            </div>
           </div>
           <PressBoard
             clips={HOME_CLIPS}
@@ -198,7 +224,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* 14. Visit band (navy) — directions link loads the map only on click */}
       <VisitBand locale={l} />
+      <HomeFx />
       <JsonLd data={ldGraph(websiteLd(l), faqJsonLd(l))} />
-    </>
+    </div>
   );
 }

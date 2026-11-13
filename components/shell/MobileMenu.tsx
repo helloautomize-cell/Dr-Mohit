@@ -10,6 +10,7 @@ import type { Locale } from '@/i18n/routing';
 import { SITE } from '@/lib/site-config';
 import { NAV_MAIN, ORTHO_MENU, navLabel } from '@/lib/nav';
 import LocaleSwitch from '@/components/LocaleSwitch';
+import { OrthoMenuIcon } from '@/components/shell/OrthoMenuIcons';
 
 import { Logo } from '@/components/Logo';
 import { BookButton } from '@/components/Buttons';
@@ -57,6 +58,9 @@ export default function MobileMenu({
           <div className="msub">
             {ORTHO_MENU.map((s) => (
               <Link key={s.key} href={s.href} onClick={onClose} className="mrow sub">
+                <span className="ddic" aria-hidden="true">
+                  <OrthoMenuIcon k={s.key} />
+                </span>
                 {navLabel(s.key, l)}
               </Link>
             ))}

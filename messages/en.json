@@ -173,5 +173,52 @@
   "ui": {
     "pause": "Pause",
     "play": "Play"
+  },
+  "home": {
+    "bento": {
+      "capK": "Robotic-assisted",
+      "capB": "Knee replacement with VELYS™",
+      "founded": "Founded by Dr. Amrit Gupta on Power House Road",
+      "depts": "Departments under one roof",
+      "pmjayB": "PM-JAY empanelled",
+      "pmjayS": "Ayushman Bharat card holders can be treated here, since 2019",
+      "awardB": "Tribune Health Care Award 2025",
+      "awardS": "Joint replacement",
+      "famB": "One family of doctors",
+      "famS": "Bones, eyes and the mind, each led by a Gupta"
+    },
+    "dept": {
+      "see": "See the department",
+      "orT": "Orthopaedics",
+      "orD": "Dr. Mohit Gupta",
+      "orL": ["Robotic knee replacement", "Knee and hip replacement", "Fractures and trauma", "Back pain clinic"],
+      "eyT": "Eye care",
+      "eyD": "Dr. Parul Gupta",
+      "eyL": ["Cataract surgery", "Diabetic eye checks", "Glaucoma", "Children's eyes"],
+      "miT": "Mental health",
+      "miD": "Dr. Amit Gupta",
+      "miL": ["Depression and anxiety", "De-addiction", "Sleep problems", "Family counselling"]
+    },
+    "popular": "Popular treatments",
+    "robo": {
+      "eyebrow": "Robotic knee replacement",
+      "h2": "A plan built around <span class=\"em\">your own knee.</span>",
+      "lede": "Scroll to follow the three things the VELYS™ system helps with during the operation.",
+      "s1h": "Mapping your knee",
+      "s1p": "During surgery the system records the shape and alignment of your bones, without a separate CT scan.",
+      "s2h": "Balancing the ligaments",
+      "s2p": "A camera follows the knee as it bends, so the space on each side can be balanced before any bone is cut.",
+      "s3h": "Following the plan",
+      "s3p": "A robotic handpiece holds the saw to the planned angle while Dr. Mohit guides it. He stays in control throughout.",
+      "more": "How robotic knee replacement works"
+    },
+    "doc": {
+      "sees": "Sees patients for",
+      "mohit": "Joint replacement, robotic knee, fractures, sports injuries, back pain",
+      "parul": "Cataract surgery, diabetic eye checks, glaucoma, children’s eyes",
+      "amit": "Depression, anxiety, sleep, de-addiction, family counselling",
+      "profile": "Profile and booking"
+    },
+    "newsAria": "Newspapers that covered Gupta Hospital"
   }
 }

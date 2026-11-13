@@ -13,6 +13,7 @@ export const BAND_HEX: Record<Band, string> = {
   'teal-dark': '#076E66',
 };
 
+const W3 = 'M0 40 Q 240 12 480 40 T 960 40 T 1440 40 T 1920 40 T 2400 40 T 2880 40 V80 H0 Z';
 const W2 = 'M0 45 Q 180 75 360 45 T 720 45 T 1080 45 T 1440 45 T 1800 45 T 2160 45 T 2520 45 T 2880 45 V80 H0 Z';
 const W1 = 'M0 35 Q 180 5 360 35 T 720 35 T 1080 35 T 1440 35 T 1800 35 T 2160 35 T 2520 35 T 2880 35 V80 H0 Z';
 
@@ -20,6 +21,7 @@ export function WaveDivider({ from, to }: { from: Band; to: Band }) {
   return (
     <div className="wave" aria-hidden="true" style={{ background: BAND_HEX[from] }}>
       <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path className="w3" fill={BAND_HEX[to]} d={W3} />
         <path className="w2" fill={BAND_HEX[to]} d={W2} />
         <path className="w1" fill={BAND_HEX[to]} d={W1} />
       </svg>

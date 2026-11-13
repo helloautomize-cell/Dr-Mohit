@@ -15,6 +15,7 @@ import LocaleSwitch from '@/components/LocaleSwitch';
 import { BookButton } from '@/components/Buttons';
 
 import { Logo } from '@/components/Logo';
+import { OrthoMenuIcon } from '@/components/shell/OrthoMenuIcons';
 import { useTextScale } from '@/lib/textscale';
 
 export default function SiteHeader({ onMenu }: { onMenu: () => void }) {
@@ -73,6 +74,9 @@ export default function SiteHeader({ onMenu }: { onMenu: () => void }) {
                         {ORTHO_MENU.map((sub) => (
                           <Nav.Link key={sub.key} asChild>
                             <Link href={sub.href} className="ddlink">
+                              <span className="ddic" aria-hidden="true">
+                                <OrthoMenuIcon k={sub.key} />
+                              </span>
                               {navLabel(sub.key, l)}
                             </Link>
                           </Nav.Link>
