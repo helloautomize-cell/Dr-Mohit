@@ -9,44 +9,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { slot, type SlotId } from '@/lib/image-slots';
+import { Icon, type IconName } from '@/components/icons';
 import { TxIcon } from '@/components/shell/OrthoMenuIcons';
-
-function BoneIcon() {
-  return (
-    <svg className="di" viewBox="0 0 48 48" aria-hidden="true">
-      <circle className="b" cx="24" cy="24" r="22" />
-      <rect x="14" y="11" width="20" height="27" rx="3" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M19 11v-2h10v2" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M20 20v12M28 20v12M20 26h8" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function EyeIcon() {
-  return (
-    <svg className="di" viewBox="0 0 48 48" aria-hidden="true">
-      <circle className="b" cx="24" cy="24" r="22" />
-      <ellipse cx="24" cy="24" rx="9" ry="14" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M15 24h18M10 17l4 3M38 17l-4 3" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function MindIcon() {
-  return (
-    <svg className="di" viewBox="0 0 48 48" aria-hidden="true">
-      <circle className="b" cx="24" cy="24" r="22" />
-      <path
-        d="M20 12a5 5 0 0 0-8 4 5 5 0 0 0-1 9 5 5 0 0 0 5 8 5 5 0 0 0 8 1V13a4 4 0 0 0-4-1zM28 12a5 5 0 0 1 8 4 5 5 0 0 1 1 9 5 5 0 0 1-5 8 5 5 0 0 1-8 1"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 const ORTHO_LINKS: { href: string; ic: string }[] = [
   { href: '/orthopaedics/robotic-knee-replacement/', ic: 'Robotic knee replacement' },
@@ -59,7 +23,7 @@ const MIND_ICS = ['depression', 'deaddiction', 'sleep', 'family'];
 
 type Panel = {
   cls: string;
-  icon: () => React.ReactNode;
+  icon: IconName;
   title: string;
   doc: string;
   img: SlotId;
@@ -84,7 +48,7 @@ export function DeptPanels() {
   const panels: Panel[] = [
     {
       cls: 'p-or',
-      icon: BoneIcon,
+      icon: 'bone',
       title: t('orT'),
       doc: t('orD'),
       img: 'ortho.kh.hero',
@@ -98,7 +62,7 @@ export function DeptPanels() {
     },
     {
       cls: 'p-ey',
-      icon: EyeIcon,
+      icon: 'cataract',
       title: t('eyT'),
       doc: t('eyD'),
       img: 'eye.hero',
@@ -112,7 +76,7 @@ export function DeptPanels() {
     },
     {
       cls: 'p-mi',
-      icon: MindIcon,
+      icon: 'head',
       title: t('miT'),
       doc: t('miD'),
       img: 'mind.hero',
@@ -129,7 +93,6 @@ export function DeptPanels() {
   return (
     <div className="dpanels rv">
       {panels.map((p, i) => {
-        const IconC = p.icon;
         const on = open === i;
         return (
           <div
@@ -144,7 +107,7 @@ export function DeptPanels() {
               onClick={() => setOpen(i)}
             >
               <span className="sic">
-                <IconC />
+                <Icon name={p.icon} />
               </span>
               <b>{p.title}</b>
               <small>{p.doc}</small>

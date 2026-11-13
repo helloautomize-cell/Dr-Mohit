@@ -206,7 +206,8 @@ export function DoctorsRow({ locale }: { locale: L }) {
                   alt={slot(doc.img).alt[locale]}
                   width={800}
                   height={1000}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  sizes="(max-width:767px) 84vw, 33vw"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: slot(doc.img).focal }}
                 />
                 <div className="dov">
                   <span>{d('sees')}</span>

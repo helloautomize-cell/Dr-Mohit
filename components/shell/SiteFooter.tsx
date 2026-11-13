@@ -10,6 +10,7 @@ import { SITE } from '@/lib/site-config';
 import { NAV_MAIN, LEGAL_PAGES, navLabel } from '@/lib/nav';
 import { copy } from '@/lib/copy';
 import { Logo } from '@/components/Logo';
+import { LIcon } from '@/components/icons';
 
 import CookieSettings from '@/components/shell/CookieSettings';
 import ObfuscatedEmail from '@/components/shell/ObfuscatedEmail';
@@ -60,17 +61,17 @@ export default function SiteFooter() {
             <p className="muted faddr">{copy('global', 'Power House Road', l)}</p>
             <p className="fpa">ਗੁਪਤਾ ਹਸਪਤਾਲ</p>
             <div className="fhours">
-              <div className="fhour"><span aria-hidden="true">🕘</span><span>{SITE.hours[l]}</span></div>
+              <div className="fhour"><LIcon name="clock" /><span>{SITE.hours[l]}</span></div>
               <div className="fhour">
-                <span aria-hidden="true">📞</span>
+                <LIcon name="phone" />
                 <a href={SITE.phoneMainHref}>{SITE.phoneMain}</a>
               </div>
               <div className="fhour">
-                <span aria-hidden="true">✉️</span>
+                <LIcon name="mail" />
                 <ObfuscatedEmail label={t('email')} />
               </div>
               <div className="fhour">
-                <span aria-hidden="true">📍</span>
+                <LIcon name="pin" />
                 <a href={SITE.mapsUrl} target="_blank" rel="noopener">{t('directions')}</a>
               </div>
             </div>

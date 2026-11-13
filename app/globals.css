@@ -1199,6 +1199,7 @@ header.sc .wrap{height:68px}
 /* footer extras */
 .fhours{margin-top:16px;display:flex;flex-direction:column;gap:8px}
 .fhour{display:flex;align-items:center;gap:10px;font-size:.9rem;color:var(--ink-2)}
+.fhour>svg{width:16px;height:16px;flex:none;color:var(--brand)}
 .fhour a{color:var(--ink-2)}
 .fcol a{display:block;color:var(--mute);padding:4px 0;font-size:.95rem;text-decoration:none}
 .fcol a:hover{color:var(--ink)}
@@ -1365,8 +1366,7 @@ header.sc .wrap{height:68px}
   .fit>div{padding:18px}
   footer{padding-block:44px calc(30px + env(safe-area-inset-bottom,0px))}
   .legal{margin-top:20px}
-  .doc .im{aspect-ratio:16/10}
-  .doc .im img{object-position:50% 15%}
+  .doc .im{aspect-ratio:4/5}
   .mswipe-track{margin-left:-18px;margin-right:-18px;padding-left:18px;padding-right:18px}
   .mswipe-ctl{margin-bottom:10px}
   .mswipe-track>.step,.mswipe-track.tl>div,.mswipe-track.tips>li,
