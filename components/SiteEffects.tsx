@@ -77,11 +77,15 @@ export default function SiteEffects() {
             }),
           { rootMargin: '0px 0px -8% 0px' },
         );
+      // Read every rect first, then mutate — interleaving reads and writes
+      // would force a sync layout per element on mount.
+      const below: Element[] = [];
       scope.querySelectorAll('.rv,.im,[data-count]').forEach((el) => {
-        if (el.getBoundingClientRect().top > window.innerHeight * 0.92) {
-          el.classList.add('pre');
-          io!.observe(el);
-        }
+        if (el.getBoundingClientRect().top > window.innerHeight * 0.92) below.push(el);
+      });
+      below.forEach((el) => {
+        el.classList.add('pre');
+        io!.observe(el);
       });
     };
 
@@ -103,11 +107,13 @@ export default function SiteEffects() {
             }),
           { rootMargin: '0px 0px -6% 0px' },
         );
-      hs.forEach((h) => {
+      // Same batching: read all tops, then touch classes.
+      const list = [...hs].map((h) => ({ h, top: h.getBoundingClientRect().top }));
+      list.forEach(({ h, top }) => {
         h.classList.remove('sh');
         // Already in view on load: leave the text painted as-is. The h1's
         // load-in is a CSS fade (globals.css pgIn) — no post-hydration repaint.
-        if (h.getBoundingClientRect().top < window.innerHeight * 0.95) return;
+        if (top < window.innerHeight * 0.95) return;
         hio!.observe(h);
       });
     };
@@ -122,33 +128,38 @@ export default function SiteEffects() {
     const jflowEls = [...document.querySelectorAll('[data-jflow]')];
     const onScroll = () => {
       const H = document.documentElement.scrollHeight - window.innerHeight;
+      // One read pass, one write pass — keeps every frame to a single layout.
+      const parR = RM ? [] : parEls.map(({ el }) => el.getBoundingClientRect());
+      const trailR = trailEls.map((t) => {
+        const r = t.getBoundingClientRect();
+        const kids = [...t.children].map((c) => c.getBoundingClientRect().top);
+        return { r, kids };
+      });
       if (prog) prog.style.transform = `scaleX(${H > 0 ? window.scrollY / H : 0})`;
       if (!RM)
-        parEls.forEach(({ el, img }) => {
-          const r = el.getBoundingClientRect();
+        parEls.forEach(({ el, img }, i) => {
+          const r = parR[i]!;
           if (r.bottom < 0 || r.top > window.innerHeight) return;
           const k = Number(el.dataset.par) || 0.08;
           const c = r.top + r.height / 2 - window.innerHeight / 2;
           if (img) img.style.transform = `translateY(${(-c * k).toFixed(1)}px)`;
         });
-      trailEls.forEach((t) => {
-        const r = t.getBoundingClientRect();
+      trailEls.forEach((t, ti) => {
+        const { r, kids } = trailR[ti]!;
         const mark = window.innerHeight * 0.6;
         let p = (mark - r.top) / r.height;
         p = Math.max(0, Math.min(1, p));
         if (RM) p = 1;
         const fill = t.querySelector<HTMLElement>('.fill');
         if (fill) fill.style.transform = `scaleY(${p})`;
-        [...t.children].forEach((c) => {
+        [...t.children].forEach((c, ci) => {
           if (c.classList.contains('fill')) return;
-          const cr = c.getBoundingClientRect();
-          c.classList.toggle('lit', RM || cr.top + 40 < mark);
+          c.classList.toggle('lit', RM || kids[ci]! + 40 < mark);
         });
       });
     };
 
-    const jone = (jf: Element) => {
-      const r = jf.getBoundingClientRect();
+    const jone = (jf: Element, r: DOMRect) => {
       let p = (window.innerHeight * 0.85 - r.top) / (r.height + window.innerHeight * 0.25);
       p = Math.max(0, Math.min(1, p));
       if (RM) p = 1;
@@ -156,10 +167,14 @@ export default function SiteEffects() {
       if (jp) jp.style.strokeDashoffset = (1 - p).toFixed(3);
       jf.querySelectorAll('.jn').forEach((n, k) => n.classList.toggle('lit', p >= k * 0.25 + 0.1));
     };
-    const jcheck = () =>
-      jflowEls.forEach((jf) => {
-        if ((jf as HTMLElement).offsetParent !== null || raf === 0) jone(jf);
-      });
+    const jcheck = () => {
+      // Read pass first (offsetParent + rect), then mutate.
+      const visible = jflowEls.filter(
+        (jf) => (jf as HTMLElement).offsetParent !== null || raf === 0
+      );
+      const rects = visible.map((jf) => jf.getBoundingClientRect());
+      visible.forEach((jf, i) => jone(jf, rects[i]!));
+    };
 
     // One rAF-gated dispatcher for all scroll work — no per-event long tasks.
     let ticking = false;

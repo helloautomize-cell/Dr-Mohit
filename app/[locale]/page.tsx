@@ -8,6 +8,7 @@ import { HomeHero, StorySection, DoctorsRow, SecHead, Lnk } from '@/components/h
 import { Bento } from '@/components/home/Bento';
 import { DeptPanels } from '@/components/home/DeptPanels';
 import { RoboStory } from '@/components/home/RoboStory';
+import { FacilitiesBento } from '@/components/home/FacilitiesBento';
 import HomeFx from '@/components/home/HomeFx';
 import { FirstVisit } from '@/components/home/FirstVisit';
 import { DoctorFinder } from '@/components/home/DoctorFinder';
@@ -16,7 +17,6 @@ import { PressBoard, HOME_CLIPS } from '@/components/PressBoard';
 import {
   HomeFaq,
   JourneyPath,
-  FacilitiesBand,
   VisitBand,
 } from '@/components/sections/bands';
 import { TreatmentGrid } from '@/components/sections/cards';
@@ -148,8 +148,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <RoboStory />
       <WaveDivider from="white" to="brand" />
 
-      {/* 9. Under one roof (brand band) */}
-      <FacilitiesBand locale={l} />
+      {/* 9. Under one roof — interactive facilities bento (brand band) */}
+      <FacilitiesBento />
       <WaveDivider from="brand" to="sky" />
 
       {/* 10. Doctors (sky) */}

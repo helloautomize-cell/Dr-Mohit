@@ -219,6 +219,37 @@
       "amit": "Depression, anxiety, sleep, de-addiction, family counselling",
       "profile": "Profile and booking"
     },
-    "newsAria": "Newspapers that covered Gupta Hospital"
+    "newsAria": "Newspapers that covered Gupta Hospital",
+    "fac": {
+      "label": "Under one roof",
+      "h2": "Everything your treatment needs, <span class=\"em\">in one building.</span>",
+      "lede": "Tests, surgery, blood, medicines and rehab happen here. For families travelling from villages and other districts, that means fewer trips and less waiting.",
+      "inside": "Inside the hospital",
+      "photosAria": "Photos of the hospital",
+      "tab0": "Operation theatre",
+      "tab1": "Eye surgery",
+      "tab2": "X-ray review",
+      "tab3": "Physiotherapy",
+      "t1h": "Modular operation theatres",
+      "t1p": "Separate theatres for bone and eye surgery, built for clean air and infection control.",
+      "see": "See the theatre",
+      "t2h": "Critical care",
+      "t2p": "Close monitoring after major surgery and in emergencies.",
+      "t3h": "Blood bank",
+      "t3p": "Blood is arranged on site, so families do not have to run to another city during surgery.",
+      "t4h": "Digital X-ray",
+      "t4p": "Images are taken and read during the same visit.",
+      "t5h": "Laboratory",
+      "t5p": "Routine blood tests before surgery and during treatment.",
+      "t6h": "Pharmacy",
+      "t6p": "Prescribed medicines are available inside the hospital.",
+      "t7h": "Physiotherapy",
+      "t7p": "Rehab starts in hospital and continues on follow-up visits.",
+      "t8h": "Private rooms",
+      "t8p": "Quiet rooms to recover in after surgery.",
+      "ctaH": "Not sure a test is done here?",
+      "ctaP": "Ask on WhatsApp before you travel. The team will tell you what to bring.",
+      "ctaGo": "Ask on WhatsApp"
+    }
   }
 }
