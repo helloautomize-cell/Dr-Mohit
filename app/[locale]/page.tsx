@@ -4,23 +4,23 @@ import { notFound } from 'next/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy } from '@/lib/copy';
 import { WaveDivider } from '@/components/WaveDivider';
-import { HomeHero, SecHead, Lnk } from '@/components/home/sections';
+import { SecHead, Lnk } from '@/components/home/sections';
 import HomeFx from '@/components/home/HomeFx';
 import { FirstVisit } from '@/components/home/FirstVisit';
 import { DoctorFinder } from '@/components/home/DoctorFinder';
 import { PressBoard, HOME_CLIPS } from '@/components/PressBoard';
-import { VisitBand } from '@/components/sections/bands';
-import { TreatmentGrid } from '@/components/sections/cards';
 import { alternates, ldGraph, websiteLd } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
+import { V2Hero } from '@/components/home-v2/V2Hero';
 import { V2Statement } from '@/components/home-v2/V2Statement';
-import { V2Departments } from '@/components/home-v2/V2Departments';
-import { V2Bento } from '@/components/home-v2/V2Bento';
+import { V2Treatments } from '@/components/home-v2/V2Treatments';
 import { V2Robotic } from '@/components/home-v2/V2Robotic';
+import { V2Bento } from '@/components/home-v2/V2Bento';
+import { V2Inside } from '@/components/home-v2/V2Inside';
 import { V2Waterfall } from '@/components/home-v2/V2Waterfall';
-import { V2Journey } from '@/components/home-v2/V2Journey';
 import { V2Story } from '@/components/home-v2/V2Story';
 import { V2Faq } from '@/components/home-v2/V2Faq';
+import { V2Visit } from '@/components/home-v2/V2Visit';
 import { V2Fx } from '@/components/home-v2/V2Fx';
 import '@/components/home-v2/home-v2.css';
 import type { Metadata } from 'next';
@@ -78,45 +78,18 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <div id="p-home">
-      {/* 1. Hero (sky) */}
-      <HomeHero locale={l} />
-      <WaveDivider from="sky" to="white" />
+      {/* 1. Hero — three doctor panels (white + sky panel) */}
+      <V2Hero />
 
-      {/* 2. Who we are (white) */}
+      {/* 2. Who we are statement (white) */}
       <V2Statement locale={l} />
+      <WaveDivider from="white" to="navy" />
 
-      {/* 3. Three departments (white) */}
-      <V2Departments locale={l} />
-      <WaveDivider from="white" to="mint" />
+      {/* 3. Treatments, "Six ways we help." (navy, pinned horizontal) */}
+      <V2Treatments />
+      <WaveDivider from="navy" to="sky" />
 
-      {/* 4. Popular treatments (mint) — trimmed to the three ortho cards */}
-      <section className="sec treat-sec">
-        <div className="wrap">
-          <h3 className="tg-h rv">{t('popular')}</h3>
-          <TreatmentGrid locale={l} only={['robotic', 'kneehip', 'fracture']} />
-        </div>
-      </section>
-
-      {/* 5. Four decades, one address (mint) */}
-      <V2Bento locale={l} />
-      <WaveDivider from="mint" to="navy" />
-
-      {/* 6. Robotic knee (navy) */}
-      <V2Robotic locale={l} />
-      <WaveDivider from="navy" to="white" />
-
-      {/* 7. Under one roof (white) */}
-      <V2Waterfall locale={l} />
-
-      {/* 8. From first call to feeling better (sky) — hard edge, per design */}
-      <V2Journey />
-      <WaveDivider from="sky" to="white" />
-
-      {/* 9. Your first visit — sticky stage (white) */}
-      <FirstVisit locale={l} />
-      <WaveDivider from="white" to="sky" />
-
-      {/* 10. Find the right doctor (sky) */}
+      {/* 4. Find the right doctor (sky) */}
       <section className="sec" style={{ background: 'var(--sky)' }} id="finderSec">
         <div className="wrap">
           <SecHead
@@ -127,13 +100,31 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <DoctorFinder locale={l} />
         </div>
       </section>
-      <WaveDivider from="sky" to="brand100" />
+      <WaveDivider from="sky" to="navy" />
 
-      {/* 11. Our story (soft blue) */}
+      {/* 5. A plan made for your own knee (navy, pinned horizontal) */}
+      <V2Robotic locale={l} />
+      <WaveDivider from="navy" to="mint" />
+
+      {/* 6. Four decades, one address (mint) — years is computed, not typed */}
+      <V2Bento locale={l} />
+      <WaveDivider from="mint" to="white" />
+
+      {/* 7. Inside the hospital (white, pinned shrink into grid) */}
+      <V2Inside />
+
+      {/* 8. Every treatment starts with listening (white, sticky stage) */}
+      <FirstVisit locale={l} />
+
+      {/* 9. Under one roof (white, waterfall) */}
+      <V2Waterfall locale={l} />
+      <WaveDivider from="white" to="brand100" />
+
+      {/* 10. Our story timeline (soft blue) */}
       <V2Story locale={l} />
       <WaveDivider from="brand100" to="white" />
 
-      {/* 12. In the news — press board (white) */}
+      {/* 11. Out in the community — press board (white) */}
       <section className="sec">
         <div className="wrap">
           <div className="g12 rv" style={{ marginBottom: 40, alignItems: 'end' }}>
@@ -167,12 +158,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
       <WaveDivider from="white" to="sky" />
 
-      {/* 13. Families often ask (sky) + FAQPage JSON-LD */}
+      {/* 12. Families often ask (sky) + FAQPage JSON-LD */}
       <V2Faq />
       <WaveDivider from="sky" to="navy" />
 
-      {/* 14. Visit band (navy) — directions link loads the map only on click */}
-      <VisitBand locale={l} />
+      {/* 13. Visit us — 24-hour weekly chart (navy) */}
+      <V2Visit />
       <HomeFx />
       <V2Fx />
       <JsonLd data={ldGraph(websiteLd(l), await faqJsonLd(l))} />

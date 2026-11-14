@@ -265,6 +265,178 @@
       "ctaH": "Not sure a test is done here?",
       "ctaP": "Ask on WhatsApp before you travel. The team will tell you what to bring.",
       "ctaGo": "Ask on WhatsApp"
+    },
+    "hero": {
+      "eyebrow": "Gupta Hospital, Bathinda · Since 1980",
+      "h1": {
+        "l1": "Care for bones,",
+        "l2": "eyes and the mind.",
+        "l3": "From one family."
+      },
+      "lede": "Three departments under one roof on Power House Road, each led by a Gupta. Now with robotic-assisted knee replacement.",
+      "book": "Book a visit",
+      "wa": "WhatsApp",
+      "factYears": "years in Bathinda",
+      "factPmjay": "Ayushman card accepted",
+      "factAward": "Tribune Health Care Award",
+      "panelsAria": "Our doctors",
+      "panels": {
+        "mohit": {
+          "vt": "Dr. Mohit · Bones and joints",
+          "dept": "Bones and joints",
+          "name": "Dr. Mohit Gupta",
+          "role": "Joint replacement and robotic knee surgeon",
+          "aria": "Orthopaedics",
+          "alt": "Dr. Mohit Gupta at his desk with a knee model"
+        },
+        "parul": {
+          "vt": "Dr. Parul · Eyes",
+          "dept": "Eyes",
+          "name": "Dr. Parul Gupta",
+          "role": "Cataract and eye surgeon",
+          "aria": "Eye care",
+          "alt": "Dr. Parul Gupta in the eye clinic"
+        },
+        "amit": {
+          "vt": "Dr. Amit · Mind",
+          "dept": "Mental health",
+          "name": "Dr. Amit Gupta",
+          "role": "Psychiatrist and de-addiction specialist",
+          "aria": "Mental health",
+          "alt": "Dr. Amit Gupta in his consultation room"
+        }
+      }
+    },
+    "treatments": {
+      "eyebrow": "Treatments",
+      "lede": "Each card is one area of care. Tap a treatment to read about it in full.",
+      "hint": "Keep scrolling",
+      "cards": [
+        {
+          "h3a": "Joint replacement and ",
+          "h3b": "robotic knee",
+          "p": "Knee and hip replacement, including robotic-assisted knee surgery with the J&J VELYS™ system.",
+          "alt": "Dr. Mohit Gupta with the VELYS™ system",
+          "chips": [
+            "Total knee replacement",
+            "Partial knee replacement",
+            "Robotic-assisted knee",
+            "Hip replacement"
+          ]
+        },
+        {
+          "h3a": "Fractures and ",
+          "h3b": "trauma",
+          "p": "Broken bones from falls, accidents and sport, including hip fractures in older people.",
+          "alt": "Dr. Mohit Gupta checks a cast",
+          "chips": [
+            "Fracture fixation",
+            "Hip fractures",
+            "Accident injuries",
+            "Plaster and casts"
+          ]
+        },
+        {
+          "h3a": "Sports injuries and ",
+          "h3b": "arthroscopy",
+          "p": "Ligament and cartilage injuries treated with keyhole surgery when needed, and rehab to get you back to play.",
+          "alt": "Knee examination after a sports injury",
+          "chips": [
+            "ACL tears",
+            "Meniscus injury",
+            "Shoulder injuries",
+            "Keyhole surgery"
+          ]
+        },
+        {
+          "h3a": "Back and ",
+          "h3b": "neck pain",
+          "p": "Slip disc, sciatica and neck pain, with non-surgical care first.",
+          "alt": "Dr. Mohit Gupta explains the spine",
+          "chips": [
+            "Slip disc",
+            "Sciatica",
+            "Neck pain",
+            "Physiotherapy"
+          ]
+        },
+        {
+          "h3a": "Eye ",
+          "h3b": "care",
+          "p": "Dr. Parul Gupta: phaco cataract surgery, glaucoma, retina and children’s eyes, with the eye department’s own theatre.",
+          "alt": "Cataract surgery under the microscope",
+          "chips": [
+            "Cataract surgery",
+            "Glaucoma",
+            "Diabetic eye checks",
+            "Children’s eyes"
+          ]
+        },
+        {
+          "h3a": "Mental health and ",
+          "h3b": "de-addiction",
+          "p": "Dr. Amit Gupta: depression, anxiety, sleep problems and a licensed de-addiction centre, with the family involved.",
+          "alt": "Dr. Amit Gupta in a counselling session",
+          "chips": [
+            "Depression",
+            "Anxiety",
+            "Sleep problems",
+            "De-addiction",
+            "Family counselling"
+          ]
+        }
+      ],
+      "h2": "Six ways <acc>we help.</acc>"
+    },
+    "inside": {
+      "eyebrow": "Inside Gupta Hospital",
+      "lede": "On Power House Road, Bathinda, with its own operation theatres, day care and OPD. Every photo in this section was taken at the hospital.",
+      "caps": {
+        "building": "Power House Road",
+        "theatre": "Operation theatre",
+        "reception": "Reception",
+        "corridor": "OPD corridor",
+        "daycare": "Day care"
+      },
+      "alts": {
+        "building": "Gupta Hospital building on Power House Road",
+        "theatre": "Modular operation theatre at Gupta Hospital",
+        "reception": "Reception at Gupta Hospital",
+        "corridor": "OPD corridor at Gupta Hospital",
+        "daycare": "Day-care chairs at Gupta Hospital"
+      },
+      "note": "Placeholder photos from the current site. To be replaced with fresh photos from the hospital.",
+      "h2": "A real hospital, <acc>as it is.</acc>"
+    },
+    "visit": {
+      "eyebrow": "Visit us",
+      "sum": "The hospital is open day and night, all seven days. Emergency, admissions and the pharmacy never close. Book ahead to see a specific doctor.",
+      "status": "Open now · 24 hours",
+      "book": "Book on WhatsApp",
+      "dir": "Get directions",
+      "addrL": "Address",
+      "apptL": "Appointments",
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "hoursLabel": "Open 24 hours",
+      "axis": [
+        "12 am",
+        "6 am",
+        "12 pm",
+        "6 pm",
+        "12 am"
+      ],
+      "legendEm": "Emergency, admissions and pharmacy",
+      "legendNow": "Right now",
+      "h2a": "Power House Road,",
+      "h2b": "Bathinda."
     }
   },
   "homeV2": {

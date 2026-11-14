@@ -6,6 +6,8 @@ out
 next-env.d.ts
 .env
 .env.local
+.env.*
+!.env.example
 .DS_Store
 .next-prod
 .next-*
@@ -15,3 +17,7 @@ audit/
 public/llms.txt
 public/llms-full.txt
 public/md/
+
+# Local logs and generated visual-review captures.
+*.log
+/screens-order/

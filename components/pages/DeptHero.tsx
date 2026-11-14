@@ -3,8 +3,9 @@
 // system photo on the right. Ortho wraps its image in .hero-wrap for the
 // decorative blobs; the other three pages use a bare .im frame.
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { copy } from '@/lib/copy';
+import { bookingHref, type BookingContext } from '@/lib/booking-context';
 import { slot, type SlotId } from '@/lib/image-slots';
 import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
@@ -20,6 +21,7 @@ export function DeptHero({
   image,
   align = 'center',
   wrapped = false,
+  fitViewport = false,
   imStyle,
   ctas,
   extra,
@@ -31,6 +33,7 @@ export function DeptHero({
   image: SlotId;
   align?: 'center' | 'end';
   wrapped?: boolean;
+  fitViewport?: boolean;
   imStyle?: React.CSSProperties;
   ctas?: ReactNode;
   extra?: ReactNode;
@@ -55,7 +58,7 @@ export function DeptHero({
     <ImageSlot id={image} locale={locale} className="rv" caption={locale === 'pa' ? s.alt.pa : s.alt.en} />
   );
   return (
-    <section className="ph ph-c">
+    <section className={`ph ph-c${fitViewport ? ' dept-hero-fit' : ''}`}>
       <div className="wrap g12" style={{ alignItems: align }}>
         <div className="c-7">
           <h1>
@@ -63,7 +66,7 @@ export function DeptHero({
           </h1>
           <p className="lede">{c(ledeKey)}</p>
           {extra}
-          {ctas ? <div className="ctas" style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 36 }}>{ctas}</div> : null}
+          {ctas ? <div className="ctas">{ctas}</div> : null}
         </div>
         <div className="c-5">{wrapped ? <div className="hero-wrap">{img}</div> : img}</div>
       </div>
@@ -71,9 +74,9 @@ export function DeptHero({
   );
 }
 
-export function DeptBookCta({ page, locale, label, dept }: { page: string; locale: Locale; label: string; dept: string }) {
+export function DeptBookCta({ page, locale, label, dept, doctor }: { page: string; locale: Locale; label: string; dept: string; doctor?: BookingContext['doctor'] }) {
   return (
-    <Link className="btn btn-brand" href={`/contact/?dept=${encodeURIComponent(dept)}`}>
+    <Link className="btn btn-brand" href={bookingHref({ dept, doctor })} locale={locale}>
       <span>{copy(page, label, locale)}</span>
       <span className="ar">→</span>
     </Link>

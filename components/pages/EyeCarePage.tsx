@@ -1,4 +1,4 @@
-// Eye care page — preview order: ph hero (+ eye dept phone line), services
+// Eye care page — preview order: ph hero (+ booking and eye dept phone), services
 // grid, eye explorer, cataract vision slider, cataract signs, surgery-day
 // trail + photo, lens options + lens banner, myths & facts (+ dept phone
 // link), CTA. The .pg-eye wrapper switches icon/tag accents to leaf green.
@@ -7,7 +7,7 @@ import { copy } from '@/lib/copy';
 import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
 import { WaveDivider } from '../WaveDivider';
-import { DeptHero } from './DeptHero';
+import { DeptHero, DeptBookCta, DeptPhoneCta } from './DeptHero';
 import { Accordion, CataractDay, Callout } from '../sections/bands';
 import { EyeServices } from '../sections/cards';
 import { EyeExplorer } from '../tools/EyeExplorer';
@@ -49,13 +49,12 @@ export function EyeCarePage({ locale }: { locale: Locale }) {
         h1Key="Complete eye care."
         ledeKey="Led by Dr. Parul Gupta"
         image="eye.hero"
-        extra={
-          <p style={{ marginTop: 24 }}>
-            <span className="muted">{c('Eye department:')}</span>{' '}
-            <a href={SITE.phoneEyeHref} style={{ userSelect: 'all', color: 'inherit' }}>
-              {SITE.phoneEye}
-            </a>
-          </p>
+        fitViewport
+        ctas={
+          <>
+            <DeptBookCta page="eye-care" locale={locale} label="Book with Dr. Parul" dept="Eye care" doctor="parul" />
+            <DeptPhoneCta href={SITE.phoneEyeHref}>{SITE.phoneEye}</DeptPhoneCta>
+          </>
         }
       />
       <WaveDivider from="sky" to="white" />

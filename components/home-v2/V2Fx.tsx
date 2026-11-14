@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import Lenis from 'lenis';
 import { gsap, ScrollTrigger, useGSAP, ANIM_OK } from './v2gsap';
 
@@ -75,6 +76,13 @@ export function V2Fx() {
     btns.forEach((b) => b.addEventListener('pointerenter', set));
     return () => btns.forEach((b) => b.removeEventListener('pointerenter', set));
   }, []);
+
+  // Locale switches remount the page and shift section heights: recalc pins.
+  const pathname = usePathname();
+  useEffect(() => {
+    const id = requestAnimationFrame(() => ScrollTrigger.refresh());
+    return () => cancelAnimationFrame(id);
+  }, [pathname]);
 
   return null;
 }

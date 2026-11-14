@@ -45,11 +45,12 @@ export function OrthopaedicsPage({ locale }: { locale: Locale }) {
         h1Key="Bones, joints"
         ledeKey="The department that began"
         image="ortho.hero"
+        fitViewport
         align="center"
         wrapped
         ctas={
           <>
-            <DeptBookCta page="orthopaedics" locale={locale} label="Book with Dr. Mohit" dept="Orthopaedics" />
+            <DeptBookCta page="orthopaedics" locale={locale} label="Book with Dr. Mohit" dept="Orthopaedics" doctor="mohit" />
             <DeptPhoneCta />
           </>
         }

@@ -180,6 +180,11 @@
         "pa": "ਸਕ੍ਰੋਲ ਕਰਕੇ ਦੇਖੋ ਕਿ ਪਹਿਲੀ ਮੁਲਾਕਾਤ ਕਿਵੇਂ ਹੁੰਦੀ ਹੈ। ਉਦਾਹਰਣ: ਡਾ. ਮੋਹਿਤ ਨਾਲ ਗੋਡੇ ਦੀ ਜਾਂਚ।"
       },
       {
+        "tag": "a",
+        "en": "Message us on WhatsApp",
+        "pa": "WhatsApp ਤੇ ਸੁਨੇਹਾ ਭੇਜੋ"
+      },
+      {
         "tag": "span",
         "en": "Listen",
         "pa": "ਸੁਣਨਾ"
@@ -2136,6 +2141,11 @@
       },
       {
         "tag": "span",
+        "en": "Book with Dr. Parul",
+        "pa": "ਡਾ. ਪਾਰੁਲ ਨਾਲ ਬੁੱਕ ਕਰੋ"
+      },
+      {
+        "tag": "span",
         "en": "Services",
         "pa": "ਸੇਵਾਵਾਂ"
       },
@@ -2468,6 +2478,11 @@
         "tag": "p",
         "en": "Since 2000, Dr. Amit Gupta has worked with families across Malwa facing addiction, depression and anxiety. The hospital runs a licensed de-addiction centre that is clean, quiet and focused on full rehabilitation, with patient confidentiality protected.",
         "pa": "ਸਾਲ 2000 ਤੋਂ ਡਾ. ਅਮਿਤ ਗੁਪਤਾ ਮਾਲਵਾ ਵਿੱਚ ਨਸ਼ੇ ਦੀ ਸਮੱਸਿਆ ਨਾਲ ਲੜ ਰਹੇ ਪਰਿਵਾਰਾਂ ਨਾਲ ਕੰਮ ਕਰ ਰਹੇ ਹਨ। ਹਸਪਤਾਲ ਵਿੱਚ ਇੱਕ ਲਾਇਸੰਸਸ਼ੁਦਾ ਨਸ਼ਾ ਛੁਡਾਊ ਕੇਂਦਰ ਹੈ।"
+      },
+      {
+        "tag": "span",
+        "en": "Book with Dr. Amit",
+        "pa": "ਡਾ. ਅਮਿਤ ਨਾਲ ਬੁੱਕ ਕਰੋ"
       },
       {
         "tag": "span",

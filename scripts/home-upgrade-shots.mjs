@@ -10,7 +10,6 @@ const OUT = 'shots';
 fs.mkdirSync(OUT, { recursive: true });
 
 const browser = await chromium.launch();
-const errors = [];
 
 async function shot(path, w, h, name, { reduced = false } = {}) {
   const ctx = await browser.newContext({

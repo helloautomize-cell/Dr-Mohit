@@ -184,7 +184,18 @@ export function FirstVisit({ locale }: { locale: Locale }) {
               <RichText text={c('Every treatment starts with <span class="em">listening.</span>')} />
             </h2>
           </div>
-          <p className="lede s-8">{c('Scroll to see how a first consultation unfolds')}</p>
+          <div className="s-8">
+            <p className="lede">{c('Scroll to see how a first consultation unfolds')}</p>
+            <a
+              className="btn btn-line"
+              href={SITE.whatsapp}
+              target="_blank"
+              rel="noopener"
+              style={{ marginTop: 18 }}
+            >
+              {c('Message us on WhatsApp')}
+            </a>
+          </div>
         </div>
         <div className="fv">
           <Swipe className="fv-steps" count={steps.length} label={c('Your first visit')}>

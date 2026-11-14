@@ -1,4 +1,4 @@
-// Mental health & de-addiction page — preview order: ph hero (no CTAs),
+// Mental health & de-addiction page — preview order: ph hero (+ booking and phone),
 // services grid + "also treated" note, first-visit steps trail, condition
 // groups on teal, stress signs on navy, family FAQ + clinic photo, breathing
 // circle, urgent-help line, CTA. The .pg-mind wrapper switches accents to
@@ -9,7 +9,7 @@ import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
 import { WaveDivider } from '../WaveDivider';
 import { Icon, type IconName } from '../icons';
-import { DeptHero } from './DeptHero';
+import { DeptHero, DeptBookCta, DeptPhoneCta } from './DeptHero';
 import { Accordion, Callout } from '../sections/bands';
 import { ConditionGroups, StressSigns, SvcCard } from '../sections/cards';
 import { Swipe } from '../Swipe';
@@ -73,6 +73,13 @@ export function MentalHealthPage({ locale }: { locale: Locale }) {
         h1Key="Mental health and de-addiction."
         ledeKey="Since 2000, Dr. Amit Gupta"
         image="mind.hero"
+        fitViewport
+        ctas={
+          <>
+            <DeptBookCta page="mental-health" locale={locale} label="Book with Dr. Amit" dept="Mental health" doctor="amit" />
+            <DeptPhoneCta />
+          </>
+        }
       />
       <WaveDivider from="sky" to="white" />
 
