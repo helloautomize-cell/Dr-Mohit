@@ -1,20 +1,12 @@
-// Static home sections ported 1:1 from the approved preview: hero, Our story,
-// the robotic-knee feature block, and the doctors row. Copy comes from the
-// content JSON via copy(); section head pattern is the preview's g12 label/h2
-// + lede pair.
-import Image from 'next/image';
+// Static home sections ported 1:1 from the approved preview: hero plus the
+// shared section-head + link helpers. Copy comes from the content JSON via
+// copy(); section head pattern is the preview's g12 label/h2 + lede pair.
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 import { copy } from '@/lib/copy';
 import { slot } from '@/lib/image-slots';
 import type { Locale } from '@/i18n/routing';
 import { RichText } from '../RichText';
-import { ImageSlot } from '../ImageSlot';
-import { CountUp } from '../primitives';
 import { SITE } from '@/lib/site-config';
-import { TrailTimeline } from '../sections/bands';
-import { Swipe } from '../Swipe';
-import type { SlotId } from '@/lib/image-slots';
 import type { ReactNode } from 'react';
 
 type L = Locale;
@@ -124,108 +116,4 @@ export function HomeHero({ locale }: { locale: L }) {
   );
 }
 
-/* ------------------------------- Our story -------------------------------- */
 
-export function StorySection({ locale }: { locale: L }) {
-  const c = (en: string) => copy('home', en, locale);
-  const items = [
-    { year: '1980', h3: c('A clinic opens'), p: c('Dr. Amrit Gupta starts an orthopaedic practice on Power House Road') },
-    { year: '2000', h3: c('Care for the mind'), p: c('Dr. Amit Gupta joins as psychiatrist when addiction was hurting') },
-    { year: '2019', h3: c('Ayushman Bharat'), p: c('The hospital is empanelled under PM-JAY, so eligible card holders') },
-    { year: '2024', h3: c('Robotic-assisted knees'), p: c('The J&amp;J VELYS™ robotic-assisted knee system is launched') },
-    { year: '2025', h3: c('Recognised by The Tribune'), p: c('Tribune Health Care Award for excellence in joint replacement') },
-    { year: c('Today'), h3: c('Three departments, one family'), p: c('Dr. Mohit Gupta leads orthopaedics after fellowships in Germany and Switzerland') },
-  ];
-  const years = 44; // approved prototype value (data-count="44")
-  return (
-    <section className="sec">
-      <div className="wrap legacy">
-        <div className="rv">
-          <span className="label">{c('Our story')}</span>
-          <h2 style={{ marginTop: 18 }}>
-            <RichText text={c('Four decades on <span class="em">Power House Road.</span>')} />
-          </h2>
-          <div className="yrs">
-            <CountUp n={years} />
-            <span>{c('years of care in Bathinda')}</span>
-          </div>
-          <p className="lede">{c('What began as a small orthopaedic clinic in 1980')}</p>
-          <ImageSlot
-            id="home.story"
-            locale={locale}
-            caption={c('Power House Road, Bathinda')}
-          />
-        </div>
-        <TrailTimeline items={items} label={c('Our story')} />
-        <div className="leg-more" style={{ gridColumn: 2, marginTop: -48, paddingLeft: 48 }}>
-          <Lnk href="/about/">{c('The full story')}</Lnk>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ------------------------------- Doctors row ------------------------------ */
-
-const DOC_CARDS: { img: SlotId; href: string; name: string; roleKey: string; dovKey: 'mohit' | 'parul' | 'amit' }[] = [
-  { img: 'home.doc-mohit', href: '/doctors/dr-mohit-gupta/', name: 'Dr. Mohit Gupta', roleKey: 'Orthopaedic &amp; joint replacement surgeon', dovKey: 'mohit' },
-  { img: 'home.doc-parul', href: '/doctors/dr-parul-gupta/', name: 'Dr. Parul Gupta', roleKey: 'Eye surgeon', dovKey: 'parul' },
-  { img: 'home.doc-amit', href: '/doctors/dr-amit-gupta/', name: 'Dr. Amit Gupta', roleKey: 'Psychiatrist &amp; de-addiction specialist', dovKey: 'amit' },
-];
-
-const DOC_PA: Record<string, string> = {
-  'Dr. Mohit Gupta': 'ਡਾ. ਮੋਹਿਤ ਗੁਪਤਾ',
-  'Dr. Parul Gupta': 'ਡਾ. ਪਾਰੁਲ ਗੁਪਤਾ',
-  'Dr. Amit Gupta': 'ਡਾ. ਅਮਿਤ ਗੁਪਤਾ',
-};
-
-export function DoctorsRow({ locale }: { locale: L }) {
-  const c = (en: string) => copy('home', en, locale);
-  const d = useTranslations('home.doc');
-  return (
-    <section className="sec doc-sec" style={{ background: 'var(--sky)' }}>
-      <div className="wrap">
-        <div className="g12 rv" style={{ marginBottom: 48, alignItems: 'end' }}>
-          <div className="c-6">
-            <span className="label">{c('Doctors')}</span>
-            <h2 style={{ marginTop: 18 }}>{c('The doctors you will see.')}</h2>
-          </div>
-          <div className="s-8" style={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <Lnk href="/doctors/">{c('All profiles')}</Lnk>
-          </div>
-        </div>
-        <div className="rv" style={{ marginBottom: 40 }}>
-          <ImageSlot id="home.doctors-banner" locale={locale} />
-        </div>
-        <Swipe className="docs" count={DOC_CARDS.length} label={c('Doctors')}>
-          {DOC_CARDS.map((doc) => (
-            <Link className="doc rv" href={doc.href} key={doc.href}>
-              <div className="im">
-                <Image
-                  src={slot(doc.img).src!}
-                  alt={slot(doc.img).alt[locale]}
-                  width={800}
-                  height={1000}
-                  sizes="(max-width:767px) 84vw, 33vw"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: slot(doc.img).focal }}
-                />
-                <div className="dov">
-                  <span>{d('sees')}</span>
-                  <p>{d(doc.dovKey)}</p>
-                  <b>{d('profile')}</b>
-                  <span className="ar">→</span>
-                </div>
-              </div>
-              <div className="meta">
-                <h3>{locale === 'pa' ? DOC_PA[doc.name] : doc.name}</h3>
-                <span>
-                  <RichText text={c(doc.roleKey)} />
-                </span>
-              </div>
-            </Link>
-          ))}
-        </Swipe>
-      </div>
-    </section>
-  );
-}

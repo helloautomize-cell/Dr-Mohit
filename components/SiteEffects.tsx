@@ -108,7 +108,11 @@ export default function SiteEffects() {
           { rootMargin: '0px 0px -6% 0px' },
         );
       // Same batching: read all tops, then touch classes.
-      const list = [...hs].map((h) => ({ h, top: h.getBoundingClientRect().top }));
+      // home-v2 headings are animated by GSAP — splitting them here would
+      // double-animate.
+      const list = [...hs]
+        .filter((h) => !h.closest('.v2'))
+        .map((h) => ({ h, top: h.getBoundingClientRect().top }));
       list.forEach(({ h, top }) => {
         h.classList.remove('sh');
         // Already in view on load: leave the text painted as-is. The h1's

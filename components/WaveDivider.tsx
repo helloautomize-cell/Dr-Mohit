@@ -1,13 +1,14 @@
 // Animated wave divider between two colour bands. `from` is the band above
 // (container bg), `to` the band below (the two drifting paths). Exact preview
 // paths; drift animation lives in the ported CSS (.w1/.w2).
-export type Band = 'white' | 'sky' | 'mint' | 'brand' | 'navy' | 'teal' | 'teal-dark';
+export type Band = 'white' | 'sky' | 'mint' | 'brand' | 'brand100' | 'navy' | 'teal' | 'teal-dark';
 
 export const BAND_HEX: Record<Band, string> = {
   white: '#FFFFFF',
   sky: '#EEF3FB',
   mint: '#EAF6EF',
   brand: '#1D4E9E',
+  brand100: '#DCE7F7',
   navy: '#0F2A55',
   teal: '#E4F3F1',
   'teal-dark': '#076E66',

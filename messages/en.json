@@ -191,13 +191,28 @@
       "see": "See the department",
       "orT": "Orthopaedics",
       "orD": "Dr. Mohit Gupta",
-      "orL": ["Robotic knee replacement", "Knee and hip replacement", "Fractures and trauma", "Back pain clinic"],
+      "orL": [
+        "Robotic knee replacement",
+        "Knee and hip replacement",
+        "Fractures and trauma",
+        "Back pain clinic"
+      ],
       "eyT": "Eye care",
       "eyD": "Dr. Parul Gupta",
-      "eyL": ["Cataract surgery", "Diabetic eye checks", "Glaucoma", "Children's eyes"],
+      "eyL": [
+        "Cataract surgery",
+        "Diabetic eye checks",
+        "Glaucoma",
+        "Children's eyes"
+      ],
       "miT": "Mental health",
       "miD": "Dr. Amit Gupta",
-      "miL": ["Depression and anxiety", "De-addiction", "Sleep problems", "Family counselling"]
+      "miL": [
+        "Depression and anxiety",
+        "De-addiction",
+        "Sleep problems",
+        "Family counselling"
+      ]
     },
     "popular": "Popular treatments",
     "robo": {
@@ -250,6 +265,202 @@
       "ctaH": "Not sure a test is done here?",
       "ctaP": "Ask on WhatsApp before you travel. The team will tell you what to bring.",
       "ctaGo": "Ask on WhatsApp"
+    }
+  },
+  "homeV2": {
+    "stmt": {
+      "eyebrow": "Who we are",
+      "p": "For four decades, families from Punjab, Haryana and Rajasthan have come to one address for their bones, their eyes and their peace of mind. Today the second generation of the Gupta family runs three departments under one roof.",
+      "sig": "Founded by Dr. Amrit Gupta in 1980"
+    },
+    "depts": {
+      "h2": "Three departments. <acc>Each led by a Gupta.</acc>",
+      "lede": "Choose a department to see what is treated and who you will meet.",
+      "see": "See the department",
+      "ortho": {
+        "label": "Orthopaedics",
+        "h3": "Bones and joints",
+        "doc": "Dr. Mohit Gupta · Orthopaedic and joint replacement surgeon",
+        "items": [
+          "Robotic knee replacement",
+          "Knee and hip replacement",
+          "Fractures and trauma",
+          "Sports injuries and arthroscopy",
+          "Back pain clinic"
+        ]
+      },
+      "eye": {
+        "label": "Eye care",
+        "h3": "Eyes",
+        "doc": "Dr. Parul Gupta · Eye surgeon",
+        "items": [
+          "Phaco cataract surgery",
+          "Glaucoma",
+          "Diabetic eye checks",
+          "Children’s eyes"
+        ]
+      },
+      "mind": {
+        "label": "Mental health",
+        "h3": "Mind",
+        "doc": "Dr. Amit Gupta · Psychiatrist and de-addiction specialist",
+        "items": [
+          "Depression and anxiety",
+          "Sleep problems",
+          "De-addiction centre",
+          "Family counselling"
+        ]
+      }
+    },
+    "bento": {
+      "h2": "Four decades, <acc>one address.</acc>",
+      "lede": "From a small clinic to a hospital with three departments. Many patients today are the children and grandchildren of the first ones.",
+      "b1label": "Years of care",
+      "b1h3": "on Power House Road",
+      "b1p": "Dr. Amrit Gupta opened an orthopaedic clinic here in 1980.",
+      "b1fig": "Dr. Amrit Gupta, founder",
+      "b2tag": "Since 2024",
+      "b2h3": "Robotic-assisted knee replacement",
+      "b2p": "A plan built around your own knee with the J&J VELYS™ system.",
+      "b3h3": "PM-JAY empanelled",
+      "b3p": "Ayushman Bharat card holders can be treated here, since 2019.",
+      "b4h3": "Tribune Health Care Award 2025",
+      "b4p": "For joint replacement and ortho robotic surgery.",
+      "b5h3": "Families from three states",
+      "b5p": "Patients travel to Bathinda from across Punjab, Haryana and Rajasthan.",
+      "b6h3": "Three departments, one roof",
+      "b6p": "Bones, eyes and the mind, in one family.",
+      "b7h3": "Send your reports before you travel",
+      "b7p": "Send them on WhatsApp. The team will tell you which doctor to see."
+    },
+    "robotic": {
+      "eyebrow": "Robotic knee replacement",
+      "h2": "A plan made for <acc>your own knee.</acc>",
+      "lede": "Dr. Mohit Gupta operates with the J&J VELYS™ system. Scroll to see the three things it helps with.",
+      "cap": "The hospital’s Ortho Robotic Centre",
+      "c1tag": "Map",
+      "c1h3": "Mapping your knee",
+      "c1p": "During surgery the system records the shape and alignment of your bones, without a separate CT scan.",
+      "c2tag": "Balance",
+      "c2h3": "Balancing the ligaments",
+      "c2p": "A camera follows the knee as it bends, so the space on each side can be balanced before any bone is cut.",
+      "c3tag": "Plan",
+      "c3h3": "Following the plan",
+      "c3p": "A robotic handpiece holds the saw to the planned angle while Dr. Mohit guides it. He stays in control throughout.",
+      "endH3": "Is robotic knee replacement right for you?",
+      "endP": "Talk to Dr. Mohit first. Not every knee needs surgery.",
+      "endBtn": "Book a consultation"
+    },
+    "waterfall": {
+      "eyebrow": "Under one roof",
+      "h2": "Everything your treatment needs, <acc>in one building.</acc>",
+      "lede": "Tests, surgery, blood, medicines and rehab happen here. For families travelling from far, that means fewer trips and less waiting.",
+      "colsLabel": "Photos from the departments",
+      "fac": [
+        "Modular operation theatres",
+        "Critical care",
+        "Blood bank",
+        "Digital X-ray",
+        "Laboratory",
+        "Pharmacy",
+        "Physiotherapy",
+        "Private rooms"
+      ],
+      "caps": [
+        "Keyhole knee surgery",
+        "Children’s eye test",
+        "Physiotherapy",
+        "Counselling",
+        "Cataract surgery",
+        "Sports rehab",
+        "X-ray review",
+        "Walking again",
+        "Slit-lamp exam",
+        "Fracture care",
+        "Family session",
+        "Knee examination"
+      ]
+    },
+    "journey": {
+      "h2": "From your first call <acc>to feeling better.</acc>",
+      "lede": "The same doctor stays with you at every step.",
+      "steps": [
+        {
+          "h3": "You reach out",
+          "p": "Call, WhatsApp or walk in. The team tells you which doctor to see."
+        },
+        {
+          "h3": "You meet your specialist",
+          "p": "A doctor from the Gupta family listens and examines you."
+        },
+        {
+          "h3": "Tests and a clear plan",
+          "p": "Tests if needed, then your options in plain words."
+        },
+        {
+          "h3": "Treatment and follow-up",
+          "p": "Surgery, medicines or therapy, then follow-up with the same doctor."
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "h2": "Four decades on <acc>Power House Road.</acc>",
+      "fig": "Dr. Amrit Gupta with today’s doctors",
+      "items": [
+        {
+          "yr": "1980",
+          "h3": "A clinic opens",
+          "p": "Dr. Amrit Gupta starts an orthopaedic practice on Power House Road, bringing bone and joint surgery closer to families in Malwa."
+        },
+        {
+          "yr": "2000",
+          "h3": "Care for the mind",
+          "p": "Dr. Amit Gupta joins as psychiatrist and the de-addiction centre begins."
+        },
+        {
+          "yr": "2019",
+          "h3": "Ayushman Bharat",
+          "p": "The hospital is empanelled under PM-JAY, so eligible card holders can be treated here."
+        },
+        {
+          "yr": "2024",
+          "h3": "Robotic-assisted knees",
+          "p": "The J&J VELYS™ robotic-assisted knee system is launched at the hospital’s Ortho Robotic Centre."
+        },
+        {
+          "yr": "2025",
+          "h3": "Recognised by The Tribune",
+          "p": "Tribune Health Care Award for excellence in joint replacement and ortho robotic surgery."
+        },
+        {
+          "yr": "Today",
+          "h3": "Three departments, one family",
+          "p": "Dr. Mohit leads orthopaedics, Dr. Parul runs the eye department with its own operation theatre, and Dr. Amit heads mental health."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "h2": "Families <acc>often ask.</acc>",
+      "items": [
+        {
+          "q": "Do I need an appointment?",
+          "a": "Booking ahead by phone or WhatsApp on +91 98787 52241 helps the team plan your visit and keeps your wait short."
+        },
+        {
+          "q": "Is Ayushman Bharat (PM-JAY) accepted?",
+          "a": "Yes. The hospital is empanelled under PM-JAY. Bring your Ayushman card and Aadhaar, and eligibility is checked on the day."
+        },
+        {
+          "q": "Which doctor should I see?",
+          "a": "Send a message on WhatsApp with your problem and any reports. The team will tell you which doctor to see."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Old reports, X-rays or scans, a list of the medicines you take now, and your Ayushman card if you have one."
+        }
+      ]
     }
   }
 }

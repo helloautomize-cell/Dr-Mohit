@@ -243,7 +243,7 @@ export function TreatmentCard({
   );
 }
 
-export function TreatmentGrid({ locale }: { locale: L }) {
+export function TreatmentGrid({ locale, only }: { locale: L; only?: string[] }) {
   const lm = c('home', 'Learn more', locale);
   const cat = {
     o: c('home', 'Orthopaedics', locale),
@@ -258,9 +258,10 @@ export function TreatmentGrid({ locale }: { locale: L }) {
     { art: 'eye', cat: cat.e, h3: c('home', 'Cataract &amp; eye care', locale), p: c('home', 'Dr. Parul Gupta: phaco', locale), cta: lm, href: '/eye-care/', accent: 'var(--leaf-ink)', tint: 'var(--mint)' },
     { art: 'mind', cat: cat.m, h3: c('home', 'Mind &amp; de-addiction', locale), p: c('home', 'Dr. Amit Gupta: stress', locale), cta: lm, href: '/mental-health/', accent: 'var(--teal-ink)', tint: '#E4F3F1' },
   ];
+  const list = only ? cards.filter((k) => only.includes(k.art)) : cards;
   return (
-    <Swipe className="tgrid" count={cards.length} label={c('home', 'Treatments', locale)}>
-      {cards.map((k) => (
+    <Swipe className="tgrid" count={list.length} label={c('home', 'Treatments', locale)}>
+      {list.map((k) => (
         <TreatmentCard key={k.h3} {...k} />
       ))}
     </Swipe>

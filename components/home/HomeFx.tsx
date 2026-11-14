@@ -2,32 +2,17 @@
 
 // Home-only motion layer (v15 upgrade), ported from home-upgrade.js into a
 // React effect — NOT a global script; mounts only on the Home page.
-// - .bt tiles: cursor-following glow via --mx/--my
 // - .btn-brand: small magnetic follow (desktop hover pointers only, motion-safe)
 // - hero photo: scroll parallax (~7% drift, scale 1.04 -> 1.00)
-// - #roboStory: step nearest viewport middle gets .on; --rp drives the photo
-//   zoom-out; progress bars fill through the active step
 // - .wave animations (names starting with "wv"): playback rate rises with
 //   scroll velocity up to 1.6x, then settles
-// Reduced motion: no rAF loop; all robotic steps get .on (CSS also forces the
-// static state). Panels stay click-usable via DeptPanels' own state.
+// Reduced motion: no rAF loop; magnetic buttons stay put.
 import { useEffect } from 'react';
 
 export default function HomeFx() {
   useEffect(() => {
     const RM = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const disposers: (() => void)[] = [];
-
-    // Bento cursor glow
-    document.querySelectorAll<HTMLElement>('.bt').forEach((el) => {
-      const move = (e: PointerEvent) => {
-        const r = el.getBoundingClientRect();
-        el.style.setProperty('--mx', `${e.clientX - r.left}px`);
-        el.style.setProperty('--my', `${e.clientY - r.top}px`);
-      };
-      el.addEventListener('pointermove', move);
-      disposers.push(() => el.removeEventListener('pointermove', move));
-    });
 
     // Magnetic book buttons (desktop pointer only)
     if (!RM && window.matchMedia('(hover:hover)').matches) {
@@ -54,12 +39,8 @@ export default function HomeFx() {
     }
 
     const heroImg = document.querySelector<HTMLElement>('#p-home .hero-im img');
-    const rs = document.getElementById('roboStory');
-    const steps = rs ? [...rs.querySelectorAll<HTMLElement>('.rs-step')] : [];
-    const bars = rs ? [...rs.querySelectorAll<HTMLElement>('.rs-prog i')] : [];
 
     if (RM) {
-      steps.forEach((s) => s.classList.add('on'));
       return () => disposers.forEach((d) => d());
     }
 
@@ -96,17 +77,6 @@ export default function HomeFx() {
       wroteW = window.innerWidth;
       if (heroImg && y < window.innerHeight * 1.2) {
         heroImg.style.transform = `translateY(${y * 0.07}px) scale(${1.04 - Math.min(y / window.innerHeight, 1) * 0.04})`;
-      }
-      if (rs && steps.length && window.innerWidth > 1000) {
-        const mid = window.innerHeight * 0.5;
-        let act = 0;
-        steps.forEach((s, i) => {
-          if (s.getBoundingClientRect().top < mid) act = i;
-        });
-        steps.forEach((s, i) => s.classList.toggle('on', i === act));
-        bars.forEach((b, i) => b.classList.toggle('on', i <= act));
-        const r = rs.getBoundingClientRect();
-        rs.style.setProperty('--rp', Math.max(0, Math.min(1, -r.top / (r.height - window.innerHeight))).toFixed(3));
       }
       raf = requestAnimationFrame(frame);
     };

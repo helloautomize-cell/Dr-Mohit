@@ -4,25 +4,25 @@ import { notFound } from 'next/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { copy } from '@/lib/copy';
 import { WaveDivider } from '@/components/WaveDivider';
-import { HomeHero, StorySection, DoctorsRow, SecHead, Lnk } from '@/components/home/sections';
-import { Bento } from '@/components/home/Bento';
-import { DeptPanels } from '@/components/home/DeptPanels';
-import { RoboStory } from '@/components/home/RoboStory';
-import { FacilitiesBento } from '@/components/home/FacilitiesBento';
+import { HomeHero, SecHead, Lnk } from '@/components/home/sections';
 import HomeFx from '@/components/home/HomeFx';
 import { FirstVisit } from '@/components/home/FirstVisit';
 import { DoctorFinder } from '@/components/home/DoctorFinder';
-import { ReachMap } from '@/components/home/ReachMap';
 import { PressBoard, HOME_CLIPS } from '@/components/PressBoard';
-import {
-  HomeFaq,
-  JourneyPath,
-  VisitBand,
-} from '@/components/sections/bands';
+import { VisitBand } from '@/components/sections/bands';
 import { TreatmentGrid } from '@/components/sections/cards';
-import { RichText } from '@/components/RichText';
 import { alternates, ldGraph, websiteLd } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
+import { V2Statement } from '@/components/home-v2/V2Statement';
+import { V2Departments } from '@/components/home-v2/V2Departments';
+import { V2Bento } from '@/components/home-v2/V2Bento';
+import { V2Robotic } from '@/components/home-v2/V2Robotic';
+import { V2Waterfall } from '@/components/home-v2/V2Waterfall';
+import { V2Journey } from '@/components/home-v2/V2Journey';
+import { V2Story } from '@/components/home-v2/V2Story';
+import { V2Faq } from '@/components/home-v2/V2Faq';
+import { V2Fx } from '@/components/home-v2/V2Fx';
+import '@/components/home-v2/home-v2.css';
 import type { Metadata } from 'next';
 
 const NEWSPAPERS = [
@@ -50,25 +50,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-// FAQPage JSON-LD mirrors exactly the visible accordion items.
-function faqJsonLd(l: Locale) {
-  const qa: [string, string][] = [
-    ['Do I need an appointment?', 'Booking ahead by phone or WhatsApp'],
-    ['Which doctor should I see?', 'Bones, joints, back and injuries: Dr. Mohit'],
-    ['Is treatment covered under Ayushman Bharat?', 'Gupta Hospital is empanelled under PM-JAY'],
-    ['Can I talk to the doctor in Punjabi?', 'Yes. All three doctors speak Punjabi'],
-    ['What should I bring to my first visit?', 'All old reports, X-rays and scans'],
-    ['Does the hospital hold free camps?', 'Yes. The hospital regularly holds free'],
-  ];
+// FAQPage JSON-LD mirrors exactly the visible accordion items (homeV2.faq).
+async function faqJsonLd(l: Locale) {
+  const t = await getTranslations({ locale: l, namespace: 'homeV2' });
+  const items = t.raw('faq.items') as { q: string; a: string }[];
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: qa.map(([q, a]) => ({
+    mainEntity: items.map((it) => ({
       '@type': 'Question',
-      name: copy('home', q, l).replace(/<[^>]+>/g, ''),
+      name: it.q,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: copy('home', a, l).replace(/<[^>]+>/g, ''),
+        text: it.a,
       },
     })),
   };
@@ -86,35 +80,43 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <div id="p-home">
       {/* 1. Hero (sky) */}
       <HomeHero locale={l} />
-
-      {/* 2. Bento (sky) — replaces the old facts band */}
-      <Bento />
       <WaveDivider from="sky" to="white" />
 
-      {/* 3. Your first visit — sticky stage */}
-      <FirstVisit locale={l} />
+      {/* 2. Who we are (white) */}
+      <V2Statement locale={l} />
+
+      {/* 3. Three departments (white) */}
+      <V2Departments locale={l} />
       <WaveDivider from="white" to="mint" />
 
-      {/* 4. Treatments (mint) — department panels + cards */}
+      {/* 4. Popular treatments (mint) — trimmed to the three ortho cards */}
       <section className="sec treat-sec">
         <div className="wrap">
-          <SecHead
-            label={c('Treatments')}
-            h2={c('Care for bones, eyes <span class="em-g">and the mind.</span>')}
-            lede={c('Three departments, each led by a specialist from the Gupta family')}
-          />
-          <DeptPanels />
           <h3 className="tg-h rv">{t('popular')}</h3>
-          <TreatmentGrid locale={l} />
+          <TreatmentGrid locale={l} only={['robotic', 'kneehip', 'fracture']} />
         </div>
       </section>
-      <WaveDivider from="mint" to="white" />
 
-      {/* 5. Our story */}
-      <StorySection locale={l} />
+      {/* 5. Four decades, one address (mint) */}
+      <V2Bento locale={l} />
+      <WaveDivider from="mint" to="navy" />
+
+      {/* 6. Robotic knee (navy) */}
+      <V2Robotic locale={l} />
+      <WaveDivider from="navy" to="white" />
+
+      {/* 7. Under one roof (white) */}
+      <V2Waterfall locale={l} />
+
+      {/* 8. From first call to feeling better (sky) — hard edge, per design */}
+      <V2Journey />
+      <WaveDivider from="sky" to="white" />
+
+      {/* 9. Your first visit — sticky stage (white) */}
+      <FirstVisit locale={l} />
       <WaveDivider from="white" to="sky" />
 
-      {/* 6. Find the right doctor (sky) */}
+      {/* 10. Find the right doctor (sky) */}
       <section className="sec" style={{ background: 'var(--sky)' }} id="finderSec">
         <div className="wrap">
           <SecHead
@@ -125,38 +127,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <DoctorFinder locale={l} />
         </div>
       </section>
-      <WaveDivider from="sky" to="navy" />
+      <WaveDivider from="sky" to="brand100" />
 
-      {/* 7. Your journey (navy) */}
-      <section className="sec jr-sec">
-        <div className="wrap">
-          <div className="g12 rv" style={{ marginBottom: 'clamp(40px,6vw,80px)', alignItems: 'end' }}>
-            <div className="c-7">
-              <span className="label">{c('Your journey')}</span>
-              <h2 style={{ marginTop: 18 }}>
-                <RichText text={c('From first call to <span class="em">feeling better.</span>')} />
-              </h2>
-            </div>
-            <p className="lede s-8">{c('The same doctor stays with you at every step.')}</p>
-          </div>
-          <JourneyPath locale={l} />
-        </div>
-      </section>
-      <WaveDivider from="navy" to="white" />
+      {/* 11. Our story (soft blue) */}
+      <V2Story locale={l} />
+      <WaveDivider from="brand100" to="white" />
 
-      {/* 8. Robotic knee scroll story */}
-      <RoboStory />
-      <WaveDivider from="white" to="brand" />
-
-      {/* 9. Under one roof — interactive facilities bento (brand band) */}
-      <FacilitiesBento />
-      <WaveDivider from="brand" to="sky" />
-
-      {/* 10. Doctors (sky) */}
-      <DoctorsRow locale={l} />
-      <WaveDivider from="sky" to="white" />
-
-      {/* 11. In the news — press board */}
+      {/* 12. In the news — press board (white) */}
       <section className="sec">
         <div className="wrap">
           <div className="g12 rv" style={{ marginBottom: 40, alignItems: 'end' }}>
@@ -188,44 +165,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
         </div>
       </section>
-      <WaveDivider from="white" to="mint" />
+      <WaveDivider from="white" to="sky" />
 
-      {/* 12. Coming from out of town (mint) */}
-      <section className="sec" style={{ background: 'var(--mint)' }}>
-        <div className="wrap">
-          <SecHead
-            label={c('Coming from out of town')}
-            h2={c('Families travel from <span class="em">three states.</span>')}
-            lede={c('Patients come from across Punjab and neighbouring Haryana and Rajasthan')}
-          />
-          <ReachMap locale={l} />
-        </div>
-      </section>
-      <WaveDivider from="mint" to="sky" />
-
-      {/* 13. FAQ (sky) + FAQPage JSON-LD */}
-      <section className="sec faq-sec" style={{ background: 'var(--sky)' }}>
-        <div className="wrap g12">
-          <div className="c-4 rv">
-            <span className="label">{c('Questions')}</span>
-            <h2 style={{ marginTop: 18 }}>
-              <RichText text={c('Questions families <span class="em">often ask.</span>')} />
-            </h2>
-            <div style={{ marginTop: 28 }}>
-              <Lnk href="/contact/">{c('Ask us something else')}</Lnk>
-            </div>
-          </div>
-          <div className="s-6 rv">
-            <HomeFaq locale={l} />
-          </div>
-        </div>
-      </section>
+      {/* 13. Families often ask (sky) + FAQPage JSON-LD */}
+      <V2Faq />
       <WaveDivider from="sky" to="navy" />
 
       {/* 14. Visit band (navy) — directions link loads the map only on click */}
       <VisitBand locale={l} />
       <HomeFx />
-      <JsonLd data={ldGraph(websiteLd(l), faqJsonLd(l))} />
+      <V2Fx />
+      <JsonLd data={ldGraph(websiteLd(l), await faqJsonLd(l))} />
     </div>
   );
 }
